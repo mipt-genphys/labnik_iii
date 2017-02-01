@@ -1,22 +1,21 @@
-% !TeX encoding = windows-1251
 \usepackage{indentfirst}
 %\usepackage{cite}
 
 
-\binoppenalty=10000      % Запрет переноса формул
+\binoppenalty=10000      % Р—Р°РїСЂРµС‚ РїРµСЂРµРЅРѕСЃР° С„РѕСЂРјСѓР»
 \relpenalty=10000
 
 \tolerance=900
 \hfuzz=2pt
 
 
-% Запрет висячих абзацев
+% Р—Р°РїСЂРµС‚ РІРёСЃСЏС‡РёС… Р°Р±Р·Р°С†РµРІ
 %\clubpenalty=10000\widowpenalty=10000
 
-% Запрет переносов
+% Р—Р°РїСЂРµС‚ РїРµСЂРµРЅРѕСЃРѕРІ
 \def\nohyp{\raggedright\hyphenpenalty=10000}
 
-%===================  РИО ==============================
+%===================  Р РРћ ==============================
 
 \def\pageref#1{\expandafter\@setref\csname r@#1\endcsname\@secondoftwo{#1}}
 
@@ -91,11 +90,11 @@
 %\makeatother
 
 \def\zam{\newpage\thispagestyle{empty}
-\noindent\hfil{\bf Для заметок\par}
+\noindent\hfil{\bf Р”Р»СЏ Р·Р°РјРµС‚РѕРє\par}
 %\newpage
 }
 
-%========= Рисунки =======================================
+%========= Р РёСЃСѓРЅРєРё =======================================
 \usepackage{graphicx}
 %\usepackage{texdraw}
 \usepackage{psfrag}
@@ -117,41 +116,41 @@
 \def\resetpic{\setcounter{ris}{0}}
 \newcounter{allpiccount}
 
-\def\capt#1#2#3{%Ширина, подпись, метка
+\def\capt#1#2#3{%РЁРёСЂРёРЅР°, РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \addtocounter{allpiccount}{1}%
 \refstepcounter{ris}\label{r#3}%
 \parbox{#1}{%
 \leftskip=0pt plus 0.5fil\relax\rightskip=0pt plus -0.5fil\relax
 \hbox{}\par\footnotesize%\hyphenpenalty=10000%
-Рис. \theris
+Р РёСЃ. \theris
 \if.#2.\else. #2\fi}}
 
 \let\cct=\centering
 
-\newcommand{\ris}[2]{%Ширина, файл
+\newcommand{\ris}[2]{%РЁРёСЂРёРЅР°, С„Р°Р№Р»
 \hbox{\includegraphics[width=#1]{\dirris #2}}}
 
-\newcommand{\riscapt}[4]{%Ширина, файл, подпись, метка
+\newcommand{\riscapt}[4]{%РЁРёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \vbox{\ris{#1}{#2}\captskip
 \hbox to #1{\capt{#1}{#3}{#4}}}}
 
-\newcommand{\rris}[5][]{%строк, ширина, файл, подпись, метка
+\newcommand{\rris}[5][]{%СЃС‚СЂРѕРє, С€РёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \begin{wrapfigure}[#1]{o}{#2}
 \riscapt{#2}{#3}{#4}{#5}
 \end{wrapfigure}}
 
-\newcommand{\rfr}[6][]{%строк, ширина, файл, подпись, метка, psfrag
+\newcommand{\rfr}[6][]{%СЃС‚СЂРѕРє, С€РёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°, psfrag
 \begin{wrapfigure}[#1]{o}{#2}
 #6
 \riscapt{#2}{#3}{#4}{#5}
 \end{wrapfigure}}
 
-\newcommand{\cris}[4][0.8]{%ширина, файл, подпись, метка
+\newcommand{\cris}[4][0.8]{%С€РёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \par\cpicskip\noindent\hfil
 \riscapt{#1\textwidth}{#2}{#3}{#4}\par\cpicskip
 }
 
-\newcommand{\fcris}[4][0.8]{%ширина, файл, подпись, метка
+\newcommand{\fcris}[4][0.8]{%С€РёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \begin{figure}[!t]
 \cris[#1]{#2}{#3}{#4}
 \uvcs\uvcs
@@ -159,39 +158,39 @@
 
 %----------------------------------------------------
 
-\newcommand{\pic}[2]{%Ширина, файл
+\newcommand{\pic}[2]{%РЁРёСЂРёРЅР°, С„Р°Р№Р»
 \begingroup
 \let\vn=\vnb
 \hbox to #1{\kern-3.5mm\input{\dirpic #2.pic}}%
 \endgroup
 }
 
-\newcommand{\piccapt}[4]{%Ширина, файл, подпись, метка
+\newcommand{\piccapt}[4]{%РЁРёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \vbox{\pic{#1}{#2}\captskip
 \hbox to #1{\capt{#1}{#3}{#4}}}}
 
-\newcommand{\rpic}[5][]{%строк, ширина, файл, подпись, метка
+\newcommand{\rpic}[5][]{%СЃС‚СЂРѕРє, С€РёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \begin{wrapfigure}[#1]{o}{#2}
 \piccapt{#2}{#3}{#4}{#5}
 \end{wrapfigure}}
 
-\newcommand{\cpic}[4][0.9]{%ширина, файл, подпись, метка
+\newcommand{\cpic}[4][0.9]{%С€РёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \par\cpicskip\noindent\hfil
 \piccapt{#1\textwidth}{#2}{#3}{#4}\par\cpicskip
 }
 
-\newcommand{\fcpic}[4][0.8]{%ширина, файл, подпись, метка
+\newcommand{\fcpic}[4][0.8]{%С€РёСЂРёРЅР°, С„Р°Р№Р», РїРѕРґРїРёСЃСЊ, РјРµС‚РєР°
 \begin{figure}[!t]
 \noindent\hfil\piccapt{#1\textwidth}{#2}{#3}{#4}
 \uvcs
 \end{figure}}
 
-%========= Формулы =======================================
+%========= Р¤РѕСЂРјСѓР»С‹ =======================================
 \usepackage{xspace}
 
-%% Определяем свой шрифт "lsymb"
+%% РћРїСЂРµРґРµР»СЏРµРј СЃРІРѕР№ С€СЂРёС„С‚ "lsymb"
 \DeclareSymbolFont{lsymb}{U}{euex}{m}{n}
-%% Определяем интегралы
+%% РћРїСЂРµРґРµР»СЏРµРј РёРЅС‚РµРіСЂР°Р»С‹
 \DeclareMathSymbol{\intop}{\mathop}{lsymb}{"52}
 \DeclareMathSymbol{\ointop}{\mathop}{lsymb}{"48}
 \DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
@@ -208,7 +207,7 @@
 %\catcode`\-\active\gdef-{\mathchar8704\nobreak\discretionary{}{\usefont{OMS}{cmsy}{m}{n}\char0}{}}
 \catcode`\=\active\gdef={\mathchar12349\nobreak\discretionary{}{\usefont{OT1}{cmr}{m}{n}\char61}{}}
 \endgroup
-%\def\cdot{\mathchar8705\nobreak\discretionary{}{\usefont{OMS}{сmsy}{m}{n}\сhar1}{}}
+%\def\cdot{\mathchar8705\nobreak\discretionary{}{\usefont{OMS}{СЃmsy}{m}{n}\СЃhar1}{}}
 %\def\times{\mathchar8706\nobreak\discretionary{}{\usefont{OMS}{cmsy}{m}{n}\char2}{}}
 \mathcode`\==32768
 %\mathcode`\+=32768
@@ -251,9 +250,9 @@
 \def\srb#1{\ensuremath{\bar{#1}}}
 \def\srbb#1{\ensuremath{\overline{#1}}}
 
-\newcommand{\vp}[2]{{#1}\times{#2}}%векторное произведение
+\newcommand{\vp}[2]{{#1}\times{#2}}%РІРµРєС‚РѕСЂРЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёРµ
 
-\def\eds{ЭДС\xspace}
+\def\eds{Р­Р”РЎ\xspace}
 \def\ds{\displaystyle}
 \def\Re{\mathop{\mathrm{Re}}\nolimits}
 \def\Im{\mathop{\mathrm{Im}}\nolimits}
@@ -299,14 +298,14 @@ $$\displaylines{#1\dummy}$$
 \belowdisplayskip \abovedisplayskip
 }
 
-%---------- Индексы -------------------------
+%---------- РРЅРґРµРєСЃС‹ -------------------------
 \def\ind#1{\mbox{\sl\tiny #1}}
 
 \def\Deb{\ind{D}}
 
 \def\rd{r_{\Deb}}
 \def\NA{N_{\ind{A}}}
-\def\mb{\mu_{\ind{Б}}}
+\def\mb{\mu_{\ind{Р‘}}}
 \def\rL{r_{\ind{L}}}
 \def\L{{\ind{L}}}
 
@@ -322,18 +321,18 @@ $$\displaylines{#1\dummy}$$
 \def\vB{\v{B}}
 \def\vM{\v{\M}}
 
-\def\Np{N_р}
+\def\Np{N_СЂ}
 \def\M{M}
 
 %\def\vEd{{\cal\bf E}}
 
-\def\Ex{\E_{х}}
-\def\Rx{R_{х}}
+\def\Ex{\E_{С…}}
+\def\Rx{R_{С…}}
 
-% Названия ручек приборов (БОЛЬШИЕ буквы в кавычках)
+% РќР°Р·РІР°РЅРёСЏ СЂСѓС‡РµРє РїСЂРёР±РѕСЂРѕРІ (Р‘РћР›Р¬РЁРР• Р±СѓРєРІС‹ РІ РєР°РІС‹С‡РєР°С…)
 \def\nazv#1{<<{\small\MakeUppercase{#1}}>>}
 
-%====================== Таблицы =========================
+%====================== РўР°Р±Р»РёС†С‹ =========================
 
 \newbox\t@b
 \newdimen\t@l
@@ -358,20 +357,20 @@ $$\displaylines{#1\dummy}$$
 \setbox\t@b=\hbox{#3}%
 \t@l=\wd\t@b%
 {\centering
-\makebox[\t@l]{\hfill Т а б л и ц а~~\thetab}\par\nobreak
+\makebox[\t@l]{\hfill Рў Р° Р± Р» Рё С† Р°~~\thetab}\par\nobreak
 \if.#2.\stbs\else\mbox{\parbox{\t@l}{\centering\bf\strut #2\strut\par}}\par\nobreak\stbs\fi
 \mbox{\unhbox\t@b}\par}%
 \tbs
 }
 
 \newcommand\zagcont[2][\textwidth]{%
-\makebox[#1]{\hfill Т а б л и ц а~~\thetab~(продолжение)}\par\nobreak\stbs
+\makebox[#1]{\hfill Рў Р° Р± Р» Рё С† Р°~~\thetab~(РїСЂРѕРґРѕР»Р¶РµРЅРёРµ)}\par\nobreak\stbs
 \if.#2.\stbs\else\leavevmode\parbox{#1}{\centering\bf\strut #2\strut\par}\par\nobreak\stbs\fi
 }
 
 \def\conttab#1{%
 \tbs
-\tabo{\hfill Т а б л и ц а~~\thetab~(продолжение)}{}{#1}%
+\tabo{\hfill Рў Р° Р± Р» Рё С† Р°~~\thetab~(РїСЂРѕРґРѕР»Р¶РµРЅРёРµ)}{}{#1}%
 \tbs
 }
 
@@ -380,7 +379,7 @@ $$\displaylines{#1\dummy}$$
 \if.#3.\stbs\else\leavevmode\parbox{#1}{\centering\bf\strut #3\strut\par}\par\nobreak\stbs\fi
 }
 
-\newcommand{\tabo}[4][]{%подзаголовок, имя, название, тело
+\newcommand{\tabo}[4][]{%РїРѕРґР·Р°РіРѕР»РѕРІРѕРє, РёРјСЏ, РЅР°Р·РІР°РЅРёРµ, С‚РµР»Рѕ
 \setbox\t@b=\hbox{#4}%
 \t@l=\wd\t@b%
 {\centering
@@ -390,13 +389,13 @@ $$\displaylines{#1\dummy}$$
 }}
 
 \newcommand{\tzag}[2][\textwidth]{\inctab%\label{tab\thetabl}%
-{\centering\tzago[#1]{\hfill Т а б л и ц а~~\thetab}{#2}\par}
+{\centering\tzago[#1]{\hfill Рў Р° Р± Р» Рё С† Р°~~\thetab}{#2}\par}
 }
 
 \newcommand{\etab}[3][]{\addtocounter{tbl}{1}%
 \inctab\label{tab\thetbl}%
 %\tbs
-\tabo[#1]{\hfill Т а б л и ц а~~\thetab}{#2}{#3}%
+\tabo[#1]{\hfill Рў Р° Р± Р» Рё С† Р°~~\thetab}{#2}{#3}%
 %\tbs
 }
 
@@ -433,7 +432,7 @@ $$\displaylines{#1\dummy}$$
 \def\zts{@{ \ts}}%
 }
 
-%========= Оглавление ===================================
+%========= РћРіР»Р°РІР»РµРЅРёРµ ===================================
 
 \newwrite\ogl
 \immediate\openout\ogl=oglavlen
@@ -442,11 +441,11 @@ $$\displaylines{#1\dummy}$$
 \newpage
 \immediate\closeout\ogl
 \thispagestyle{empty}
-{}%\noindent\sffamily ОГЛАВЛЕНИЕ\strut}
+{}%\noindent\sffamily РћР“Р›РђР’Р›Р•РќРР•\strut}
 %\hrule
 \vskip 5mm
-\vtop to 40mm{\noindent\nohyp\bfseries\Large ОГЛАВЛЕНИЕ\par\vfill}\olabel{Oglav}
-\markboth{ОГЛАВЛЕНИЕ}{ОГЛАВЛЕНИЕ}
+\vtop to 40mm{\noindent\nohyp\bfseries\Large РћР“Р›РђР’Р›Р•РќРР•\par\vfill}\olabel{Oglav}
+\markboth{РћР“Р›РђР’Р›Р•РќРР•}{РћР“Р›РђР’Р›Р•РќРР•}
 %\small
 \input oglavlen
 %\par\mbox{}
@@ -504,15 +503,15 @@ $$\displaylines{#1\dummy}$$
 }
 
 
-%============= Метки, ссылки ===================
+%============= РњРµС‚РєРё, СЃСЃС‹Р»РєРё ===================
 \let\oldr=\r
 \def\AA{\oldr{A}}
 
 \let\olabel=\label
 \let\oref=\ref
-\def\ref{ {\Large\bf !!!!Ссылка!!!!} }
+\def\ref{ {\Large\bf !!!!РЎСЃС‹Р»РєР°!!!!} }
 \def\r#1{\oref{\prlabel_#1}}
-\def\p#1{рис.~\r{r#1}}
+\def\p#1{СЂРёСЃ.~\r{r#1}}
 \def\label#1{\olabel{\prlabel_#1}}
 \def\theequation{\prnum\arabic{equation}}
 \def\theris{\prnum\arabic{ris}}
@@ -547,7 +546,7 @@ $$\displaylines{#1\dummy}$$
 \def\emline#1#2#3#4#5#6{\put(#1,#2){\special{em: moveto}}
                         \put(#4,#5){\special{em: lineto}}}
 
-%===================== Разделы введений ========================================
+%===================== Р Р°Р·РґРµР»С‹ РІРІРµРґРµРЅРёР№ ========================================
 % \vn
 % \vnn
 % \vnnn
@@ -597,7 +596,7 @@ $$\displaylines{#1\dummy}$$
 }
 
 
-%----------- Подраздел с русской буквой -------------
+%----------- РџРѕРґСЂР°Р·РґРµР» СЃ СЂСѓСЃСЃРєРѕР№ Р±СѓРєРІРѕР№ -------------
 
 \def\ubskip{\vskip 1.5em plus 0.5ex minus 0.5ex\relax}
 \def\dbskip{\vskip 1em plus 0.5ex minus 0.5ex\relax}
@@ -624,7 +623,7 @@ $$\displaylines{#1\dummy}$$
 }
 
 
-%--------------------- разделы лаб   -------------------------------------------
+%--------------------- СЂР°Р·РґРµР»С‹ Р»Р°Р±   -------------------------------------------
 % \za
 
 % \zn \zo
@@ -701,13 +700,13 @@ $\thenum\lefteqn{.}^{*}$\kern0.5ex\ignorespaces
 \def\cskip{\vskip 2ex plus 1ex minus 1.5ex\relax}
 \def\cent{\par\cskip\hfil}
 \def\prin#1{\vskip-\lastskip\par\nobreak\bv\noindent\hfil
-\parbox{0.9\textwidth}{\small{\bfseries В работе используются:} #1}\par\nobreak\bv}
-\long\def\cel#1{\par\nobreak\bv\noindent\hfil\parbox{0.9\textwidth}{\small{\bf Цель работы:} #1}\par\nobreak}
-\def\zad{\resetnum{\vfil\penalty400\vfilneg\bf\large\cent ЗАДАНИЕ\par}\nobreak}
-\def\kv{\resetnum{\normalsize\cent\bf Контрольные вопросы\par\nobreak}}
-\def\lit{\resetnum{\cent{СПИСОК ЛИТЕРАТУРЫ}\par\nobreak}}
-\def\eo{\par\noindent\bfno{Экспериментальная установка} }
-\def\Obrab{\zor Обработка результатов}
+\parbox{0.9\textwidth}{\small{\bfseries Р’ СЂР°Р±РѕС‚Рµ РёСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ:} #1}\par\nobreak\bv}
+\long\def\cel#1{\par\nobreak\bv\noindent\hfil\parbox{0.9\textwidth}{\small{\bf Р¦РµР»СЊ СЂР°Р±РѕС‚С‹:} #1}\par\nobreak}
+\def\zad{\resetnum{\vfil\penalty400\vfilneg\bf\large\cent Р—РђР”РђРќРР•\par}\nobreak}
+\def\kv{\resetnum{\normalsize\cent\bf РљРѕРЅС‚СЂРѕР»СЊРЅС‹Рµ РІРѕРїСЂРѕСЃС‹\par\nobreak}}
+\def\lit{\resetnum{\cent{РЎРџРРЎРћРљ Р›РРўР•Р РђРўРЈР Р«}\par\nobreak}}
+\def\eo{\par\noindent\bfno{Р­РєСЃРїРµСЂРёРјРµРЅС‚Р°Р»СЊРЅР°СЏ СѓСЃС‚Р°РЅРѕРІРєР°} }
+\def\Obrab{\zor РћР±СЂР°Р±РѕС‚РєР° СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ}
 \def\bfno#1{\par\medskip\noindent\mbox{}{\bf #1.}}
 \def\bfo#1{\bfno{#1}\oo[3]{}{#1}}
 
@@ -719,7 +718,7 @@ $\thenum\lefteqn{.}^{*}$\kern0.5ex\ignorespaces
 \end{center}
 }
 
-%========= Отступы, интервалы ==================
+%========= РћС‚СЃС‚СѓРїС‹, РёРЅС‚РµСЂРІР°Р»С‹ ==================
 
 \def\bv{\par\bigskip\par}
 \newcommand\pl[1][1]{\par\kern#1\baselineskip\par}
@@ -735,23 +734,23 @@ $\thenum\lefteqn{.}^{*}$\kern0.5ex\ignorespaces
 
 \newcounter{vnum}
 \newcommand{\razdel}[3][]{
-%\refstepcounter{vnum}
-\setcounter{vnum}{#3}
-\def\arvnum{\arabic{vnum}}
-%\def\thevnum{3.\arvnum}
-\def\prlabel{v\arvnum}
-\def\labnum{}
-\def\prnum{\arvnum.}
-\newpage
-\thispagestyle{empty}
-{\noindent\sffamily Раздел \Roman{vnum}\strut}
-\hrule
-\vskip 5mm
-\vtop to 40mm{\noindent\nohyp\bfseries\Large\uppercase{#2}\par\vfill}\olabel{R\arvnum}
-\oo[1]{Р а з д е л\ \ \Roman{vnum}.}{#2}
-\if.#1.\def\dummy{#2}\else\def\dummy{#1}\fi
-\markboth{\dummy}{Раздел \Roman{vnum}}
-\newsect
+	%\refstepcounter{vnum}
+	\setcounter{vnum}{#3}
+	\def\arvnum{\arabic{vnum}}
+	%\def\thevnum{3.\arvnum}
+	\def\prlabel{v\arvnum}
+	\def\labnum{}
+	\def\prnum{\arvnum.}
+	\newpage
+	\thispagestyle{empty}
+	{\noindent\sffamily Р Р°Р·РґРµР» \Roman{vnum}\strut}
+	\hrule
+	\vskip 5mm
+	\vtop to 40mm{\noindent\nohyp\bfseries\Large\uppercase{#2}\par\vfill}\olabel{R\arvnum}
+	\oo[1]{Р  Р° Р· Рґ Рµ Р»\ \ \Roman{vnum}.}{#2}
+	\if.#1.\def\dummy{#2}\else\def\dummy{#1}\fi
+	\markboth{\dummy}{Р Р°Р·РґРµР» \Roman{vnum}}
+	\newsect
 }
 
 \def\newsect{\resetpic
@@ -772,17 +771,17 @@ $\thenum\lefteqn{.}^{*}$\kern0.5ex\ignorespaces
 \def\head{\labnum. \labname.}%
 \newsect
 \texthead
-\markright{Работа \labnum}%
+\markright{Р Р°Р±РѕС‚Р° \labnum}%
 }
 
 \def\texthead{%
 \par\vfil\penalty200\vfilneg
 \vskip 1cm 
-{\bfseries Работа \labnum}%
+{\bfseries Р Р°Р±РѕС‚Р° \labnum}%
 \par\nobreak\bv
 \parbox{0.9\textwidth}{\nohyp\bfseries\large\labname}%
 \nobreak\par\nobreak
-\oo{Работа \labnum.}{\labname}%
+\oo{Р Р°Р±РѕС‚Р° \labnum.}{\labname}%
 }
 
 \def\puskip{\vskip 1em plus 1ex minus 1ex\relax}
@@ -791,10 +790,10 @@ $\thenum\lefteqn{.}^{*}$\kern0.5ex\ignorespaces
 \renewcommand{\thepril}{\Asbuk{pril}}
 \def\bpril{\par
 \vskip 1em plus 1ex minus 1ex\relax
-{\bf\centering ПРИЛОЖЕНИЕ\par}%\oo{}{Приложение}
+{\bf\centering РџР РР›РћР–Р•РќРР•\par}%\oo{}{РџСЂРёР»РѕР¶РµРЅРёРµ}
 \begingroup
 \def\prlabel{p\labnum}%
-\def\prnum{П.}%
+\def\prnum{Рџ.}%
 \newsect
 \small}
 
@@ -802,10 +801,10 @@ $\thenum\lefteqn{.}^{*}$\kern0.5ex\ignorespaces
 
 \def\blabpril{\par
 \vskip 1em plus 1ex minus 1ex\relax
-{\bf\centering ПРИЛОЖЕНИЕ\par}%\oo{}{Приложение}
+{\bf\centering РџР РР›РћР–Р•РќРР•\par}%\oo{}{РџСЂРёР»РѕР¶РµРЅРёРµ}
 %\let\opl=\prlabel
 %\def\prlabel{p\opl}%
-%\def\prnum{П.}%
+%\def\prnum{Рџ.}%
 %\newsect
 \begingroup\small}
 
@@ -821,7 +820,7 @@ $\thenum\lefteqn{.}^{*}$\kern0.5ex\ignorespaces
 %\oo[3]{}{#1}
 \pdskip
 }
-%------------------- Сноски ----------------------------------
+%------------------- РЎРЅРѕСЃРєРё ----------------------------------
 
 \newcounter{footname}
 \let\oldfootnote=\footnote
