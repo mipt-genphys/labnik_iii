@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt,twoside]{article}
+\documentclass[10pt,twoside]{book}
 \usepackage{mathtext}
 \usepackage{amstext}
 \usepackage{amssymb}
@@ -36,61 +36,61 @@
 \def\bbk{22.33я73}
 
 \begin{document}
-\setcounter{page}{0}
-
-%\newpage\thispagestyle{empty}\mbox{}\newpage
-
-\ifnum1=0
-
-\begingroup
-\newlength{\vva}
-\newlength{\vvb}
-\newlength{\vvc}
-
-%\newpage\thispagestyle{empty}\mbox{}\newpage
-\input {obl/titul0}
-%\newpage\thispagestyle{empty}\mbox{}\newpage
-%\end{document}
-
-\input {obl/titul1}
-\input {obl/titul2}
-
-\endgroup
-
-\fi
-
-\setcounter{page}{2}
-
-\ifnum1=1
-
-\newpage\thispagestyle{empty}\mbox{}\vfil{\center\LARGE\bfseries ЭЛЕКТРИЧЕСТВО\\ И\\ МАГНЕТИЗМ\par}\vfil
-%{\hfil Версия: \today}
-\vfil\newpage
-
-\fi
-
-\input {I}
-%\input {II}
-%\input {III}
-%\input {IV}
-%\input {V}
-%\input {VI}
-
-%\input table
-
-\addtocounter{allpiccount}{-1}
-\refstepcounter{allpiccount}
-\olabel{all_pic}
-\addtocounter{alltabcount}{-1}
-\refstepcounter{alltabcount}
-\olabel{all_tab}
-
-\oglav
-
-%\input obl/titul_e
-
-%\zam
-
-\olabel{all_page}
-
+	\setcounter{page}{0}
+	
+	%\newpage\thispagestyle{empty}\mbox{}\newpage
+	
+	\ifnum1=0
+	
+	\begingroup
+	\newlength{\vva}
+	\newlength{\vvb}
+	\newlength{\vvc}
+	
+	%\newpage\thispagestyle{empty}\mbox{}\newpage
+	\input {obl/titul0}
+	%\newpage\thispagestyle{empty}\mbox{}\newpage
+	%\end{document}
+	
+	\input {obl/titul1}
+	\input {obl/titul2}
+	
+	\endgroup
+	
+	\fi
+	
+	\setcounter{page}{2}
+	
+	\ifnum1=1
+	
+	\newpage\thispagestyle{empty}\mbox{}\vfil{\center\LARGE\bfseries ЭЛЕКТРИЧЕСТВО\\ И\\ МАГНЕТИЗМ\par}\vfil
+	%{\hfil Версия: \today}
+	\vfil\newpage
+	
+	\fi
+	
+	\input {I}
+	%\input {II}
+	%\input {III}
+	%\input {IV}
+	%\input {V}
+	%\input {VI}
+	
+	%\input table
+	
+	\addtocounter{allpiccount}{-1}
+	\refstepcounter{allpiccount}
+	\olabel{all_pic}
+	\addtocounter{alltabcount}{-1}
+	\refstepcounter{alltabcount}
+	\olabel{all_tab}
+	
+	\oglav
+	
+	%\input obl/titul_e
+	
+	%\zam
+	
+	\olabel{all_page}
+	
 \end{document}
