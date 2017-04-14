@@ -1,0 +1,136 @@
+%%% rules for differen toolsets
+
+\RequirePackage{ifpdf,ifxetex,ifluatex} 
+
+\ifluatex
+	%%% Language setting for (xe|lua)latex %%%
+	%\usepackage{polyglossia} % Loads fontspec also.
+	%\setmainlanguage{russian}
+	%\setotherlanguage{english}
+	
+	\usepackage[T2A]{fontenc}
+	\usepackage[lutf8x]{luainputenc}
+	\usepackage[russian]{babel}
+	
+	%%% Font setting for (xe|lua)latex %%%
+	%\defaultfontfeatures{Ligatures=TeX}
+	%\setmainfont{CMU Serif}
+	%\setsansfont{CMU Sans Serif}
+	%\setmonofont{CMU Typewriter Text}
+	%    \newfontfamily\cyrillicfont{CMU Serif} % Uncomment if asked to define cyrillic fonts.
+	%    \newfontfamily\cyrillicfontsf{CMU Sans Serif} % Uncomment if asked to define cyrillic fonts.
+	%    \newfontfamily\cyrillicfonttt{CMU Typewriter Text} % Uncomment if asked to define cyrillic fonts.
+\else
+	%	\RequirePDFTeX % Tests for PDFTEX use and throws an error if a different engine is being used.
+	
+	%%% For proper copypasting of text from pdf %%%
+	\usepackage{cmap} % Better search and copypasting of cyrillic text from pdf-file. Can cause errors if used together with pdfx package.
+	\defaulthyphenchar=127 % Better hyphenation for copypasting. Must be set just before fontenc.
+	
+	%%% Language setting for pdflatex %%%
+	\usepackage[T2A]{fontenc}
+	\usepackage[utf8]{inputenc}
+	\usepackage[russian]{babel}
+\fi
+
+\RequirePackage{amsmath}  % дополнительные возможности математики AMS
+\RequirePackage{amssymb}  % дополнительные символы AMS
+\RequirePackage{mathrsfs} % для значка ЭДС
+
+\RequirePackage{graphicx} % вставка графики
+\RequirePackage{wrapfig}  % обтекание объектов
+\RequirePackage{psfrag}   % вставка надписей
+\RequirePackage{color}    % цветной текст
+
+\RequirePackage{soulutf8}
+\RequirePackage{array}     % дополнительные стили для таблиц
+\RequirePackage{booktabs}
+\RequirePackage{longtable} % таблицы на несколько страниц
+%\RequirePackage{ifthen}    % ветвление
+%\RequirePackage{calc}      % вычисления
+
+\RequirePackage{todonotes} % for revision
+
+
+\def\semester{3}
+
+\newcounter{lab}
+
+\newcommand{\lab}[2][\semester.\thelab]{
+	\refstepcounter{lab}
+	\section*{Работа #1. #2}
+}
+
+\newenvironment{lab:aim}{
+	\noindent\textbf{Цель работы: }
+	\begin{small}
+}{
+	\end{small}
+	\\
+}
+
+\newenvironment{lab:equipment}{
+	\noindent\textbf{В работе используются: }
+	\begin{small}
+}{
+	\end{small}
+	\\
+}
+
+% Добавить новую секцию без нумерации
+\newcommand{\labsection}[1]{
+	\subsection*{#1}
+}
+
+% Задание
+\newenvironment{lab:task}{
+	\subsection*{ЗАДАНИЕ}
+}{}
+
+% Контрольные вопросы
+\newenvironment{lab:questions}{
+	\subsection*{Контрольные вопросы}
+	\begin{enumerate}
+}{
+	\end{enumerate}
+}
+
+\newenvironment{lab:literature}{
+	\subsection*{Литература}
+	\begin{enumerate}
+}{
+	\end{enumerate}
+}
+
+% Experiment setup block
+\def\experiment{\subsection*{Экспериментальная установка} }
+
+% Warning block
+\newcommand{\warning}[1]{
+	\noindent\fbox{
+		\parbox{0.95\textwidth}{
+			\textbf{Внимание:} #1
+		}
+	}%
+}
+
+% Important text
+\newcommand{\important}[1]{
+	\textbf{#1}
+}
+
+%%% Нумерация
+\newcommand{\eqmark}[1][\thechapter.\theequation]{\label{eq:#1}}
+\renewcommand{\eqref}[1]{({\ref{eq:#1}})}
+
+\newcommand{\labeq}[2][]{}
+
+
+
+%%% Математические штукчки
+
+\def\Re{\mathop{\mathrm{Re}}}% действительная часть
+\def\Im{\mathop{\mathrm{Im}}}% мнимая часть
+\def\Rot{\mathop{\mathrm{rot}}}% ротор
+\def\Div{\mathop{\mathrm{div}}}% дивергенция
+\def\Grad{\mathop{\mathrm{grad}}}% градиент
