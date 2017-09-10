@@ -11,3 +11,5 @@ syntax: glob
 /build/
 .gradle
 gradle
+.idea/**
+*.iml
