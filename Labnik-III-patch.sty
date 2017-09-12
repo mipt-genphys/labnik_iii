@@ -1,94 +1,15 @@
+\usepackage{tikz,tsemlines}
+\usepackage{epsfig}
+\usepackage{todonotes}
+
 \def\Mgot{\ensuremath{\mathfrak M}}
 
-%========= Рисунки =======================================
-\usepackage{tikz,tsemlines}
+\graphicspath{{./pic/}}
 
-\def\dirpic{pic/}
-\def\dirris{pic/}
-
-\def\captskip{\vskip 1ex plus 0.5ex minus 0.7ex\relax}
-\def\cpicskip{\vskip 1em plus 1ex minus 1ex\relax}
-
-\def\uvcs{\vskip-1em}
-
-\newcounter{ris}
-\def\resetpic{\setcounter{ris}{0}}
-\newcounter{allpiccount}
-
-\def\capt#1#2#3{%Ширина, подпись, метка
-	\addtocounter{allpiccount}{1}%
-	\refstepcounter{ris}\label{r#3}%
-	\parbox{#1}{%
-	\leftskip=0pt plus 0.5fil\relax\rightskip=0pt plus -0.5fil\relax
-	\hbox{}\par\footnotesize%\hyphenpenalty=10000%
-	Рис. \theris
-	\if.#2.\else. #2\fi}
-}
-
-\let\cct=\centering
-
-\newcommand{\ris}[2]{%Ширина, файл
-	\hbox{\includegraphics[width=#1]{\dirris #2}}
-}
-
-\newcommand{\riscapt}[4]{%Ширина, файл, подпись, метка
-	\vbox{\ris{#1}{#2}\captskip
-	\hbox to #1{\capt{#1}{#3}{#4}}}
-}
-
-\newcommand{\rris}[5][]{%строк, ширина, файл, подпись, метка
-	\begin{wrapfigure}[#1]{o}{#2}
-		\riscapt{#2}{#3}{#4}{#5}
-	\end{wrapfigure}
-}
-
-\newcommand{\rfr}[6][]{%строк, ширина, файл, подпись, метка, psfrag
-	\begin{wrapfigure}[#1]{o}{#2}
-		#6
-		\riscapt{#2}{#3}{#4}{#5}
-	\end{wrapfigure}
-}
-
-\newcommand{\cris}[4][0.8]{%ширина, файл, подпись, метка
-	\par\cpicskip\noindent\hfil
-	\riscapt{#1\textwidth}{#2}{#3}{#4}\par\cpicskip
-}
-
-\newcommand{\fcris}[4][0.8]{%ширина, файл, подпись, метка
-	\begin{figure}[!t]
-		\cris[#1]{#2}{#3}{#4}
-		\uvcs\uvcs
-	\end{figure}
-}
-
-%----------------------------------------------------
-
+% Insert pic file
 \newcommand{\pic}[2]{%Ширина, файл
 	\begingroup
 	\let\vn=\vnb
-	\hbox to #1{\kern-3.5mm\input{\dirpic #2.pic}}%
+	\hbox to #1{\kern-3.5mm\input{pic/#2.pic}}%
 	\endgroup
-}
-
-\newcommand{\piccapt}[4]{%Ширина, файл, подпись, метка
-	\vbox{\pic{#1}{#2}\captskip
-	\hbox to #1{\capt{#1}{#3}{#4}}}
-}
-
-\newcommand{\rpic}[5][]{%строк, ширина, файл, подпись, метка
-	\begin{wrapfigure}[#1]{o}{#2}
-		\piccapt{#2}{#3}{#4}{#5}
-	\end{wrapfigure}
-}
-
-\newcommand{\cpic}[4][0.9]{%ширина, файл, подпись, метка
-	\par\cpicskip\noindent\hfil
-	\piccapt{#1\textwidth}{#2}{#3}{#4}\par\cpicskip
-}
-
-\newcommand{\fcpic}[4][0.8]{%ширина, файл, подпись, метка
-	\begin{figure}[!t]
-		\noindent\hfil\piccapt{#1\textwidth}{#2}{#3}{#4}
-		\uvcs
-	\end{figure}
 }
