@@ -4,22 +4,14 @@
 
 \ifluatex
 	%%% Language setting for (xe|lua)latex %%%
-	%\usepackage{polyglossia} % Loads fontspec also.
-	%\setmainlanguage{russian}
-	%\setotherlanguage{english}
-	
-	\usepackage[T2A]{fontenc}
-	\usepackage[lutf8x]{luainputenc}
-	\usepackage[russian]{babel}
-	
-	%%% Font setting for (xe|lua)latex %%%
-	%\defaultfontfeatures{Ligatures=TeX}
-	%\setmainfont{CMU Serif}
-	%\setsansfont{CMU Sans Serif}
-	%\setmonofont{CMU Typewriter Text}
-	%    \newfontfamily\cyrillicfont{CMU Serif} % Uncomment if asked to define cyrillic fonts.
-	%    \newfontfamily\cyrillicfontsf{CMU Sans Serif} % Uncomment if asked to define cyrillic fonts.
-	%    \newfontfamily\cyrillicfonttt{CMU Typewriter Text} % Uncomment if asked to define cyrillic fonts.
+	\usepackage{luatextra} %грузит fontspec  и luacode
+	\usepackage{polyglossia}  
+	\setdefaultlanguage{russian} 
+%	\setotherlanguage{english}
+	\defaultfontfeatures{Renderer=Basic, Ligatures=TeX} %лигатуры работают в basic режиме
+	\setmainfont{Times New Roman}
+	\setsansfont{Times New Roman}
+	\setmonofont{Times New Roman}
 \else
 	%	\RequirePDFTeX % Tests for PDFTEX use and throws an error if a different engine is being used.
 	
@@ -31,7 +23,9 @@
 	\usepackage[T2A]{fontenc}
 	\usepackage[utf8]{inputenc}
 	\usepackage[russian]{babel}
+	\RequirePackage{soulutf8}
 \fi
+
 
 \RequirePackage{amsmath}  % дополнительные возможности математики AMS
 \RequirePackage{amssymb}  % дополнительные символы AMS
@@ -42,7 +36,6 @@
 \RequirePackage{psfrag}   % вставка надписей
 \RequirePackage{color}    % цветной текст
 
-\RequirePackage{soulutf8}
 \RequirePackage{array}     % дополнительные стили для таблиц
 \RequirePackage{booktabs}
 \RequirePackage{longtable} % таблицы на несколько страниц
@@ -152,3 +145,5 @@
 \def\Rot{\mathop{\mathrm{rot}}}% ротор
 \def\Div{\mathop{\mathrm{div}}}% дивергенция
 \def\Grad{\mathop{\mathrm{grad}}}% градиент
+
+\newcommand{\average}[1]{\left< #1 \right>}
