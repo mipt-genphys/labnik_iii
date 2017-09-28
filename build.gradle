@@ -13,4 +13,5 @@ apply plugin: 'latex'
 
 latex{
   tex  tex: "Labnik-III.tex", pdf: "build/Labnik-III.pdf"
+  tex  tex: "Preamble.tex", pdf: "build/Preamble.pdf"
 }
