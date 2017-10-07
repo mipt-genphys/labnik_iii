@@ -15,3 +15,16 @@ latex{
   tex  tex: "Labnik-III.tex", pdf: "build/Labnik-III.pdf"
   tex  tex: "Preamble.tex", pdf: "build/Preamble.pdf"
 }
+
+
+task buildPreamble(type:Exec){
+  workingDir '.'
+
+  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=build", "\"Preamble\".tex"
+}
+
+task buildMain(type:Exec){
+  workingDir '.'
+
+  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=build", "\"Labnik-III\".tex"
+}
