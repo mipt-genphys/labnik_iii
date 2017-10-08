@@ -37,6 +37,6 @@ task buildFragment(type:Exec){
   tempFile.text = input
 
   workingDir '.'
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "-job-name=\"$title\"", tempFile.name
+  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "-job-name=\"$title\"", "${tempFile.absolutePath}"
   //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
 }
