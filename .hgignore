@@ -8,7 +8,7 @@ syntax: glob
 *.pdf
 *.log
 
-/build/
+build/**
 .gradle
 .idea/**
 *.iml

@@ -1,30 +1,42 @@
-buildscript {
-    repositories {
-        mavenLocal()
-        mavenCentral()
-    }
-    dependencies {
-        classpath group: 'com.github.csabasulyok', name: 'gradle-latex', version: '1.0'
-    }
-}
+// buildscript {
+//     repositories {
+//         mavenLocal()
+//         mavenCentral()
+//     }
+//     dependencies {
+//         classpath group: 'com.github.csabasulyok', name: 'gradle-latex', version: '1.0'
+//     }
+// }
+//
+//
+// apply plugin: 'latex'
+//
+// latex{
+//   tex  tex: "Labnik-III.tex", pdf: "build/Labnik-III.pdf"
+//   tex  tex: "Preamble.tex", pdf: "build/Preamble.pdf"
+// }
 
-
-apply plugin: 'latex'
-
-latex{
-  tex  tex: "Labnik-III.tex", pdf: "build/Labnik-III.pdf"
-  tex  tex: "Preamble.tex", pdf: "build/Preamble.pdf"
-}
-
+def ouputDir = "build/output"
 
 task buildPreamble(type:Exec){
   workingDir '.'
 
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=build", "\"Preamble\".tex"
+  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "\"Preamble\".tex"
 }
 
 task buildMain(type:Exec){
   workingDir '.'
+  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "\"Labnik-III\".tex"
+}
 
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=build", "\"Labnik-III\".tex"
+task buildFragment(type:Exec){
+  def template = file("Template.tex").text.replace("\\","\\\\")
+  def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make([title:"$title", fragment:"$fragment"]).toString()
+  mkdir project.buildDir
+  def tempFile = new File(project.buildDir,"${title}.tex")
+  tempFile.text = input
+
+  workingDir '.'
+  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "-job-name=\"$title\"", tempFile.name
+  //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
 }
