@@ -17,6 +17,7 @@
 // }
 
 def ouputDir = "build/output"
+mkdir ouputDir
 
 task buildPreamble(type:Exec){
   workingDir '.'
@@ -29,14 +30,16 @@ task buildMain(type:Exec){
   commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "\"Labnik-III\".tex"
 }
 
-task buildFragment(type:Exec){
-  def template = file("Template.tex").text.replace("\\","\\\\")
-  def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make([title:"$title", fragment:"$fragment"]).toString()
-  mkdir project.buildDir
-  def tempFile = new File(project.buildDir,"${title}.tex")
-  tempFile.text = input
-
-  workingDir '.'
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "-job-name=\"$title\"", "${tempFile.absolutePath}"
-  //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
+task buildFragment{
+  doLast{
+    def template = file("Template.tex").text.replace("\\","\\\\")
+    def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make([title:"$title", fragment:"$fragment"]).toString()
+    def tempFile = new File(project.buildDir,"${title}.tex")
+    tempFile.text = input
+    exec{
+      workingDir '.'
+      commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "-job-name=\"$title\"", "${tempFile.absolutePath}"
+      //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
+    }
+  }
 }
