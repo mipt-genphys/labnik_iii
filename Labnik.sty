@@ -12,6 +12,7 @@
 	\setmainfont{Times New Roman}
 	\setsansfont{Times New Roman}
 	\setmonofont{Times New Roman}
+	\RequirePackage{soul}
 \else
 	%	\RequirePDFTeX % Tests for PDFTEX use and throws an error if a different engine is being used.
 	
@@ -44,11 +45,13 @@
 
 \RequirePackage{todonotes} % for revision
 
-\graphicspath{{./pic/}}
+\graphicspath{{./Images/}}
 
 \def\semester{3}
 
 \newcounter{lab}
+
+\numberwithin{lab}{chapter}
 
 \newcommand{\lab}[2][\semester.\thelab]{
 	\refstepcounter{lab}
@@ -116,24 +119,36 @@
 %%% Нумерация
 % Вставить номер уравнения внутри главы или работы
 % по умолчанию используется <номер главы>.<номер уравнения>
-\newcommand{\eqmark}[1][\theequation]{\label{eq:\thechapter.#1}}
+\newcommand{\eqmark}[1]{\label{eq:\thechapter.#1}}
 % Ссылка на уравнение
 % == \ref{eq:#1}
-\renewcommand{\eqref}[1]{({\ref{eq:\thechapter.#1}})}
+\renewcommand{\eqref}[1]{(\ref{eq:\thechapter.#1})}
 
 % Вставить номер рисунка внутри главы или работы
 % по умолчанию используется <номер главы>.<номер уравнения>
-\newcommand{\figmark}[1][\thefigure]{\label{fig:\thechapter.#1}}
+\newcommand{\figmark}[1]{\label{fig:\thechapter.#1}}
 % Ссылка на рисунок
 % == \ref{eq:#1}
 \newcommand{\figref}[1]{\ref{fig:\thechapter.#1}}
 
 % Вставить номер рисунка внутри главы или работы
 % по умолчанию используется <номер главы>.<номер уравнения>
-\newcommand{\tabmark}[1][\thetable]{\label{tab:\thechapter.#1}}
+\newcommand{\tabmark}[1]{\label{tab:\thechapter.#1}}
 % Ссылка на рисунок
 % == \ref{eq:#1}
 \newcommand{\tabref}[1]{\ref{tab:\thechapter.#1}}
+
+
+% локальные ссылки в лабораторных работах
+\newcommand{\labeqmark}[1]{\label{eq:\thechapter.\thelab.#1}}
+\newcommand{\labeqref}[1]{(\ref{eq:\thechapter.\thelab.#1})}
+
+\newcommand{\labfigmark}[1]{\label{fig:\thechapter.\thelab.#1}}
+\newcommand{\labfigref}[1]{\ref{fig:\thechapter.\thelab.#1}}
+
+\newcommand{\labtabmark}[1]{\label{tab:\thechapter.\thelab.#1}}
+\newcommand{\labtabref}[1]{\ref{tab:\thechapter.\thelab.#1}}
+
 
 %\newcommand{\labeq}[2][]{}
 

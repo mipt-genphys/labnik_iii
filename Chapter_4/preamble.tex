@@ -5,14 +5,14 @@
 Одной из основных макроскопических характеристик веществ, которая используется для описания их магнитных свойств, является вектор намагниченности $M$ -- суммарный магнитный момент единичного объёма вещества. В ряде веществ между намагниченностью $M$ и напряжённостью магнитного поля $H$ имеет место линейная зависимость.
 \todo [author=Tiffani]{Здесь не хватает формулы 4.1 ($\vec{M} = \chi\vec{H}$), на которую ссылаются ниже. Формулу добавила из старой версии лабника.}
 \begin{equation}
-	\eqmark[magnetization-magnetic vector]
+	\eqmark{magnetization-magnetic vector}
 	\vec{M} = \chi\vec{H}.
 \end{equation}
 
 \begin{wrapfigure}[24]{r}{0.35\textwidth}
 	\includegraphics[width=0.2\textwidth]{v4_1}
 	\caption{Прецессия электронной орбиты в магнитном поле}
-	\figmark[electron orbit]
+	\figmark{electron orbit}
 \end{wrapfigure}
 
 Рассмотрим одну из электронных орбит атома. Пусть электрон с зарядом $-e$ и массой те движется со скоростью $v$ по круговой орбите радиуса $r$, а его орбитальный момент количества движения $L$ лежит в плоскости рис. \figref{electron orbit} и направлен под углом $\theta$ к некоторой оси $z$. С моментом импульса $L$ связан орбитальный магнитный момент, который направлен в противоположную сторону, поскольку заряд электрона отрицательный. При включении магнитного поля с индукцией $B$, направленной вдоль оси $z$, на атом начинает действовать механический момент
@@ -102,7 +102,7 @@
 \begin{wrapfigure}[]{r}{0.35\textwidth}
 	\includegraphics[width=0.2\textwidth]{v4_2}
 	\caption{Подписи к рисунку нет}
-	\figmark[dN in dOmega]
+	\figmark{dN in dOmega}
 \end{wrapfigure}
 
 Используя распределение Больцмана, запишем число атомов из единичного объёма, магнитные моменты которых направлены под углами от $\alpha$ до $\alpha + d\alpha$ в малом телесном угле $d\Omega = 2\pi\sin \alpha~d\alpha$ (рис. \figref{dN in dOmega}):
@@ -114,14 +114,14 @@
 где $N_0$ -- нормировочная константа. Полное число атомов в единице объёма
 
 \begin{equation}
-	\eqmark[total number of atoms]
+	\eqmark{total number of atoms}
 	N = 2\pi N_0 \int\limits_0^\pi e^{\frac{\mu_{\text{Б}} B \cos \alpha}{kT}} \sin \alpha~d\alpha.
 \end{equation}
 
 Поскольку проекция магнитного момента атома на направление поля равна $\mu_{\text{Б}} \cos \alpha $, то суммарный магнитный момент всех атомов единицы объема будет равен
 
 \begin{equation}
-	\eqmark[total magnetic moment]
+	\eqmark{total magnetic moment}
 	M = 2\pi N_0 \int\limits_0^\pi \mu_{\text{Б}} \cos \alpha \exp \left(\frac{\mu_{\text{Б}} B \cos \alpha}{kT}\right) \sin \alpha~d\alpha.
 \end{equation}
 
@@ -158,7 +158,6 @@
 При $\mathbf{M = \chi H}$
 
 \begin{equation}
-	\eqmark[]
 	\mathbf{B = \mu_0 (1 + \chi)H = \mu \mu_0 H}.
 \end{equation}
 \todo [author=Tiffani]{В формуле 4.4 была ошибка. Исправила.}
@@ -193,7 +192,7 @@
 \begin{wrapfigure}[]{r}{0.35\textwidth}
 	\includegraphics[width=0.2\textwidth]{v4_3}
 	\caption{Начальная кривая намагничивания ферромагнетика}
-	\figmark[magnetization curve]
+	\figmark{magnetization curve}
 \end{wrapfigure}
 
 Помимо обменных (близкодействующих) сил между атомами действуют дальнодействующие силы магнитного диполь-дипольного взаимодействия. Энергия такого взаимодействия будет минимальна при антипараллельном расположении магнитных моментов соседних атомов. Поэтому при определённом поперечном (перпендикулярном магнитному моменту) размере домена оказывается энергетически выгодно иметь соседний домен с противоположно направленным магнитным моментом.
@@ -217,7 +216,7 @@
 \begin{wrapfigure}[]{r}{0.35\textwidth}
 	\includegraphics[width=0.2\textwidth]{v4_4}
 	\caption{Зависимость намагниченности насыщения ферромагнетика от температуры}
-	\figmark[magnetization-temperature]
+	\figmark{magnetization-temperature}
 \end{wrapfigure}
 Выше  этой температуры $\theta$ тепловое движение разупорядочивает магнитную структуру доменов и ферромагнетик переходит в парамагнитное состояние. В отсутствие внешнего магнитного поля переход ферромагнетик-парамагнетик является фазовым переходом II рода.
 
@@ -237,7 +236,7 @@
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\pic{0.38\textwidth}{v4_8}
 	\caption{Начальная кривая намагниченности и кривая гистерезиса}
-	\figmark[hysteresis curve]
+	\figmark{hysteresis curve}
 \end{wrapfigure}
 
 Эта кривая практически совпадает с кривой намагничивания на рис. \figref{magnetization curve}, поскольку вклад $B$ в намагниченности $M$ существенно больше, чем $H$. Скорость подъёма кривой $OA$ характеризуется  дифференциальной магнитной проницаемостью
@@ -283,7 +282,7 @@
 Пусть ось симметрии цилиндра направлена вдоль внешнего магнитного поля величиной $H_0$. Цилиндр будет практически однородно намагничен с некоторой намагниченностью $M$. Найдём величину индукции магнитного поля на оси цилиндра в точке, равноудалённой от торцов. С одной стороны, используя связь между $B$, $M$ и $H$, можно записать
 
 \begin{equation}
-	\eqmark[cylinder-B(H)]
+	\eqmark{cylinder-B(H)}
 	B_{\text{вн}} = \mu_0 (H_{\text{вн}} + M),
 \end{equation}
 
@@ -304,7 +303,7 @@
 Индукцию магнитного поля найдём как суперпозицию внешнего поля и поля молекулярных токов:
 
 \begin{equation}
-	\eqmark[B(H)-molecular current]
+	\eqmark{B(H)-molecular current}
 	B_{\text{вн}} = \mu_0\left( H_0 + \frac{Ml}{\sqrt{l^2 + d^2}} \right).
 \end{equation}
 
@@ -348,13 +347,13 @@
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\pic{0.38\textwidth}{v4_5}
 	\caption{Тороидальный образец с намагничивающей обмоткой}
-	\figmark[toroid]
+	\figmark{toroid}
 \end{wrapfigure}
 
 В лабораторных условиях для исследования зависимости $B(H)$ ферромагнитных материалов обычно используют образцы тороидальной формы. Если на тор намотать равномерную намагничивающую обмотку (рис. \figref{toroid}), то поле $H$ внутри тора на окружности радиуса $R$ будет пропорционально току $I$ в обмотке, а его величину можно рассчитать по теореме о циркуляции вектора $H$:
 
 \begin{equation}
-	\eqmark[H-toroid]
+	\eqmark{H-toroid}
 	H = \frac{IN_0}{2\pi R},
 \end{equation}
 
@@ -369,7 +368,7 @@
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\pic{0.38\textwidth}{v4_6}
 	\caption{Тороидальная катушка с разрезом}
-	\figmark[toroidal coil-cut]
+	\figmark{toroidal coil-cut}
 \end{wrapfigure}
 
 Обозначим через через $N_0$ число витков намагничивающей обмотки и через $I$ -- силу намагничивающего тока. Пусть $H$ -- напряжённость магнитного поля в образце, а $H_2$ -- в зазоре. По теореме о циркуляции вектора $H$ имеем
@@ -377,7 +376,7 @@
 \todo [author=Tiffani]{В уравнении 4.8 необходим знак интеграла по контуру. Исправила. Проверить.}
 
 \begin{equation}
-	\eqmark[H-toroid-cut]
+	\eqmark{H-toroid-cut}
 	\oint {Hdl} = H_1 (2\pi R - \delta) + H_2 \delta  = N_0 I,
 \end{equation}
 
@@ -386,14 +385,14 @@
 \todo [author=Tiffani]{Была пропущена нумерация уравнения 4.9. Исправила.}
 
 \begin{equation}
-	\eqmark[H1-toroid-inside]
+	\eqmark{H1-toroid-inside}
 	H_1 = \frac{N_0 I}{2\pi R + (\mu - 1)\delta},
 \end{equation}
 
 и, следовательно,
 
 \begin{equation}
-	\eqmark[H2-toroid-gap]
+	\eqmark{H2-toroid-gap}
 	H_2 = \frac{N_0 I \mu}{2\pi R + (\mu - 1)\delta}.
 \end{equation}
 
@@ -404,14 +403,14 @@
 \todo [author=Tiffani]{Уравнения 4.7 и 4.11 одинаковые.}
 
 \begin{equation}
-	\eqmark[H-toroid-without gap]
+	\eqmark{H-toroid-without gap}
 	H = \frac{IN_0}{2\pi R},
 \end{equation}
 
 При наличии даже небольшого зазора второе слагаемое в знаменателе \eqref{H1-toroid-inside} существенно превосходит первое из-за большой величины $\mu$. В этом случае также нетрудно определить напряжённость поля в воздушном зазоре. В самом деле, пренебрегая первым слагаемым в знаменателе \eqref{H2-toroid-gap} по сравнению со вторым и заменяя единицей коэффициент $(\mu - 1)/\mu$, найдём, что в достаточно больших зазорах (т.е. почти всегда)
 
 \begin{equation}
-	\eqmark[H2-toroid-big gap]
+	\eqmark{H2-toroid-big gap}
 	H_2 = \frac{N_0 I}{\delta},
 \end{equation}
 
@@ -424,7 +423,7 @@
 Одним из самых удобных и надёжных методов измерения индукции $B$ является метод, основанный на законе электромагнитной индукции. Электродвижущая сила, возникающая в контуре при изменении пронизывающего контур магнитного потока $\Phi (B)$, равна
 
 \begin{equation}
-	\eqmark[EMF-magnetic flux]
+	\eqmark{EMF-magnetic flux}
 	E = - \frac{d\Phi (B)}{dt},
 \end{equation}
 
@@ -449,7 +448,7 @@
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\pic{0.38\textwidth}{v4_7}
 	\caption{Расположение образца в зазоре электромагнита}
-	\figmark[rod in electromagnet]
+	\figmark{rod in electromagnet}
 \end{wrapfigure}
 
 Воспользуемся общим выражением для силы, действующей на магнитный диполь с магнитным моментом $m$ во внешнем поле:
@@ -479,7 +478,7 @@
 После замены производной в выражении для $dFz$ окончательно получим
 
 \begin{equation}
-	\eqmark[magnetic force-z]
+	\eqmark{magnetic force-z}
 	F_z = \int\limits_B^0 \frac{\chi\cdot s}{2\mu \mu_0}d\left( B_y^2 \right) = - \frac{\chi}{2\mu \mu_0} sB^2.
 \end{equation}
 
@@ -490,7 +489,7 @@
 Полагая равными в стержне и в зазоре векторы $H$, придём к соотношению
 
 \begin{equation}
-	\eqmark[magnetic force-magfield inside=gap]
+	\eqmark{magnetic force-magfield inside gap}
 	F = \frac{\chi}{2\mu_0} sB^2.
 \end{equation}
 
