@@ -1,0 +1,926 @@
+% Стилевой файл для электричества и оптики
+
+%\NeedsTeXFormat{LaTeX2e}
+%\ProvidesPackage{Eo.sty}
+
+\def\labnums{\labnum}
+
+\def\Gerb{../logo}
+
+\def\Papka{0}
+\def\Oglav{0}
+%\def\Sbornik{0}
+%\DeclareOption{Laba}{}
+%\DeclareOption{Sbornik}{\def\Sbornik{1}}
+\DeclareOption{Papka}{\def\Papka{1}}
+\DeclareOption{Oglav}{\def\Oglav{1}}
+
+\ProcessOptions
+
+\def\godizd{2011}
+\def\Debug{0}
+
+%\renewcommand{\baselinestretch}{0.95} (в преамб?)
+
+\usepackage{indentfirst}
+%\usepackage{cite}
+
+% Запрет переноса формул
+\binoppenalty=10000
+\relpenalty=10000
+
+\tolerance=900
+\hfuzz=1pt
+
+% Запрет висячих абзацев
+%\clubpenalty=10000\widowpenalty=10000
+
+% Запрет переносов
+\def\nohyp{\raggedright\hyphenpenalty=10000}
+%========= Общие переменные ==============================
+\newbox\m@b
+\newlength{\m@l}
+\newlength{\m@ll}
+%\newlength{\m@lr}
+\newcount\m@c
+\newskip\m@s
+
+%========= Формулы =======================================
+\usepackage{xspace}
+
+% Прямые (не наклонные) интегралы
+%% Определяем свой шрифт "lsymb"
+\DeclareSymbolFont{lsymb}{U}{euex}{m}{n}
+%% Определяем интегралы
+\DeclareMathSymbol{\intop}{\mathop}{lsymb}{"52}
+\DeclareMathSymbol{\ointop}{\mathop}{lsymb}{"48}
+\DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
+
+\let\oldint=\int
+\def\int{\oldint\limits}
+\let\oldoint=\oint
+\def\oint{\oldoint\limits}
+
+\def\shortmath#1{
+\newlength{\sml}
+\setlength{\sml}{#1pt}
+\abovedisplayskip 2\sml plus \sml minus \sml
+\abovedisplayshortskip \z@ plus \sml
+\belowdisplayshortskip 2\sml plus \sml minus \sml
+\belowdisplayskip \abovedisplayskip
+}
+
+% Убираем пробел после запятой в матмоде
+\DeclareMathSymbol{,}{\mathord}{letters}{"3B}
+
+\begingroup
+%\catcode`\+\active\gdef+{\mathchar8235\nobreak\discretionary{}{\usefont{OT1}{cmr}{m}{n}\char43}{}}
+%\catcode`\-\active\gdef-{\mathchar8704\nobreak\discretionary{}{\usefont{OMS}{cmsy}{m}{n}\char0}{}}
+\catcode`\=\active\gdef={\mathchar12349\nobreak\discretionary{}{\usefont{OT1}{cmr}{m}{n}\char61}{}}
+\endgroup
+%\def\cdot{\mathchar8705\nobreak\discretionary{}{\usefont{OMS}{сmsy}{m}{n}\сhar1}{}}
+%\def\times{\mathchar8706\nobreak\discretionary{}{\usefont{OMS}{cmsy}{m}{n}\char2}{}}
+\mathcode`\==32768
+%\mathcode`\+=32768
+%\mathcode`\-=32768
+
+% красивое ЭДС с завитушками
+%\usepackage{mathrsfs}
+\DeclareSymbolFont{rsfs}{U}{rsfs}{m}{n}
+\DeclareSymbolFontAlphabet{\mathscr}{rsfs}
+\DeclareMathSymbol{\EDS}{\mathord}{rsfs}{`E}
+
+%------------ Сокращения для ленивых --------------------
+
+\def\_#1{$_{#1}$}
+\def\^#1{$^{#1}$}
+\def\.{\ensuremath{{\cdot}}}
+\def\o{\ensuremath{^\circ}\xspace}
+\def\C{~{\ensuremath{^\circ}{\rm C}}\xspace}
+\def\D{\ensuremath{\Delta}}
+\def\s{\ensuremath{\sigma}\xspace}
+\def\e{\ensuremath{\varepsilon}\xspace}
+%\def\E{\ensuremath{{\cal E}}}
+\let\E=\EDS
+\def\w{\ensuremath{\omega}\xspace}
+\def\W{\ensuremath{\Omega}\xspace}
+\def\d{\partial}
+
+\def\Np{N_р}
+
+\def\kappa{\varkappa}
+\def\phi{\varphi}
+
+\let\odiv=\div
+\def\const{\mathrm{const}}
+\def\grad{\mathop{\mathrm{grad}}\nolimits}
+\def\rot{\mathop{\mathrm{rot}}\nolimits}
+\def\divv{\mathop{\mathrm{div}}\nolimits}
+
+\def\Mgot{\ensuremath{\mathfrak M}}
+\def\g{{\text{\sl g\/}}\xspace}
+\def\Ry{\text{Ry}}
+
+\def\eds{ЭДС\xspace}
+\def\ds{\displaystyle}
+\def\Re{\mathop{\mathrm{Re}}\nolimits}
+\def\Im{\mathop{\mathrm{Im}}\nolimits}
+
+\def\le{\leqslant}
+\def\ge{\geqslant}
+
+%Производные
+\def\ddt#1{\frac{\d #1}{\d t}}
+\def\pr#1#2{\frac{d#1}{d#2}}
+\def\prc#1#2{\frac{\d #1}{\d #2}}
+%---------- Индексы -------------------------
+\def\ind#1{\mbox{\sl\tiny #1}}
+
+\def\Deb{\ind{D}}
+
+\def\rd{r_{\Deb}}
+\def\NA{N_{\ind{A}}}
+\def\mb{\mu_{\ind{Б}}}
+\def\rL{r_{\ind{L}}}
+\def\L{{\ind{L}}}
+\def\EF{E_{\ind{F}}}
+%---------- Средние -------------------------
+
+\def\sr#1{\ensuremath{\left\langle#1\right\rangle}}
+\def\srb#1{\ensuremath{\bar{#1}}}
+\def\srbb#1{\ensuremath{\overline{#1}}}
+
+%---------- Векторы -------------------------
+\usepackage{amsbsy}
+
+\def\vec#1{\boldsymbol{#1}}
+\let\v=\vec
+%\def\v#1{\boldsymbol{#1}}
+
+\def\vr{\v{r}}
+\def\vE{\v{E}}
+\def\vD{\v{D}}
+\def\vH{\v{H}}
+\def\vB{\v{B}}
+\def\vM{\v{\M}}
+
+\def\M{M}
+
+%векторное произведение
+\newcommand{\vp}[2]{{#1}\times{#2}}
+
+%---------- Формулы -------------------------
+\def\be#1 {\begin{equation}\label{#1}}
+\def\ee{\end{equation}}
+
+\newbox\b@@
+\newcount\c@@
+\newdimen\l@@
+\newskip\s@@
+
+\def\ml#1\par{%
+\begingroup
+\l@@=1.5em%
+\s@@=\l@@ minus \l@@\relax
+\def\sk@{\hskip\s@@}%
+\def\skm@{\hskip-\s@@}%
+\def\l##1\\{\sk@ ##1\hfill\cr}%
+\def\r##1\dummy{\hfill ##1\sk@}%
+\def\dummy{}%
+\def\num##1{\refstepcounter{equation}\label{##1}\sk@(\theequation)\skm@}%
+\let\\=\cr
+$$\displaylines{#1\dummy}$$
+\endgroup
+}
+
+\def\num#1{\refstepcounter{equation}\label{#1}(\theequation)}%
+
+%\def\fs#1{\ensuremath{\{#1\}}}
+%\def\ks#1{\ensuremath{[#1]}}
+
+%========= Отступы, интервалы ==================
+\def\bv{\par\bigskip\par}
+\newcommand\pl[1][1]{\par\kern#1\baselineskip\par}
+
+\def\bls{\baselineskip}
+\newcommand{\etp}[1][1]{\enlargethispage{#1\bls}}
+
+\def\unsp{\kern-0.34em\relax}
+
+%========= Заголовки ==========================
+% Новая лабораторная работа
+\def\lab#1#2{%
+\def\labnum{#1}%
+\def\labname{#2}%
+\def\prlabel{\labnum}%
+\def\prnum{}%
+\newsect
+\texthead
+\markright{Работа \labnum}%
+}
+
+\def\newsect{\resetpic
+\resetnum
+\resetfoot
+\setcounter{equation}{0}%
+\setcounter{tab}{0}%
+\setcounter{zn}{0}%
+\setcounter{gr}{0}%
+}
+
+\newlength{\lzagl}
+\newlength{\lzagr}
+\newbox\lzagb
+
+\def\texthead{%
+\par\vfil\penalty200\vfilneg
+\vskip 1cm
+%{\bfseries Работа \No~\labnum}%
+%\par\nobreak\bv
+\lzagr=\textwidth
+\setbox\lzagb=\hbox{\bfseries\large\labnum. }%
+\lzagl=\wd\lzagb
+\advance\lzagr by -\lzagl
+\advance\lzagr by -\parindent
+\leavevmode\box\lzagb\parbox[t]{\lzagr}{\nohyp\bfseries\large\labname}%
+\par\nobreak
+\oo{\labnum.}{\labname}\nobreak%
+}
+
+%----------- Приложения, дополнения ----------------------
+\def\puskip{\vskip 1em plus 1ex minus 1ex\relax}
+\def\pdskip{\vskip 1ex plus 0.5ex minus 0.5ex\relax}
+\newcounter{pril}
+\renewcommand{\thepril}{\Asbuk{pril}}
+
+\def\bpril{\par
+\vskip 1em plus 1ex minus 1ex\relax
+{\itshape\hfill Приложение\par}%\oo{}{Приложение}
+\def\prlabel{vp}%
+\def\prnum{П.}%
+\newsect
+\begingroup
+%\small
+}
+\def\epril{\endgroup}
+
+\def\pzag#1\par{\refstepcounter{pril}%
+\puskip
+\noindent{\nohyp\large\bf%\thepril.
+#1\par}\oo[1]{Приложение.}{#1}
+\pdskip
+}
+
+\def\bdop{\par
+\vskip 1em plus 1ex minus 1ex\relax
+{\it\hfill Дополнение\par}%\oo{}{Дополнение}
+\def\prlabel{vd}%
+\def\prnum{Д.}%
+\newsect
+\begingroup
+%\small
+}
+\def\edop{\endgroup}
+\def\dzag#1\par{\puskip
+\noindent{\centering\bf\MakeUppercase{#1}\par}
+\oo[1]{Дополнение.}{#1}
+\pdskip
+}
+
+%------------ Внутренние заголовки -----------------------
+\def\cskip{\vskip 2ex plus 1ex minus 0.5ex\relax}
+\def\cent{\par\cskip\hfil}
+\def\prin#1{\vskip-\lastskip
+\par\bv\noindent\hfil\parbox{0.9\textwidth}{\small{\bfseries В работе используются:} #1}\par\nobreak\bv}
+\long\def\cel#1{\par\nobreak\bv\noindent\hfil\parbox{0.9\textwidth}{\small{\bf Цель работы:} #1}\par\nobreak}
+\long\def\doing#1{\par\nobreak\bv\noindent\hfil\parbox{0.9\textwidth}{\small #1}\par\nobreak\bv}
+\def\zad{\resetnum{\vfil\penalty300\vfilneg\bf\cent ЗАДАНИЕ\par}\nobreak}
+\def\kv{\resetnum{\normalsize\cent\bf Контрольные вопросы\par\nobreak}}
+\def\lit{\resetnum{\cent{СПИСОК ЛИТЕРАТУРЫ}\par\nobreak}\vskip1ex plus 1ex minus 0.5ex}
+\def\pril{\resetnum{\vfil\penalty300\vfilneg\bf\large\cent ПРИЛОЖЕНИЕ\par}\nobreak}
+\def\pred{\resetnum{\vfil\penalty300\vfilneg\bf\large\cent ПРЕДИСЛОВИЕ\par}\nobreak\cskip}
+\def\eo{\bp{Экспериментальная установка} }
+\def\Obrab{\zor Обработка результатов}
+
+\def\bfno#1{\par\medskip\noindent\mbox{}{\bf #1.}}
+\def\bfo#1{\bfno{#1}\oo[3]{}{#1}}
+
+\newcounter{bn}
+
+\def\bn{\vskip-\lastskip
+\refstepcounter{bn}\par
+\vskip 1ex plus 0.5ex minus 0.2ex\relax
+\noindent{\bfseries\thebn. }}
+
+\def\bp#1{\vskip-\lastskip
+\vskip 1ex plus 0.5ex minus 0.2ex
+\noindent{\bf #1.}}
+
+%===================== Разделы введений ========================================
+% \vn
+% \vnn
+
+\newcounter{vn}
+\newcounter{vvn}[vn]
+\def\thevvn{\thevn.\arabic{vvn}}
+\newcounter{vnn}[vvn]
+\def\thevnn{\thevvn.\arabic{vnn}}
+
+\newlength{\zl}
+\newlength{\zll}
+
+\newbox\zbox
+
+\def\vn#1\par{\refstepcounter{vn}\par
+\vskip 1.5ex plus 2ex minus 1 ex\relax
+\vfil\penalty400\vfilneg
+\def\zfnt{\bfseries\large}%
+\setbox\zbox=\hbox{\zfnt\thevn. }%
+\zl=\wd\zbox
+\zll=\textwidth
+\advance\zll by -\zl
+\noindent\box\zbox\parbox[t]{\zll}{\nohyp\zfnt #1}{\zfnt\par}\nobreak
+\oo[2]{}{#1}\nobreak%
+\vskip 1.3ex plus 1ex minus 0.7 ex\relax\nobreak
+}
+
+\def\vvn#1\par{\refstepcounter{vvn}\par
+\vskip 1ex plus 1.5ex minus 0.5ex\relax
+\vfil\penalty400\vfilneg
+\def\zfnt{\bf}%
+\setbox\zbox=\hbox{\zfnt\thevvn. }%
+\zl=\wd\zbox
+\zll=\textwidth
+\advance\zll by -\zl
+\noindent\box\zbox\parbox[t]{\zll}{\nohyp\zfnt #1}{\zfnt\par}\nobreak
+\oo[3]{}{#1}\nobreak%
+\vskip 1ex plus 1ex minus 0.7 ex\relax\nobreak
+}
+
+\def\vnn{\par
+\vskip 1ex plus 0.5ex minus 0.5ex\relax
+\refstepcounter{vnn}%
+\noindent{\bf\thevnn.}
+}
+
+%----------- Подраздел с русской буквой -------------
+
+\def\ubskip{\vskip 1.5em plus 0.5ex minus 0.5ex\relax}
+\def\dbskip{\vskip 1em plus 0.5ex minus 0.5ex\relax}
+\def\uskip{\vskip 1.5ex plus 0.5ex minus 0.5ex\relax}
+\def\dskip{\vskip 0.7ex plus 0.3ex minus 0.3ex\relax}
+
+\newcounter{gr}
+\def\thegr{\Asbuk{gr}}
+
+\newlength{\lzr}
+\settowidth{\lzr}{\large\bf A. }
+\newlength{\rzr}
+\setlength{\rzr}{\textwidth}
+\addtolength{\rzr}{-\lzr}
+\addtolength{\rzr}{-3ex}
+
+\def\zrus#1 \par{\refstepcounter{gr}%
+\ubskip
+{\noindent\large\bf \hbox to \lzr {\thegr.\hfil}\hbox{\parbox[t]{\rzr}{\nohyp #1}\par\nobreak}}%
+\dbskip
+\resetnum\resetzn
+}
+
+%--------------------- разделы лаб   -------------------------------------------
+
+% \za
+% \zn \zo \zor
+% \n \nz
+%
+\def\rfnt{\bfseries\large}
+
+\def\za#1\par{\par
+\vfil\penalty300\vfilneg
+\vskip 1.5ex plus 1ex minus 1 ex\relax
+\refstepcounter{gr}%
+\noindent
+\mbox{\rfnt\thegr. \hfil}\hfill
+\parbox[t]{\rzr}{\raggedright\nohyp\rfnt #1}\par\nobreak
+}
+
+
+\newcounter{zn}
+\def\thezn{\Roman{zn}}
+\def\resetzn{\setcounter{zn}{0}}
+
+\def\znr#1\par{\resetnum
+\zn #1\par
+}
+
+%\def\delstar#1#2{\if*#1#2\else#1#2\fi}
+
+\def\zn#1\par{\refstepcounter{zn}%
+{\samepage\centering\csf \thezn. #1\par\nobreak}
+}
+
+\def\zo#1\par{{\centering\csf #1\par}}
+
+\def\zor{\resetnum\zo}
+
+\def\csf#1\par{
+\par
+\uskip
+\noindent {%\centering
+\bf\sf #1\par\nobreak}
+\dskip
+}
+
+\def\vsk{\vskip 1pt plus 1pt minus 1pt}
+
+\newcounter{num}
+\def\resetnum{\setcounter{num}{0}}
+\newcommand{\n}[1][]{\par\vsk\noindent%
+\refstepcounter{num}%
+\if.#1.\else\label{#1}\fi%
+\makebox[0pt][r]{\hss\thenum. }%
+\ignorespaces}
+
+\newcommand{\nz}[1][]{\par\vsk\noindent%
+\refstepcounter{num}%
+\if.#1.\else\label{#1}\fi%
+\makebox[0pt][r]{\hss$\thenum^{\lefteqn{*}}$. }%
+\ignorespaces}
+
+\newcounter{cir}[num]
+\renewcommand{\thecir}{\asbuk{cir}}
+
+\def\ir{\par%\noindent
+\mbox{}\refstepcounter{cir}{\thecir}) }
+
+%------------- Выделения внутри текста ------------
+%Новый термин, в перспективе попадает в алфавитный указатель
+\def\term#1{{\sf #1}}
+
+% Названия ручек приборов (БОЛЬШИЕ буквы в кавычках)
+\def\nazv#1{<<{\small\MakeUppercase{#1}}>>}
+
+\def\aht#1{{\bf #1}}
+
+\def\ahtung#1{
+\begin{center}\hyphenpenalty=10000
+\bf #1
+\end{center}
+}
+
+\def\narrow{\leftskip=\parindent\rightskip=\leftskip\parindent=0pt}
+
+%=================== Оформление ===================
+\def\zam{\newpage\thispagestyle{empty}
+{\centering {\large\bf Для заметок}\par}
+}
+
+%------------- Обложка ----------------------------
+
+\def\lr{Лабораторная работа~\No~}
+
+%------------- Выходные данные --------------------
+\def\pageref#1{\expandafter\@setref\csname r@#1\endcsname\@secondoftwo{#1}}
+
+\newcount\mc@p
+\newcount\mc@t
+
+\newcommand{\uslpechlist}[1]{%
+\begingroup
+\expandafter\ifx\csname r@pagecount\endcsname\relax ??\else
+%                           1     2    3     4     5    6     7     8    9    10    11    12   13    14   15
+\def\fn##1{\ifcase\the##1 ,0\or,06\or,1\or,18\or,25\or,3\or,37\or,43\or,5\or,56\or,6\or,68\or,75\or,8\or,87\or,9\fi}%
+\mc@p=#1\relax
+\mc@t=\mc@p
+\divide\mc@t by 16
+\the\mc@t
+\multiply\mc@t by 16
+\advance\mc@p by-\mc@t
+\fn{\mc@p}%
+\fi
+\endgroup
+}
+
+\def\upl{\uslpechlist{\pageref{pagecount}}}
+\let\uil=\upl
+
+%-------------- Разметка страницы --------------------
+
+\hoffset=-1in
+\voffset=-1in
+
+\newlength{\listwidth}
+\setlength{\listwidth}{148.5mm}
+
+\newlength{\textpole}
+\newlength{\pereplet}
+\newlength{\mytextwidth}
+\newlength{\myeven}
+\newlength{\myodd}
+
+\setlength{\textpole}{15mm}
+\setlength{\pereplet}{-3mm}
+
+\topmargin=12mm
+\textheight=178mm
+
+\footskip=8mm
+
+\headsep=0mm
+\headheight=0mm
+
+\ifnum\Papka=1
+\setlength{\pereplet}{0mm}
+\setlength{\listwidth}{210mm}
+%\textheight=51\baselineskip
+\textheight=260mm
+\else
+\special{papersize=148.5mm,21cm}%убирать для папок
+\fi
+
+\setlength{\mytextwidth}{\listwidth}
+\addtolength{\mytextwidth}{-\textpole}
+\addtolength{\mytextwidth}{-\textpole}
+\addtolength{\mytextwidth}{-\pereplet}
+\setlength{\myeven}{\textpole}
+\setlength{\myodd}{\textpole}
+\addtolength{\myodd}{\pereplet}
+
+
+\textwidth=\mytextwidth
+\oddsidemargin=\myodd
+\evensidemargin=\myeven
+
+
+%\setlength{\footheight}{0mm}
+
+%\pagestyle{empty}
+%\renewcommand{\@oddhead}{\parbox{\textwidth}{\rightmark\hfill\strut\thepage\hrule}}
+%\renewcommand{\@evenhead}{\parbox{\textwidth}{\thepage\hfill\leftmark\strut\hrule}}
+
+\def\@oddfoot{{\footnotesize\hfill\thepage\hfill}}
+\def\@evenfoot{{\footnotesize\hfill\thepage\hfill}}
+
+%============= Метки, ссылки ===================
+\let\oldr=\r
+\def\AA{\oldr{A}}
+
+\let\olabel=\label
+\let\oref=\ref
+\def\ref{{\Large\bf !!!!Ссылка!!!!} }
+%\def\f#1{\oref{\prlabel_f#1}}
+\def\r#1{\oref{\prlabel_#1}}
+\def\p#1{рис.~\r{r#1}}
+\def\label#1{\olabel{\prlabel_#1}}
+\def\theequation{\prnum\arabic{equation}}
+\def\theris{\prnum\arabic{ris}}
+
+\def\prnum{}
+\def\prlabel{}
+
+\AtEndDocument{\olabel{pagecount}}
+%------------------- Сноски ----------------------------------
+
+\newcounter{footname}
+\def\resetfoot{\setcounter{footname}{0}}
+\let\oldfootnote=\footnote
+\long\def\footnote#1{%
+\refstepcounter{footname}%
+\oldfootnote[\thefootname]{\kern1ex #1}%
+}
+
+%====================== Таблицы =========================
+\newcounter{tab}
+
+\ifnum1=1
+
+\newbox\t@b
+\newdimen\t@l
+\newdimen\t@ll
+
+\newcounter{alltabcount}
+\def\inctab{\addtocounter{alltabcount}{1}\refstepcounter{tab}}
+
+\def\tbs{\vskip 1em plus 1ex minus 1ex\relax}
+\def\stbs{\vskip 3pt plus 1pt minus 1pt\relax}
+\def\uts{\vskip-2em\relax}
+
+\newcommand{\ftab}[2][!t]{
+\begin{table}[#1]
+#2
+\uts
+\end{table}
+}
+
+\def\tab#1#2#3{\inctab\label{tab#1}%
+\tbs
+\setbox\t@b=\hbox{#3}%
+\t@l=\wd\t@b%
+{\centering
+\makebox[\t@l]{\hfill Т а б л и ц а~~\thetab}\par\nobreak
+\if.#2.\stbs\else\mbox{\parbox{\t@l}{\centering\strut #2\strut\par}}\par\nobreak\stbs\fi
+\mbox{\unhbox\t@b}\par}%
+\tbs
+}
+
+\newcommand\zagcont[2][\textwidth]{%
+\makebox[#1]{\hfill Т а б л и ц а~~\thetab~(продолжение)}\par\nobreak\stbs
+\if.#2.\stbs\else\leavevmode\parbox{#1}{\centering\bf\strut #2\strut\par}\par\nobreak\stbs\fi
+}
+
+\def\conttab#1{%
+\tbs
+\tabo{\hfill Т а б л и ц а~~\thetab~(продолжение)}{}{#1}%
+\tbs
+}
+
+\newcommand{\tzago}[3][\textwidth]{%
+\makebox[#1]{#2}\par\nobreak\stbs
+\if.#3.\stbs\else\leavevmode\parbox{#1}{\centering\bf\strut #3\strut\par}\par\nobreak\stbs\fi
+}
+
+\newcommand{\tabo}[4][]{%подзаголовок, имя, название, тело
+\setbox\t@b=\hbox{#4}%
+\t@l=\wd\t@b%
+{\centering
+\tzago[\t@l]{#2}{#3}\par
+\if.#1.\else\parbox{\t@l}{\small #1}\par\fi
+\mbox{\unhbox\t@b}\par
+}}
+
+\newcommand{\tzag}[2][\textwidth]{\inctab%\label{tab\thetabl}%
+{\centering\tzago[#1]{\hfill Т а б л и ц а~~\thetab}{#2}\par}
+}
+
+\newcommand{\etab}[3][]{\addtocounter{tbl}{1}%
+\inctab\label{tab\thetbl}%
+%\tbs
+\tabo[#1]{\hfill Т а б л и ц а~~\thetab}{#2}{#3}%
+%\tbs
+}
+
+\newbox\tl@b
+
+\long\def\land#1{\noindent\hfil
+\setbox\tl@b=\hbox{\parbox{\textheight}{#1}}%
+\rotatebox[origin=lb]{90}{\unhbox\tl@b}%
+}
+
+\def\bt#1{\begin{tabular}{#1}}
+\def\et{\end{tabular}}
+
+\def\tskip{\vskip 2ex plus 1ex minus 1.8ex\relax}
+
+\def\tabstrut{\vrule width 0pt height 1.1em depth 0.3em\relax}
+\def\utabstrut{\vrule width 0pt height 1.1em depth 0pt\relax}
+\def\dtabstrut{\vrule width 0pt height 0pt depth 0.3em\relax}
+
+\newcounter{tbl}
+
+\def\ttxt#1{\par\noindent{\rm\raggedright\footnotesize #1\par}}
+\def\cttxt#1{\par\noindent{\centering\footnotesize #1\par}}
+
+\def\pd{\phantom{0}}
+%\def\le#1{\hbox to 0pt{\hss #1}}
+%\def\re#1{\hbox to 0pt{#1\hss}}
+
+\newcommand{\setts}[2][3]{%
+\def\ts{\vrule height #2pt width 0pt depth #1pt}%
+\def\uts{\vrule height #2pt width 0pt depth 0pt}%
+\def\dts{\vrule height 0pt width 0pt depth #1pt}%
+\def\zts{@{ \ts}}%
+}
+
+\fi
+
+%========= Рисунки =======================================
+
+\usepackage{graphicx}
+%\usepackage{texdraw}
+\usepackage{psfrag}
+\usepackage{floatflt}
+\usepackage{wrapfig}
+%\begin{wrapfigure}[12]{r}[34pt]{5cm} <figure> \end{wrapfigure}
+%                   ==  =  ====  ===
+%   [number of narrow lines] {placement} [overhang] {width}
+
+\intextsep=0pt
+
+\def\dirpic{pic/}
+\def\dirris{pic/}
+
+\def\captskip{\vskip 1ex plus 0.5ex minus 0.7ex\relax}
+\def\cpicskip{\vskip 1em plus 1ex minus 1ex\relax}
+
+\def\uvcs{\vskip-1em}
+
+\newcounter{ris}
+\def\resetpic{\setcounter{ris}{0}}
+\newcounter{allpiccount}
+\def\theris{\prnum\arabic{ris}}
+
+\newdimen\wcapt
+
+\def\capt#1#2#3{%Ширина, подпись, метка
+\refstepcounter{ris}\label{r#3}%
+\wcapt=#1%
+\hbox to \wcapt{\hfil
+\parbox{0.9\wcapt}{%
+\leftskip=0pt plus 0.5fil\relax\rightskip=0pt plus -0.5fil\relax
+\hbox{}\par\footnotesize%\hyphenpenalty=10000%
+Рис. \theris
+\if.#2.\else. #2\fi}%
+\hfil}}
+
+\let\cct=\centering
+%\def\resetpic{\setcounter{ris}{0}}
+
+\newcommand{\ris}[2]{%Ширина, файл
+\hbox{\includegraphics[width=#1]{\dirris #2}}}
+
+\newcommand{\riscapt}[4]{%Ширина, файл, подпись, метка
+\vbox{\ris{#1}{#2}\captskip
+\hbox to #1{\capt{#1}{#3}{#4}}}}
+
+\newcommand{\rris}[5][]{%строк, ширина, файл, подпись, метка
+\begin{wrapfigure}[#1]{r}{#2}
+\riscapt{#2}{#3}{#4}{#5}
+\end{wrapfigure}}
+
+\newcommand{\rfr}[6][]{%строк, ширина, файл, подпись, метка, psfrag
+\begin{wrapfigure}[#1]{r}{#2}
+#6
+\riscapt{#2}{#3}{#4}{#5}
+\end{wrapfigure}}
+
+
+\newcommand{\cris}[4][0.8]{%ширина, файл, подпись, метка
+\par\cpicskip\noindent\hfil
+\riscapt{#1\textwidth}{#2}{#3}{#4}\par\cpicskip
+}
+
+\newcommand{\fcris}[4][0.8]{%ширина, файл, подпись, метка
+\begin{figure}[!t]
+\cris[#1]{#2}{#3}{#4}
+\uvcs
+\end{figure}}
+
+%----------------------------------------------------
+
+\newcommand{\pic}[2]{%Ширина, файл
+\begingroup
+\let\vn=\vnb
+\hbox to #1{\kern-3.5mm \input{\dirpic #2.pic}}%
+\endgroup
+}
+
+\newcommand{\piccapt}[4]{%Ширина, файл, подпись, метка
+\vbox{\pic{#1}{#2}\captskip
+\hbox to #1{\capt{#1}{#3}{#4}}}}
+
+\newcommand{\rpic}[5][]{%строк, ширина, файл, подпись, метка
+\begin{wrapfigure}[#1]{o}{#2}
+\piccapt{#2}{#3}{#4}{#5}
+\end{wrapfigure}}
+
+\newcommand{\cpic}[4][0.9]{%ширина, файл, подпись, метка
+\par\cpicskip\noindent\hfil
+\piccapt{#1\textwidth}{#2}{#3}{#4}\par\cpicskip
+}
+
+\newcommand{\fcpic}[4][0.8]{%ширина, файл, подпись, метка
+\begin{figure}[!t]
+\noindent\hfil\piccapt{#1\textwidth}{#2}{#3}{#4}
+\uvcs
+\end{figure}}
+
+%========= Оглавление ===================================
+
+\ifnum\Oglav=1
+
+\newwrite\ogl
+\immediate\openout\ogl=oglavlen
+
+\def\oglav{
+\newpage
+\immediate\closeout\ogl
+%\thispagestyle{empty}
+{\noindent\bfseries\large СОДЕРЖАНИЕ\par}
+\vskip 30mm
+\input oglavlen
+%\par\mbox{}
+}
+
+\newcommand{\oglout}[4]{%уровень текст1 текст2 страница
+\write\ogl{\string\lineogl{#1}{#2}{#3}{#4}}%
+}
+
+\newcommand\oo[3][1]{%level, text1, text2
+\begingroup
+\let\protect\noexpand
+\edef\dummy{\noexpand\oglout{#1}{#2}{#3}}%
+\dummy{\thepage}%
+\endgroup
+}
+
+\newlength{\oglr}
+\setlength{\oglr}{\textwidth}
+\addtolength{\oglr}{-1.6em}
+
+\def\oglstr#1#2#3{%{text1}{text2}{page}
+{%
+\par\noindent
+\setbox\m@b\hbox{#1}%
+\m@l=\wd\m@b
+\m@ll=\textwidth
+\advance\m@ll by -\m@l
+\advance\m@ll by -1.6em%
+\unhbox\m@b
+\setbox\m@b=\hbox{\parbox[t]{\m@ll}{\nohyp #2\strut\dotfill}}%
+\m@c=\dp\m@b
+\divide\m@c by\baselineskip
+\kern1ex\unhbox\m@b
+\hfill\raise-\m@c\baselineskip\hbox{#3}%
+\par}%
+}
+
+\newcommand{\lineogl}[4]{%{level}{text1}{text2}{page}
+\ifnum1=#1\bigskip
+\oglstr{{#2}}{#3}{#4}%
+\fi
+\ifnum2=#1\bigskip
+\oglstr{\kern5mm}{{\sf #3}}{#4}%
+\fi
+\ifnum3=#1\smallskip
+\oglstr{\kern10mm}{{\tt #3}}{#4}%
+\fi
+}
+
+\else
+\newcommand\oo[3][1]{}
+\fi
+
+%============== BNS =====================
+
+\def\BS{\boldmath$\mathsection$}
+\def\vartau{\tau\kern-1ex\iota}
+\def\mvartau{\tau\kern-0.8ex\iota}
+\def\Ent{\,\bigcirc\kern-4.0ex\to\,}
+\def\Ext{\bigcirc\kern-2ex\to}
+\def\JA{$\bigcirc\kern-2.9ex\mbox{-}\kern2ex\mbox{-}$}
+\def\JL{-$\bigcirc{\kern-1.4ex\raise1.5ex\hbox{\tiny I}}{\kern-0.4ex\raise-1.2ex\hbox{\tiny I}}\;\,$-}
+\def\Pc{\bigcirc\kern-2.7ex\perp}
+\def\PI{---$\kern-2.2ex\raise-.5ex\hbox{- -}$}
+\def\Wav{\wedge\atop\vee}
+
+\newcommand\clm{$\varnothing$}
+
+\newcommand\vnb{\ensuremath{\mbox{\small$\varnothing$}}}%\approx\char28
+
+%\newcommand{\Vec}[1]{\mbox{\boldmath$#1$}}
+\let\Vct=\vec
+
+\newcommand\ssz{\scriptsize}
+\newcommand\sst{\scriptstyle}
+\newcommand\ssst{\scriptscriptstyle}
+\let\dst=\ds %есть выше
+
+\def\emline#1#2#3#4#5#6{\put(#1,#2){\special{em: moveto}}
+                        \put(#4,#5){\special{em: lineto}}}
+
+
+\newlength\lh
+\newlength\hv
+\newlength\lv
+
+\setlength{\lv}{1ex}
+\setlength{\lh}{0.2\lv}
+\setlength{\hv}{\lv}
+\addtolength{\hv}{-0.4pt}
+
+\def\knopka{%
+\vrule width \lh height 0.4pt depth 0pt
+\vrule width 0.4pt height \lv depth 0pt
+\vrule width 0.3\lv height \lv depth -\hv
+\vrule width 0.4pt height \lv depth 0pt
+\vrule width \lh height 0.4pt depth 0pt
+}
+
+\def\kaknop{%
+\vrule width \lh height \lv depth -\hv
+\vrule width 0.4pt height \lv depth 0pt
+\vrule width 0.3\lv height 0.4pt depth 0pt
+\vrule width 0.4pt height \lv depth 0pt
+\vrule width \lh height \lv depth -\hv
+}
+
+\def\ground{%
+\begingroup
+\Large
+\vrule width 1ex height 0.4pt depth 0pt\kern-0.5ex%
+\kern-0.2pt\vrule width 0.4pt height 1ex depth 0pt\kern-0.2pt%
+\kern-0.3ex\vrule width 0.6ex height -0.8pt depth 1.2pt\kern-0.3ex%
+\kern-0.3pt\vrule width 0.4pt height -2pt depth 2.4pt\kern-0.2pt%
+\kern 0.5ex%
+\endgroup
+}
