@@ -66,6 +66,13 @@
 	\\
 }
 
+% короткая запись для окружения lab:aim
+\newcommand{\aim}[1]{
+	\begin{lab:aim}
+		#1
+	\end{lab:aim}
+}
+
 \newenvironment{lab:equipment}{
 	\noindent\textbf{В работе используются: }
 	\begin{small}
@@ -73,6 +80,15 @@
 	\end{small}
 	\\
 }
+
+% короткая запись для окружения lab:equipment
+\newcommand{\equip}[1]{
+	\begin{lab:equipment}
+		#1
+	\end{lab:equipment}
+}
+
+
 
 % Добавить новую секцию без нумерации
 \newcommand{\labsection}[1]{
@@ -102,13 +118,22 @@
 % Experiment setup block
 \def\experiment{\subsection*{Экспериментальная установка} }
 
+% Warning block environment
+\newenvironment{lab:warning}{
+		\noindent\fbox{
+			\parbox{0.95\textwidth}{
+				\textbf{Внимание:}
+}{
+			}
+		}%
+}
+
+
 % Warning block
 \newcommand{\warning}[1]{
-	\noindent\fbox{
-		\parbox{0.95\textwidth}{
-			\textbf{Внимание:} #1
-		}
-	}%
+	\begin{lab:warning}
+		#1
+	\end{lab:warning}
 }
 
 % Important text
