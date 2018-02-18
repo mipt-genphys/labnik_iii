@@ -34,6 +34,7 @@
 
 \RequirePackage{graphicx} % вставка графики
 \RequirePackage{wrapfig}  % обтекание объектов
+\RequirePackage{subcaption} % подкартинки
 \RequirePackage{psfrag}   % вставка надписей
 \RequirePackage{color}    % цветной текст
 
@@ -54,6 +55,9 @@
 \newcounter{lab}
 
 \numberwithin{lab}{chapter}
+%\numberwithin{equation}{lab}
+%\numberwithin{figure}{lab}
+%\numberwithin{table}{lab}
 
 \newcommand{\lab}[2][\semester.\thelab]{
 	\refstepcounter{lab}
@@ -120,14 +124,19 @@
 % Experiment setup block
 \def\experiment{\subsection*{Экспериментальная установка} }
 
+
 % Warning block environment
-\newenvironment{lab:warning}{
-		\noindent\fbox{
-			\parbox{0.95\textwidth}{
-				\textbf{Внимание:}
-}{
-			}
-		}%
+\newenvironment{lab:warning}
+{
+	\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+		\hline\\
+		\textbf{Внимание: }
+}
+{ 
+		\\\\\hline
+		\end{tabular} 
+	\end{center}
 }
 
 
@@ -145,17 +154,13 @@
 
 %%% Нумерация
 % Вставить номер уравнения внутри главы или работы
-% по умолчанию используется <номер главы>.<номер уравнения>
 \newcommand{\eqmark}[1]{\label{eq:\thechapter.#1}}
 % Ссылка на уравнение
-% == \ref{eq:#1}
 \renewcommand{\eqref}[1]{(\ref{eq:\thechapter.#1})}
 
 % Вставить номер рисунка внутри главы или работы
-% по умолчанию используется <номер главы>.<номер уравнения>
 \newcommand{\figmark}[1]{\label{fig:\thechapter.#1}}
 % Ссылка на рисунок
-% == \ref{eq:#1}
 \newcommand{\figref}[1]{\ref{fig:\thechapter.#1}}
 
 % Вставить номер рисунка внутри главы или работы
