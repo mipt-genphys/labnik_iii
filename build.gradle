@@ -25,9 +25,14 @@ task build(type:Exec, dependsOn: ":buildOutputDir"){
 def buildFragment(String outputDir, Map parameters){
   def template = file("Template.tex").text.replace("\\","\\\\")
   def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make(parameters).toString()
-  def tempFile = new File(project.buildDir,"${parameters.fragment}.tex")
+  def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
 
   tempFile.text = input
+  exec{
+    workingDir '.'
+    commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"
+    //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
+  }
   exec{
     workingDir '.'
     commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"
