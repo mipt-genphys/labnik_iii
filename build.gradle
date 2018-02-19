@@ -1,45 +1,57 @@
-// buildscript {
-//     repositories {
-//         mavenLocal()
-//         mavenCentral()
-//     }
-//     dependencies {
-//         classpath group: 'com.github.csabasulyok', name: 'gradle-latex', version: '1.0'
-//     }
-// }
-//
-//
-// apply plugin: 'latex'
-//
-// latex{
-//   tex  tex: "Labnik-III.tex", pdf: "build/Labnik-III.pdf"
-//   tex  tex: "Preamble.tex", pdf: "build/Preamble.pdf"
-// }
-
-def ouputDir = "build/output"
-mkdir ouputDir
-
-task buildPreamble(type:Exec){
-  workingDir '.'
-
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "\"Preamble\".tex"
+buildscript{
+  project.ext.outputDir = "build/output"
 }
 
-task buildMain(type:Exec){
-  workingDir '.'
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "\"Labnik-III\".tex"
-}
-
-task buildFragment{
+task buildOutputDir{
   doLast{
-    def template = file("Template.tex").text.replace("\\","\\\\")
-    def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make([title:"$title", fragment:"$fragment"]).toString()
-    def tempFile = new File(project.buildDir,"${title}.tex")
-    tempFile.text = input
-    exec{
-      workingDir '.'
-      commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=$ouputDir", "-job-name=\"$title\"", "${tempFile.absolutePath}"
-      //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
+    def file = project.file(project.outputDir)
+    if(!file.exists()){
+      file.mkdirs()
     }
+  }
+}
+
+task preample(type:Exec, dependsOn: ":buildOutputDir"){
+  workingDir '.'
+
+  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Preamble\".tex"
+}
+
+task build(type:Exec, dependsOn: ":buildOutputDir"){
+  workingDir '.'
+  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Labnik-III\".tex"
+}
+
+def buildFragment(String outputDir, Map parameters){
+  def template = file("Template.tex").text.replace("\\","\\\\")
+  def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make(parameters).toString()
+  def tempFile = new File(project.buildDir,"${parameters.fragment}.tex")
+
+  tempFile.text = input
+  exec{
+    workingDir '.'
+    commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"
+    //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
+  }
+}
+
+task fragment(dependsOn: ":buildOutputDir"){
+  doLast{
+    buildFragment(outputDir, project.properties)
+  }
+}
+
+task chapters(){
+  doLast{
+    def threads = (1..6).collect{
+      def parameters = new HashMap(project.properties)
+      parameters.title = "Chapter $it"
+      parameters.fragment = "Chapter_$it"
+      Thread.start{
+          buildFragment(outputDir, parameters)
+      }
+    }
+
+    threads.each{it.join()}
   }
 }
