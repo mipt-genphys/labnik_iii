@@ -103,8 +103,6 @@
 	\end{lab:equipment}
 }
 
-
-
 % Добавить новую секцию без нумерации
 \newcommand{\labsection}[1]{
 	\subsection*{#1}
@@ -171,10 +169,16 @@
 % Ссылка на уравнение
 \renewcommand{\eqref}[1]{(\ref{eq:\arabic{chapter}.\arabic{lab}.#1})}
 
+% Ссылка на уравнение в преамбуле главы. По умолчанию используется текущая глава, но можно задать вручную
+\newcommand{\chaptereqref}[2][\arabic{chapter}]{(\ref{eq:#1.0.#2})}
+
 % Вставить номер рисунка внутри главы или работы
 \newcommand{\figmark}[1]{\label{fig:\arabic{chapter}.\arabic{lab}.#1}}
 % Ссылка на рисунок
 \newcommand{\figref}[1]{\ref{fig:\arabic{chapter}.\arabic{lab}.#1}}
+
+% Ссылка на рисунок в преамбуле главы. По умолчанию используется текущая глава, но можно задать вручную
+\newcommand{\chapterfigref}[2][\arabic{chapter}]{\ref{fig:#1.0.#2}}
 
 % Вставить номер рисунка внутри главы или работы
 \newcommand{\tabmark}[1]{\label{tab:\arabic{chapter}.\arabic{lab}.#1}}
