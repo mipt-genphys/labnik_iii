@@ -15,6 +15,7 @@
 \linenumbers
 
 %\chapter{$title}
+<% if (chapter) print("\setcounter{chapter}{${chapter - 1}}") %>
 \input{$fragment}
 
 \end{document}

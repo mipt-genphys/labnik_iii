@@ -52,6 +52,7 @@ task chapters(){
       def parameters = new HashMap(project.properties)
       parameters.title = "Chapter $it"
       parameters.fragment = "Chapter_$it"
+      parameters.chapter = it
       Thread.start{
           buildFragment(outputDir, parameters)
       }
