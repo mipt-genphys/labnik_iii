@@ -44,7 +44,8 @@
 \RequirePackage{subcaption} % подкартинки
 \RequirePackage{psfrag}   % вставка надписей
 \RequirePackage{color}    % цветной текст
-%\RequirePackage[russian]{hyperref}
+%\RequirePackage{hyperref}
+%\hypersetup{pdfencoding=auto}
 
 \RequirePackage{array}     % дополнительные стили для таблиц
 \RequirePackage{booktabs}
@@ -67,9 +68,10 @@
 \numberwithin{figure}{lab}
 \numberwithin{table}{lab}
 
-\newcommand{\lab}[2][\arabic{chapter}.\the\numexpr \value{lab} + 1 \relax]{ % Страшный крокодил нужен что бы номер лабы вычислялся правильно при создании заголовка.
-	\section*{Работа #1. #2}
+\newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{ % Страшный крокодил нужен что бы номер лабы вычислялся правильно при создании заголовка.
 	\refstepcounter{lab}
+	\section*{Работа #1. #2}
+	\addcontentsline{toc}{section}{Работа #1. #2}
 }
 
 \newenvironment{lab:aim}{
@@ -105,6 +107,10 @@
 % Добавить новую секцию без нумерации
 \newcommand{\labsection}[1]{
 	\subsection*{#1}
+}
+
+\newcommand{\labsubsection}[1]{
+	\subsubsection*{#1}
 }
 
 % Задание
