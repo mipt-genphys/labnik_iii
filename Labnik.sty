@@ -3,7 +3,7 @@
 \RequirePackage{amsmath}  % дополнительные возможности математики AMS
 \RequirePackage{amssymb}  % дополнительные символы AMS
 
-\RequirePackage{ifpdf,ifxetex,ifluatex} 
+\RequirePackage{ifpdf,ifxetex,ifluatex}
 
 \ifluatex
 	%%% Language setting for (xe|lua)latex %%%
@@ -12,29 +12,33 @@
 	\setdefaultlanguage[spelling=modern]{russian}
 	\setotherlanguage{english}
 %	\defaultfontfeatures{Renderer=Basic, Ligatures=TeX} %лигатуры работают в basic режиме
-	
+
 	\setmainfont{CMU Serif}
 	\setsansfont{CMU Sans Serif}
-	\setmonofont{CMU Typewriter Text}  
-	
+	\setmonofont{CMU Typewriter Text}
+
 %	\RequirePackage{minted}
-	
+
 	\setmathfont{Latin Modern Math}
-	
+
 	\frenchspacing
 \else
 	%	\RequirePDFTeX % Tests for PDFTEX use and throws an error if a different engine is being used.
-	
+
 	%%% For proper copypasting of text from pdf %%%
 	\usepackage{cmap} % Better search and copypasting of cyrillic text from pdf-file. Can cause errors if used together with pdfx package.
 	\defaulthyphenchar=127 % Better hyphenation for copypasting. Must be set just before fontenc.
-	
+
 	%%% Language setting for pdflatex %%%
 	\usepackage[T2A]{fontenc}
 	\usepackage[utf8]{inputenc}
 	\usepackage[russian]{babel}
 	\RequirePackage{soulutf8}
 \fi
+
+\RequirePackage{mathtext} % кириллица в формулах
+\RequirePackage{icomma} % правильная
+\RequirePackage[font=small, labelsep=period]{caption} % подписи к рисункам
 
 
 %\RequirePackage{mathrsfs} % для значка ЭДС
@@ -71,102 +75,84 @@
 \newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{ % Страшный крокодил нужен что бы номер лабы вычислялся правильно при создании заголовка.
 	\refstepcounter{lab}
 	\section*{Работа #1. #2}
-	\addcontentsline{toc}{section}{Работа #1. #2}
+	\addcontentsline{toc}{section}{Работа #1. #2}%
 }
 
-\newenvironment{lab:aim}{
-	\noindent\textbf{Цель работы: }
-	\begin{small}
-}{
-	\end{small}
-	\\
+\newenvironment{lab:aim}{%
+\noindent\textbf{Цель работы:~}\begin{small}%
+}{%
+\end{small}\par
+\medskip%
 }
 
 % короткая запись для окружения lab:aim
-\newcommand{\aim}[1]{
-	\begin{lab:aim}
-		#1
-	\end{lab:aim}
-}
+\newcommand{\aim}[1]{\begin{lab:aim}#1\end{lab:aim}}
 
-\newenvironment{lab:equipment}{
-	\noindent\textbf{В работе используются: }
-	\begin{small}
+\newenvironment{lab:equipment}{%
+\noindent\textbf{В работе используются:~}
+\begin{small}%
 }{
-	\end{small}
-	\\
+\end{small}\par
+\medskip%
 }
 
 % короткая запись для окружения lab:equipment
-\newcommand{\equip}[1]{
-	\begin{lab:equipment}
-		#1
-	\end{lab:equipment}
+\newcommand{\equip}[1]{%
+\begin{lab:equipment}
+#1\par
+\end{lab:equipment}%
 }
 
 % Добавить новую секцию без нумерации
-\newcommand{\labsection}[1]{
-	\subsection*{#1}
-}
+\newcommand{\labsection}[1]{\subsection*{#1}}
 
-\newcommand{\labsubsection}[1]{
-	\subsubsection*{#1}
-}
+\newcommand{\labsubsection}[1]{\subsubsection*{#1}}
 
 % Задание
-\newenvironment{lab:task}{
-	\subsection*{ЗАДАНИЕ}
-}{}
+\newenvironment{lab:task}{\subsection*{ЗАДАНИЕ}}{}
 
-\newcommand{\tasksection}[1]{
-	\subsubsection*{#1}
-}
+\newcommand{\tasksection}[1]{\subsubsection*{#1}}
 
 % Контрольные вопросы
-\newenvironment{lab:questions}{
-	\subsection*{Контрольные вопросы}
-	\begin{enumerate}
+\newenvironment{lab:questions}{%
+\subsection*{Контрольные вопросы}
+\begin{enumerate}%
 }{
-	\end{enumerate}
+\end{enumerate}%
 }
 
-\newenvironment{lab:literature}{
-	\subsection*{Литература}
-	\begin{enumerate}
+\newenvironment{lab:literature}{%
+\subsection*{Литература}
+\begin{enumerate}
 }{
-	\end{enumerate}
+\end{enumerate}%
 }
 
 % Experiment setup block
-\def\experiment{\subsection*{Экспериментальная установка} }
+\def\experiment{\subsection*{Экспериментальная установка}}
 
 
 % Warning block environment
-\newenvironment{lab:warning}
-{
-	\begin{center}
-		\begin{tabular}{|p{0.9\textwidth}|}
-		\hline\\
-		\textbf{Внимание: }
-}
-{ 
-		\\\\\hline
-		\end{tabular} 
-	\end{center}
+\newenvironment{lab:warning}{%
+\begin{tabular}{|p{0.9\textwidth}|}
+\hline\\
+\hfil\textbf{Внимание!}\par
+\begin{center}
+}{%
+\end{center}\\ \hline
+\end{tabular}%
 }
 
 
 % Warning block
-\newcommand{\warning}[1]{
-	\begin{lab:warning}
-		#1
-	\end{lab:warning}
+\newcommand{\warning}[1]{%
+\begin{lab:warning}
+#1\par
+\end{lab:warning}%
 }
 
 % Important text
-\newcommand{\important}[1]{
-	\textbf{#1}
-}
+\newcommand{\important}[1]{\textbf{#1}}
 
 %%% Нумерация
 % Вставить номер уравнения внутри главы или работы
@@ -174,8 +160,8 @@
 % Ссылка на уравнение
 \renewcommand{\eqref}[1]{(\ref{eq:\arabic{chapter}.\arabic{lab}.#1})}
 
-
-% Ссылка на уравнение в преамбуле главы. По-умолчанию используется текущая глава, но можно задать вручную
+% Ссылка на уравнение в преамбуле главы.
+% По-умолчанию используется текущая глава, но можно задать вручную
 \newcommand{\chaptereqref}[2][\arabic{chapter}]{(\ref{eq:#1.0.#2})}
 
 % Вставить номер рисунка внутри главы или работы
