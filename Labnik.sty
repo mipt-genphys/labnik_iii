@@ -34,10 +34,10 @@
 	\usepackage[utf8]{inputenc}
 	\usepackage[russian]{babel}
 	\RequirePackage{soulutf8}
+    \RequirePackage{mathtext} % кириллица в формулах
 \fi
 
-\RequirePackage{mathtext} % кириллица в формулах
-\RequirePackage{icomma} % правильная
+\RequirePackage{icomma} % десятичная запятая без пробела
 \RequirePackage[font=small, labelsep=period]{caption} % подписи к рисункам
 
 
@@ -187,3 +187,17 @@
 \def\Grad{\mathop{\mathrm{grad}}}% градиент
 
 \newcommand{\average}[1]{\left< #1 \right>}
+
+% прямые интегралы
+\DeclareSymbolFont{lsymb}{U}{euex}{m}{n}
+\DeclareMathSymbol{\intop}{\mathop}{lsymb}{"52}
+\DeclareMathSymbol{\ointop}{\mathop}{lsymb}{"48}
+\DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
+
+% latex не умеет по-русски переносить равенства и неравенства
+\binoppenalty=10000
+\relpenalty=10000
+
+% перенос вручную
+\newcommand*{\hm}[1]{#1\nobreak%
+\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}
