@@ -51,11 +51,8 @@
   \begin{picture}(1,0.66099959)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4-1-exact.pdf}}%
     \put(0.61316029,0.08785667){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec M$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{4-1-exact.pdf}}%
     \put(0.13251712,0.59483655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec H_0$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{4-1-exact.pdf}}%
     \put(0.93446712,0.23270792){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{4-1-exact.pdf}}%
     \put(0.65529894,0.28406433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{O}}}%
   \end{picture}%
 \endgroup%
