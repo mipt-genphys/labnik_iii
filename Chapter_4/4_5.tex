@@ -16,12 +16,12 @@
 
 Тогда при изменении магнитного потока ЭДС в катушке будет равна
 \begin{equation*}
-	\mathscr{E} = -\frac{d\Phi}{dt} = -SN_k\frac{dB}{dt},
+	\mathcal{E} = -\frac{d\Phi}{dt} = -SN_k\frac{dB}{dt},
 \end{equation*}
 и
 \begin{equation}
 	\eqmark{4.5.2}
-	|B| = \frac{1}{SN_k}\int \mathscr{E}dt
+	|B| = \frac{1}{SN_k}\int \mathcal{E}dt
 \end{equation}
 
 Таким образом, для определения $B$ нужно проинтегрировать сигнал, наведённый меняющимся магнитным полем на измерительную катушку, намотанную на образец.
@@ -34,7 +34,7 @@
 \end{figure}
 Если сопротивление источника напряжения мало по сравнению с $R$, и частота сигнала $\omega$, входное и выходное сопротивление связаны соотношением
 \begin{equation}
-	\eqmark{4.5.3}	
+	\eqmark{4.5.3}
 	\begin{aligned}
 		U_\text{вых} = \frac{1}{C}&\int Idt = \frac{1}{C}\int \frac{U_\text{вх}}{\sqrt{R^2 + \frac{1}{(\omega C)^2}}} \frac{1}{\omega C} dt =\\
 		= \frac{1}{RC}&\int \frac{U_\text{вх}}{\sqrt{1 + \frac{1}{(\omega RC)^2}}} dt \approx \frac{1}{RC}\int U_\text{вх} dt
