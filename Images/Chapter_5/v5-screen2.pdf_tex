@@ -1,0 +1,65 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'v5-screen2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{88.40755012bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.82459475)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{v5-screen2.pdf}}%
+    \put(0.23975541,0.23124649){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{v5-screen2.pdf}}%
+    \put(0.83602003,0.1666106){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.12341121,0.63198784){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_e$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{v5-screen2.pdf}}%
+    \put(0.22844416,0.3621337){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_i$}}}%
+    \put(0.04423245,0.75964343){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n$, $\varphi$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{v5-screen2.pdf}}%
+    \put(0.20258997,0.02441201){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_D$}}}%
+    \put(-0.00408704,0.04847686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{v5-screen2.pdf}}%
+  \end{picture}%
+\endgroup%
