@@ -13,14 +13,6 @@
 \end{lab:equipment}
 
 
-\begin{figure}[h]
-%     \hfil\pic{0.38\textwidth}{4_4_1}
-    \centering
-    \import{Images/Chapter_4/}{4-4-hist.pdf_tex}
-	\caption{Петля гистерезиса ферромагнетика}
-	\figmark{Ferromagnet hysteresis loop}
-\end{figure}
-
 Перед выполнением работы необходимо ознакомиться с
 пп.~\ref{sec:ferromagnetism}--\ref{sec:measure-HB} теоретического введения к
 разделу.
@@ -30,6 +22,14 @@
 собой: индукция зависит не только от напряжённости, но и от предыстории образца.
 Связь между $B$ и $H$ типичного ферромагнетика иллюстрирует
 рис.~\figref{Ferromagnet hysteresis loop}.
+
+\begin{figure}[h]
+%     \hfil\pic{0.38\textwidth}{4_4_1}
+    \centering
+    \import{Images/Chapter_4/}{4-4-hist.pdf_tex}
+    \caption{Петля гистерезиса ферромагнетика}
+    \figmark{Ferromagnet hysteresis loop}
+\end{figure}
 
 Если к размагниченному образцу начинают прикладывать магнитное поле,
 то его намагничивание следует кривой~OACD (начальная кривая намагничивания).
@@ -168,9 +168,8 @@ B_c=\mu_0 H_с \approx \frac{N_{с0}}{l_с} I,
 и изменением магнитной индукции $\Delta B$ в сердечнике тороида:
 \begin{equation}%6
 \eqmark{6}
-\Delta B=\mu_0\left(\frac{d_с}{d_т}\right)^2\frac{R}{R_1}
-\frac{N_{с0}}{N_{т1}}\frac{N_{с1}}{l_с}\,\Delta I_с
-\frac{\Delta x}{\Delta x_с}.
+\Delta B=\frac{\mu_0\Delta I_с}{l_с} \frac{R}{R_1}
+\frac{d_с^2}{d_т^2} \frac{N_{с0} N_{с1}}{N_{т1}}\frac{\Delta x}{\Delta x_с}.
 \end{equation}
 
 % TODO Какая-то ерунда: сопротивления R и R1 входят в полученную формулу.
