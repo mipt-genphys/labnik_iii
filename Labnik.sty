@@ -222,13 +222,25 @@
 \newcommand{\oC}{\ensuremath{\,^\circ\!\mathrm{C}}}
 
 % замечания, примеры, теоремы
-\RequirePackage{amsthm}
+% \RequirePackage{amsthm}
+%
+% \newtheoremstyle{sremark}%
+% {\smallskipamount}{\smallskipamount}%
+% {\small}{0pt}{\bfseries}{.}{1ex}{}
+%
+% \theoremstyle{sremark}
+%
+% \newtheorem*{note}{}
+% \newtheorem{exmpl}{Пример}
 
-\newtheoremstyle{sremark}%
-{\smallskipamount}{\smallskipamount}%
-{\small}{0pt}{\bfseries}{.}{1ex}{}
+\newcounter{exmpl}[chapter]
+\renewcommand{\theexmpl}{\arabic{exmpl}}
+\newenvironment{exmpl}{%
+\refstepcounter{exmpl}%
+\par\medskip\noindent\small%
+\textbf{Пример \theexmpl.~}%
+}{\par\medskip}
 
-\theoremstyle{sremark}
-
-\newtheorem*{note}{}
-\newtheorem{exmpl}{Пример}
+\newenvironment{note}{%
+\par\medskip\small%
+}{\par\medskip}
