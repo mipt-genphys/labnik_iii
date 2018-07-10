@@ -220,3 +220,15 @@
 % градусы
 \renewcommand{\o}{\ensuremath{^\circ}}
 \newcommand{\oC}{\ensuremath{\,^\circ\!\mathrm{C}}}
+
+% замечания, примеры, теоремы
+\RequirePackage{amsthm}
+
+\newtheoremstyle{sremark}%
+{\smallskipamount}{\smallskipamount}%
+{\small}{0pt}{\bfseries}{.}{1ex}{}
+
+\theoremstyle{sremark}
+
+\newtheorem*{note}{}
+\newtheorem{exmpl}{Пример}
