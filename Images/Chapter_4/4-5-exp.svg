@@ -366,9 +366,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="230.57378"
-     inkscape:cy="116.82297"
+     inkscape:zoom="1.979899"
+     inkscape:cx="229.75384"
+     inkscape:cy="87.685087"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -386,7 +386,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -444,7 +444,7 @@
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.625;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.625;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 114.52605,158.75601 -13.09346,0"
+       d="m 115.50464,158.69288 -14.07205,0"
        id="path8134"
        inkscape:connector-curvature="0" />
     <path
@@ -689,7 +689,7 @@
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-anchor:middle"
          id="tspan5212">Канал <tspan
    style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium Italic'"
-   id="tspan11391">Y</tspan> </tspan><tspan
+   id="tspan11391">Y</tspan></tspan><tspan
          sodipodi:role="line"
          x="364.77371"
          y="263.2695"
@@ -826,7 +826,7 @@
          x="209.18256"
          sodipodi:role="line">Канал <tspan
    style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium Italic'"
-   id="tspan11389">X</tspan> </tspan><tspan
+   id="tspan11389">X</tspan></tspan><tspan
          id="tspan7428"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';text-align:center;text-anchor:middle"
          y="263.44809"
@@ -949,7 +949,7 @@
        y="90.643028" />
     <g
        id="g8136"
-       transform="matrix(1,0,0,0.94659089,3.2156446,9.1325581)">
+       transform="matrix(1,0,0,0.94659089,3.2156446,9.0852073)">
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -1413,5 +1413,20 @@
        x="64.537506"
        y="-187.49164"
        transform="matrix(0,1,-1,0,0,0)" />
+    <g
+       transform="matrix(1.3373498,0,0,1.3373498,-192.2356,-53.398501)"
+       id="g4492">
+      <circle
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.2336711;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="circle4494"
+         cx="394.62244"
+         cy="158.44034"
+         r="1.1679889" />
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.2336711;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 393.32026,159.7267 2.62008,-2.62008"
+         id="path4496"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>
