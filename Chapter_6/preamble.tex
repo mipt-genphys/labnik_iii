@@ -388,7 +388,7 @@ e^{i(n-m)\omega_0 t}\,dt.
 % на отрезке $[0,\,T]$ зануляются).
 Таким образом, находим
 \begin{equation}
-    \eqmark{coef-Fourier-periodic osc}
+    \eqmark{fourier-coeff}
     c_n=\frac{1}{T}\int\limits_{0}^{T} f(t)e^{-in\omega_0 t}\,dt.
 \end{equation}
 Это и есть искомое правило нахождения коэффициентов разложения периодической
@@ -412,7 +412,7 @@ e^{i(n-m)\omega_0 t}\,dt.
 (рис.~\figref{meander}, начало отсчёта выбрано так, что~$f(t)$ --- чётная
 функция).
 
-Используя \eqref{coef-Fourier-periodic osc} на интервале интегрирования
+Используя \eqref{fourier-coeff} на интервале интегрирования
 $-T/2\le t \le T/2$, с учётом того, что функция~$f(t)$ отлична от нуля и
 равна единице лишь в области $|t|<\tau/2$, находим
 \begin{equation}
@@ -461,7 +461,7 @@ $|\omega|\lesssim\Delta\omega=2\pi/\tau$.
 сигнала $f(t)$.
 
 Ответ можно получить, воспользовавшись результатом
-\eqref{coef-Fourier-periodic osc} для разложения периодической функции
+\eqref{fourier-coeff} для разложения периодической функции
 и устремляя период к бесконечности $T\to \infty$.
 
 \begin{wrapfigure}[9]{o}{0.5\textwidth}
@@ -492,7 +492,7 @@ $t\in[a,\,b]$, а вне его обращается в ноль. Рассмот
 \eqmark{Fourier integral}
 f(t) = \frac{1}{2\pi} \int\limits_{-\infty}^{\infty} C(\omega) e^{i\omega t} d\omega,
 \end{equation}
-где $C(\omega)$ найдём из \eqref{coef-Fourier-periodic osc}:
+где $C(\omega)$ найдём из \eqref{fourier-coeff}:
 \begin{equation}
 \eqmark{Fourier integral-coef}
  C(\omega) =
@@ -608,7 +608,7 @@ $\Delta \omega \sim 2\pi /\Delta t$. Например, рассмотрим ог
     \item представить входной сигнал $f(t)$ в виде ряда
     \eqref{Fourier series} или интеграла Фурье \eqref{Fourier integral},
 где спектр $\hat{\mathcal{F}}[f]$ (функция $C(\omega)$ или набор $\{c_n\}$)
-находится с помощью соотношений \eqref{coef-Fourier-periodic osc}
+находится с помощью соотношений \eqref{fourier-coeff}
 или~\eqref{Fourier integral-coef};
 
     \item найти частотную характеристику фильтра
