@@ -112,6 +112,22 @@
 	\end{lab:equipment}%
 }
 
+% Ссылка на теоретическую часть
+\newenvironment{lab:theory}{%
+	\noindent\textbf{Теоретическая часть:~}
+	\begin{small}%
+	}{
+	\end{small}\par
+	\medskip%
+}
+
+% короткая запись для окружения lab:theory
+\newcommand{\theory}[1]{%
+	\begin{lab:theory}
+	#1\par
+	\end{lab:theory}%
+}
+
 % Добавить новую секцию без нумерации
 \newcommand{\labsection}[1]{\subsection*{#1}}
 
@@ -172,9 +188,8 @@
 \newcommand{\important}[1]{\textit{#1}}
 
 
-% Команда для заметок
-
-\newenvironment{note}{%
+% Команда для замечаний
+\newenvironment{lab:note}{%
 	\par\medskip\small%
 }{
 	\par\medskip
@@ -185,7 +200,7 @@
 \newcounter{example}[section]
 \renewcommand{\theexample}{\arabic{example}}
 
-\newenvironment{example}{%
+\newenvironment{\lab:example}{%
 	\refstepcounter{example}%
 	\par\medskip\noindent\footnotesize%
 	\textbf{Пример \theexample.~}%
