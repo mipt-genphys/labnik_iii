@@ -34,7 +34,13 @@
 	\usepackage[utf8]{inputenc}
 	\usepackage[russian]{babel}
 	\RequirePackage{soulutf8}
-    \RequirePackage{mathtext} % кириллица в формулах
+%     \RequirePackage{mathtext} % кириллица в формулах
+
+    % косые интегралы ранят мои патриотические чувства
+    \DeclareSymbolFont{lsymb}{U}{euex}{m}{n}
+    \DeclareMathSymbol{\intop}{\mathop}{lsymb}{"52}
+    \DeclareMathSymbol{\ointop}{\mathop}{lsymb}{"48}
+    \DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
 \fi
 
 %%% Пакеты
@@ -60,10 +66,16 @@
 
 \RequirePackage{todonotes} % for revision
 
-\RequirePackage{hyperref} 
-\hypersetup{%
-	pdfencoding=auto
-}
+% mathtext конфликтует с hyperref для pdflatex!
+% надо что-то с этим делать...
+\ifluatex
+    \RequirePackage{hyperref}
+    \hypersetup{%
+        pdfencoding=auto
+    }
+\else
+    \RequirePackage{mathtext} % кириллица в формулах
+\fi
 
 %%% Общие настройки
 
