@@ -3,7 +3,7 @@
 \RequirePackage{amsmath}  % дополнительные возможности математики AMS
 \RequirePackage{amssymb}  % дополнительные символы AMS
 
-\RequirePackage{ifpdf,ifxetex,ifluatex}
+\RequirePackage{ifpdf,ifxetex,ifluatex} 
 
 \ifluatex
 	%%% Language setting for (xe|lua)latex %%%
@@ -12,39 +12,29 @@
 	\setdefaultlanguage[spelling=modern]{russian}
 	\setotherlanguage{english}
 %	\defaultfontfeatures{Renderer=Basic, Ligatures=TeX} %лигатуры работают в basic режиме
-
+	
 	\setmainfont{CMU Serif}
 	\setsansfont{CMU Sans Serif}
-	\setmonofont{CMU Typewriter Text}
-
+	\setmonofont{CMU Typewriter Text}  
+	
 %	\RequirePackage{minted}
-
+	
 	\setmathfont{Latin Modern Math}
-
+	
 	\frenchspacing
 \else
 	%	\RequirePDFTeX % Tests for PDFTEX use and throws an error if a different engine is being used.
-
+	
 	%%% For proper copypasting of text from pdf %%%
 	\usepackage{cmap} % Better search and copypasting of cyrillic text from pdf-file. Can cause errors if used together with pdfx package.
 	\defaulthyphenchar=127 % Better hyphenation for copypasting. Must be set just before fontenc.
-
+	
 	%%% Language setting for pdflatex %%%
 	\usepackage[T2A]{fontenc}
 	\usepackage[utf8]{inputenc}
 	\usepackage[russian]{babel}
 	\RequirePackage{soulutf8}
-    \RequirePackage{mathtext} % кириллица в формулах
-
-    % прямые интегралы
-    \DeclareSymbolFont{lsymb}{U}{euex}{m}{n}
-    \DeclareMathSymbol{\intop}{\mathop}{lsymb}{"52}
-    \DeclareMathSymbol{\ointop}{\mathop}{lsymb}{"48}
-    \DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
 \fi
-
-\RequirePackage{icomma} % десятичная запятая без пробела
-\RequirePackage[font=small, labelsep=period]{caption} % подписи к рисункам
 
 
 %\RequirePackage{mathrsfs} % для значка ЭДС
@@ -54,7 +44,6 @@
 \RequirePackage{subcaption} % подкартинки
 \RequirePackage{psfrag}   % вставка надписей
 \RequirePackage{color}    % цветной текст
-\RequirePackage{import}   % импорт рисунков для pdf+tex
 %\RequirePackage{hyperref}
 %\hypersetup{pdfencoding=auto}
 
@@ -82,85 +71,102 @@
 \newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{ % Страшный крокодил нужен что бы номер лабы вычислялся правильно при создании заголовка.
 	\refstepcounter{lab}
 	\section*{Работа #1. #2}
-	\addcontentsline{toc}{section}{Работа #1. #2}%
+	\addcontentsline{toc}{section}{Работа #1. #2}
 }
 
-\newenvironment{lab:aim}{%
-\noindent\textbf{Цель работы:~}\begin{small}%
-}{%
-\end{small}\par
-\medskip%
+\newenvironment{lab:aim}{
+	\noindent\textbf{Цель работы: }
+	\begin{small}
+}{
+	\end{small}
+	\\
 }
 
 % короткая запись для окружения lab:aim
-\newcommand{\aim}[1]{\begin{lab:aim}#1\end{lab:aim}}
+\newcommand{\aim}[1]{
+	\begin{lab:aim}
+		#1
+	\end{lab:aim}
+}
 
-\newenvironment{lab:equipment}{%
-\noindent\textbf{В работе используются:~}
-\begin{small}%
+\newenvironment{lab:equipment}{
+	\noindent\textbf{В работе используются: }
+	\begin{small}
 }{
-\end{small}\par
-\medskip%
+	\end{small}
+	\\
 }
 
 % короткая запись для окружения lab:equipment
-\newcommand{\equip}[1]{%
-\begin{lab:equipment}
-#1\par
-\end{lab:equipment}%
+\newcommand{\equip}[1]{
+	\begin{lab:equipment}
+		#1
+	\end{lab:equipment}
 }
 
 % Добавить новую секцию без нумерации
-\newcommand{\labsection}[1]{\subsection*{#1}}
-
-\newcommand{\labsubsection}[1]{\subsubsection*{#1}}
-
-% Задание
-\newenvironment{lab:task}{\subsection*{ЗАДАНИЕ}}{}
-
-\newcommand{\tasksection}[1]{\subsubsection*{#1}}
-
-% Контрольные вопросы
-\newenvironment{lab:questions}{%
-\subsection*{Контрольные вопросы}
-\begin{enumerate}%
-}{
-\end{enumerate}%
+\newcommand{\labsection}[1]{
+	\subsection*{#1}
 }
 
-\newenvironment{lab:literature}{%
-\subsection*{Литература}
-\begin{enumerate}
+\newcommand{\labsubsection}[1]{
+	\subsubsection*{#1}
+}
+
+% Задание
+\newenvironment{lab:task}{
+	\subsection*{ЗАДАНИЕ}
+}{}
+
+\newcommand{\tasksection}[1]{
+	\subsubsection*{#1}
+}
+
+% Контрольные вопросы
+\newenvironment{lab:questions}{
+	\subsection*{Контрольные вопросы}
+	\begin{enumerate}
 }{
-\end{enumerate}%
+	\end{enumerate}
+}
+
+\newenvironment{lab:literature}{
+	\subsection*{Литература}
+	\begin{enumerate}
+}{
+	\end{enumerate}
 }
 
 % Experiment setup block
-\def\experiment{\subsection*{Экспериментальная установка}}
+\def\experiment{\subsection*{Экспериментальная установка} }
 
 
 % Warning block environment
-\newenvironment{lab:warning}{%
-\begin{tabular}{|p{0.9\textwidth}|}
-\hline\\
-\hfil\textbf{Внимание!}\par
-\begin{center}
-}{%
-\end{center}\\ \hline
-\end{tabular}%
+\newenvironment{lab:warning}
+{
+	\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+		\hline\\
+		\textbf{Внимание: }
+}
+{ 
+		\\\\\hline
+		\end{tabular} 
+	\end{center}
 }
 
 
 % Warning block
-\newcommand{\warning}[1]{%
-\begin{lab:warning}
-#1\par
-\end{lab:warning}%
+\newcommand{\warning}[1]{
+	\begin{lab:warning}
+		#1
+	\end{lab:warning}
 }
 
 % Important text
-% Жирными в тексте должны быть только заголовки!
-\newcommand{\important}[1]{\textsf{#1}}
+\newcommand{\important}[1]{
+	\textbf{#1}
+}
 
 %%% Нумерация
 % Вставить номер уравнения внутри главы или работы
@@ -168,8 +174,8 @@
 % Ссылка на уравнение
 \renewcommand{\eqref}[1]{(\ref{eq:\arabic{chapter}.\arabic{lab}.#1})}
 
-% Ссылка на уравнение в преамбуле главы.
-% По-умолчанию используется текущая глава, но можно задать вручную
+
+% Ссылка на уравнение в преамбуле главы. По-умолчанию используется текущая глава, но можно задать вручную
 \newcommand{\chaptereqref}[2][\arabic{chapter}]{(\ref{eq:#1.0.#2})}
 
 % Вставить номер рисунка внутри главы или работы
@@ -195,28 +201,3 @@
 \def\Grad{\mathop{\mathrm{grad}}}% градиент
 
 \newcommand{\average}[1]{\left< #1 \right>}
-
-
-
-% latex не умеет по-русски переносить равенства и неравенства
-\binoppenalty=10000
-\relpenalty=10000
-
-% перенос вручную
-\newcommand*{\hm}[1]{#1\nobreak%
-\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}
-
-% константы
-\def\NA{\ensuremath{N_{\tiny А}}}
-\newcommand{\kB}{\ensuremath{k_\text{\tiny Б}}}
-
-% константа
-\newcommand*{\const}{\ensuremath{\mathrm{const}}}
-
-% косые больше/меньше
-\renewcommand*{\le}{\leqslant}
-\renewcommand*{\ge}{\geqslant}
-
-% градусы
-\renewcommand{\o}{\ensuremath{^\circ}}
-\newcommand{\oC}{\ensuremath{\,^\circ\!\mathrm{C}}}
