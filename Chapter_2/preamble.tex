@@ -188,7 +188,7 @@ $\cos(\omega_1 t+\varphi_0)$ называется \important{амплитудо�
 $\omega_0$).
 
 \todo[inline,author=Popov]{Выделить примеры отдельным стилем с мелким шрифтом.}
-\begin{example}
+\begin{lab:example}
 В качестве примера рассмотрим случай, когда в начальный момент $(t=0)$ ток в
 контуре $I(0)=0$, а напряжение на конденсаторе $U_C(0)=U_{C0}$, то есть
 конденсатор имеет заряд $q(0)=q_0=CU_{C0}$. С~учётом \eqref{2.15} и \eqref{2.2}
@@ -225,7 +225,7 @@ I(t)=I_0e^{-\gamma t}\cos(\omega_1t+\pi/2), \qquad I_0=U_0/\rho,
 \end{equation}
 где~$I_0$ и~$\pi/2$~--- начальные значения амплитуды $I_0e^{-\gamma t}$ и фазы
 затухающих колебаний тока соответственно.
-\end{example}
+\end{lab:example}
 
 \todo[inline,author=Popov]{Текст превращается в простыню. Нужна структура.}
 \paragraph{Фазовые траектории.}
@@ -603,20 +603,17 @@ U_{C0}$, и далее, используя формулы \eqref{2.2}, \eqref{2.
 \eqref{2.3},~--- комплексные амплитуды тока в контуре и напряжений на
 сопротивлении и индуктивности:
 \begin{subequations}
-\renewcommand{\theequation}{\theparentequation \asbuk {equation}}
 	\eqmark{2.48}
 		\begin{equation}
 			\eqmark{2.48a}
-				\vec U_{C0}=(1/i\omega CZ)\mathcal{E}_0 e^{i\varphi_0}, \quad
-Z=R+i(\omega L-1/\omega C)
+				\vec U_{C0}=(1/i\omega CZ)\mathcal{E}_0 e^{i\varphi_0}, \quad Z=R+i(\omega L-1/\omega C)
 		\end{equation}
 		\begin{equation}
 			\eqmark{2.48b}
 			\begin{gathered}[c]
 			\vec I_0=i\omega C\vec U_{C0}=(1/Z)\mathcal{E}_0 e^{i\varphi_0}, \\
 			\vec U_{R0}=R\vec I_0=(R/Z)\mathcal{E}_0 e^{i\varphi_0}, \\
-			\vec U_{L0}=i\omega L\vec I_0=(i\omega
-L/Z)\mathcal{E}_0e^{i\varphi_0}
+			\vec U_{L0}=i\omega L\vec I_0=(i\omega L/Z)\mathcal{E}_0e^{i\varphi_0}
 		\end{gathered}
 		\end{equation}
 \end{subequations}
@@ -678,17 +675,14 @@ L-1/\omega C$, носящую название \important{реактивного
 представлены в показательной форме. Для импеданса рассматриваемого
 последовательного контура при этом находим:
 \begin{subequations}
-\renewcommand{\theequation}{\theparentequation \asbuk {equation}}
 	\eqmark{2.51}
 		\begin{equation}
 			\eqmark{2.51a}
-			Z=Z_0e^{i\psi_I}, \qquad Z_0=\sqrt{R^2+(\omega L-1/\omega
-C)^2}=R/\cos\psi_I,
+			Z=Z_0e^{i\psi_I}, \qquad Z_0=\sqrt{R^2+(\omega L-1/\omega C)^2}=R/\cos\psi_I,
 		\end{equation}
 		\begin{equation}
 			\eqmark{2.51b}
-			\tg\psi_I=\Im Z/\Re Z=(\omega L-1/\omega C)/R, \quad
-\psi_I=\arctg[(\omega L-1/\omega C)/R].
+			\tg\psi_I=\Im Z/\Re Z=(\omega L-1/\omega C)/R, \quad \psi_I=\arctg[(\omega L-1/\omega C)/R].
 		\end{equation}
 \end{subequations}
 \todo[inline,author=Popov]{Обозначение $\psi_I$ ранее не определялось! Что это?}
@@ -813,12 +807,10 @@ U_{L,\text{акт}}$~--- напряжение на активной части �
 сопротивления~$\rho$, а также положив для сокращения записи раной нулю начальную
 фазу:~$\varphi_0=0$. В~результате приходим к уравнениям:
 \begin{subequations}
-\renewcommand{\theequation}{\theparentequation \asbuk {equation}}
 	\eqmark{2.54}
 		\begin{equation}
 			\eqmark{2.54a}
-			I(t)=U_R(t)/R=I_{\omega}\cos(\omega t-\psi_I), \qquad
-I_{\omega}=\mathcal{E}_0/Z_0,
+			I(t)=U_R(t)/R=I_{\omega}\cos(\omega t-\psi_I), \qquad I_{\omega}=\mathcal{E}_0/Z_0,
 		\end{equation}
 		\begin{equation}
 			\eqmark{2.54b}
@@ -829,15 +821,11 @@ I_{\omega}=\mathcal{E}_0/Z_0,
 		\end{equation}
 		\begin{equation}
 			\eqmark{2.54c}
-			U_C(t)=U_{C\omega}\cos(\omega t-\psi_C), \qquad
-U_{C\omega}=\mathcal{E}_0\dfrac{\rho}{Z_0}\dfrac{\omega_0}{\omega}, \qquad
-\psi_C=\psi_I+\pi/2,
+			U_C(t)=U_{C\omega}\cos(\omega t-\psi_C), \qquad U_{C\omega}=\mathcal{E}_0\dfrac{\rho}{Z_0}\dfrac{\omega_0}{\omega}, \qquad \psi_C=\psi_I+\pi/2,
 		\end{equation}
 		\begin{equation}
 			\eqmark{2.54d}
-			U_L(t)=U_{L\omega}\cos(\omega t-\psi_L), \qquad
-U_{L\omega}=\mathcal{E}_0\dfrac{\rho}{Z_0}\dfrac{\omega}{\omega_0}, \qquad
-\psi_L=\psi_I-\pi/2.
+			U_L(t)=U_{L\omega}\cos(\omega t-\psi_L), \qquad U_{L\omega}=\mathcal{E}_0\dfrac{\rho}{Z_0}\dfrac{\omega}{\omega_0}, \qquad \psi_L=\psi_I-\pi/2.
 		\end{equation}
 \end{subequations}
 \todo[inline,author=Popov]{Нужно ли приводить ВСЁ это? Продраться через это невозможно.}
@@ -981,7 +969,6 @@ RI_\omega/\mathcal{E}_0$ (рис.~\figref{fig6} a) и амплитуды нап�
 \end{equation}
 что позволяет упростить выражения \eqref{2.54b} и представить их в виде:
 \begin{subequations}
-\renewcommand{\theequation}{\theparentequation \asbuk {equation}}
 	\eqmark{2.60}
 		\begin{equation}
 			\eqmark{2.60a}
@@ -1012,7 +999,6 @@ U_{L\omega}=\dfrac{Q\mathcal{E}_0(\omega/\omega_0)}{\sqrt{1+(\tau\Delta\omega)^2
 амплитуд тока и напряжений на ёмкости и индуктивности, фазовых сдвигов и их
 производных по частоте~$\omega$ принимают вид:
 \begin{subequations}
-\renewcommand{\theequation}{\theparentequation \asbuk {equation}}
 	\eqmark{2.61}
 		\begin{equation}
 			\eqmark{2.54a}
@@ -1106,7 +1092,6 @@ $C$ (рис.~\figref{fig7}).
 начальной фазе $\varphi_0=0$ тока $\vec I=I_0e^{i\varphi_0}$ во внешней цепи
 получаем выражения:
 \begin{subequations}
-\renewcommand{\theequation}{\theparentequation \asbuk {equation}}
 	\eqmark{2.64}
 		\begin{equation}
 			\eqmark{2.64a}
@@ -1137,7 +1122,6 @@ I\dfrac{Z_CZ_{LR}}{Z_C+Z_{LR}}=\dfrac{\rho^2}{R}I_0\dfrac{
 \important{вещественные части комплексных амплитуд} \eqref{2.64} можно
 представить в виде
 \begin{subequations}
-\renewcommand{\theequation}{\theparentequation \asbuk {equation}}
 	\eqmark{2.65}
 		\begin{equation}
 			\eqmark{2.65a}
@@ -1164,7 +1148,6 @@ $\omega=\omega_0,~\Delta\omega=0$, амплитуды токов в ветвях
 на нём, фазовые сдвиги и их производные по циклической частоте~$\omega$
 принимают вид:
 \begin{subequations}
-\renewcommand{\theequation}{\theparentequation \asbuk {equation}}
 	\eqmark{2.66}
 		\begin{equation}
 			\eqmark{2.66a}
