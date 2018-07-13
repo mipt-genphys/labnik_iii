@@ -16,6 +16,7 @@
 	\setmainfont{CMU Serif}
 	\setsansfont{CMU Sans Serif}
 	\setmonofont{CMU Typewriter Text}
+	\newfontfamily{\cyrillicfonttt}{CMU Serif}
 
 %	\RequirePackage{minted}
 
@@ -34,23 +35,11 @@
 	\usepackage[russian]{babel}
 	\RequirePackage{soulutf8}
     \RequirePackage{mathtext} % кириллица в формулах
-
-    % прямые интегралы
-    \DeclareSymbolFont{lsymb}{U}{euex}{m}{n}
-    \DeclareMathSymbol{\intop}{\mathop}{lsymb}{"52}
-    \DeclareMathSymbol{\ointop}{\mathop}{lsymb}{"48}
-    \DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
 \fi
 
-\frenchspacing
-\righthyphenmin=2
-
-
+%%% Пакеты
 \RequirePackage{icomma} % десятичная запятая без пробела
 \RequirePackage[font=small, labelsep=period]{caption} % подписи к рисункам
-
-
-%\RequirePackage{mathrsfs} % для значка ЭДС
 
 \RequirePackage{graphicx} % вставка графики
 \RequirePackage{wrapfig}  % обтекание объектов
@@ -71,6 +60,13 @@
 
 \RequirePackage{todonotes} % for revision
 
+\RequirePackage{hyperref} 
+\hypersetup{%
+	pdfencoding=auto
+}
+
+%%% Общие настройки
+
 \graphicspath{{./Images/}}
 
 \def\semester{3}
@@ -82,6 +78,9 @@
 \numberwithin{figure}{lab}
 \numberwithin{table}{lab}
 
+
+%%% Команды оформления лаб
+
 \newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{ % Страшный крокодил нужен что бы номер лабы вычислялся правильно при создании заголовка.
 	\refstepcounter{lab}
 	\section*{Работа #1. #2}
@@ -89,28 +88,28 @@
 }
 
 \newenvironment{lab:aim}{%
-\noindent\textbf{Цель работы:~}\begin{small}%
-}{%
-\end{small}\par
-\medskip%
+	\noindent\textbf{Цель работы:~}\begin{small}%
+	}{%
+	\end{small}\par
+	\medskip%
 }
 
 % короткая запись для окружения lab:aim
 \newcommand{\aim}[1]{\begin{lab:aim}#1\end{lab:aim}}
 
 \newenvironment{lab:equipment}{%
-\noindent\textbf{В работе используются:~}
-\begin{small}%
-}{
-\end{small}\par
-\medskip%
+	\noindent\textbf{В работе используются:~}
+	\begin{small}%
+	}{
+	\end{small}\par
+	\medskip%
 }
 
 % короткая запись для окружения lab:equipment
 \newcommand{\equip}[1]{%
-\begin{lab:equipment}
-#1\par
-\end{lab:equipment}%
+	\begin{lab:equipment}
+	#1\par
+	\end{lab:equipment}%
 }
 
 % Добавить новую секцию без нумерации
@@ -129,17 +128,17 @@
 
 % Контрольные вопросы
 \newenvironment{lab:questions}{%
-\subsection*{Контрольные вопросы}
-\begin{enumerate}\small%
-}{
-\end{enumerate}%
+	\subsection*{Контрольные вопросы}
+	\begin{enumerate}\small%
+	}{
+	\end{enumerate}%
 }
 
 \newenvironment{lab:literature}{%
-\subsection*{Литература}
-\begin{enumerate}\small
-}{
-\end{enumerate}%
+	\subsection*{Литература}
+	\begin{enumerate}\small
+	}{
+	\end{enumerate}%
 }
 
 % Experiment setup block
@@ -148,28 +147,50 @@
 
 % Warning block environment
 \newenvironment{lab:warning}{%
-\begin{tabular}{|p{0.9\textwidth}|}
-\hline\\
-\hfil\textbf{Внимание!}\par
-\begin{center}
-}{%
-\end{center}\\ \hline
-\end{tabular}%
+	\begin{tabular}{|p{0.9\textwidth}|}
+	\hline\\
+	\hfil\textbf{Внимание!}\par
+	\begin{center}
+	}{%
+	\end{center}\\ \hline
+	\end{tabular}%
 }
 
 
 % Warning block
 \newcommand{\warning}[1]{%
-\begin{lab:warning}
-#1\par
-\end{lab:warning}%
+	\begin{lab:warning}
+	#1\par
+	\end{lab:warning}%
 }
 
 % Термин
 \newcommand{\term}[1]{\textsf{#1}}
+
 % Important text
 \newcommand{\important}[1]{\textit{#1}}
-\renewcommand{\emph}[1]{\important{#1}}
+
+
+% Команда для заметок
+
+\newenvironment{note}{%
+	\par\medskip\small%
+}{
+	\par\medskip
+}
+
+% Команда для нумерованых примеров
+
+\newcounter{example}[section]
+\renewcommand{\theexample}{\arabic{example}}
+
+\newenvironment{example}{%
+	\refstepcounter{example}%
+	\par\medskip\noindent\footnotesize%
+	\textbf{Пример \theexample.~}%
+}{
+	\par\medskip
+}
 
 %%% Нумерация
 % Вставить номер уравнения внутри главы или работы
@@ -195,61 +216,18 @@
 \newcommand{\tabref}[1]{\ref{tab:\arabic{chapter}.\arabic{lab}.#1}}
 
 
-%%% Математические штукчки
+%%% Форматирование
 
-\def\Re{\mathop{\mathrm{Re}}}% действительная часть
-\def\Im{\mathop{\mathrm{Im}}}% мнимая часть
-\def\Rot{\mathop{\mathrm{rot}}}% ротор
-\def\Div{\mathop{\mathrm{div}}}% дивергенция
-\def\Grad{\mathop{\mathrm{grad}}}% градиент
+\frenchspacing
+\righthyphenmin=2
 
-\newcommand{\average}[1]{\left< #1 \right>}
-
-
+% косые больше/меньше
+\renewcommand*{\le}{\leqslant}
+\renewcommand*{\ge}{\geqslant}
 
 % latex не умеет по-русски переносить равенства и неравенства
 \binoppenalty=10000
 \relpenalty=10000
 
 % перенос вручную
-\newcommand*{\hm}[1]{#1\nobreak%
-\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}
-
-% константы
-\def\NA{\ensuremath{N_{\tiny А}}}
-\newcommand{\kB}{\ensuremath{k_\text{\tiny Б}}}
-
-% константа
-\newcommand*{\const}{\ensuremath{\mathrm{const}}}
-
-% косые больше/меньше
-\renewcommand*{\le}{\leqslant}
-\renewcommand*{\ge}{\geqslant}
-
-% градусы
-\renewcommand{\o}{\ensuremath{^\circ}}
-\newcommand{\oC}{\ensuremath{\,^\circ\!\mathrm{C}}}
-
-% замечания, примеры, теоремы
-% \RequirePackage{amsthm}
-%
-% \newtheoremstyle{sremark}%
-% {\smallskipamount}{\smallskipamount}%
-% {\small}{0pt}{\bfseries}{.}{1ex}{}
-%
-% \theoremstyle{sremark}
-%
-% \newtheorem*{note}{}
-% \newtheorem{exmpl}{Пример}
-
-\newcounter{exmpl}[chapter]
-\renewcommand{\theexmpl}{\arabic{exmpl}}
-\newenvironment{exmpl}{%
-\refstepcounter{exmpl}%
-\par\medskip\noindent\footnotesize%
-\textbf{Пример \theexmpl.~}%
-}{\par\medskip}
-
-\newenvironment{note}{%
-\par\medskip\small%
-}{\par\medskip}
+%\newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}

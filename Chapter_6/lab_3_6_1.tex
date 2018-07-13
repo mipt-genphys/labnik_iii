@@ -16,26 +16,27 @@
 Периодическая функция может быть представлена в виде бесконечного ряда
 гармонических функций --- ряда Фурье (см. п.~\ref{sec:spectrum-periodic}
 Введения):
-\[
+\begin{equation*}
 f(t) = \sum_{n=-\infty}^{\infty} c_n e^{in\omega_0 t}\qquad\text{или}\qquad
 f=\sum_{n=0}^{\infty} a_n \cos (n\omega_0 t + \varphi_n).
-\]
+\end{equation*}
 Здесь $\omega_0 = 2\pi/T$, где $T$ --- период функции $f(t)$.
 Коэффициенты $\{c_n\}$ могут быть найдены по формуле
 \chaptereqref{fourier-coeff}:
-\[
+\begin{equation*}
     c_n=\frac{1}{T}\int\limits_{0}^{T} f(t)e^{-in\omega_0 t}\,dt.
-\]
+\end{equation*}
 Наборы коэффициентов разложения в комплексной $\{c_n\}$ и действительной
 $\{a_n,\varphi_n\}$ формах связаны соотношением \chaptereqref{Fourier-coefficient}:
-\[
+\begin{equation*}
 a_n = 2|c_n|,\qquad \varphi_n = \arg c_n.
-\]
+\end{equation*}
 
 \begin{wrapfigure}{o}{0.3\textwidth}
-\centering\includegraphics{Chapter_6/6-1-RLC.pdf}
-\caption{Колебательный контур как узкополосный фильтр}
-\figmark{simple-RLC}
+    \centering
+    \includegraphics{Chapter_6/6-1-RLC.pdf}
+    \caption{Колебательный контур как узкополосный фильтр}
+    \figmark{simple-RLC}
 \end{wrapfigure}
 
 В качестве простейшего спектрального анализатора можно использовать
@@ -264,9 +265,9 @@ $\nu_{мод} = 1\;кГц$ и глубину модуляции $m=1$.
 боковой и основной линий спектра $\frac{a_\text{бок}}{a_\text{осн}}$
 в зависимости от~$m$;
 для расчёта глубины модуляции~$m$ используйте формулу \chaptereqref{modul-deep}:
-\[
+\begin{equation*}
     m = \frac{A_{\rm max} - A_{\rm min}}{A_{\rm max} + A_{\rm min}},
-\]
+\end{equation*}
 где максимальная~$A_{\rm max}$ и минимальная~$A_{\rm min}$ амплитуды сигнала
 измеряются с помощью осциллографа.
 

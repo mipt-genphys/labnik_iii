@@ -5,11 +5,14 @@ syntax: glob
 *.bak*
 *.gz
 *.aux
-*.pdf
 *.log
+*eps-converted-to.pdf
 
 *.orig
+*.project
 
 build/**
 .gradle
+.vscode
+.project
 
