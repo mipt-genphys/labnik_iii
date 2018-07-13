@@ -159,7 +159,7 @@ $\left(\frac{d}{dt}\right)^n e^{i\omega t} = (i\omega)^n e^{i\omega t}$.
 с постоянными коэффициентами будет в общем случае некоторой рациональной
 функцией от $i\omega$.
 
-\begin{example}\label{example:RLC}
+\begin{lab:example}\label{example:RLC}
 Найдём частотную характеристику $\lambda(\omega)$ фильтра,
 изображённого на рис.~\figref{RLC circuit} ($RLC$-контура).
 
@@ -194,7 +194,7 @@ g(t)=\lambda(\omega)e^{i\omega t}.
 \qquad \varphi(\omega)=\arctg\frac{2\gamma\omega}{\omega^2-\Omega^2}.
 \end{gathered}
 \end{equation}
-\end{example}
+\end{lab:example}
 
 \begin{wrapfigure}[14]{o}{0.25\textwidth}
 \centering\includegraphics[scale=0.8]{Chapter_6/v6-RC.pdf}
@@ -202,7 +202,7 @@ g(t)=\lambda(\omega)e^{i\omega t}.
 \figmark{RC}
 \end{wrapfigure}
 
-\begin{example}\label{example:RC}
+\begin{lab:example}\label{example:RC}
 Найдём частотную характеристику $RC$-цепочки (рис.~\figref{RC}).
 Повторяя рассуждения из Примера~\ref{example:RLC} при $L=0$, получим
 \begin{equation*}
@@ -222,7 +222,7 @@ g(t)=\lambda(\omega)e^{i\omega t}.
 Таким образом, фильтрация высокочастотных гармоник сводится к интегрированию
 входного сигнала (подумайте, почему интеграл от быстропеременной функции
 по достаточно большому интервалу оказывается мал).
-\end{example}
+\end{lab:example}
 
 \introsection{Спектральное разложение}
 
@@ -408,7 +408,7 @@ e^{i(n-m)\omega_0 t}\,dt.
     \figmark{meander}
 \end{wrapfigure}
 
-\begin{example}\label{example:square-zug}
+\begin{lab:example}\label{example:square-zug}
 Найдём спектр периодической последовательности прямоугольных
 импульсов длительности~$\tau$ с периодом следования импульсов $T>\tau$
 (рис.~\figref{meander}, начало отсчёта выбрано так, что~$f(t)$ --- чётная
@@ -455,7 +455,7 @@ $-T/2\le t \le T/2$, с учётом того, что функция~$f(t)$ от
 Как видно из рисунка, спектральные гармоники,
 имеющие заметную амплитуду, сосредоточены в интервале частот
 $|\omega|\lesssim\Delta\omega=2\pi/\tau$.
-\end{example}
+\end{lab:example}
 
 
 \introsubsection{Спектр непериодического процесса}
@@ -524,7 +524,7 @@ C(\omega) = \hat{\mathcal{F}}[f(t)],\qquad f(t) = \hat{\mathcal{F}}^{-1}[C(\omeg
 для прямого и обратного преобразования Фурье (заметим, что
 эти преобразования \important{линейны}).
 
-\begin{example}\label{example:square}
+\begin{lab:example}\label{example:square}
 Найдём спектр прямоугольного импульса длительности $\tau$
 единичной амплитуды (рис.~\figref{spectrum-one meander}а). Используя
 \eqref{Fourier integral-coef}, получаем
@@ -554,7 +554,7 @@ d(-i\omega t)=\tau\frac{\sin\omega\tau/2}{\omega\tau/2}.
 главного максимума функции $\frac{\sin\omega\tau/2}{\omega\tau/2}$. Диапазон
 частот $\Delta\omega$ можно назвать характерной \important{шириной спектра}
 $C(\omega)$.
-\end{example}
+\end{lab:example}
 
 
 \introsubsection{Соотношение неопределённостей}
@@ -647,7 +647,7 @@ $\lambda(\omega)$, т.\,е. функцию отклика фильтра на г
      \caption{\footnotesize Предельный переход к дельта-импульсу}
 \end{wrapfigure}
 
-\begin{example}\label{example:delta}
+\begin{lab:example}\label{example:delta}
 Устремим длительность импульса из предыдущего примера к нулю $\tau\to 0$,
 при этом его амплитуду $A$ будем наращивать так, чтобы площадь
 под его графиком оставалась постоянной (единичной): $\int f(t) = A \tau = 1$.
@@ -671,7 +671,7 @@ $\lambda(\omega)$, т.\,е. функцию отклика фильтра на г
 откликом системы будет функция $g(t)$, спектр которой совпадает
 с $\lambda(\omega)$. Таким образом, \important{обратное преобразование Фурье
 от функции отклика системы есть её реакция на единичный дельта-имульс}.
-\end{example}
+\end{lab:example}
 
 
 \introsubsection{Физический смысл спектрального разложения}
@@ -715,7 +715,7 @@ $g(t) \propto c(\Omega) e^{i\Omega t}$,
 спектр сигнала может быть измерен непосредственно и описанная схема измерения
 позволяет придать спектральному разложению наглядный физический смысл.
 
-\begin{example}\label{example:zug-RLC}
+\begin{lab:example}\label{example:zug-RLC}
 Рассмотрим колебательный $RLC$-контур с собственной
 частотой~$\Omega$ и добротностью $Q\gg 1$, в котором мы попытаемся раскачать колебания,
 подавая на вход периодическую последовательность коротких импульсов
@@ -751,7 +751,7 @@ $\Omega = n \omega_0$, где $n$ --- целое, и при достаточно
 с помощью периодических импульсов, частота повторения $\omega_0=2\pi/T$
 которых может быть существенно меньше резонансной,
 вплоть до $\omega_0 \sim \Omega / Q \ll \Omega $.
-\end{example}
+\end{lab:example}
 
 \introsubsection[Свойства преобразования Фурье]{%
     Свойства преобразования Фурье}
@@ -847,7 +847,7 @@ f_0(t)e^{-i(\omega-\omega_0)t}\,dt=C_0(\omega-\omega_0),
     \figmark{one-zug}
 \end{wrapfigure}
 
-\begin{example}\label{example:one-zug}
+\begin{lab:example}\label{example:one-zug}
 Найдём спектр обрывка синусоиды с частотой $\omega_0$
 длительностью $\tau$ (такой сигнал называют \term{цугом}).
 Сигнал может быть представлен как
@@ -882,10 +882,10 @@ C(\omega)=\frac{\tau}{2}\left[\frac{\sin(\omega-\omega_0)\tau/2}{
         заполненного синусоидой (цуга)}
     \figmark{task-meander-train-spectrum}
 \end{figure}
-\end{example}
+\end{lab:example}
 
 
-\begin{example}\label{example:exp}
+\begin{lab:example}\label{example:exp}
 Найдём спектр затухающих колебаний
 \begin{equation*}
 f(t) = e^{-\gamma t} \sin \omega_0 t\qquad (\text{при~}t\ge 0).
@@ -916,7 +916,7 @@ C(\omega) = \frac{1}{2i} \left[\frac{1}{\gamma + i(\omega-\omega_0)} -
 $f(t) = e^{-\gamma t} \sin \omega_0 t$
 возникают в колебательном контуре, если сообщить ему единичный дельта-импульс
 (см. также Пример~\ref{example:delta}).
-\end{example}
+\end{lab:example}
 
 \paragraph{Упражнение.} Предлагаем читателю самостоятельно получить
 спектр периодической последовательности цугов (см. рис.~\figref{zug-zug}).
