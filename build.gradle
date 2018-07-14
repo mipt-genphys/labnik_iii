@@ -1,12 +1,17 @@
 buildscript{
   project.ext.outputDir = "build/output"
+  project.ext.logDir = "build/logs"
 }
 
 task buildOutputDir{
   doLast{
-    def file = project.file(project.outputDir)
-    if(!file.exists()){
-      file.mkdirs()
+    def output = project.file(project.outputDir)
+    if(!output.exists()){
+      output.mkdirs()
+    }
+    def logs = project.file(project.logDir)
+    if(!logs.exists()){
+      logs.mkdirs()
     }
   }
 }
@@ -28,15 +33,13 @@ def buildFragment(String outputDir, Map parameters){
   def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
 
   tempFile.text = input
-  exec{
-    workingDir '.'
-    commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"
-    //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
-  }
-  exec{
-    workingDir '.'
-    commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"
-    //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
+  2.times{
+    exec{
+      workingDir '.'
+      standardOutput(new FileOutputStream("${project.logDir}/${parameters.fragment}.log"))
+      commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"
+      //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
+    }
   }
 }
 
@@ -46,7 +49,7 @@ task fragment(dependsOn: ":buildOutputDir"){
   }
 }
 
-task chapters(){
+task chapters(dependsOn: ":buildOutputDir"){
   doLast{
     def threads = (1..6).collect{
       def parameters = new HashMap(project.properties)

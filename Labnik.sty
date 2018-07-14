@@ -1,26 +1,49 @@
 %%% rules for differen toolsets
 
-\RequirePackage{amsmath}  % дополнительные возможности математики AMS
-\RequirePackage{amssymb}  % дополнительные символы AMS
-
 \RequirePackage{ifpdf,ifxetex,ifluatex}
 
-\ifluatex
-	%%% Language setting for (xe|lua)latex %%%
-	\RequirePackage{unicode-math}
-	\RequirePackage{polyglossia}
-	\setdefaultlanguage[spelling=modern]{russian}
-	\setotherlanguage{english}
-%	\defaultfontfeatures{Renderer=Basic, Ligatures=TeX} %лигатуры работают в basic режиме
+%%% Заготовка для портирования в html
+% \RequirePackage[
+% 	% HomeHTMLFilename=index, % Filename of the homepage.
+% 	% HTMLFilename={node-}, % Filename prefix of other pages.
+% 	% IndexLanguage=russian, % Language for xindy index, glossary.
+% 	% latexmk, % Use latexmk to compile.
+% 	% OSWindows, % Force Windows. (Usually automatic.)
+% 	mathjax, % Use MathJax to display math.
+% ]{lwarp}
 
+
+\RequirePackage{amsmath}  % дополнительные возможности математики AMS
+%\RequirePackage{amssymb}  % дополнительные символы AMS
+\ifluatex
+
+	%%% Language setting for (xe|lua)latex %%%
+	\usepackage{fontspec}
+	\RequirePackage[math-style=TeX]{unicode-math}
 	\setmainfont{CMU Serif}
 	\setsansfont{CMU Sans Serif}
 	\setmonofont{CMU Typewriter Text}
 	\newfontfamily{\cyrillicfonttt}{CMU Serif}
+	\setmathfont{XITS Math}[math-style=TeX]
+
+	\RequirePackage{polyglossia}
+	\setdefaultlanguage[spelling=modern]{russian}
+
+	% Фикс для русских букв в формулах
+	\DeclareSymbolFont{cyrletters}{\encodingdefault}{\familydefault}{m}{it}
+	\newcommand{\makecyrmathletter}[1]{%
+	  \begingroup\lccode`a=#1\lowercase{\endgroup
+	  \Umathcode`a}="0 \csname symcyrletters\endcsname\space #1
+	}
+	\count255="409
+	\loop\ifnum\count255<"44F
+	  \advance\count255 by 1
+	  \makecyrmathletter{\count255}
+	\repeat
 
 %	\RequirePackage{minted}
 
-	\setmathfont{Latin Modern Math}
+	%\setmathfont{Latin Modern Math}
 
 \else
 	%	\RequirePDFTeX % Tests for PDFTEX use and throws an error if a different engine is being used.
@@ -44,6 +67,7 @@
     \DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
 \fi
 
+
 %%% Пакеты
 \RequirePackage{icomma} % десятичная запятая без пробела
 \RequirePackage[font=small, labelsep=period]{caption} % подписи к рисункам
@@ -51,7 +75,7 @@
 \RequirePackage{graphicx} % вставка графики
 \RequirePackage{wrapfig}  % обтекание объектов
 \RequirePackage{subcaption} % подкартинки
-\RequirePackage{psfrag}   % вставка надписей
+%\RequirePackage{psfrag}   % вставка надписей
 \RequirePackage{color}    % цветной текст
 \RequirePackage{import}   % импорт рисунков для pdf+tex
 %\RequirePackage{hyperref}
@@ -60,21 +84,17 @@
 \RequirePackage{array}     % дополнительные стили для таблиц
 \RequirePackage{booktabs}
 \RequirePackage{longtable} % таблицы на несколько страниц
-\RequirePackage{xifthen}
+%\RequirePackage{xifthen}
 %\RequirePackage{calc}      % вычисления
 
 \RequirePackage{epstopdf}
 
 \RequirePackage{todonotes} % for revision
 
-% mathtext конфликтует с hyperref для pdflatex!
-% надо что-то с этим делать...
-\ifluatex
-    \RequirePackage{hyperref}
-    \hypersetup{%
-        pdfencoding=auto
-    }
-\fi
+\RequirePackage{hyperref} 
+\hypersetup{%
+	pdfencoding=auto
+}
 
 %%% Общие настройки
 
