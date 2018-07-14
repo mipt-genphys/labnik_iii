@@ -14,7 +14,7 @@
 
 
 \RequirePackage{amsmath}  % дополнительные возможности математики AMS
-%\RequirePackage{amssymb}  % дополнительные символы AMS
+\RequirePackage{amssymb}  % дополнительные символы AMS
 \ifluatex
 
 	%%% Language setting for (xe|lua)latex %%%
@@ -91,10 +91,12 @@
 
 \RequirePackage{todonotes} % for revision
 
-\RequirePackage{hyperref} 
+\ifluatex
+\RequirePackage{hyperref}
 \hypersetup{%
 	pdfencoding=auto
 }
+\fi
 
 %%% Общие настройки
 
