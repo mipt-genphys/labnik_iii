@@ -14,7 +14,7 @@
 
 
 \RequirePackage{amsmath}  % дополнительные возможности математики AMS
-%\RequirePackage{amssymb}  % дополнительные символы AMS
+\RequirePackage{amssymb}  % дополнительные символы AMS
 \ifluatex
 
 	%%% Language setting for (xe|lua)latex %%%
@@ -53,12 +53,18 @@
 	\defaulthyphenchar=127 % Better hyphenation for copypasting. Must be set just before fontenc.
 
 	%%% Language setting for pdflatex %%%
+    \RequirePackage[unicode]{hyperref}
+    \RequirePackage{mathtext}
 	\RequirePackage[T2A]{fontenc}
 	\RequirePackage[utf8]{inputenc}
 	\RequirePackage[russian]{babel}
 	\RequirePackage{soulutf8}
-	\RequirePackage{mathtext} % кириллица в формулах
 
+    % косые интегралы ранят мои патриотические чувства
+    \DeclareSymbolFont{lsymb}{U}{euex}{m}{n}
+    \DeclareMathSymbol{\intop}{\mathop}{lsymb}{"52}
+    \DeclareMathSymbol{\ointop}{\mathop}{lsymb}{"48}
+    \DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
 \fi
 
 
@@ -85,10 +91,12 @@
 
 \RequirePackage{todonotes} % for revision
 
-\RequirePackage{hyperref} 
+\ifluatex
+\RequirePackage{hyperref}
 \hypersetup{%
 	pdfencoding=auto
 }
+\fi
 
 %%% Общие настройки
 
