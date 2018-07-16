@@ -223,9 +223,9 @@
 
 % Команда для замечаний
 \newenvironment{lab:note}{%
-	\par\medskip\small%
-}{
-	\par\medskip
+\par\medskip\small%
+}{%
+    \par\medskip%
 }
 
 % Команда для нумерованых примеров
@@ -237,8 +237,8 @@
 	\refstepcounter{example}%
 	\par\medskip\noindent\footnotesize%
 	\textbf{Пример \theexample.~}%
-}{
-	\par\medskip
+}{%
+    \par\medskip%
 }
 
 %%% Нумерация
