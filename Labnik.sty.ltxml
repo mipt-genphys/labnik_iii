@@ -1,0 +1,22 @@
+package LaTeXML::Package::Pool;
+use strict;
+use warnings;
+use LaTeXML::Package;
+
+InputDefinitions('Labnik',type=>'sty',noltxml=>1); 
+
+RequirePackage('babel', options => ['russian']);
+
+
+DefEnvironment('{lab:warning}', 
+        '<ltx:para class="lab_warning">
+            Внимание!
+            #body
+        </ltx:para>'
+        
+# DefEnvironment('{lab:warning}',  '<ltx:rawhtml><xhtml:div class="lab_warning">#body</xhtml:div></ltx:rawhtml>');        
+
+DefConstructor('todo[]{}','');
+
+1;
+
