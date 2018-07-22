@@ -1,22 +1,10 @@
 %%% rules for differen toolsets
-
-\RequirePackage{ifpdf,ifxetex,ifluatex}
-
-%%% Заготовка для портирования в html
-% \RequirePackage[
-% 	% HomeHTMLFilename=index, % Filename of the homepage.
-% 	% HTMLFilename={node-}, % Filename prefix of other pages.
-% 	% IndexLanguage=russian, % Language for xindy index, glossary.
-% 	% latexmk, % Use latexmk to compile.
-% 	% OSWindows, % Force Windows. (Usually automatic.)
-% 	mathjax, % Use MathJax to display math.
-% ]{lwarp}
-
-
 \RequirePackage{amsmath}  % дополнительные возможности математики AMS
 \RequirePackage{amssymb}  % дополнительные символы AMS
-\ifluatex
 
+\RequirePackage{ifpdf, ifluatex}
+
+\ifluatex
 	%%% Language setting for (xe|lua)latex %%%
 	\usepackage{fontspec}
 	\RequirePackage[math-style=TeX]{unicode-math}
@@ -41,11 +29,13 @@
 	  \makecyrmathletter{\count255}
 	\repeat
 
-%	\RequirePackage{minted}
+	\RequirePackage{hyperref}
+	\hypersetup{%
+		pdfencoding=auto
+	}
+\fi
 
-	%\setmathfont{Latin Modern Math}
-
-\else
+\ifpdf
 	%	\RequirePDFTeX % Tests for PDFTEX use and throws an error if a different engine is being used.
 
 	%%% For proper copypasting of text from pdf %%%
@@ -67,35 +57,29 @@
     \DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
 \fi
 
+%%% Утилиты для преобразования в xml
+\RequirePackage{latexml}
 
 %%% Пакеты
 \RequirePackage{icomma} % десятичная запятая без пробела
 \RequirePackage[font=small, labelsep=period]{caption} % подписи к рисункам
 
-\RequirePackage{graphicx} % вставка графики
-\RequirePackage{wrapfig}  % обтекание объектов
+\RequirePackage{graphicx}   % вставка графики
+\RequirePackage{grffile}    % Проблемы с именами картинок
+\RequirePackage{wrapfig}    % обтекание объектов
 \RequirePackage{subcaption} % подкартинки
-%\RequirePackage{psfrag}   % вставка надписей
-\RequirePackage{color}    % цветной текст
-\RequirePackage{import}   % импорт рисунков для pdf+tex
-%\RequirePackage{hyperref}
-%\hypersetup{pdfencoding=auto}
+\RequirePackage{color}      % цветной текст
+\RequirePackage{import}     % импорт рисунков для pdf+tex
 
-\RequirePackage{array}     % дополнительные стили для таблиц
+
+\RequirePackage{array}      % дополнительные стили для таблиц
 \RequirePackage{booktabs}
-\RequirePackage{longtable} % таблицы на несколько страниц
-%\RequirePackage{xifthen}
-%\RequirePackage{calc}      % вычисления
+\RequirePackage{longtable}  % таблицы на несколько страниц
 
-\RequirePackage{epstopdf}
-
-\RequirePackage{todonotes} % for revision
-
-\ifluatex
-\RequirePackage{hyperref}
-\hypersetup{%
-	pdfencoding=auto
-}
+\iflatexml
+\else
+	\RequirePackage{epstopdf}
+	\RequirePackage{todonotes}  % for revision
 \fi
 
 %%% Общие настройки
@@ -114,7 +98,7 @@
 
 %%% Команды оформления лаб
 
-\newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{ % Страшный крокодил нужен что бы номер лабы вычислялся правильно при создании заголовка.
+\newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{
 	\refstepcounter{lab}
 	\section*{Работа #1. #2}
 	\addcontentsline{toc}{section}{Работа #1. #2}%
@@ -201,10 +185,12 @@
 	\hline\\
 	\hfil\textbf{Внимание!}\par
 	\begin{center}
-	}{%
+}{%
 	\end{center}\\ \hline
 	\end{tabular}%
 }
+
+
 
 
 % Warning block

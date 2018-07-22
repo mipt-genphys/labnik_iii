@@ -28,11 +28,11 @@ task build(type:Exec, dependsOn: ":buildOutputDir"){
 }
 
 def buildFragment(String outputDir, Map parameters){
-  def template = file("Template.tex").text.replace("\\","\\\\")
+  def template = file("Template.tex").getText("UTF8").replace("\\","\\\\")
   def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make(parameters).toString()
   def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
 
-  tempFile.text = input
+  tempFile.setText(input,"UTF8")
   2.times{
     exec{
       workingDir '.'
@@ -46,6 +46,25 @@ def buildFragment(String outputDir, Map parameters){
 task fragment(dependsOn: ":buildOutputDir"){
   doLast{
     buildFragment(outputDir, project.properties)
+  }
+}
+
+task xml(dependsOn: ":buildOutputDir"){
+  def name = "Labnik-III"
+  def source = name
+
+  exec{
+    workingDir '.'
+    commandLine "bash" "latexml" "--destination=build/xml/${name}.xml" "--includestyles" "--inputencoding=utf8" "${source}.tex"
+  }
+}
+
+task html(dependsOn: ":xml"){
+  def name = "Labnik-III"
+
+  exec{
+    workingDir '.'
+    commandLine "bash" "latexmlpost" "--destination=build/html/${name}.html" "--format=html5" "--split" "--javascript='http://fred-wang.github.io/mathjax.js/mpadded-min.js'"  "build/xml/${name}.xml"
   }
 }
 
