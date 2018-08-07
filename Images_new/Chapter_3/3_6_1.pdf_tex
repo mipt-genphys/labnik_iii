@@ -1,0 +1,86 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '3_6_1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{388.20990615bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.98936679)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{3_6_1.pdf}}%
+    \put(0.29394455,0.08420018){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5B$}}}%
+    \put(0.34830162,0.1044061){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.25314757,0.10203281){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.40395464,0.1176242){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_2$}}}%
+    \put(0.44630712,0.17790817){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_2$}}}%
+    \put(0.35347832,0.21364046){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_0$}}}%
+    \put(0.24793572,0.21305295){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
+    \put(0.03908655,0.01672576){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Сеть}~220B$}}}%
+    \put(0.01972371,0.39076606){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Цифровой}$}}}%
+    \put(0.01896577,0.36439678){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{вольтметр}$}}}%
+    \put(0.37198624,0.44439778){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Блок управления}$}}}%
+    \put(0.59753121,0.02022678){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Образец с разъемом}$}}}%
+    \put(0.64148446,0.08201907){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.64044981,0.17713551){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
+    \put(0.64051333,0.27016543){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.64013348,0.36408058){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.80369723,0.0506056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Пластина}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{3_6_1.pdf}}%
+    \put(0.87443168,0.14552357){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.87462677,0.08277323){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
+    \put(0.92769788,0.14555011){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.92864663,0.08280971){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.8847691,0.38478333){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Диск}$}}}%
+    \put(0.63382045,0.90817779){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Электромагнит}$}}}%
+    \put(0.44036236,0.7782049){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_1$}}}%
+    \put(0.35367484,0.80583579){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
+    \put(0.14641801,0.97197598){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
+    \put(0.03370553,0.82393243){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.03451057,0.76116586){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.00486258,0.79261115){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$120 B$}}}%
+    \put(0.00985872,0.46893636){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{б})$}}}%
+    \put(0.00972835,0.97222256){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{а})$}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,79 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '4-5-exp.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{417.08284153bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.47041012)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{4-5-exp.pdf}}%
+    \put(-0.00142213,0.18397848){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\approx220~B$}}}%
+    \put(0.01341075,0.14985659){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$50~\text{Гц}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4-5-exp.pdf}}%
+    \put(0.14937219,0.09161432){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
+    \put(0.30580257,0.38564273){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{$1:10$}}}}%
+    \put(0.30660278,0.32760764){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{$1:100$}}}}%
+    \put(0.39693627,0.15219576){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_0$}}}%
+    \put(0.45461514,0.19162407){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_0$}}}%
+    \put(0.67036614,0.19573511){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_\text{и}$}}}%
+    \put(0.80482529,0.19779063){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.75338935,0.15201901){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_\text{и}$}}}%
+    \put(0.72950348,0.26795129){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_\text{и}$}}}%
+    \put(0.73042595,0.08555833){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_C$}}}%
+    \put(0.20303411,0.18257968){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_0$}}}%
+    \put(0.26724635,0.12009135){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.39740563,0.08541959){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_R$}}}%
+    \put(0.20611721,0.3281117){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.33589711,0.00598593){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{осциллографа}$}}}%
+    \put(0.66556236,0.0063951){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{осциллографа}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{4-5-exp.pdf}}%
+    \put(0.7021558,0.04384195){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Канал}~Y$}}}%
+    \put(0.36786114,0.04178686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Канал}~X$}}}%
+    \put(0.30346829,0.25825634){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Общий}$}}}%
+    \put(0.53021326,0.295933){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Образец}$}}}%
+    \put(0.404193,0.41849901){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{$\text{Делитель}$}}}}%
+  \end{picture}%
+\endgroup%

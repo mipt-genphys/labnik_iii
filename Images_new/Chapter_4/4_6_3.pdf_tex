@@ -1,0 +1,73 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '4_6_3.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{374.13767417bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.39045839)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{4_6_3.pdf}}%
+    \put(0.05049102,0.27604001){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\equal36~B$}}}%
+    \put(0.11853734,0.37562365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{Ом}$}}}%
+    \put(0.24877189,0.32226502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.23771903,0.20754239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3~\text{Гн}$}}}%
+    \put(0.32017326,0.33604064){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
+    \put(0.51895691,0.33718569){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
+    \put(0.34308933,0.37595899){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{<<Параметрон>>}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4_6_3.pdf}}%
+    \put(0.67760618,0.35992841){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Магазин МСР}-63$}}}%
+    \put(0.66481988,0.28053886){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_M$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{4_6_3.pdf}}%
+    \put(0.60936424,0.10771408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.66431442,0.21489808){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{мкФ}$}}}%
+    \put(0.82838688,0.10062029){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.90632383,0.10048528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
+    \put(0.77169043,0.19275217){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Осциллограф}$}}}%
+    \put(-0.00158412,0.19924088){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Генератор}$}}}%
+    \put(-0.000515,0.16870638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{ГЗ}-33$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{4_6_3.pdf}}%
+  \end{picture}%
+\endgroup%
