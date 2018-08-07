@@ -1,0 +1,93 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'v5_7.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{234.00604248bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.60613027)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_7.pdf}}%
+    \put(0.02983025,1.15703916){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$J$}}}%
+    \put(0.03266982,0.96788136){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
+    \put(0.30224075,0.87526472){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_K$}}}%
+    \put(0.93039731,0.96093751){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_a$}}}%
+    \put(0.01120854,0.77455346){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$|E|$}}}%
+    \put(0.55691959,0.76841525){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
+    \put(0.02745776,0.5890149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$|j|$}}}%
+    \put(0.12500007,0.51562498){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j_i$}}}%
+    \put(0.35937507,0.49999997){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j_e$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_7.pdf}}%
+    \put(0.69839,0.50307731){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j$}}}%
+    \put(0.03125009,0.40624987){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n$}}}%
+    \put(0.13622367,0.38199127){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_i$}}}%
+    \put(0.21003184,0.29687497){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_e$}}}%
+    \put(0.87767452,0.34806682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_e$}}}%
+    \put(0.85846491,0.29601153){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_i$}}}%
+    \put(0.58355902,0.34375002){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_i=n_e$}}}%
+    \put(0.03211353,0.2187501){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho$}}}%
+    \put(0.4589994,0.14157297){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho=e(n_i-n_e)$}}}%
+    \put(0.11973532,0.1311282){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.29687511,0.0696873){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.86981966,0.04687493){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.01519335,1.59115991){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Тёмное астоново}$}}}%
+    \put(0.04714271,1.55657295){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{пространство}$}}}%
+    \put(0.17696656,1.50561189){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Катодное тёмное}$}}}%
+    \put(0.21475803,1.47102494){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{пространство}$}}}%
+    \put(0.47962979,1.59129115){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Фадеево тёмное}$}}}%
+    \put(0.50862168,1.55485473){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{пространство}$}}}%
+    \put(0.68262059,1.50647523){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Анодное тёмное}$}}}%
+    \put(0.70951543,1.47145656){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{пространство}$}}}%
+    \put(0.6233212,1.40424481){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Положител.}$}}}%
+    \put(0.66807916,1.36902936){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{столб}$}}}%
+    \put(0.7155973,1.29962239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Анодное}$}}}%
+    \put(0.71758,1.26562762){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{свечение}$}}}%
+    \put(0.32497226,1.29931711){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Отрицательное}$}}}%
+    \put(0.36321569,1.26501728){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{свечение}$}}}%
+    \put(0.0124723,1.29992766){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Катодное}$}}}%
+    \put(0.01877159,1.26584609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{свечение}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{v5_7.pdf}}%
+  \end{picture}%
+\endgroup%
