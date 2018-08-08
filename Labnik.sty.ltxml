@@ -4,6 +4,7 @@ use warnings;
 use LaTeXML::Package;
 
 InputDefinitions('Labnik',type=>'sty',noltxml=>1); 
+InputDefinitions('Labnik-shortcuts',type=>'sty',noltxml=>1); 
 
 RequirePackage('babel', options => ['russian']);
 
@@ -13,10 +14,16 @@ DefEnvironment('{lab:warning}',
             Внимание!
             #body
         </ltx:para>'
+);
+
+DefMacro('\pic{}{}','
+  \begingroup
+  \hbox to #1{\kern-3.5mm Здесь должна быть картинка #2}%
+  \endgroup
+');
         
 # DefEnvironment('{lab:warning}',  '<ltx:rawhtml><xhtml:div class="lab_warning">#body</xhtml:div></ltx:rawhtml>');        
 
-DefConstructor('todo[]{}','');
 
 1;
 
