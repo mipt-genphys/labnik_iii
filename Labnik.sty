@@ -44,12 +44,13 @@
 \RequirePackage{subcaption} % подкартинки
 \RequirePackage{psfrag}   % вставка надписей
 \RequirePackage{color}    % цветной текст
-%\RequirePackage[russian]{hyperref}
+%\RequirePackage{hyperref}
+%\hypersetup{pdfencoding=auto}
 
 \RequirePackage{array}     % дополнительные стили для таблиц
 \RequirePackage{booktabs}
 \RequirePackage{longtable} % таблицы на несколько страниц
-%\RequirePackage{ifthen}    % ветвление
+\RequirePackage{xifthen}
 %\RequirePackage{calc}      % вычисления
 
 \RequirePackage{epstopdf}
@@ -62,15 +63,15 @@
 
 \newcounter{lab}[chapter]
 
-%\numberwithin{lab}{chapter}
-%\numberwithin{equation}{lab}
-%\numberwithin{figure}{lab}
-%\numberwithin{table}{lab}
+\numberwithin{lab}{chapter}
+\numberwithin{equation}{lab}
+\numberwithin{figure}{lab}
+\numberwithin{table}{lab}
 
-\newcommand{\lab}[2][\thechapter.\thelab]{
-	\section*{Работа #1. #2}
+\newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{ % Страшный крокодил нужен что бы номер лабы вычислялся правильно при создании заголовка.
 	\refstepcounter{lab}
-	\label{lab:#1}
+	\section*{Работа #1. #2}
+	\addcontentsline{toc}{section}{Работа #1. #2}
 }
 
 \newenvironment{lab:aim}{
@@ -106,6 +107,10 @@
 % Добавить новую секцию без нумерации
 \newcommand{\labsection}[1]{
 	\subsection*{#1}
+}
+
+\newcommand{\labsubsection}[1]{
+	\subsubsection*{#1}
 }
 
 % Задание
@@ -185,21 +190,6 @@
 \newcommand{\tabmark}[1]{\label{tab:\arabic{chapter}.\arabic{lab}.#1}}
 % Ссылка на рисунок
 \newcommand{\tabref}[1]{\ref{tab:\arabic{chapter}.\arabic{lab}.#1}}
-
-
-% локальные ссылки в лабораторных работах
-%\newcommand{\labeqmark}[1]{\label{eq:\thechapter.\thelab.#1}}
-%\newcommand{\labeqref}[1]{(\ref{eq:\thechapter.\thelab.#1})}
-%
-%\newcommand{\labfigmark}[1]{\label{fig:\thechapter.\thelab.#1}}
-%\newcommand{\labfigref}[1]{\ref{fig:\thechapter.\thelab.#1}}
-%
-%\newcommand{\labtabmark}[1]{\label{tab:\thechapter.\thelab.#1}}
-%\newcommand{\labtabref}[1]{\ref{tab:\thechapter.\thelab.#1}}
-
-
-%\newcommand{\labeq}[2][]{}
-
 
 
 %%% Математические штукчки
