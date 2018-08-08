@@ -1,0 +1,73 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '4_4_5.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{398.78649614bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.28386645)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{4_4_5.pdf}}%
+    \put(0.0139568,0.26277181){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Блок}$}}}%
+    \put(-0.00117113,0.23461149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{питания}$}}}%
+    \put(0.12615408,0.19334126){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ген.}$}}}%
+    \put(0.120141,0.17387394){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{тока}$}}}%
+    \put(0.20662686,0.03194758){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
+    \put(0.25374202,0.06640661){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_1$}}}%
+    \put(0.25397578,0.22936002){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_2$}}}%
+    \put(0.22824591,0.10062309){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,75~A$}}}%
+    \put(0.24258819,0.2659466){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3~A$}}}%
+    \put(0.39549621,0.24230689){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_1$}}}%
+    \put(0.78412656,0.22492089){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_2$}}}%
+    \put(0.90316675,0.22551651){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
+    \put(0.87635228,0.11216078){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_0$}}}%
+    \put(0.91796053,0.07140842){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Г}$}}}%
+    \put(0.5520601,0.11652834){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_C$}}}%
+    \put(0.5722982,0.25516254){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_M$}}}%
+    \put(0.55325238,0.17784338){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{C_1}$}}}%
+    \put(0.43955835,0.20239283){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{C_0}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4_4_5.pdf}}%
+  \end{picture}%
+\endgroup%

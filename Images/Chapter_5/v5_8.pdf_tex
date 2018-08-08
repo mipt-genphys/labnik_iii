@@ -1,0 +1,64 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'v5_8.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{222.11528868bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.79106282)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_8.pdf}}%
+    \put(0.01516867,0.39450236){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Зонд}$}}}%
+    \put(0.0403642,0.75890525){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi(x)$}}}%
+    \put(0.824227,0.37425031){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_f$}}}%
+    \put(0.95917218,0.21020119){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.38003826,0.14884785){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_D$}}}%
+    \put(0.39310257,0.60213269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Потенциал плазмы}$}}}%
+    \put(0.15256773,0.510682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Дебаевский}$}}}%
+    \put(0.21020118,0.45842444){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{слой}$}}}%
+    \put(0.49030177,0.40616689){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Нейтральная}$}}}%
+    \put(0.54987513,0.34084502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{плазма}$}}}%
+  \end{picture}%
+\endgroup%
