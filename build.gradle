@@ -27,7 +27,7 @@ task build(type:Exec, dependsOn: ":buildOutputDir"){
   commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Labnik-III\".tex"
 }
 
-def buildFragment(String outputDir, Map parameters){
+def buildFragment(Map parameters){
   def template = file("Template.tex").getText("UTF8").replace("\\","\\\\")
   def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make(parameters).toString()
   def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
@@ -43,28 +43,62 @@ def buildFragment(String outputDir, Map parameters){
   }
 }
 
+
+/**
+ * На Windows заменяет пути на те, что пойдут в wsl, на линуксе ничего не делает
+ */
+String linuxify(String path){
+  return path.replaceAll("([A-Z]):"){text, drive-> "/mnt/${drive.toLowerCase()}"  }.replaceAll("\\\\","/")
+}
+
+def builXMLFromFragment(Map parameters){
+  def template = file("Template.tex").getText("UTF8").replace("\\","\\\\")
+  def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make(parameters).toString()
+  def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
+
+  tempFile.setText(input,"UTF8")
+  exec{
+    workingDir '.'
+    standardOutput(new FileOutputStream("${project.logDir}/${parameters.fragment}.xml.log"))
+    //TODO убрать первый аргумент для линукса
+    commandLine "wsl", "latexml", "--destination=\"build/xml/${parameters.fragment}.xml\"", "--inputencoding=utf8", "\"${linuxify(tempFile.absolutePath)}\""
+  }
+}
+
+task html{
+  def sourceDir = file("build/xml")
+  def targetDir = file("build/html")
+  doLast{
+    targetDir.mkdirs()
+    sourceDir.eachFile  { file ->
+      exec {
+        workingDir '.'
+        standardOutput = System.out
+        //TODO убрать первый аргумент для линукса
+        def line = [
+          "wsl", 
+          "latexmlpost", 
+          "--destination=${linuxify(targetDir.toString())}/${file.name.replaceFirst(~/\.[^\.]+$/, '')}.html", 
+          "--format=html5", 
+          "--split",
+          "--splitat=section",
+          "--javascript='http://fred-wang.github.io/mathjax.js/mpadded-min.js'",  
+          linuxify(file.toString())
+        ]
+        println "Command line: ${line.join(" ")}"
+        commandLine line
+      }
+    }
+  }
+}
+
+
 task fragment(dependsOn: ":buildOutputDir"){
   doLast{
-    buildFragment(outputDir, project.properties)
+    buildFragment(project.properties)
   }
-}
-
-task xml(dependsOn: ":buildOutputDir"){
-  def name = "Labnik-III"
-  def source = name
-
-  exec{
-    workingDir '.'
-    commandLine "bash" "latexml" "--destination=build/xml/${name}.xml" "--includestyles" "--inputencoding=utf8" "${source}.tex"
-  }
-}
-
-task html(dependsOn: ":xml"){
-  def name = "Labnik-III"
-
-  exec{
-    workingDir '.'
-    commandLine "bash" "latexmlpost" "--destination=build/html/${name}.html" "--format=html5" "--split" "--javascript='http://fred-wang.github.io/mathjax.js/mpadded-min.js'"  "build/xml/${name}.xml"
+  doLast{
+    builXMLFromFragment(project.properties)
   }
 }
 
@@ -76,7 +110,11 @@ task chapters(dependsOn: ":buildOutputDir"){
       parameters.fragment = "Chapter_$it"
       parameters.chapter = it
       Thread.start{
-          buildFragment(outputDir, parameters)
+        if(parameters.xml){
+          builXMLFromFragment(parameters)
+        } else {
+          buildFragment(parameters)
+        }
       }
     }
 
