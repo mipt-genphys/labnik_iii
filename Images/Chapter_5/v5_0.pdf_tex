@@ -1,0 +1,96 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'v5_0.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{565.05354273bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.37241394)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_0.pdf}}%
+    \put(0.12969221,0.05120671){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ионосфера}$}}}%
+    \put(0.06648661,0.00725031){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.24956254,0.0020999){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{10}$}}}%
+    \put(0.46240578,0.0020999){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{20}$}}}%
+    \put(0.66797344,0.0020999){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{30}$}}}%
+    \put(0.02313722,0.01941496){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-2}$}}}%
+    \put(0.02329596,0.06001892){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-1}$}}}%
+    \put(0.02249119,0.14081507){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10$}}}%
+    \put(0.02364282,0.18347082){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{2}$}}}%
+    \put(0.0238166,0.09919995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.02345475,0.22458038){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{3}$}}}%
+    \put(0.02380157,0.26613077){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{4}$}}}%
+    \put(0.02423406,0.30703977){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{5}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_0.pdf}}%
+    \put(0.20609282,0.08471488){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Пламёна}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{v5_0.pdf}}%
+    \put(0.36461283,0.16691412){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Плазма}$}}}%
+    \put(0.30280746,0.14830252){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{в лабораторных }$}}}%
+    \put(0.33886064,0.13086104){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{условиях}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{v5_0.pdf}}%
+    \put(0.33510641,0.25447172){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Плазма в}$}}}%
+    \put(0.31683588,0.23902038){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{экспериментах по}$}}}%
+    \put(0.32855974,0.22356904){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{управляемому}$}}}%
+    \put(0.31425809,0.20897764){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{термоядерному }$}}}%
+    \put(0.33371015,0.1935263){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{синтезу}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{v5_0.pdf}}%
+    \put(0.36422138,0.29714687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Термоядерный}$}}}%
+    \put(0.39257245,0.27985609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{реактор}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{v5_0.pdf}}%
+    \put(0.4978525,0.05360429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Плазма}$}}}%
+    \put(0.49774155,0.03375149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{в тв. телах}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{v5_0.pdf}}%
+    \put(0.1873185,0.19427529){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Солнечная}$}}}%
+    \put(0.18688397,0.17760651){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{корона}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{v5_0.pdf}}%
+    \put(0.62502622,0.27380946){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ядра}$}}}%
+    \put(0.62530179,0.25226438){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{звезд}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{v5_0.pdf}}%
+    \put(0.73832007,0.26477261){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Белые}$}}}%
+    \put(0.73866693,0.23902038){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{карлики}$}}}%
+    \put(0.87965744,0.03300254){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n,~\text{см}^3$}}}%
+    \put(0.07325968,0.35440763){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T,~\text{эВ}$}}}%
+  \end{picture}%
+\endgroup%

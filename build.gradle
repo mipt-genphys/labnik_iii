@@ -33,11 +33,15 @@ def buildFragment(Map parameters){
   def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
 
   tempFile.setText(input,"UTF8")
+  def line = ["lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"]
+
+  println "Using command line: ${line.join(" ")}"
+
   2.times{
     exec{
       workingDir '.'
       standardOutput(new FileOutputStream("${project.logDir}/${parameters.fragment}.log"))
-      commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"
+      commandLine line
       //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
     }
   }
@@ -97,6 +101,9 @@ task fragment(dependsOn: ":buildOutputDir"){
   doLast{
     buildFragment(project.properties)
   }
+}
+
+task xmlFragment(dependsOn: ":buildOutputDir"){
   doLast{
     builXMLFromFragment(project.properties)
   }
@@ -119,5 +126,14 @@ task chapters(dependsOn: ":buildOutputDir"){
     }
 
     threads.each{it.join()}
+  }
+}
+
+task test(dependsOn: ":buildOutputDir"){
+  doLast{
+    exec{
+        workingDir '.'
+        commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Test.tex\""
+    }
   }
 }

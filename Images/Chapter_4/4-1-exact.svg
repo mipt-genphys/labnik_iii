@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="38.271297mm"
-   height="25.297312mm"
-   viewBox="0 0 135.60696 89.636144"
+   width="13.051744mm"
+   height="2.8008626mm"
+   viewBox="0 0 46.246339 9.9243161"
    id="svg7637"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -183,15 +183,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="75.180385"
-     inkscape:cy="0.70839343"
+     inkscape:cx="-47.897277"
+     inkscape:cy="31.667896"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7642">
     <rdf:RDF>
@@ -200,7 +205,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -208,7 +213,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-53.636903,-74.104309)">
+     transform="translate(-137.44489,-144.36954)">
     <circle
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="path8185"
@@ -289,13 +294,13 @@
        xml:space="preserve"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        x="136.78571"
-       y="151.82648"
+       y="153.34171"
        id="text8563"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8565"
          x="136.78571"
-         y="151.82648">$\vec M$</tspan></text>
+         y="153.34171">$\vec M$</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text9839"
@@ -317,7 +322,7 @@
          sodipodi:role="line"
          id="tspan9847"
          x="180.35715"
-         y="132.18364">A</tspan></text>
+         y="132.18364">$A$</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text9863"
@@ -328,6 +333,6 @@
          y="125.21935"
          x="142.5"
          id="tspan9865"
-         sodipodi:role="line">O</tspan></text>
+         sodipodi:role="line">$O$</tspan></text>
   </g>
 </svg>

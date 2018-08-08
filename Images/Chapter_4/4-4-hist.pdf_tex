@@ -50,22 +50,22 @@
   \makeatother%
   \begin{picture}(1,0.93324624)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4-4-hist.pdf}}%
-    \put(0.45097896,0.39778902){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{O}}}%
-    \put(0.85880574,0.77895623){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{C}}}%
-    \put(0.94100697,0.85630315){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{D}}}%
+    \put(0.45097896,0.39778902){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
+    \put(0.85880574,0.77895623){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.94100697,0.85630315){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
     \put(0.85575749,0.61324104){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_s$}}}%
     \put(0.52015973,0.89193776){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
     \put(0.88931811,0.38499927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H$}}}%
     \put(0.405803,0.70070221){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_r$}}}%
     \put(0.19509141,0.50510047){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-H_c$}}}%
-    \put(0.15417037,0.02896518){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{C$'$}}}%
-    \put(-0.00098355,0.05825824){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{D$'$}}}%
-    \put(0.63875556,0.662304){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A}}}%
-    \put(0.27907473,0.17396782){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A$'$}}}%
-    \put(0.51707676,0.65408249){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{E}}}%
-    \put(0.51049944,0.15421224){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{E$'$ }}}%
-    \put(0.32537404,0.39299021){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{F}}}%
-    \put(0.6844915,0.39299021){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{F$'$}}}%
+    \put(0.15417037,0.02896518){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C'$}}}%
+    \put(-0.00098355,0.05825824){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D'$}}}%
+    \put(0.63875556,0.662304){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.27907473,0.17396782){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A'$}}}%
+    \put(0.51707676,0.65408249){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
+    \put(0.51049944,0.15421224){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E'$ }}}%
+    \put(0.32537404,0.39299021){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F$}}}%
+    \put(0.6844915,0.39299021){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F'$}}}%
     \put(0.34841659,0.78298718){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu_0M_s$}}}%
   \end{picture}%
 \endgroup%

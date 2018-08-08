@@ -50,8 +50,8 @@
   \makeatother%
   \begin{picture}(1,1.50727142)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4-1-rod.pdf}}%
-    \put(0.01744537,0.53992045){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
-    \put(0.88229123,0.54692334){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{S}}}%
+    \put(0.01744537,0.53992045){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N$}}}%
+    \put(0.88229123,0.54692334){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$S$}}}%
     \put(0.48642926,1.34151243){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{I}}}%
     \put(0.4655969,0.71196075){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{II}}}%
     \put(0.65298574,0.65728178){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%

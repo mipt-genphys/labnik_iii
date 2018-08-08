@@ -4,6 +4,7 @@
 
 \RequirePackage{ifpdf, ifluatex}
 
+\ifpdf
 \ifluatex
 	%%% Language setting for (xe|lua)latex %%%
 	\usepackage{fontspec}
@@ -33,9 +34,7 @@
 	\hypersetup{%
 		pdfencoding=auto
 	}
-\fi
-
-\ifpdf
+\else
 	%	\RequirePDFTeX % Tests for PDFTEX use and throws an error if a different engine is being used.
 
 	%%% For proper copypasting of text from pdf %%%
@@ -56,9 +55,8 @@
     \DeclareMathSymbol{\ointop}{\mathop}{lsymb}{"48}
     \DeclareMathSymbol{\smallint}{\mathop}{lsymb}{"52}
 \fi
+\fi
 
-%%% Утилиты для преобразования в xml
-\RequirePackage{latexml}
 
 %%% Пакеты
 \RequirePackage{icomma} % десятичная запятая без пробела
@@ -76,15 +74,12 @@
 \RequirePackage{booktabs}
 \RequirePackage{longtable}  % таблицы на несколько страниц
 
-\iflatexml
-\else
-	\RequirePackage{epstopdf}
-	\RequirePackage{todonotes}  % for revision
-\fi
+\RequirePackage{epstopdf}
+\RequirePackage{todonotes}  % for revision
 
 %%% Общие настройки
 
-\graphicspath{{./Images/}}
+\graphicspath{{Images/}{Images/Chapter_1/}{Images/Chapter_2/}{Images/Chapter_3/}{Images/Chapter_4/}{Images/Chapter_5/}{Images/Chapter_6/}}
 
 \def\semester{3}
 
@@ -269,3 +264,8 @@
 
 % нумерация внутри уравнений русскими буквами
 %\newcommand*{\thesubequation}{\theparentequation \asbuk{equation}}
+
+\newcommand{\svg}[2]{
+  \def\svgwidth{#1}
+  \input {\detokenize{Images/#2.pdf_tex}}	
+}
