@@ -1,139 +1,58 @@
-buildscript{
-  project.ext.outputDir = "build/output"
-  project.ext.logDir = "build/logs"
+import elabnik.BuildHTMLTask
+import elabnik.BuildPdfTask
+
+buildscript {
+    project.ext.outputDir = "build/pdf"
 }
 
-task buildOutputDir{
-  doLast{
-    def output = project.file(project.outputDir)
-    if(!output.exists()){
-      output.mkdirs()
-    }
-    def logs = project.file(project.logDir)
-    if(!logs.exists()){
-      logs.mkdirs()
-    }
-  }
+task preample(type: BuildPdfTask) {
+    group = "latex"
+    description "Build preamble as pdf"
+    source = "Preamble"
 }
 
-task preample(type:Exec, dependsOn: ":buildOutputDir"){
-  workingDir '.'
-
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Preamble\".tex"
+task build(type: BuildPdfTask) {
+    group = "latex"
+    description "Build whole labnik as pdf"
+    source = "Labnik-III"
 }
 
-task build(type:Exec, dependsOn: ":buildOutputDir"){
-  workingDir '.'
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Labnik-III\".tex"
-}
-
-def buildFragment(Map parameters){
-  def template = file("Template.tex").getText("UTF8").replace("\\","\\\\")
-  def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make(parameters).toString()
-  def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
-
-  tempFile.setText(input,"UTF8")
-  def line = ["lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"]
-
-  println "Using command line: ${line.join(" ")}"
-
-  2.times{
-    exec{
-      workingDir '.'
-      standardOutput(new FileOutputStream("${project.logDir}/${parameters.fragment}.log"))
-      commandLine line
-      //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
-    }
-  }
-}
-
-
-/**
- * На Windows заменяет пути на те, что пойдут в wsl, на линуксе ничего не делает
- */
-String linuxify(String path){
-  return path.replaceAll("([A-Z]):"){text, drive-> "/mnt/${drive.toLowerCase()}"  }.replaceAll("\\\\","/")
-}
-
-def builXMLFromFragment(Map parameters){
-  def template = file("Template.tex").getText("UTF8").replace("\\","\\\\")
-  def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make(parameters).toString()
-  def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
-
-  tempFile.setText(input,"UTF8")
-  exec{
-    workingDir '.'
-    standardOutput(new FileOutputStream("${project.logDir}/${parameters.fragment}.xml.log"))
-    //TODO убрать первый аргумент для линукса
-    commandLine "wsl", "latexml", "--destination=\"build/xml/${parameters.fragment}.xml\"", "--inputencoding=utf8", "\"${linuxify(tempFile.absolutePath)}\""
-  }
-}
-
-task html{
-  def sourceDir = file("build/xml")
-  def targetDir = file("build/html")
-  doLast{
-    targetDir.mkdirs()
-    sourceDir.eachFile  { file ->
-      exec {
-        workingDir '.'
-        standardOutput = System.out
-        //TODO убрать первый аргумент для линукса
-        def line = [
-          "wsl", 
-          "latexmlpost", 
-          "--destination=${linuxify(targetDir.toString())}/${file.name.replaceFirst(~/\.[^\.]+$/, '')}.html", 
-          "--format=html5", 
-          "--split",
-          "--splitat=section",
-          "--javascript='http://fred-wang.github.io/mathjax.js/mpadded-min.js'",  
-          linuxify(file.toString())
+(1..6).collect { num ->
+    tasks.create("chapter$num", BuildPdfTask){
+        group = "latex"
+        description "Build Chapter $num as pdf"
+        target = "Chapter_$num"
+        parameters = [
+                title: "Chapter_$num",
+                fragment: "Chapter_${num}.tex",
+                chapter: num
         ]
-        println "Command line: ${line.join(" ")}"
-        commandLine line
-      }
-    }
-  }
-}
-
-
-task fragment(dependsOn: ":buildOutputDir"){
-  doLast{
-    buildFragment(project.properties)
-  }
-}
-
-task xmlFragment(dependsOn: ":buildOutputDir"){
-  doLast{
-    builXMLFromFragment(project.properties)
-  }
-}
-
-task chapters(dependsOn: ":buildOutputDir"){
-  doLast{
-    def threads = (1..6).collect{
-      def parameters = new HashMap(project.properties)
-      parameters.title = "Chapter $it"
-      parameters.fragment = "Chapter_$it"
-      parameters.chapter = it
-      Thread.start{
-        if(parameters.xml){
-          builXMLFromFragment(parameters)
-        } else {
-          buildFragment(parameters)
-        }
-      }
+        source = "Template"
     }
 
-    threads.each{it.join()}
-  }
+    tasks.create("chapter${num}Html", BuildHTMLTask){
+        group = "html"
+        description "Build Chapter $num as html"
+        target = "Chapter_$num"
+        parameters = [
+                title: "Chapter_$num",
+                fragment: "Chapter_${num}.tex",
+                chapter: num
+        ]
+        source = "Template"
+    }
 }
 
-task test(dependsOn: ":buildOutputDir"){
-  doLast{
-    exec{
-        workingDir '.'
-        commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Test.tex\""
+task chapters{
+    group = "latex"
+    description = "Build all chapters as pdfs"
+    (1..6).collect{
+        dependsOn(":chapter_$it")
     }
-  }
+}
+
+task test(type: BuildPdfTask) {
+    group = "latex"
+    description "pdf test"
+    source = "Test"
 }
