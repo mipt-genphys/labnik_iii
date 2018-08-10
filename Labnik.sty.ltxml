@@ -4,7 +4,7 @@ use warnings;
 use LaTeXML::Package;
 
 InputDefinitions('Labnik',type=>'sty',noltxml=>1); 
-InputDefinitions('Labnik-III-shortcuts',type=>'sty',noltxml=>1); 
+InputDefinitions('Labnik-III-shortcuts',type=>'sty',noltxml=>1);
 
 RequirePackage('babel', options => ['russian']);
 
@@ -25,8 +25,7 @@ DefMacro('\pic{}{}','
 RequirePackage('graphicx');
 
 DefMacro('\svg{}{}','\includegraphics[width=#1]{#2.svg}');
-DefMacro('\wrapfig')
-        
+
 # DefEnvironment('{lab:warning}',  '<ltx:rawhtml><xhtml:div class="lab_warning">#body</xhtml:div></ltx:rawhtml>');        
 
 
