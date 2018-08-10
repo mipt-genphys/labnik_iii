@@ -44,8 +44,8 @@ class BuildHTMLTask extends DefaultTask {
                                  "\"${Utils.linuxify(project, sourceFile.absolutePath)}\""
         ]
 
-        logger.info("Preparing xml")
-        logger.info("Using command line for latexml $target: ${xmlLine.join(" ")}")
+        logger.lifecycle("Preparing xml")
+        logger.lifecycle("Using command line for latexml $target: ${xmlLine.join(" ")}")
         project.exec {
             workingDir '.'
             errorOutput(new FileOutputStream(new File(logDir, "${target}.xml.log")))
@@ -62,10 +62,11 @@ class BuildHTMLTask extends DefaultTask {
                 "--split",
                 "--splitat=section",
                 "--javascript='http://fred-wang.github.io/mathjax.js/mpadded-min.js'",
+                "--css=labnik.css",
                 Utils.linuxify(project, xmlFile.absolutePath)
         ]
 
-        logger.info("Command line for latexmlpost $target: ${htmlLine.join(" ")}")
+        logger.lifecycle("Command line for latexmlpost $target: ${htmlLine.join(" ")}")
 
         project.exec {
             workingDir '.'
