@@ -16,18 +16,26 @@ DefEnvironment('{lab:warning}',
         </ltx:para>'
 );
 
-DefMacro('\pic{}{}','
-  \begingroup
-  \hbox to #1{\kern-3.5mm Здесь должна быть картинка #2}%
-  \endgroup
-');
-
 RequirePackage('graphicx');
+
+DefMacro('\pic{}{}','\includegraphics[width=#1]{#2.svg}');
 
 DefMacro('\svg{}{}','\includegraphics[width=#1]{#2.svg}');
 
 # DefEnvironment('{lab:warning}',  '<ltx:rawhtml><xhtml:div class="lab_warning">#body</xhtml:div></ltx:rawhtml>');        
 
+DefEnvironment('{wrapfigure} [Number] {} [Dimension] {Dimension}',
+  "<ltx:figure xml:id='#id'>"
+    . "#tags"
+    . "#body"
+    . "</ltx:figure>",
+  afterDigestBegin => sub {
+    my $dir = ToString($_[1]->getArg(2));
+    $_[1]->setProperty(float => ($dir eq 'r' ? 'right'
+        : ($dir eq 'l' ? 'left'
+          : undef))); },
+  beforeDigest => sub { DefMacroI('\@captype', undef, 'figure'); },
+  afterDigest => sub { RescueCaptionCounters('figure', $_[1]); });
 
 1;
 
