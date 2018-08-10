@@ -35,10 +35,10 @@ class BuildPdfTask extends DefaultTask {
 
         def line = ["lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${outputDir}", "-job-name=\"${target}\"", "${sourceFile.absolutePath}"]
 
-        logger.info("Using command line for fragment $target: ${line.join(" ")}")
+        logger.lifecycle("Using command line for fragment $target: ${line.join(" ")}")
 
         2.times {
-            logger.info("Lualatex iteration $it")
+            logger.lifecycle("Lualatex iteration $it")
             project.exec {
                 workingDir '.'
                 standardOutput(new FileOutputStream(new File(logDir, "${target}.log")))

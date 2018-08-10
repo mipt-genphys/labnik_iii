@@ -1,30 +1,32 @@
 import elabnik.BuildHTMLTask
 import elabnik.BuildPdfTask
+import elabnik.ProcessSvgTask
 
 buildscript {
     project.ext.outputDir = "build/pdf"
 }
 
-task preample(type: BuildPdfTask) {
+task preamplePdf(type: BuildPdfTask) {
     group = "latex"
     description "Build preamble as pdf"
     source = "Preamble"
 }
 
-task build(type: BuildPdfTask) {
+task buildPdf(type: BuildPdfTask) {
     group = "latex"
     description "Build whole labnik as pdf"
     source = "Labnik-III"
 }
 
+// Creating build tasks for individual chapters
 (1..6).collect { num ->
-    tasks.create("chapter$num", BuildPdfTask){
+    tasks.create("chapter${num}Pdf", BuildPdfTask){
         group = "latex"
         description "Build Chapter $num as pdf"
         target = "Chapter_$num"
         parameters = [
                 title: "Chapter_$num",
-                fragment: "Chapter_${num}.tex",
+                fragment: "Chapter_${num}",
                 chapter: num
         ]
         source = "Template"
@@ -36,14 +38,14 @@ task build(type: BuildPdfTask) {
         target = "Chapter_$num"
         parameters = [
                 title: "Chapter_$num",
-                fragment: "Chapter_${num}.tex",
+                fragment: "Chapter_${num}",
                 chapter: num
         ]
         source = "Template"
     }
 }
 
-task chapters{
+task chaptersPdf{
     group = "latex"
     description = "Build all chapters as pdfs"
     (1..6).collect{
@@ -51,8 +53,14 @@ task chapters{
     }
 }
 
-task test(type: BuildPdfTask) {
+task testPdf(type: BuildPdfTask) {
     group = "latex"
     description "pdf test"
     source = "Test"
+}
+
+task processSvg(type: ProcessSvgTask){
+    group = "html"
+    description "Process and copy svg resources"
+    sourceDir = file("Images")
 }
