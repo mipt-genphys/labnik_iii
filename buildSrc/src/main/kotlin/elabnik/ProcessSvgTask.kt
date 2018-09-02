@@ -28,16 +28,16 @@ open class ProcessSvgTask : DefaultTask() {
     @OutputDirectory
     var destinationDir = File(project.buildDir, "html")
 
-    val fontSize = 12f
+    @Option(description = "Font size for output labels")
+    var fontSize = 12f
 
 
     private fun readSVG(svgFile: File): Document {
         val dbFactory = DocumentBuilderFactory.newInstance()
         val dBuilder = dbFactory.newDocumentBuilder()
         val xmlInput = InputSource(StringReader(svgFile.readText()))
-        val doc = dBuilder.parse(xmlInput)
 
-        return doc
+        return dBuilder.parse(xmlInput)
     }
 
     private fun transformSVG(svg: Document): Document {
@@ -65,7 +65,13 @@ open class ProcessSvgTask : DefaultTask() {
     private fun Node.walk() {
         if (localName == "text") {
             //SVG change logic here
-            this["@style"] = this["@style"].replace("font-size:(.*)px;", "font-size:${fontSize}px;")
+            this["style"] = this["style"].replace("font-size:(.*)px;", "font-size:${fontSize}px;")
+            this.childNodes.forEach {
+                if(it.localName == "tspan"){
+                    this["style"] = this["style"].replace("font-size:(.*)px;", "font-size:${fontSize}px;")
+                    this.nodeValue = this.nodeValue.replace("$","")
+                }
+            }
         } else {
             childNodes.forEach { it.walk() }
         }
@@ -77,7 +83,6 @@ open class ProcessSvgTask : DefaultTask() {
         tr.setOutputProperty(OutputKeys.INDENT, "yes")
         tr.setOutputProperty(OutputKeys.METHOD, "xml")
         tr.setOutputProperty(OutputKeys.ENCODING, "UTF-8")
-        tr.setOutputProperty(OutputKeys.DOCTYPE_SYSTEM, "roles.dtd")
         tr.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4")
         tr.transform(DOMSource(svg), StreamResult(FileOutputStream(outputFile)))
     }
@@ -97,7 +102,7 @@ open class ProcessSvgTask : DefaultTask() {
             } else if (it.name.endsWith(".svg")) {
                 //If web-ready version exists
                 val webfile = File(it.parentFile, it.name.replace(".svg", "_web.svg"))
-                val outputFile = createOutputFile (it)
+                val outputFile = createOutputFile(it)
                 if (webfile.exists()) {
                     //Copy web-ready pictures as-is
                     Files.copy(webfile.toPath(), outputFile.toPath(), StandardCopyOption.REPLACE_EXISTING)
