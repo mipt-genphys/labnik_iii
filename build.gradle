@@ -6,6 +6,10 @@ buildscript {
     project.ext.outputDir = "build/pdf"
 }
 
+plugins {
+    id 'base'
+}
+
 task preamplePdf(type: BuildPdfTask) {
     group = "latex"
     description "Build preamble as pdf"
@@ -49,7 +53,7 @@ task chaptersPdf{
     group = "latex"
     description = "Build all chapters as pdfs"
     (1..6).collect{
-        dependsOn(":chapter_$it")
+        dependsOn(":chapter${it}Pdf")
     }
 }
 
