@@ -20,8 +20,6 @@ RequirePackage('graphicx');
 
 DefMacro('\pic{}{}','\includegraphics[width=#1]{#2.svg}');
 
-DefMacro('\svg{}{}','\includegraphics[width=#1]{#2.svg}');
-
 # DefEnvironment('{lab:warning}',  '<ltx:rawhtml><xhtml:div class="lab_warning">#body</xhtml:div></ltx:rawhtml>');        
 
 DefEnvironment('{wrapfigure} [Number] {} [Dimension] {Dimension}',
