@@ -1,66 +1,70 @@
-buildscript{
-  project.ext.outputDir = "build/output"
-  project.ext.logDir = "build/logs"
+import elabnik.BuildHTMLTask
+import elabnik.BuildPdfTask
+import elabnik.ProcessSvgTask
+
+buildscript {
+    project.ext.outputDir = "build/pdf"
 }
 
-task buildOutputDir{
-  doLast{
-    def output = project.file(project.outputDir)
-    if(!output.exists()){
-      output.mkdirs()
-    }
-    def logs = project.file(project.logDir)
-    if(!logs.exists()){
-      logs.mkdirs()
-    }
-  }
+plugins {
+    id 'base'
 }
 
-task preample(type:Exec, dependsOn: ":buildOutputDir"){
-  workingDir '.'
-
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Preamble\".tex"
+task preamplePdf(type: BuildPdfTask) {
+    group = "latex"
+    description "Build preamble as pdf"
+    source = "Preamble"
 }
 
-task build(type:Exec, dependsOn: ":buildOutputDir"){
-  workingDir '.'
-  commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${properties.ouputDir}", "\"Labnik-III\".tex"
+task buildPdf(type: BuildPdfTask) {
+    group = "latex"
+    description "Build whole labnik as pdf"
+    source = "Labnik-III"
 }
 
-def buildFragment(String outputDir, Map parameters){
-  def template = file("Template.tex").text.replace("\\","\\\\")
-  def input = new groovy.text.SimpleTemplateEngine().createTemplate(template).make(parameters).toString()
-  def tempFile = new File(project.buildDir,"frag_${parameters.fragment}.tex")
-
-  tempFile.text = input
-  2.times{
-    exec{
-      workingDir '.'
-      standardOutput(new FileOutputStream("${project.logDir}/${parameters.fragment}.log"))
-      commandLine "lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${parameters.outputDir}", "-job-name=\"${parameters.fragment}\"", "${tempFile.absolutePath}"
-      //standardInput = new ByteArrayInputStream(input.getBytes("UTF-8"))
-    }
-  }
-}
-
-task fragment(dependsOn: ":buildOutputDir"){
-  doLast{
-    buildFragment(outputDir, project.properties)
-  }
-}
-
-task chapters(dependsOn: ":buildOutputDir"){
-  doLast{
-    def threads = (1..6).collect{
-      def parameters = new HashMap(project.properties)
-      parameters.title = "Chapter $it"
-      parameters.fragment = "Chapter_$it"
-      parameters.chapter = it
-      Thread.start{
-          buildFragment(outputDir, parameters)
-      }
+// Creating build tasks for individual chapters
+(1..6).collect { num ->
+    tasks.create("chapter${num}Pdf", BuildPdfTask){
+        group = "latex"
+        description "Build Chapter $num as pdf"
+        target = "Chapter_$num"
+        parameters = [
+                title: "Chapter_$num",
+                fragment: "Chapter_${num}",
+                chapter: num
+        ]
+        source = "Template"
     }
 
-    threads.each{it.join()}
-  }
+    tasks.create("chapter${num}Html", BuildHTMLTask){
+        group = "html"
+        description "Build Chapter $num as html"
+        target = "Chapter_$num"
+        parameters = [
+                title: "Chapter_$num",
+                fragment: "Chapter_${num}",
+                chapter: num
+        ]
+        source = "Template"
+    }
+}
+
+task chaptersPdf{
+    group = "latex"
+    description = "Build all chapters as pdfs"
+    (1..6).collect{
+        dependsOn(":chapter${it}Pdf")
+    }
+}
+
+task testPdf(type: BuildPdfTask) {
+    group = "latex"
+    description "pdf test"
+    source = "Test"
+}
+
+task processSvg(type: ProcessSvgTask){
+    group = "html"
+    description "Process and copy svg resources"
+    sourceDir = file("Images")
 }

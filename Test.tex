@@ -3,17 +3,22 @@
 
     % Интерфейсы
     \usepackage{Labnik}
-    % Заплатка для отрисовка архичных рисунков и прочих атавизмов
-    \usepackage{Labnik-III-patch}
     % Сокращения для часто используемых команд
     \usepackage{Labnik-III-shortcuts}
-    
+
     \begin{document}
     
     \begin{equation}
         formula~на~русском
     \end{equation}
     
+
+    \begin{wrapfigure}{r}{0.4\textwidth}
+        \svg{0.38\textwidth}{Chapter_1/1_1_1}
+        \caption{Схема магнитометра}
+        % \figmark{magnitometr}
+    \end{wrapfigure}
+
     %\input table
     
     %\input {Appendices.tex}
