@@ -1,0 +1,39 @@
+package LaTeXML::Package::Pool;
+use strict;
+use warnings;
+use LaTeXML::Package;
+
+InputDefinitions('Labnik',type=>'sty',noltxml=>1); 
+InputDefinitions('Labnik-III-shortcuts',type=>'sty',noltxml=>1);
+
+RequirePackage('babel', options => ['russian']);
+
+
+DefEnvironment('{lab:warning}', 
+        '<ltx:para class="lab_warning">
+            Внимание!
+            #body
+        </ltx:para>'
+);
+
+RequirePackage('graphicx');
+
+DefMacro('\pic{}{}','\includegraphics[width=#1]{#2.svg}');
+
+# DefEnvironment('{lab:warning}',  '<ltx:rawhtml><xhtml:div class="lab_warning">#body</xhtml:div></ltx:rawhtml>');        
+
+DefEnvironment('{wrapfigure} [Number] {} [Dimension] {Dimension}',
+  "<ltx:figure xml:id='#id'>"
+    . "#tags"
+    . "#body"
+    . "</ltx:figure>",
+  afterDigestBegin => sub {
+    my $dir = ToString($_[1]->getArg(2));
+    $_[1]->setProperty(float => ($dir eq 'r' ? 'right'
+        : ($dir eq 'l' ? 'left'
+          : undef))); },
+  beforeDigest => sub { DefMacroI('\@captype', undef, 'figure'); },
+  afterDigest => sub { RescueCaptionCounters('figure', $_[1]); });
+
+1;
+

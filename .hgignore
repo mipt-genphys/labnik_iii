@@ -16,4 +16,5 @@ build/**
 .vscode
 .project
 .settings
+.idea/
 

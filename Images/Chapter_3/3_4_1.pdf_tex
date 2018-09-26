@@ -1,0 +1,89 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '3_4_1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{380.55429534bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.01628523)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{3_4_1.pdf}}%
+    \put(0.02689126,0.4215052){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Цифровой}$}}}%
+    \put(0.02613142,0.39507223){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{вольтметр}$}}}%
+    \put(0.64903122,0.38878219){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.64911474,0.32020816){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
+    \put(0.64917838,0.2575028){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.64927782,0.18864919){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.64246942,0.94016502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Электромагнит}$}}}%
+    \put(0.01700244,0.49986399){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{б})$}}}%
+    \put(0.01687176,1.00436433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{а})$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{3_4_1.pdf}}%
+    \put(0.64874034,0.11886611){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5$}}}%
+    \put(0.91850027,0.43931241){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-1$}}}%
+    \put(0.9155864,0.06476328){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+2$}}}%
+    \put(0.87523998,0.25573626){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.9657793,0.25694056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.46272082,0.31939392){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_2$}}}%
+    \put(0.3350465,0.30123796){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
+    \put(0.23754269,0.31939392){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_2$}}}%
+    \put(0.26017255,0.40797872){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1,5~B$}}}%
+    \put(0.28062528,0.48336963){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Блок}$}}}%
+    \put(0.25296793,0.45693666){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{управления}$}}}%
+    \put(0.14718929,0.22630576){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.07446629,0.22522567){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.03099217,0.22600809){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5$}}}%
+    \put(0.16379297,0.75237382){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
+    \put(0.06474543,0.87199894){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_1$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{3_4_1.pdf}}%
+    \put(-0.00130241,0.80993557){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
+    \put(0.57824567,0.8276855){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.57792862,0.66457041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.14703384,0.95945714){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Источник}$}}}%
+    \put(0.10991565,0.93302424){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{питания магнита}$}}}%
+    \put(0.80647336,0.02969673){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Образец}$}}}%
+    \put(0.79338557,0.00326377){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{с разъемом}$}}}%
+    \put(0.87499722,0.16863213){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5$}}}%
+  \end{picture}%
+\endgroup%
