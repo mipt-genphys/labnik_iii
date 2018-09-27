@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{36.99707091bp}%
+    \setlength{\unitlength}{118.0998266bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,11 +48,11 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.2145968)%
+  \begin{picture}(1,0.607189)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4-1-exact.pdf}}%
-    \put(-0.01425376,0.02058867){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec M$}}}%
-    \put(-1.42363146,1.53995713){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec H_0$}}}%
-    \put(0.92790605,0.47809659){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.10930833,0.62868768){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
+    \put(0.5632442,0.07044039){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec M$}}}%
+    \put(0.12172918,0.54641216){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec H_0$}}}%
+    \put(0.85839411,0.21376366){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.60195243,0.26093925){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
   \end{picture}%
 \endgroup%

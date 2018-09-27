@@ -54,7 +54,7 @@
     \put(0.09462513,0.12063215){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(-0.00121154,0.24994848){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Тр}$}}}%
     \put(0.27853996,0.04521568){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_0$}}}%
-    \put(0.43883131,0.0395512){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\equal36~B$}}}%
+    \put(0.43883131,0.0395512){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim 36~\text{B}$}}}%
     \put(0.63213581,0.08560296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_0$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{4_3_3.pdf}}%
     \put(0.46071074,0.14875763){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
