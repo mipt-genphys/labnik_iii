@@ -52,10 +52,10 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_9.pdf}}%
     \put(0.79315923,0.21552541){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
     \put(0.04243734,0.38663915){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0.5066045,0.70928884){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{плазма}$}}}%
-    \put(0.519143,0.48763609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{слой}$}}}%
-    \put(0.31450545,0.42852869){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{опорный электрод}$}}}%
-    \put(0.36629875,0.67085361){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{зонд}$}}}%
+    \put(0.5066045,0.70928884){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize плазма}$}}}%
+    \put(0.519143,0.48763609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize слой}$}}}%
+    \put(0.31450545,0.42852869){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize опорный электрод}$}}}%
+    \put(0.36629875,0.67085361){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize зонд}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_9.pdf}}%
   \end{picture}%
 \endgroup%

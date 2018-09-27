@@ -49,7 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.48777093)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{3_5_1.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Images/Chapter_5/3_5_1.pdf}}%
     \put(0.30366254,0.27047673){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Катод}$}}}%
     \put(0.52654376,0.27083448){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Анод}-I$}}}%
     \put(0.58242007,0.0705511){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Анод}-II$}}}%

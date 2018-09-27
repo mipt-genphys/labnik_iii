@@ -53,6 +53,6 @@
     \put(0.8560328,0.22274096){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
     \put(0.47345163,0.37929349){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
     \put(0.75042942,0.58216345){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.30115126,0.19309782){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathscr{E}$}}}%
+    \put(0.30115126,0.19309782){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
   \end{picture}%
 \endgroup%
