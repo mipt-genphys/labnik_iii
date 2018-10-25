@@ -33,7 +33,7 @@ class BuildPdfTask extends DefaultTask {
         outputDir.mkdirs()
         logDir.mkdirs()
 
-        def line = ["lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${outputDir}", "-job-name=\"${target}\"", "${sourceFile.absolutePath}"]
+        def line = ["lualatex", "-synctex=1", "-interaction=nonstopmode", "-output-directory=${outputDir}", "-jobname=\"${target}\"", "${sourceFile.absolutePath}"]
 
         logger.lifecycle("Using command line for fragment $target: ${line.join(" ")}")
 

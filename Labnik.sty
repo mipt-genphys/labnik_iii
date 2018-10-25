@@ -269,3 +269,19 @@
   \def\svgwidth{#1}
   \input {\detokenize{Images/#2.pdf_tex}}	
 }
+
+% Отличная нумерация внутри введения
+
+\RequirePackage{etoolbox}
+
+\renewcommand{\theequation}{
+	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{equation}}{\arabic{equation}}
+}
+
+\renewcommand{\thefigure}{
+	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{figure}}{\arabic{figure}}
+}
+
+\renewcommand{\thetable}{
+	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{table}}{\arabic{table}}
+}

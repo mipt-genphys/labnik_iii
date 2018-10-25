@@ -10,7 +10,7 @@ plugins {
     id 'base'
 }
 
-task preamplePdf(type: BuildPdfTask) {
+task preamblePdf(type: BuildPdfTask) {
     group = "latex"
     description "Build preamble as pdf"
     source = "Preamble"
