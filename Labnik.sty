@@ -79,6 +79,7 @@
 
 %%% Общие настройки
 
+% FIXME: конфликты имен между разными папками!
 \graphicspath{{Images/}{Images/Chapter_1/}{Images/Chapter_2/}{Images/Chapter_3/}{Images/Chapter_4/}{Images/Chapter_5/}{Images/Chapter_6/}}
 
 \def\semester{3}
@@ -204,9 +205,9 @@
 
 % Команда для замечаний
 \newenvironment{lab:note}{%
-	\par\medskip\small%
-}{
-	\par\medskip
+\par\medskip\small%
+}{%
+    \par\medskip%
 }
 
 % Команда для нумерованых примеров
@@ -218,8 +219,8 @@
 	\refstepcounter{example}%
 	\par\medskip\noindent\footnotesize%
 	\textbf{Пример \theexample.~}%
-}{
-	\par\medskip
+}{%
+    \par\medskip%
 }
 
 %%% Нумерация

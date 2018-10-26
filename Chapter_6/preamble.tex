@@ -434,7 +434,8 @@ $-T/2\le t \le T/2$, с учётом того, что функция~$f(t)$ от
 %     \psfrag{c}{$C(\omega)$}
 %     \psfrag{d}[ct]{$2\Delta\omega$}}
     \centering
-    \includegraphics[width=0.9\textwidth]{Chapter_6/13.pdf}
+%    \includegraphics[width=0.9\textwidth]{Chapter_6/13.pdf}
+    \pic{0.7\textwidth}{Chapter_6/13}
     \caption{Спектр периодической последовательности импульсов
         (рисунок приведён для случая $\tau=\frac13 T$)}
     \figmark{spectrum-meander}
@@ -921,9 +922,11 @@ $f(t) = e^{-\gamma t} \sin \omega_0 t$
 \paragraph{Упражнение.} Предлагаем читателю самостоятельно получить
 спектр периодической последовательности цугов (см. рис.~\figref{zug-zug}).
 
+% FIXME: Figure missing!
 \begin{figure}[h!]
 \hfil
-    \pic{0.5\textwidth}{Chapter_6/v6-zug}
+%     \oldpic{0.5\textwidth}{Chapter_6/v6-zug}
+\missingfigure{}
     \caption{Периодическая последовательность цугов}
     \figmark{zug-zug}
 \end{figure}
@@ -1191,7 +1194,7 @@ f(t)=a_0\cos\omega_0t+\frac{ma_0}{2}\cos
 
 \todo[inline]{Добавить на график значения боковых частот}
 
-\begin{wrapfigure}[16]{r}{0.4\textwidth}
+\begin{figure}[h]
 %     \psfragfig[width=0.5\textwidth]{Images/Chapter_6/10}{%
 %     \psfrag{a}[ct]{$\omega_0$}
 %     \psfrag{b}[ct]{$-\omega_0$}
@@ -1207,11 +1210,12 @@ f(t)=a_0\cos\omega_0t+\frac{ma_0}{2}\cos
 %     \psfrag{z}{$c_n$}
 %     \psfrag{A}{а)}
 %     \psfrag{B}{б)}}
-\includegraphics[width=0.4\textwidth]{Chapter_6/10}
+\centering
+\includegraphics[width=0.35\textwidth]{Chapter_6/10}
     \caption{Спектр модулированных колебаний: действительное (вверху)
     и комплексное (внизу) представления}
     \figmark{spectrum-modulated}
-\end{wrapfigure}
+\end{figure}
 
 Сравним формулы \eqref{ex-amplitude-modulated-sum} и \eqref{ex-phase-modulated-sum}.
 Первая из них~--- разложение в спектр колебания, модулированного по амплитуде,
