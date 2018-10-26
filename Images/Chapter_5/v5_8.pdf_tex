@@ -50,15 +50,15 @@
   \makeatother%
   \begin{picture}(1,0.79106282)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_8.pdf}}%
-    \put(0.01516867,0.39450236){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Зонд}$}}}%
+    \put(0.01516867,0.39450236){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize Зонд}$}}}%
     \put(0.0403642,0.75890525){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi(x)$}}}%
     \put(0.824227,0.37425031){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_f$}}}%
     \put(0.95917218,0.21020119){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
     \put(0.38003826,0.14884785){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_D$}}}%
-    \put(0.39310257,0.60213269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Потенциал плазмы}$}}}%
-    \put(0.15256773,0.510682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Дебаевский}$}}}%
-    \put(0.21020118,0.45842444){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{слой}$}}}%
-    \put(0.49030177,0.40616689){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Нейтральная}$}}}%
-    \put(0.54987513,0.34084502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{плазма}$}}}%
+    \put(0.39310257,0.60213269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize Потенциал плазмы}$}}}%
+    \put(0.15256773,0.510682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize Дебаевский}$}}}%
+    \put(0.21020118,0.45842444){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize слой}$}}}%
+    \put(0.49030177,0.40616689){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize Нейтральная}$}}}%
+    \put(0.54987513,0.34084502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{\footnotesize плазма}$}}}%
   \end{picture}%
 \endgroup%
