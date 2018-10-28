@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'Hall_forces.pdf' (pdf, eps, ps)
+%% Accompanies image file 'drift.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{54.61786525bp}%
+    \setlength{\unitlength}{143.10154111bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,15 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.67562222)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{Hall_forces.pdf}}%
-    \put(0.27395345,0.61999126){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e\vec{u}\times\vec{B}$}}}%
-    \put(-0.01595701,0.53078204){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
-    \put(0.77351204,0.30426843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$eE_x$}}}%
-    \put(0.77994118,0.06325985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e\vec{E}$}}}%
-    \put(0.19146998,0.02782017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$eE_y =e|\vec{u}\times \vec{B}|$}}}%
-    \put(0.72991548,0.42308296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j} = ne\vec{u}$}}}%
-    \put(0.13179205,0.30601273){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+e$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{Hall_forces.pdf}}%
+  \begin{picture}(1,0.58083093)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{drift.pdf}}%
+    \put(0.01137559,0.15034454){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{drift.pdf}}%
+    \put(0.10159959,0.43418405){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{drift.pdf}}%
+    \put(0.53449379,0.171485){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{V}_C$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{drift.pdf}}%
+    \put(0.94590487,0.18776922){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.09600231,0.51954184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
+    \put(0.47254799,0.27388886){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{C}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{drift.pdf}}%
   \end{picture}%
 \endgroup%
