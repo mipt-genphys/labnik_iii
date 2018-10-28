@@ -77,6 +77,15 @@
 \RequirePackage{epstopdf}
 \RequirePackage{todonotes}  % for revision
 
+\RequirePackage[%
+        leftmargin=1pt,%
+        topline=false,%
+        bottomline=false,%
+        skipabove=\medskipamount,%
+        skipbelow=\medskipamount%
+    ]{mdframed}
+
+
 %%% Общие настройки
 
 % FIXME: конфликты имен между разными папками!
@@ -205,9 +214,9 @@
 
 % Команда для замечаний
 \newenvironment{lab:note}{%
-\par\medskip\small%
+    \par\begin{mdframed}\small\textbf{Замечание.~}%
 }{%
-    \par\medskip%
+\par\end{mdframed}%
 }
 
 % Команда для нумерованых примеров
@@ -266,23 +275,35 @@
 % нумерация внутри уравнений русскими буквами
 %\newcommand*{\thesubequation}{\theparentequation \asbuk{equation}}
 
-\newcommand{\pic}[2]{
-  \def\svgwidth{#1}
-  \input {\detokenize{Images/#2.pdf_tex}}	
+\newcommand{\pic}[2]{%
+  \def\svgwidth{#1}%
+  \input{\detokenize{Images/#2.pdf_tex}}%
 }
 
 % Отличная нумерация внутри введения
 
 \RequirePackage{etoolbox}
 
-\renewcommand{\theequation}{
-	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{equation}}{\arabic{equation}}
+\renewcommand{\theequation}{%
+    \ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{equation}}{\arabic{equation}}%
 }
 
-\renewcommand{\thefigure}{
-	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{figure}}{\arabic{figure}}
+\renewcommand{\thefigure}{%
+    \ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{figure}}{\arabic{figure}}%
 }
 
-\renewcommand{\thetable}{
-	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{table}}{\arabic{table}}
+\renewcommand{\thetable}{%
+    \ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{table}}{\arabic{table}}%
+}
+
+
+% Литература
+\newcommand{\SivuhinIII}{%
+    \textit{Сивухин~Д.В.} Общий курс физики.~--- T.~III. Электричество.~---
+    М.: Физматлит, 2015.
+}
+
+\newcommand{\KingLokOlh}{%
+    \textit{Кингсеп~А.С., Локшин~Г.Р., Ольхов~О.А.} Основы физики.~---
+    Т.~1.~--- М.:~Физматлит, 2007.
 }
