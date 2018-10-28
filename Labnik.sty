@@ -78,7 +78,7 @@
 \RequirePackage{todonotes}  % for revision
 
 \RequirePackage[%
-        leftmargin=1pt,%
+        leftmargin=2pt,%
         topline=false,%
         bottomline=false,%
         skipabove=\medskipamount,%
@@ -103,28 +103,23 @@
 
 %%% Команды оформления лаб
 
-\newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{
-	\refstepcounter{lab}
-	\section*{Работа #1. #2}
-	\addcontentsline{toc}{section}{Работа #1. #2}%
+\newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{%
+	\refstepcounter{lab}%
+	\section*{Работа #1.~#2}%
+	\addcontentsline{toc}{section}{Работа #1.~#2}%
 }
 
 \newenvironment{lab:aim}{%
-	\noindent\textbf{Цель работы:~}\begin{small}%
-	}{%
-	\end{small}\par
-	\medskip%
-}
+	\small\noindent\textbf{Цель работы:~}%
+}{\par\medskip}
 
 % короткая запись для окружения lab:aim
 \newcommand{\aim}[1]{\begin{lab:aim}#1\end{lab:aim}}
 
 \newenvironment{lab:equipment}{%
-	\noindent\textbf{В работе используются:~}
-	\begin{small}%
-	}{
-	\end{small}\par
-	\medskip%
+	\small\noindent\textbf{В работе используются:~}
+}{%
+	\par\medskip%
 }
 
 % короткая запись для окружения lab:equipment
@@ -153,11 +148,11 @@
 % Добавить новую секцию без нумерации
 \newcommand{\labsection}[1]{\subsection*{#1}}
 
-\newcommand{\labsubsection}[1]{\subsubsection*{#1}}
+\newcommand{\labsubsection}[1]{\paragraph{#1}}
 
 % Секции в теорвведениях
 \newcommand{\introsection}[1]{\section{#1}}
-\newcommand{\introsubsection}[1]{\subsection*{#1}}
+\newcommand{\introsubsection}[1]{\subsection{#1}}
 
 % Задание
 \newenvironment{lab:task}{\subsection*{ЗАДАНИЕ}}{}
@@ -260,6 +255,7 @@
 
 \frenchspacing
 \righthyphenmin=2
+\sloppy
 
 % косые больше/меньше
 \renewcommand*{\le}{\leqslant}
@@ -307,3 +303,30 @@
     \textit{Кингсеп~А.С., Локшин~Г.Р., Ольхов~О.А.} Основы физики.~---
     Т.~1.~--- М.:~Физматлит, 2007.
 }
+
+
+% форматироание секций
+\RequirePackage[raggedright, explicit, pagestyles]{titlesec}
+
+\titlespacing{\chapter}{0pt}{2pc}{1pc}
+\titleclass{\chapter}{straight}
+\titleformat{\chapter}[display]{\clearpage\thispagestyle{empty}}%
+{\normalsize\sffamily Раздел \Roman{chapter}\strut\hrule}{1ex}%
+{\Large\bfseries\MakeUppercase{#1}}[\vfil]
+
+\titlespacing{\section}{0pt}{*2}{*1}
+\titleformat{\section}[hang]%
+{\normalsize\bfseries}{\arabic{section}.}{1ex}{#1}
+
+\titlespacing{\subsection}{\parindent}{*2}{*1}
+\titleformat{\subsection}[hang]%
+{\small\bfseries}{\arabic{section}.\arabic{subsection}.}{1ex}{#1}
+
+\titlespacing{\paragraph}{\parindent}{0pt}{1ex}
+\titleformat{\paragraph}[runin]{\bfseries\sffamily}{}{}{#1}
+
+\newpagestyle{main}{%
+    \sethead[\thepage][][\chaptertitle] % even
+            {\normalsize\sffamily Раздел \Roman{chapter}}{}{\thepage} % odd
+    \headrule}
+\pagestyle{main}
