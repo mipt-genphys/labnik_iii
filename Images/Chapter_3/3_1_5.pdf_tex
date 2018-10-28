@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{401.14691306bp}%
+    \setlength{\unitlength}{156.22833252bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,21 +48,23 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.74995746)%
+  \begin{picture}(1,0.938824)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_1_5.pdf}}%
-    \put(0.33034551,0.66277218){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{Регуляторы}$}}}%
-    \put(0.33084359,0.61750433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{напряжения}$}}}%
-    \put(0.54809494,0.72725497){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{Выпрямитель}$}}}%
-    \put(-0.00137998,0.72709986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{Источник питания}$}}}%
-    \put(0.02716135,0.59833177){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$120~B$}}}%
-    \put(0.02710141,0.57063){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.07443094,0.56675164){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.11518055,0.57009948){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim 10~B$}}}%
+    \put(0.25517928,0.15762108){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{А}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{3_1_5.pdf}}%
-    \put(0.0962811,0.36145474){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
-    \put(0.1966408,0.21209236){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$mA$}}}%
-    \put(0.70453535,0.22206282){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.34972092,0.4229561){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Л}$}}}%
-    \put(0.54173287,0.03850667){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{Соленоид}$}}}%
+    \put(0.10711781,0.23888844){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{=}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{3_1_5.pdf}}%
+    \put(-0.00062518,0.40779843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{3_1_5.pdf}}%
+    \put(0.13661815,0.89210266){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Соленоид}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{3_1_5.pdf}}%
+    \put(0.78103376,0.69486449){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Катод}}}%
+    \put(0.34183005,0.40435483){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{А}$}}}%
+    \put(0.9292912,0.41536979){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{С}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{3_1_5.pdf}}%
+    \put(0.79557297,0.20573353){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{3_1_5.pdf}}%
+    \put(0.90312788,0.56639816){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{=}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{3_1_5.pdf}}%
   \end{picture}%
 \endgroup%
