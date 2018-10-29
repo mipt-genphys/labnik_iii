@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{175.79380426bp}%
+    \setlength{\unitlength}{141.73228346bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,13 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.98301819)%
+  \begin{picture}(1,0.97621017)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_1_3.pdf}}%
-    \put(0.48697114,0.46651278){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\large{B>B_\text{кр}}$}}}%
-    \put(0.61802344,0.63092755){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\large{B=B_\text{кр}}$}}}%
-    \put(0.48347459,0.82291939){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\large{B<B_\text{кр}}$}}}%
-    \put(0.45265651,0.96046796){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.40996484,0.46807364){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K$}}}%
-    \put(0.29627505,0.77723251){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\large{B = 0}$}}}%
+    \put(0.49876516,0.47627979){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B>B_\text{кр}$}}}%
+    \put(0.76613765,0.65097696){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B=B_\text{кр}$}}}%
+    \put(0.73182691,0.81028713){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B<B_\text{кр}$}}}%
+    \put(0.39342551,0.90977563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А}}}%
+    \put(0.37748506,0.46559293){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К}}}%
+    \put(0.24975039,0.70986036){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B = 0$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{3_1_3.pdf}}%
+    \put(0.22949547,0.49462681){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
   \end{picture}%
 \endgroup%
