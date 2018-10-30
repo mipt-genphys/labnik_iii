@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{419.0849917bp}%
+    \setlength{\unitlength}{246.22647263bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,16 +48,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.53081557)%
+  \begin{picture}(1,0.56868185)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_3_1.pdf}}%
-    \put(0.07863449,0.474194){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$M$}}}%
-    \put(0.2228416,0.4117289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.26708856,0.46926959){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.54449869,0.38606814){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.54313656,0.26472555){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
-    \put(0.02212524,0.28090265){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{Выпрямитель}$}}}%
+    \put(0.24957199,0.08464737){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.08718427,0.5004565){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{М}}}%
+    \put(0.28867213,0.4934745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.57703903,0.34447852){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.57554123,0.27661537){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.82293975,0.00817701){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Масло}}}%
+    \put(0.8764357,0.46973527){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Воздух}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{3_3_1.pdf}}%
-    \put(0.76803384,0.00432697){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\large\text{Масло}$}}}%
-    \put(0.80235701,0.44182391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\large\text{Воздух}$}}}%
+    \put(0.24846991,0.25607248){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
   \end{picture}%
 \endgroup%
