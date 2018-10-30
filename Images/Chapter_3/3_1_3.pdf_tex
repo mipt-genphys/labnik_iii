@@ -56,7 +56,6 @@
     \put(0.39342551,0.90977563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А}}}%
     \put(0.37748506,0.46559293){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К}}}%
     \put(0.24975039,0.70986036){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B = 0$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{3_1_3.pdf}}%
     \put(0.22949547,0.49462681){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
   \end{picture}%
 \endgroup%

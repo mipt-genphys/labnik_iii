@@ -50,16 +50,10 @@
   \makeatother%
   \begin{picture}(1,1.12797065)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_1_2.pdf}}%
-    \put(0.38305514,1.17505287){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(0.55205181,0.75567913){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2r_{К}$}}}%
-    \put(0.70051752,1.29521644){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.43143829,1.05729388){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{3_1_2.pdf}}%
+    \put(0.43143828,1.05729389){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
     \put(0.77728785,0.95360304){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_{А}$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{3_1_2.pdf}}%
-    \put(0.07854383,0.83511124){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{3_1_2.pdf}}%
+    \put(0.07854383,0.74598844){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
     \put(0.61026508,0.39492822){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=5]{3_1_2.pdf}}%
   \end{picture}%
 \endgroup%
