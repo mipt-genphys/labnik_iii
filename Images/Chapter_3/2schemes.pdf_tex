@@ -59,16 +59,11 @@
     \put(0.02064017,0.28946582){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
     \put(0.18488312,0.01865954){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{\parallel}$}}}%
     \put(0.32812035,0.01815264){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{\perp}$}}}%
-    \put(0.72885398,0.27765843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{2schemes.pdf}}%
-    \put(0.67959357,0.37493604){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{2schemes.pdf}}%
     \put(0.90079017,0.31423786){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
-    \put(0.83668332,0.18178937){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j}$}}}%
-    \put(0.91959559,0.18277182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(0.86518161,0.10653843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{2schemes.pdf}}%
+    \put(0.72885398,0.27765843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.67959357,0.37493604){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.83668332,0.18178937){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j}$}}}%
     \put(0.93743834,0.19213397){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{u}\times \vec{B}$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=5]{2schemes.pdf}}%
   \end{picture}%
 \endgroup%
