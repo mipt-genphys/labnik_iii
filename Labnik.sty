@@ -103,21 +103,23 @@
 
 %%% Команды оформления лаб
 
-\newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{%
-	\refstepcounter{lab}%
-	\section*{Работа #1.~#2}%
-	\addcontentsline{toc}{section}{Работа #1.~#2}%
-}
+%\newcommand{\lab}[2][3.\arabic{chapter}.\arabic{lab}]{%
+%%	\refstepcounter{lab}%
+%	\section*{#2}%
+%%	\addcontentsline{toc}{section}{Работа #1.~#2}%
+%}
 
 \newenvironment{lab:aim}{%
-	\small\noindent\textbf{Цель работы:~}%
+    \hangindent=\parindent
+	\small\textbf{Цель работы:~}%
 }{\par\medskip}
 
 % короткая запись для окружения lab:aim
 \newcommand{\aim}[1]{\begin{lab:aim}#1\end{lab:aim}}
 
 \newenvironment{lab:equipment}{%
-	\small\noindent\textbf{В работе используются:~}
+    \hangindent=\parindent
+	\small\textbf{В работе используются:~}
 }{%
 	\par\medskip%
 }
@@ -312,24 +314,40 @@
 
 \titlespacing{\chapter}{0pt}{2pc}{1pc}
 \titleclass{\chapter}{straight}
-\titleformat{\chapter}[display]{\clearpage\thispagestyle{empty}}%
-{\normalsize\sffamily Раздел \Roman{chapter}\strut\hrule}{1ex}%
-{\Large\bfseries\MakeUppercase{#1}}[\vfil]
+\titleformat{\chapter}[display]%
+    {\cleardoublepage\thispagestyle{empty}}%
+    {\normalsize\sffamily Раздел \Roman{chapter}\strut\hrule}{1ex}%
+    {\Large\bfseries\MakeUppercase{#1}}[\vfil]
+
 
 \renewcommand{\thesection}{\arabic{section}}
 \titlespacing{\section}{0pt}{*2}{*1}
 \titleformat{\section}[hang]%
-{\normalsize\bfseries}{\arabic{section}.}{1ex}{#1}
+    {\normalsize\bfseries}{\arabic{section}.}{1ex}{#1}
+
 
 \titlespacing{\subsection}{\parindent}{*2}{*1}
 \titleformat{\subsection}[hang]%
-{\small\bfseries}{\arabic{section}.\arabic{subsection}.}{1ex}{#1}
+    {\small\bfseries}{\arabic{section}.\arabic{subsection}.}{1ex}{#1}
+
 
 \titlespacing{\paragraph}{\parindent}{0pt}{1ex}
 \titleformat{\paragraph}[runin]{\bfseries\sffamily}{}{}{#1}
 
+
 \newpagestyle{main}{%
-    \sethead[\thepage][][\chaptertitle] % even
-            {\normalsize\sffamily Раздел \Roman{chapter}}{}{\thepage} % odd
-    \headrule}
+    \headrule
+    \sethead[\thepage][][\sffamily\chaptertitle] % even
+            {\ifnumequal{\value{lab}}{0}{\normalsize\sffamily Раздел \Roman{chapter}}{\sffamily\thelab}}{}{\thepage} % odd
+}
+
+
+\titleclass{\lab}{straight}[\chapter]
+\renewcommand{\thelab}{Работа~\semester.\arabic{chapter}.\arabic{lab}}
+\titlespacing{\lab}{\parindent}{0pt}{1pc}
+\titleformat{\lab}[display]%
+    {\clearpage\thispagestyle{empty}}%
+    {\bfseries\thelab}{1ex}%
+    {\large\raggedright\bfseries #1}
+
 \pagestyle{main}
