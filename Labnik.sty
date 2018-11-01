@@ -73,6 +73,7 @@
 \RequirePackage{array}      % дополнительные стили для таблиц
 \RequirePackage{booktabs}
 \RequirePackage{longtable}  % таблицы на несколько страниц
+\RequirePackage{enumitem}   % расширенные свойства списков
 
 \RequirePackage{epstopdf}
 \RequirePackage{todonotes}  % for revision
@@ -156,15 +157,37 @@
 \newcommand{\introsection}[1]{\section{#1}}
 \newcommand{\introsubsection}[1]{\subsection{#1}}
 
-% Задание
-\newenvironment{lab:task}{\subsection*{ЗАДАНИЕ}}{}
+\newcommand{\labtask}{%
+\vskip 2ex {\centering\large \bfseries ЗАДАНИЕ\par}\vskip 1ex}
 
-\newcommand{\tasksection}[1]{\subsubsection*{#1}}
+\newlist{tasklist}{enumerate}{2}
+\setlist[tasklist]{
+    leftmargin=\parindent,
+    itemsep=0pt,
+    topsep=0pt,
+    label=\arabic*.,
+    ref=\arabic*}
+
+% Задание
+\newenvironment{lab:task}{%
+    \begin{tasklist}%
+}{%
+    \end{tasklist}%
+}
+
+
+% секция задания
+\newcommand{\tasksection}[1]{%
+    \end{tasklist}%
+    \tasksubsection*{#1}%
+    \begin{tasklist}[resume]%
+}
+
 
 % Контрольные вопросы
 \newenvironment{lab:questions}{%
 	\subsection*{Контрольные вопросы}
-	\begin{enumerate}\small%
+	\begin{enumerate}[leftmargin=\parindent]\small%
 	}{
 	\end{enumerate}%
 }
@@ -172,7 +195,7 @@
 % Литература
 \newenvironment{lab:literature}{%
 	\subsection*{Литература}
-	\begin{enumerate}\small
+	\begin{enumerate}[leftmargin=\parindent]\small
 	}{
 	\end{enumerate}%
 }
@@ -349,5 +372,12 @@
     {\clearpage\thispagestyle{empty}}%
     {\bfseries\thelab}{1ex}%
     {\large\raggedright\bfseries #1}
+
+
+\titleclass{\tasksubsection}{straight}[\subsection]
+\titlespacing{\tasksubsection}{\parindent}{*2}{*1}
+\titleformat{\tasksubsection}[hang]%
+{\sffamily\centering}{}{1ex}{#1}
+
 
 \pagestyle{main}
