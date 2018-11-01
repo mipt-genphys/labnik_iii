@@ -150,15 +150,14 @@
 
 % Добавить новую секцию без нумерации
 \newcommand{\labsection}[1]{\subsection*{#1}}
-
 \newcommand{\labsubsection}[1]{\paragraph{#1}}
 
 % Секции в теорвведениях
 \newcommand{\introsection}[1]{\section{#1}}
 \newcommand{\introsubsection}[1]{\subsection{#1}}
 
-\newcommand{\labtask}{%
-\vskip 2ex {\centering\large \bfseries ЗАДАНИЕ\par}\vskip 1ex}
+\newcommand{\labtask}{\taskblock*{\large ЗАДАНИЕ}}
+\newcommand{\labsupplement}[1]{\medskip\taskblock*{\large ПРИЛОЖЕНИЕ}}
 
 \newlist{tasklist}{enumerate}{2}
 \setlist[tasklist]{
@@ -186,7 +185,7 @@
 
 % Контрольные вопросы
 \newenvironment{lab:questions}{%
-	\subsection*{Контрольные вопросы}
+	\taskblock*{Контрольные вопросы}
 	\begin{enumerate}[leftmargin=\parindent]\small%
 	}{
 	\end{enumerate}%
@@ -194,7 +193,7 @@
 
 % Литература
 \newenvironment{lab:literature}{%
-	\subsection*{Литература}
+    \taskblock*{Литература}
 	\begin{enumerate}[leftmargin=\parindent]\small
 	}{
 	\end{enumerate}%
@@ -340,18 +339,18 @@
 \titleformat{\chapter}[display]%
     {\cleardoublepage\thispagestyle{empty}}%
     {\normalsize\sffamily Раздел \Roman{chapter}\strut\hrule}{1ex}%
-    {\Large\bfseries\MakeUppercase{#1}}[\vfil]
+    {\Large\bfseries\raggedright\MakeUppercase{#1}}[\vfil]
 
 
 \renewcommand{\thesection}{\arabic{section}}
 \titlespacing{\section}{0pt}{*2}{*1}
 \titleformat{\section}[hang]%
-    {\normalsize\bfseries}{\arabic{section}.}{1ex}{#1}
+    {\large\bfseries\raggedright}{\arabic{section}.}{1ex}{#1}
 
 
-\titlespacing{\subsection}{\parindent}{*2}{*1}
+\titlespacing{\subsection}{0pt}{*2}{*1}
 \titleformat{\subsection}[hang]%
-    {\small\bfseries}{\arabic{section}.\arabic{subsection}.}{1ex}{#1}
+    {\bfseries\raggedright}{\arabic{section}.\arabic{subsection}.}{1ex}{#1}
 
 
 \titlespacing{\paragraph}{\parindent}{0pt}{1ex}
@@ -372,6 +371,12 @@
     {\clearpage\thispagestyle{empty}}%
     {\bfseries\thelab}{1ex}%
     {\large\raggedright\bfseries #1}
+
+
+\titleclass{\taskblock}{straight}[\section]
+\titlespacing{\taskblock}{\parindent}{*2}{*1}
+\titleformat{\taskblock}[hang]%
+{\sffamily\bfseries\centering}{}{1ex}{#1}
 
 
 \titleclass{\tasksubsection}{straight}[\subsection]
