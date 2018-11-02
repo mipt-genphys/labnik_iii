@@ -92,23 +92,12 @@
 % FIXME: конфликты имен между разными папками!
 \graphicspath{{Images/}{Images/Chapter_1/}{Images/Chapter_2/}{Images/Chapter_3/}{Images/Chapter_4/}{Images/Chapter_5/}{Images/Chapter_6/}}
 
-\def\semester{3}
+\newcounter{semester}
+\setcounter{semester}{3}
 
-\newcounter{lab}[chapter]
-
-\numberwithin{lab}{chapter}
-\numberwithin{equation}{lab}
-\numberwithin{figure}{lab}
-\numberwithin{table}{lab}
-
+\setcounter{secnumdepth}{4}
 
 %%% Команды оформления лаб
-
-%\newcommand{\lab}[2][3.\arabic{chapter}.\arabic{lab}]{%
-%%	\refstepcounter{lab}%
-%	\section*{#2}%
-%%	\addcontentsline{toc}{section}{Работа #1.~#2}%
-%}
 
 \newenvironment{lab:aim}{%
     \hangindent=\parindent
@@ -120,9 +109,9 @@
 
 \newenvironment{lab:equipment}{%
     \hangindent=\parindent
-	\small\textbf{В работе используются:~}
+	\small\textbf{В работе используются:}
 }{%
-	\par\medskip%
+	\par\bigskip%
 }
 
 % короткая запись для окружения lab:equipment
@@ -148,7 +137,7 @@
 	\end{lab:theory}%
 }
 
-% Добавить новую секцию без нумерации
+% Секции в описании работы без нумерации
 \newcommand{\labsection}[1]{\subsection*{#1}}
 \newcommand{\labsubsection}[1]{\paragraph{#1}}
 
@@ -156,9 +145,13 @@
 \newcommand{\introsection}[1]{\section{#1}}
 \newcommand{\introsubsection}[1]{\subsection{#1}}
 
+% ЗАДАНИЕ
 \newcommand{\labtask}{\taskblock*{\large ЗАДАНИЕ}}
+
+% ПРИЛОЖЕНИЕ к работе
 \newcommand{\labsupplement}[1]{\medskip\taskblock*{\large ПРИЛОЖЕНИЕ}}
 
+% формат нумерованного списка для задания к работе
 \newlist{tasklist}{enumerate}{2}
 \setlist[tasklist]{
     leftmargin=\parindent,
@@ -200,27 +193,23 @@
 }
 
 % Experiment setup block
-\def\experiment{\subsection*{Экспериментальная установка}}
-
+\newcommand{\experiment}{\labsection{Экспериментальная установка}}
 
 % Warning block environment
 \newenvironment{lab:warning}{%
-	\begin{tabular}{|p{0.9\textwidth}|}
-	\hline\\
-	\hfil\textbf{Внимание!}\par
-	\begin{center}
+    \begin{mdframed}
+        \centering
+	\hline
+	\textbf{Внимание!}\par
 }{%
-	\end{center}\\ \hline
-	\end{tabular}%
+	\par\hline
+    \end{mdframed}%
 }
-
-
-
 
 % Warning block
 \newcommand{\warning}[1]{%
 	\begin{lab:warning}
-	#1\par
+	#1
 	\end{lab:warning}%
 }
 
@@ -300,22 +289,6 @@
   \input{\detokenize{Images/#2.pdf_tex}}%
 }
 
-% Отличная нумерация внутри введения
-
-\RequirePackage{etoolbox}
-
-\renewcommand{\theequation}{%
-    \ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{equation}}{\arabic{equation}}%
-}
-
-\renewcommand{\thefigure}{%
-    \ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{figure}}{\arabic{figure}}%
-}
-
-\renewcommand{\thetable}{%
-    \ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{table}}{\arabic{table}}%
-}
-
 
 % Литература
 \newcommand{\SivuhinIII}{%
@@ -330,59 +303,119 @@
     \textit{Калашников С.Г.} Электричество.~--- М.:~Физматлит, 2003.}
 
 
+\newcounter{lab}[chapter]
+%\numberwithin{lab}{chapter}
+\numberwithin{equation}{lab}
+\numberwithin{figure}{lab}
+\numberwithin{table}{lab}
 
 % форматироание секций
-\RequirePackage[raggedright, explicit, pagestyles]{titlesec}
+\RequirePackage[explicit, pagestyles]{titlesec}
+\RequirePackage[dotinlabels]{titletoc}
 
+
+\titleclass{\chapter}{top}
+\renewcommand{\thechapter}{\Roman{chapter}}
 \titlespacing{\chapter}{0pt}{2pc}{1pc}
-\titleclass{\chapter}{straight}
-\titleformat{\chapter}[display]%
-    {\cleardoublepage\thispagestyle{empty}}%
+\titleformat{\chapter}[display]{\vspace*{-50pt}\thispagestyle{empty}}%
     {\normalsize\sffamily Раздел \Roman{chapter}\strut\hrule}{1ex}%
-    {\Large\bfseries\raggedright\MakeUppercase{#1}}[\vfil]
+    {\Large\bfseries\raggedright\MakeUppercase{#1}}%
+    [\vfil]
+
+
+\titleclass{\lab}{straight}[\chapter]
+\renewcommand{\thelab}{\arabic{semester}.\arabic{chapter}.\arabic{lab}}
+\titlespacing{\lab}{\parindent}{*2}{*1}
+\titleformat{\lab}[display]%
+    {\clearpage\bfseries}%
+    {Работа~\thelab}{1ex}%
+    {\large\raggedright #1}%
+    [\vspace*{2ex}]
 
 
 \renewcommand{\thesection}{\arabic{section}}
 \titlespacing{\section}{0pt}{*2}{*1}
 \titleformat{\section}[hang]%
-    {\large\bfseries\raggedright}{\arabic{section}.}{1ex}{#1}
+    {\normalsize\bfseries\raggedright}{\thesection.}{1ex}{#1}
 
 
-\titlespacing{\subsection}{0pt}{*2}{*1}
+\titlespacing{\subsection}{0pt}{*2}{*0.5}
 \titleformat{\subsection}[hang]%
-    {\bfseries\raggedright}{\arabic{section}.\arabic{subsection}.}{1ex}{#1}
+    {\small\bfseries\raggedright}{\thesubsection.}{1ex}{#1}
 
 
+%\titleclass{\paragraph}{straight}
 \titlespacing{\paragraph}{\parindent}{0pt}{1ex}
-\titleformat{\paragraph}[runin]{\bfseries\sffamily}{}{}{#1}
+\titleformat{\paragraph}[runin]{\bfseries\sffamily}{}{}{#1.}
 
+  
+
+\titlecontents{chapter}[0pt]{\addvspace{2pc}}%
+    {Р а з д е л~~\thecontentslabel.~~\bfseries}%
+    {\bfseries}%
+    {\hfill\textbf{\contentspage}}%
+    [\addvspace{1pc}]
+
+
+\titlecontents{lab}[7em]{}%
+    {\contentslabel[Работа~\thecontentslabel.]{7em}}%
+    {}%
+    {\titlerule*[1pc]{.}\contentspage}
+
+\titlecontents{section}[1.5em]{}%
+    {\contentslabel[\thecontentslabel.]{1.5em}}%
+    {\hspace*{-1.5em}}%
+    {\titlerule*[1pc]{.}\contentspage}
+
+
+% FIXME: subsection format not working! Bug in titlesec?
+%\titlecontents{subsection}[4.5em]{}%
+%    {\footnotesize\contentslabel[\thecontentslabel.]{1.5em}}%
+%    {\hspace*{-1.5em}}%
+%    {\titlerule*[0.5pc]{.}\contentspage}
+
+
+\titleclass{\taskblock}{straight}[\subsection]
+\titlespacing{\taskblock}{0pt}{*2}{*1}
+\titleformat{\taskblock}[hang]%
+    {\sffamily\bfseries\centering}{}{1ex}{#1}
+
+
+\titleclass{\tasksubsection}{straight}[\taskblock]
+\titlespacing{\tasksubsection}{0pt}{*2}{*1}
+\titleformat{\tasksubsection}[hang]%
+    {\sffamily\centering}{}{1ex}{#1}
+
+
+% Отличная нумерация внутри введения
+\RequirePackage{etoolbox}
+
+\renewcommand{\theequation}{%
+    \ifnumequal{\value{lab}}{0}%
+        {\arabic{chapter}.\arabic{equation}}%
+        {\arabic{equation}}%
+}
+
+\renewcommand{\thefigure}{%
+    \ifnumequal{\value{lab}}{0}%
+        {\arabic{chapter}.\arabic{figure}}%
+        {\arabic{figure}}%
+}
+
+\renewcommand{\thetable}{%
+    \ifnumequal{\value{lab}}{0}%
+        {\arabic{chapter}.\arabic{table}}%
+        {\arabic{table}}%
+}
+
+
+
+% Красивые и умные колонтитулы
 
 \newpagestyle{main}{%
     \headrule
     \sethead[\thepage][][\sffamily\chaptertitle] % even
-            {\ifnumequal{\value{lab}}{0}{\normalsize\sffamily Раздел \Roman{chapter}}{\sffamily\thelab}}{}{\thepage} % odd
+    {\ifnumequal{\value{lab}}{0}{\normalsize\sffamily Раздел \Roman{chapter}}{\sffamily\thelab}}{}{\thepage} % odd
 }
-
-
-\titleclass{\lab}{straight}[\chapter]
-\renewcommand{\thelab}{Работа~\semester.\arabic{chapter}.\arabic{lab}}
-\titlespacing{\lab}{\parindent}{0pt}{1pc}
-\titleformat{\lab}[display]%
-    {\clearpage\thispagestyle{empty}}%
-    {\bfseries\thelab}{1ex}%
-    {\large\raggedright\bfseries #1}
-
-
-\titleclass{\taskblock}{straight}[\section]
-\titlespacing{\taskblock}{\parindent}{*2}{*1}
-\titleformat{\taskblock}[hang]%
-{\sffamily\bfseries\centering}{}{1ex}{#1}
-
-
-\titleclass{\tasksubsection}{straight}[\subsection]
-\titlespacing{\tasksubsection}{\parindent}{*2}{*1}
-\titleformat{\tasksubsection}[hang]%
-{\sffamily\centering}{}{1ex}{#1}
-
 
 \pagestyle{main}
