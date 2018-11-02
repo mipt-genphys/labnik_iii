@@ -78,6 +78,8 @@
 \RequirePackage{epstopdf}
 \RequirePackage{todonotes}  % for revision
 
+\RequirePackage[perpage,symbol*]{footmisc}
+
 \RequirePackage[%
         leftmargin=2pt,%
         topline=false,%
@@ -142,14 +144,16 @@
 \newcommand{\labsubsection}[1]{\paragraph{#1}}
 
 % Секции в теорвведениях
-\newcommand{\introsection}[1]{\section{#1}}
-\newcommand{\introsubsection}[1]{\subsection{#1}}
+\newcommand{\introsection}[2][]{%
+    \ifblank{#1}{\section{#2}}{\section[#1]{#2}}}
+\newcommand{\introsubsection}[2][]{%
+    \ifblank{#1}{\subsection{#2}}{\subsection[#1]{#2}}}
 
 % ЗАДАНИЕ
 \newcommand{\labtask}{\taskblock*{\large ЗАДАНИЕ}}
 
 % ПРИЛОЖЕНИЕ к работе
-\newcommand{\labsupplement}[1]{\medskip\taskblock*{\large ПРИЛОЖЕНИЕ}}
+\newcommand{\labsupplement}[1][]{\medskip\taskblock*{\large ПРИЛОЖЕНИЕ}}
 
 % формат нумерованного списка для задания к работе
 \newlist{tasklist}{enumerate}{2}
@@ -310,6 +314,9 @@
 \newcommand{\Kalashnikov}{%
     \textit{Калашников С.Г.} Электричество.~--- М.:~Физматлит, 2003.}
 
+\newcommand{\Kirichenko}{%
+        \textit{Кириченко~Н.А.} Электричество и магнетизм.~--- 
+        М.: МФТИ, 2011.}
 
 \newcounter{lab}[chapter]
 %\numberwithin{lab}{chapter}
