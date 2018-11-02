@@ -14,7 +14,7 @@
 \begin{document}
 \linenumbers
 
-<% if (chapter) print("\setcounter{chapter}{${chapter - 1}}") %>
+<% if (hasProperty("chapter")) print("\setcounter{chapter}{${chapter - 1}}") %>
 \input{$fragment}
 
 \end{document}
