@@ -153,7 +153,7 @@
 \newcommand{\labtask}{\taskblock*{\large ЗАДАНИЕ}}
 
 % ПРИЛОЖЕНИЕ к работе
-\newcommand{\labsupplement}[1][]{\medskip\taskblock*{\large ПРИЛОЖЕНИЕ}}
+\newcommand{\labsupplement}[1][]{\medskip\taskblock*{ПРИЛОЖЕНИЕ}}
 
 % формат нумерованного списка для задания к работе
 \newlist{tasklist}{enumerate}{2}
@@ -366,21 +366,21 @@
   
 
 \titlecontents{chapter}[0pt]{\addvspace{2pc}}%
-    {Р а з д е л~~\thecontentslabel.~~\bfseries}%
+    {{\sffamilyР а з д е л~~\thecontentslabel.}~~\bfseries}%
     {\bfseries}%
     {\hfill\textbf{\contentspage}}%
     [\addvspace{1pc}]
 
 
 \titlecontents{lab}[7em]{}%
-    {\contentslabel[Работа~\thecontentslabel.]{7em}}%
+    {\contentslabel[\sffamily Работа~\thecontentslabel.]{7em}}%
     {}%
-    {\titlerule*[1pc]{.}\contentspage}
+    {\titlerule*[0.5pc]{.}\contentspage}
 
 \titlecontents{section}[1.5em]{}%
     {\contentslabel[\thecontentslabel.]{1.5em}}%
     {\hspace*{-1.5em}}%
-    {\titlerule*[1pc]{.}\contentspage}
+    {\titlerule*[0.5pc]{.}\contentspage}
 
 
 % FIXME: subsection format not working! Bug in titlesec?
