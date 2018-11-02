@@ -162,11 +162,20 @@
 
 % Задание
 \newenvironment{lab:task}{%
+    \labtask
     \begin{tasklist}%
 }{%
     \end{tasklist}%
 }
 
+% workaround for enumitem changin parindent
+\newlength{\globalparindent}
+\setlength{\globalparindent}{\parindent}
+
+% Аннотация к заданию после слова ЗАДАНИЕ
+\newcommand{\taskpreamble}[1]{%
+\item[] \hspace*{-\globalparindent}\parbox{\textwidth}{#1}%
+}
 
 % секция задания
 \newcommand{\tasksection}[1]{%
@@ -197,12 +206,11 @@
 
 % Warning block environment
 \newenvironment{lab:warning}{%
-    \begin{mdframed}
+    \begin{mdframed}[topline=true,bottomline=true]
         \centering
-	\hline
 	\textbf{Внимание!}\par
 }{%
-	\par\hline
+	\par
     \end{mdframed}%
 }
 
@@ -415,7 +423,11 @@
 \newpagestyle{main}{%
     \headrule
     \sethead[\thepage][][\sffamily\chaptertitle] % even
-    {\ifnumequal{\value{lab}}{0}{\normalsize\sffamily Раздел \Roman{chapter}}{\sffamily\thelab}}{}{\thepage} % odd
+    {\ifnumequal{\value{lab}}{0}{\normalsize\sffamily Раздел \Roman{chapter}}{\sffamily Работа~\thelab}}{}{\thepage} % odd
 }
 
 \pagestyle{main}
+
+% стиль векторов(?)
+\let\ovec\vec
+\renewcommand*{\vec}[1]{\ovec{\boldsymbol{#1}}}
