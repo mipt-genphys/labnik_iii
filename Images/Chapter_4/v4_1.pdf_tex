@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{83.45978394bp}%
+    \setlength{\unitlength}{59.45978394bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,15 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.63435196)%
+  \begin{picture}(1,2.29403224)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v4_1.pdf}}%
-    \put(0.35179465,0.73570386){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\theta$}}}%
-    \put(0.38172338,0.51482171){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
-    \put(0.58954351,0.5402669){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{v}$}}}%
-    \put(0.58163154,0.95703064){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{L}$}}}%
-    \put(0.44612003,1.3609669){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
-    \put(0.3649952,1.15988531){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{\omega_L}$}}}%
-    \put(0.3603047,1.58304246){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
-    \put(-0.00560583,0.2144186){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{\mu_L}$}}}%
+    \put(0.49379099,1.03265907){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\theta$}}}%
+    \put(0.53579997,0.72262134){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{r}$}}}%
+    \put(0.82750341,0.75833707){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{v}$}}}%
+    \put(0.81639789,1.34332091){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{L}$}}}%
+    \put(0.62618931,1.91029964){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
+    \put(0.51231974,1.62805464){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{\omega}_L$}}}%
+    \put(0.50573599,2.22201248){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
+    \put(-0.00786854,0.30096527){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{\mu}_L$}}}%
   \end{picture}%
 \endgroup%
