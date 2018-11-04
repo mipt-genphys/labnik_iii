@@ -241,7 +241,7 @@
 
 % Команда для нумерованых примеров
 
-\newcounter{example}[section]
+\newcounter{example}[chapter]
 \renewcommand{\theexample}{\arabic{example}}
 
 \newenvironment{lab:example}{%
@@ -297,7 +297,9 @@
 %\newcommand*{\thesubequation}{\theparentequation \asbuk{equation}}
 
 \newcommand{\pic}[2]{%
-  \def\svgwidth{#1}%
+  \ifblank{#1}% then
+      {}% else
+      {\def\svgwidth{#1}}
   \input{\detokenize{Images/#2.pdf_tex}}%
 }
 
