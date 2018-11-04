@@ -1,6 +1,6 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '12.pdf' (pdf, eps, ps)
+%% Accompanies image file 'v6-13.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{228bp}%
+    \setlength{\unitlength}{367.2bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,14 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.36842105)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{12.pdf}}%
-    \put(0.47244094,0.32324907){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$f(t)$\end{tabular}}}}%
-    \put(0.40406132,0.26108579){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(0.96353087,0.11811024){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
-    \put(0.65893078,0.03108164){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$T$\end{tabular}}}}%
-    \put(0.08702859,0.03108164){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+  \begin{picture}(1,0.4422658)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{v6-13.pdf}}%
+    \put(0.45361655,0.02470283){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\Delta \omega$}}}%
+    \put(0.45361655,0.06587416){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.50302213,0.38701047){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$c_n$}}}%
+    \put(0.51513333,0.06587416){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega_0$}}}%
+    \put(0.56501926,0.06587416){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\omega_0$}}}%
+    \put(0.96414097,0.12351401){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega$}}}%
+    \put(0.68417592,0.34583916){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C(\omega)$}}}%
+    \put(0.48984727,0.09716436){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
   \end{picture}%
 \endgroup%
