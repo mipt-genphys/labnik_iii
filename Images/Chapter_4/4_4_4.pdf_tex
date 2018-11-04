@@ -50,23 +50,21 @@
   \makeatother%
   \begin{picture}(1,0.25496616)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_4_4.pdf}}%
-    \put(0.01253585,0.23601918){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Блок}$}}}%
-    \put(-0.0010519,0.21072584){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{питания}$}}}%
-    \put(0.11331038,0.17365729){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ген.}$}}}%
-    \put(0.1079095,0.15617196){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{тока}$}}}%
-    \put(0.18559028,0.028695){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
-    \put(0.22790868,0.05964578){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_1$}}}%
-    \put(0.22811864,0.20600903){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_2$}}}%
-    \put(0.20500831,0.09037869){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,75~A$}}}%
-    \put(0.21789041,0.23887077){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3~A$}}}%
-    \put(0.35523095,0.21763778){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_1$}}}%
-    \put(0.80610448,0.20202185){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_2$}}}%
-    \put(0.91302526,0.20255682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
-    \put(0.88894078,0.10074179){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_0$}}}%
-    \put(0.92631287,0.06413838){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Г}$}}}%
-    \put(0.61128465,0.09928835){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_T$}}}%
-    \put(0.61584225,0.22918459){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_M$}}}%
-    \put(0.61522293,0.17443255){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{T_1}$}}}%
-    \put(0.41810152,0.16828848){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{T_0}$}}}%
+    \put(0.01253585,0.22457787){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Блок}}}%
+    \put(-0.0010519,0.20309831){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{питания}}}%
+    \put(0.11331038,0.17747106){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ген.}}}%
+    \put(0.1079095,0.15617196){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{тока}}}%
+    \put(0.18559028,0.028695){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К$_1$}}}%
+    \put(0.22409491,0.05201825){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A$_1$}}}%
+    \put(0.22430488,0.19838149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A$_2$}}}%
+    \put(0.26179363,0.14422274){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{П$_1$}}}%
+    \put(0.71241256,0.14404193){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_2$}}}%
+    \put(0.91302526,0.20255682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К$_2$}}}%
+    \put(0.88131324,0.13125193){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К$_0$}}}%
+    \put(0.9224991,0.06032461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Г}}}%
+    \put(0.60386862,0.10198509){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_{т}$}}}%
+    \put(0.61584225,0.22918459){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_{М}$}}}%
+    \put(0.60848108,0.13532978){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N'$}}}%
+    \put(0.42530606,0.13481058){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N$}}}%
   \end{picture}%
 \endgroup%
