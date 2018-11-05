@@ -1,6 +1,10 @@
 \chapter*{Приложение}
-	\clearpage
-	\input{Appendices/formula.tex}
-	\clearpage
 	\input{Appendices/complex.tex}
-	\clearpage
+
+\ifpdf	
+\chapter*{Таблицы}
+	\setcounter{lab}{-1}
+	\input{Appendices/formula.tex}
+	\newpage
+	\input{Appendices/table.tex}	
+\fi
