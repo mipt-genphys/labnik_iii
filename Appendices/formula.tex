@@ -1,94 +1,75 @@
 \section*{Перевод единиц}
 
-\begin{table}[h!]
+\begin{longtable}{|L{4cm}|c|c|c|}
 	\caption{Перевод числовых значений физических величин из~системы СИ в~систему СГС}
-	\def\bbx{\raggedright\baselineskip=9pt}%
-	\def\pbl#1#2{\parbox{#1}{\bbx #2}}%
-	\def\vr{\vbox to 3pt{}}%
-	\def\pb#1{$\vcenter{\vr\hbox{\pbl{30mm}{#1\hfill}}\vr}$}%
-	\begin{tabular}{|l|c|c|c|}
-		\hline
-		 Наименование                       &        Обозн.         &         СИ         &                       СГС                        \\ \hline
-		 Длина                              &          $l$          &     1 м (метр)     &                    $10^2$~см                     \\ \hline
-		 Масса                              &          $m$          &  1 кг (килограмм)  &                     $10^3$ г                     \\ \hline
-		 Время                              &          $t$          &   1 с (секунда)    &                       1 с                        \\ \hline
-		 Работа, энергия                    &       $A$, $W$        &   1 Дж (джоуль)    &                    $10^7$ эрг                    \\ \hline
-		 Мощность                           &          $N$          &    1 Вт (ватт)     &          $10^7~\frac{эрг}{с\mathstrut}$          \\ \hline
-		 Давление                           &          $P$          &   1 Па (паскаль)   &         $10~\frac{дин}{см^2\mathstrut}$          \\ \hline
-		 \pb{Сила электри-\\ческого тока}   &          $I$          &    1 А (ампер)     &                   $3\cdot10^9$                   \\ \hline
-		 Электр. заряд                      &          $q$          &    1 Кл (кулон)    &                   $3\cdot10^9$                   \\ \hline
-		 Поляризация                        &       $\vec{P}$       & $1~\frac{Кл}{м^2}$ &                   $3\cdot10^5$                   \\ \hline
-		 \pb{Электрическая индукция}        &       $\vec{D}$       & $1~\frac{Кл}{м^2}$ &                 $12\pi\cdot10^5$                 \\ \hline
-		 Электр. ёмкость                    &          $C$          &    1 Ф (фарад)     &                $9\cdot10^{11}$ см                \\ \hline
-		 \pb{Электрическое сопротивление}   &          $R$          &     1 Ом (ом)      & $\frac{1}{9\cdot10^{11}}~\frac{с}{см\mathstrut}$ \\ \hline
-		 \pb{Удельное сопротивление}        &        $\rho$         &     1 Ом$\cdot$м   &       $\frac{1}{9\cdot10^{9}\mathstrut}~с$       \\ \hline
-		 \pb{Электрическая проводимость}    & $\Lambda=\frac{1}{R}$ &   1 См (сименс)    &      $9\cdot10^{11}~\frac{см}{с\mathstrut}$      \\ \hline
-		 \pb{Удельная проводимость}         &       $\sigma$        &  $1~\frac{См}{м}$  &               $9\cdot10^9~с^{-1}$                \\ \hline
-		 Магнитный поток                    &        $\Phi$         &    1 Вб (вебер)    &                    $10^8$ Мкс                    \\ \hline
-		 \pb{Магнитная индукция}            &       $\vec{B}$       &    1 Тл (тесла)    &                    $10^4$ Гс                     \\ \hline
-		 \pb{Напряжённость магнитного поля} &       $\vec{H}$       &  $1~\frac{А}{м}$   &               $4\pi\cdot10^{-3}$ Э               \\ \hline
-		 Намагниченность                    &       $\vec{M}$       &  $1~\frac{А}{м}$   &          $\frac{1}{4\pi}\cdot 10^4$ Гс           \\ \hline
-		 Индуктивность                      &          $L$          &    1 Гн (генри)    &                    $10^9$ см                     \\ \hline
-		 \pb{Электрический потенциал}       &        $\phi$         &   $1~В$ (вольт)    &                 $\frac{1}{300}$                  \\ \hline
-		 \pb{Напряжённость электр. поля}    &       $\vec{E}$       &  $1~\frac{В}{м}$   &            $\frac{1}{3}\cdot 10^{-4}$            \\ \hline
-	\end{tabular}
-\end{table}
+	\hline
+	Наименование                       &        Обозн.         &         СИ         &                       СГС                        \\ \hline
+	Длина                              &          $l$          &     1 м (метр)     &                    $10^2$~см                     \\
+	Масса                              &          $m$          &  1 кг (килограмм)  &                     $10^3$ г                     \\
+	Время                              &          $t$          &   1 с (секунда)    &                       1 с                        \\
+	Работа, энергия                    &       $A$, $W$        &   1 Дж (джоуль)    &                    $10^7$ эрг                    \\
+	Мощность                           &          $N$          &    1 Вт (ватт)     &          $10^7~\frac{эрг}{с\mathstrut}$          \\
+	Давление                           &          $P$          &   1 Па (паскаль)   &         $10~\frac{дин}{см^2\mathstrut}$          \\
+	Сила электрического тока		   &          $I$          &    1 А (ампер)     &                   $3\cdot10^9$                   \\
+	Электр. заряд                      &          $q$          &    1 Кл (кулон)    &                   $3\cdot10^9$                   \\
+	Поляризация                        &       $\vec{P}$       & $1~\frac{Кл}{м^2}$ &                   $3\cdot10^5$                   \\
+	Электрическая индукция	           &       $\vec{D}$       & $1~\frac{Кл}{м^2}$ &                 $12\pi\cdot10^5$                 \\
+	Электр. ёмкость                    &          $C$          &    1 Ф (фарад)     &                $9\cdot10^{11}$ см                \\
+	Электрическое сопротивление   	   &          $R$          &     1 Ом (ом)      & $\frac{1}{9\cdot10^{11}}~\frac{с}{см\mathstrut}$ \\
+	Удельное сопротивление        &        $\rho$         &     1 Ом$\cdot$м   &       $\frac{1}{9\cdot10^{9}\mathstrut}~с$       \\
+	Электрическая проводимость    & $\Lambda=\frac{1}{R}$ &   1 См (сименс)    &      $9\cdot10^{11}~\frac{см}{с\mathstrut}$      \\
+	Удельная проводимость         &       $\sigma$        &  $1~\frac{См}{м}$  &               $9\cdot10^9~с^{-1}$                \\
+	Магнитный поток                    &        $\Phi$         &    1 Вб (вебер)    &                    $10^8$ Мкс                    \\
+	Магнитная индукция            &       $\vec{B}$       &    1 Тл (тесла)    &                    $10^4$ Гс                     \\
+	Напряжённость магнитного поля &       $\vec{H}$       &  $1~\frac{А}{м}$   &               $4\pi\cdot10^{-3}$ Э               \\
+	Намагниченность                    &       $\vec{M}$       &  $1~\frac{А}{м}$   &          $\frac{1}{4\pi}\cdot 10^4$ Гс           \\
+	Индуктивность                      &          $L$          &    1 Гн (генри)    &                    $10^9$ см                     \\
+	Электрический потенциал       &        $\phi$         &   $1~В$ (вольт)    &                 $\frac{1}{300}$                  \\
+	Напряжённость электр. поля    &       $\vec{E}$       &  $1~\frac{В}{м}$   &            $\frac{1}{3}\cdot 10^{-4}$            \\
+	\hline
+\end{longtable}
 
 \clearpage
 
 \section*{Основные формулы в СИ и СГС}
 
-\begin{table}[h!]
+\begin{longtable}{|L{4cm}|c|c|}
 	\caption{Основные формулы в СИ и СГС}
-	\small%
-	\def\bbx{\raggedright\baselineskip=10pt}%
-	\def\pbl#1#2{\parbox{#1}{\bbx #2}}%
-	\def\vr{\vbox to 2pt{}}%
-	\def\pb#1{$\vcenter{\vr\hbox{\pbl{38mm}{#1\hfill}}\vr}$}%
-	\begin{tabular}{l|c|c}
-		\hline
-		 Наименование                                  &                                    СИ                                     &                                              СГС                                               \\ \hline
-		\pb{Уравнения Максвелла}                          &                            $\Div\vec{D}=\rho$                             &                                     $\Div\vec{D}=4\pi\rho$                                     \\
-		\pb{в дифференциальной}                           &                              $\Div\vec{B}=0$                              &                                        $\Div\vec{B}=0$                                         \\
-		\pb{форме}                                        &                   $\Rot\vec{E}=-\frac{\d\vec{B}}{\d t}$                   &                        $\Rot\vec{E}=-\frac{1}{c}\frac{\d\vec{B}}{\d t}$                        \\
-		\pb{}                                             &               $\Rot\vec{H}=\vec{j}+\frac{\d\vec{D}}{\d t}$                &             $\Rot\vec{H}=\frac{4\pi}{c}\vec{j}+\frac{1}{c}\frac{\d\vec{D}}{\d t}$              \\
-		\pb{Электрическая индукция}                       &                    $\vec{D}=\epsilon_0\vec{E}+\vec{P}$                    &                                 $\vec{D}=\vec{E}+4\pi\vec{P}$                                  \\
-		\pb{Напряжённость магнитного поля}                &                 $\vec{H}=\frac{1}{\mu_0}\vec{B}-\vec{M}$                  &                                 $\vec{H}=\vec{B}-4\pi\vec{M}$                                  \\
-		\pb{Материальные}                                 &                     $\vec{P}=\alpha\epsilon_0\vec{E}$                     &                                    $\vec{P}=\alpha\vec{E}$                                     \\
-		\pb{уравнения}                                    &                    $\vec{D}=\epsilon\epsilon_0\vec{E}$                    &                                   $\vec{D}=\epsilon\vec{E}$                                    \\
-		%\pb{Связь между $\vec{D}$ и $\vec{E}$ в~вакууме} &                        $\vec{D}=\epsilon_0\vec{E}$                        &                                       $\vec{D}=\vec{E}$                                        \\
-		                                                  &                          $\vec{M}=\kappa\vec{H}$                          &                                    $\vec{M}=\kappa\vec{H}$                                     \\
-		                                                  &                         $\vec{B}=\mu\mu_0\vec{H}$                         &                                      $\vec{B}=\mu\vec{H}$                                      \\
-		\pb{}                                             &                          $\vec{j}=\sigma\vec{E}$                          &                                    $\vec{j}=\sigma\vec{E}$                                     \\
-		%\pb{Связь между $\vec{B}$ и $\vec{H}$ в~вакууме} &                          $\vec{B}=\mu_0\vec{H}$                           &                                       $\vec{B}=\vec{H}$                                        \\
-		\pb{Уравнения Максвелла}                          &             $\oint\limits_{S}\v{D}\,d\v{S}=\int_{V}\rho\,dV$              &                      $\oint\limits_{S}\v{D}\,d\v{S}=4\pi\int_{V}\rho\,dV$                      \\
-		\pb{в интегральной форме}                         &                     $\oint\limits_{S}\v{B}\,d\v{S}=0$                     &                               $\oint\limits_{S}\v{B}\,d\v{S}=0$                                \\
-		\pb{}                                             & $\oint\limits_{L}\v{E}\,d\v{l}=-\int_{S}\frac{\d\vec{B}}{\d t}\,d\vec{S}$ &      $\oint\limits_{L}\v{E}\,d\v{l}=-\frac{1}{c}\int_{S}\frac{\d\vec{B}}{\d t}\,d\vec{S}$      \\
-		\pb{}                                             &                $\oint\limits_{L}\v{H}\,d\v{l}=$~~~~~~~~~~                 &                           $\oint\limits_{L}\v{H}\,d\v{l}=$~~~~~~~~~~                           \\
-		\pb{}                                             &   $=\int_{S}\vec{j}\,d\vec{S}+\int_{S}\frac{\d\vec{D}}{\d t}\,d\vec{S}$   & $=\frac{4\pi}{c}\int_{S}\vec{j}\,d\vec{S}+\frac{1}{c}\int_{S}\frac{\d\vec{D}}{\d t}\,d\vec{S}$ \\
-		\pb{Сила Лоренца}                                 &                  $\vec{F}=q\v{E}+\vp{\vec{v}}{\vec{B}}$                   &            $\ds\vec{F}=q\v{E}+\frac{q\mathstrut}{c\mathstrut}\vp{\vec{v}}{\vec{B}}$            \\
-		\pb{Закон Кулона}                                 &   $\ds \v{F}=\frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{\epsilon r^3}\v{r}$    &                          $\ds\v{F}=\frac{q_1q_2}{\epsilon r^3}\v{r}$                           \\[2ex]
-		\pb{Закон Био--Савара}                            &      $\ds d\vec{H}=\frac{I}{4\pi}\frac{\vp{d\vec{l}}{\vec{r}}}{r^3}$      &                  $\ds d\vec{H}=\frac{I}{c}\frac{\vp{d\vec{l}}{\vec{r}}}{r^3}$                  \\[2ex]
-		\pb{Закон Ампера}                                 &                    $d\vec{F}=I\vp{d\vec{l}}{\vec{B}}$                     &                          $d\vec{F}=\frac{I}{c}\vp{d\vec{l}}{\vec{B}}$                          \\
-		\pb{Плотность энергии электромагнитного поля}     &           $w=\frac12\bigl(\vec{E}\vec{D}+\vec{B}\vec{H}\bigr)$            &                  $w=\frac{1}{8\pi}\bigl(\vec{E}\vec{D}+\vec{B}\vec{H}\bigr)$                   \\
-		\pb{Вектор Пойнтинга}                             &                     $\vec{\Pi}=\vp{\vec{E}}{\vec{H}}$                     &                       $\ds\vec{\Pi}=\frac{c}{4\pi}\vp{\vec{E}}{\vec{H}}$                       \\[1ex]
-		\pb{Энергия магнитного поля тока}                 &                          $\ds W=\frac{LI^2}{2}$                           &                              $\ds W=\frac{1}{c^2}\frac{LI^2}{2}$                               \\[1ex]
-		\pb{Плотность импульса электромагнитного поля}    &              $\ds\vec{g}=\frac{1}{c^2}\vp{\vec{E}}{\vec{H}}$              &                       $\ds\vec{g}=\frac{1}{4\pi c}\vp{\vec{E}}{\vec{H}}$                       \\ 
-		\pb{Индуктивность (определение)}&$\Phi=LI$&$\ds\Phi=\frac{1}{c}LI$\\
-		\pb{Индуктивность длинного соленоида}&$\ds L=\frac{\mu\mu_0N^2S}{l}$&$\ds L=\frac{4\pi\mu N^2S}{l}$\\
-		\pb{Магнитный момент витка с током}&$\vec{\Mgot}=I\vec{S}$&$\ds\vec{\Mgot}=\frac{1}{c}I\vec{S}$\\
-		\pb{Момент сил, действующий на виток с~током}&$\vec{M}=\vp{\vec{\Mgot}}{\vec{B}}$&$\vec{M}=\vp{\vec{\Mgot}}{\vec{B}}$\\
-		\pb{Поле точечного магнитного диполя}&
-		$\vec{B}=\frac{\mu_0}{4\pi}\left(\frac{3(\vec{\Mgot}\vec{r})}{r^5}\vec{r}-\frac{\vec{\Mgot}}{r^3}\right)$
-		&$\vec{B}=\frac{3(\vec{\Mgot}\vec{r})}{r^5}\vec{r}-\frac{\vec{\Mgot}}{r^3}$\\
-		\pb{Сила, действующая на магнитный диполь в неоднородном поле}&$\vec{F}=(\vec{\Mgot}\vec{\nabla})\vec{B}$&
-		$\vec{F}=(\vec{\Mgot}\vec{\nabla})\vec{B}$\\
-		\pb{Поле точечного электрического диполя}&
-		$\vec{E}=\frac{1}{4\pi\epsilon_0}\left(\frac{3(\vec{p}\vec{r})}{r^5}\vec{r}-\frac{\vec{p}}{r^3}\right)$&
-		$\vec{E}=\frac{3(\vec{p}\vec{r})}{r^5}\vec{r}-\frac{\vec{p}}{r^3}$\\
-		\pb{Ёмкость плоского конденсатора}&$\ds C=\frac{\epsilon\epsilon_0S}{d}$&$\ds C=\frac{\e S}{4\pi d}$\\
-		\pb{Энергия заряженного конденсатора}&$W=\frac{q^2}{2C}=\frac{qU}{2}=\frac{CU^2}{2}$&
-		$W=\frac{q^2}{2C}=\frac{qU}{2}=\frac{CU^2}{2}$\\ \hline
-	\end{tabular}
-}
-\end{table}
+	\hline
+	Наименование                                 &                                    СИ                                     &                                              СГС                                               \\ \hline
+	Уравнения Максвелла                          &                            $\Div\vec{D}=\rho$                             &                                     $\Div\vec{D}=4\pi\rho$                                     \\ 
+	в дифференциальной                           &                              $\Div\vec{B}=0$                              &                                        $\Div\vec{B}=0$                                         \\
+	форме                                        &                   $\Rot\vec{E}=-\frac{d\vec{B}}{d t}$                   &                        $\Rot\vec{E}=-\frac{1}{c}\frac{d\vec{B}}{d t}$                        \\
+	                                             &               $\Rot\vec{H}=\vec{j}+\frac{d\vec{D}}{d t}$                &             $\Rot\vec{H}=\frac{4\pi}{c}\vec{j}+\frac{1}{c}\frac{d\vec{D}}{d t}$              \\ \hline
+	Электрическая индукция                       &                    $\vec{D}=\varepsilon_0\vec{E}+\vec{P}$                    &                                 $\vec{D}=\vec{E}+4\pi\vec{P}$                                  \\ \hline
+	Напряжённость магнитного поля                &                 $\vec{H}=\frac{1}{\mu_0}\vec{B}-\vec{M}$                  &                                 $\vec{H}=\vec{B}-4\pi\vec{M}$                                  \\ \hline
+	Материальные                                 &                     $\vec{P}=\alpha\varepsilon_0\vec{E}$                     &                                    $\vec{P}=\alpha\vec{E}$                                     \\
+	уравнения                                    &                    $\vec{D}=\varepsilon\varepsilon_0\vec{E}$                    &                                   $\vec{D}=\varepsilon\vec{E}$                                    \\
+	%Связь между $\vec{D$ и $\vec{E}$ в~вакууме} &                        $\vec{D}=\varepsilon_0\vec{E}$                        &                                       $\vec{D}=\vec{E}$                                        \\
+												 &                          $\vec{M}=\kappa\vec{H}$                          &                                    $\vec{M}=\kappa\vec{H}$                                     \\
+												 &                         $\vec{B}=\mu\mu_0\vec{H}$                         &                                      $\vec{B}=\mu\vec{H}$                                      \\
+	                                             &                          $\vec{j}=\sigma\vec{E}$                          &                                    $\vec{j}=\sigma\vec{E}$                                     \\ \hline
+	%Связь между $\vec{B$ и $\vec{H}$ в~вакууме} &                          $\vec{B}=\mu_0\vec{H}$                           &                                       $\vec{B}=\vec{H}$                                        \\ \hline
+	Уравнения Максвелла                          &             $\oint\limits_{S}\vec{D}\,d\vec{S}=\int_{V}\rho\,dV$              &                      $\oint\limits_{S}\vec{D}\,d\vec{S}=4\pi\int_{V}\rho\,dV$                      \\
+	в интегральной форме                         &                     $\oint\limits_{S}\vec{B}\,d\vec{S}=0$                     &                               $\oint\limits_{S}\vec{B}\,d\vec{S}=0$                                \\
+	                                             & $\oint\limits_{L}\vec{E}\,d\vec{l}=-\int_{S}\frac{d\vec{B}}{d t}\,d\vec{S}$ &      $\oint\limits_{L}\vec{E}\,d\vec{l}=-\frac{1}{c}\int_{S}\frac{d\vec{B}}{d t}\,d\vec{S}$      \\
+	                                             &   $\oint\limits_{L}\vec{H}\,d\vec{l}=\int_{S}\vec{j}\,d\vec{S}+\int_{S}\frac{d\vec{D}}{d t}\,d\vec{S}$   & $\oint\limits_{L}\vec{H}\,d\vec{l}=\frac{4\pi}{c}\int_{S}\vec{j}\,d\vec{S}+\frac{1}{c}\int_{S}\frac{d\vec{D}}{d t}\,d\vec{S}$ \\ \hline
+	Сила Лоренца                                 &                  $\vec{F}=q\vec{E}+\vp{\vec{v}}{\vec{B}}$                   &            $ds\vec{F}=q\vec{E}+\frac{q\mathstrut}{c\mathstrut}\vp{\vec{v}}{\vec{B}}$            \\ \hline
+	Закон Кулона                                 &   $ds \vec{F}=\frac{1}{4\pi\varepsilon_0}\frac{q_1q_2}{\varepsilon r^3}\vec{r}$    &                          $ds\vec{F}=\frac{q_1q_2}{\varepsilon r^3}\vec{r}$                           \\[2ex] \hline
+	Закон Био--Савара                            &      $ds d\vec{H}=\frac{I}{4\pi}\frac{\vp{d\vec{l}}{\vec{r}}}{r^3}$      &                  $ds d\vec{H}=\frac{I}{c}\frac{\vp{d\vec{l}}{\vec{r}}}{r^3}$                  \\[2ex] \hline
+	Закон Ампера                                 &                    $d\vec{F}=I\vp{d\vec{l}}{\vec{B}}$                     &                          $d\vec{F}=\frac{I}{c}\vp{d\vec{l}}{\vec{B}}$                          \\ \hline
+	Плотность энергии электромагнитного поля     &           $w=\frac12\bigl(\vec{E}\vec{D}+\vec{B}\vec{H}\bigr)$            &                  $w=\frac{1}{8\pi}\bigl(\vec{E}\vec{D}+\vec{B}\vec{H}\bigr)$                   \\ \hline
+	Вектор Пойнтинга                             &                     $\vec{\Pi}=\vp{\vec{E}}{\vec{H}}$                     &                       $ds\vec{\Pi}=\frac{c}{4\pi}\vp{\vec{E}}{\vec{H}}$                       \\[1ex] \hline
+	Энергия магнитного поля тока                 &                          $ds W=\frac{LI^2}{2}$                           &                              $ds W=\frac{1}{c^2}\frac{LI^2}{2}$                               \\[1ex] \hline
+	Плотность импульса электромагнитного поля    &              $ds\vec{g}=\frac{1}{c^2}\vp{\vec{E}}{\vec{H}}$              &                       $ds\vec{g}=\frac{1}{4\pi c}\vp{\vec{E}}{\vec{H}}$                       \\  \hline
+	Индуктивность (определение)				  	 &		$\Phi=LI$															  &			$ds\Phi=\frac{1}{c}LI$																   \\ \hline
+	Индуктивность длинного соленоида			 &		$ds L=\frac{\mu\mu_0N^2S}{l}$										  &			$ds L=\frac{4\pi\mu N^2S}{l}$														   \\ \hline
+	Магнитный момент витка с током				 &  	$\vec{\Mgot}=I\vec{S}$												  &			$ds\vec{\Mgot}=\frac{1}{c}I\vec{S}$												   \\ \hline
+	Момент сил, действующий на виток с~током	 &		$\vec{M}=\vp{\vec{\Mgot}}{\vec{B}}$									  &			$\vec{M}=\vp{\vec{\Mgot}}{\vec{B}}$													   \\ \hline
+	Поле точечного магнитного диполя			 &	$\vec{B}=\frac{\mu_0}{4\pi}\left(\frac{3(\vec{\Mgot}\vec{r})}{r^5}\vec{r}-\frac{\vec{\Mgot}}{r^3}\right)$	&$\vec{B}=\frac{3(\vec{\Mgot}\vec{r})}{r^5}\vec{r}-\frac{\vec{\Mgot}}{r^3}$\\ \hline
+	Сила, действующая на магнитный диполь в неоднородном поле   &$\vec{F}=(\vec{\Mgot}\vec{\nabla})\vec{B}$					  &	$\vec{F}=(\vec{\Mgot}\vec{\nabla})\vec{B}$													   \\ \hline
+	Поле точечного электрического диполя         &	$\vec{E}=\frac{1}{4\pi\varepsilon_0}\left(\frac{3(\vec{p}\vec{r})}{r^5}\vec{r}-\frac{\vec{p}}{r^3}\right)$&	$\vec{E}=\frac{3(\vec{p}\vec{r})}{r^5}\vec{r}-\frac{\vec{p}}{r^3}$	   \\ \hline
+	Ёмкость плоского конденсатора				 &		$ds C=\frac{\varepsilon\varepsilon_0S}{d}$								  &			$ds C=\frac{\e S}{4\pi d}$															   \\ \hline
+	Энергия заряженного конденсатора			 &		$W=\frac{q^2}{2C}=\frac{qU}{2}=\frac{CU^2}{2}$						  &			$W=\frac{q^2}{2C}=\frac{qU}{2}=\frac{CU^2}{2}$										   \\
+	\hline
+\end{longtable}
