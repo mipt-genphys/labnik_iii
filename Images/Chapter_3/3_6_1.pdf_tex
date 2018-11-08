@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{388.20990615bp}%
+    \setlength{\unitlength}{336.20458648bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,39 +48,40 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.98936679)%
+  \begin{picture}(1,1.01039634)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_6_1.pdf}}%
-    \put(0.29394455,0.08420018){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5B$}}}%
-    \put(0.34830162,0.1044061){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.25314757,0.10203281){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.40395464,0.1176242){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_2$}}}%
-    \put(0.44630712,0.17790817){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_2$}}}%
-    \put(0.35347832,0.21364046){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_0$}}}%
-    \put(0.24793572,0.21305295){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
-    \put(0.03908655,0.01672576){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Сеть}~220B$}}}%
-    \put(0.01972371,0.39076606){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Цифровой}$}}}%
-    \put(0.01896577,0.36439678){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{вольтметр}$}}}%
-    \put(0.37198624,0.44439778){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Блок управления}$}}}%
-    \put(0.59753121,0.02022678){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Образец с разъемом}$}}}%
-    \put(0.64148446,0.08201907){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.64044981,0.17713551){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
-    \put(0.64051333,0.27016543){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
-    \put(0.64013348,0.36408058){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
-    \put(0.80369723,0.0506056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Пластина}$}}}%
+    \put(0.14463543,0.11181531){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5 В}}}%
+    \put(0.17338989,0.18099272){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.31678772,0.1733546){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_2$}}}%
+    \put(0.37164018,0.25613573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А$_2$}}}%
+    \put(0.26445237,0.29739522){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_0$}}}%
+    \put(0.14258408,0.29671684){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К$_2$}}}%
+    \put(0.28582317,0.56384688){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Блок управления}}}%
+    \put(0.75701211,0.56696083){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Образец с разъемом}}}%
+    \put(0.5779722,0.14541417){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.57677751,0.25524356){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
+    \put(0.57685086,0.36266368){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.57641225,0.47110594){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.84928744,0.01268628){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Пластина}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{3_6_1.pdf}}%
-    \put(0.87443168,0.14552357){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.87462677,0.08277323){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
-    \put(0.92769788,0.14555011){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
-    \put(0.92864663,0.08280971){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
-    \put(0.8847691,0.38478333){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Диск}$}}}%
-    \put(0.63382045,0.90817779){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Электромагнит}$}}}%
-    \put(0.44036236,0.7782049){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_1$}}}%
-    \put(0.35367484,0.80583579){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
-    \put(0.14641801,0.97197598){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
-    \put(0.03370553,0.82393243){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.03451057,0.76116586){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.00486258,0.79261115){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$120 B$}}}%
-    \put(0.00985872,0.46893636){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{б})$}}}%
-    \put(0.00972835,0.97222256){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{а})$}}}%
+    \put(0.86598855,0.12832064){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.8662138,0.05586386){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
+    \put(0.92749415,0.12835129){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.92858965,0.05590598){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.91402826,0.44809139){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Диск}}}%
+    \put(0.00093268,0.59218118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{б})$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{3_6_1.pdf}}%
+    \put(0.636547,0.96320587){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Электромагнит}}}%
+    \put(0.00360883,0.99690285){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{а})$}}}%
+    \put(0.04016762,0.79325452){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К$_1$}}}%
+    \put(0.13941175,0.85056709){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.0566641,0.84980621){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.24137327,0.76909582){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А$_1$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{3_6_1.pdf}}%
+    \put(0.70340401,0.85064334){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
+    \put(0.00524807,0.889656){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ИП электромагнита}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{3_6_1.pdf}}%
+    \put(0.02221845,0.41394296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{V}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{3_6_1.pdf}}%
   \end{picture}%
 \endgroup%

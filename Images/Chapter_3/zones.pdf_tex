@@ -1,6 +1,6 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '13.pdf' (pdf, eps, ps)
+%% Accompanies image file 'zones.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{344.25bp}%
+    \setlength{\unitlength}{90.53676755bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,16 +48,20 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.4422658)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{13.pdf}}%
-    \put(0.45361654,0.02470281){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$2\Delta \omega$\end{tabular}}}}%
-    \put(0.45361654,0.06587414){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.50302213,0.38701047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$c_n$\end{tabular}}}}%
-    \put(0.51949063,0.06587414){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\omega_0$\end{tabular}}}}%
-    \put(0.56066196,0.06587414){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$2\omega_0$\end{tabular}}}}%
-    \put(0.96414099,0.12351399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\omega$\end{tabular}}}}%
-    \put(0.68417593,0.34583915){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C(\omega)$\end{tabular}}}}%
+  \begin{picture}(1,0.70743946)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{zones.pdf}}%
+    \put(0.33066083,0.40076628){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta E$}}}%
+    \put(-0.00582464,0.62815968){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{zones.pdf}}%
+    \put(0.1065357,0.02362216){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{а)}}}%
+    \put(0.49532802,0.02362216){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{б)}}}%
+    \put(0.86644803,0.02362216){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{в)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{zones.pdf}}%
+    \put(0.3652953,0.62815968){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
+    \put(0.71874287,0.62815968){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
+    \put(0.27118839,0.45318113){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e$}}}%
+    \put(0.63436088,0.49446338){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e$}}}%
+    \put(0.6398719,0.30729064){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$h$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{zones.pdf}}%
   \end{picture}%
 \endgroup%

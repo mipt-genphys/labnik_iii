@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{203.3484127bp}%
+    \setlength{\unitlength}{172.4661363bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,14 +48,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.29683635)%
+  \begin{picture}(1,0.97930452)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_1_1.pdf}}%
-    \put(0.4351737,0.05116852){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$=36~B$}}}%
-    \put(0.14122717,0.19870072){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.56080583,0.3797271){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K$}}}%
-    \put(0.74258762,0.28538747){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.34590782,0.55711589){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{Соленоид}$}}}%
-    \put(0.23258474,0.91477551){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{Пробная катушка}$}}}%
-    \put(0.44100299,1.19053915){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$mWb$}}}%
+    \put(0.11818382,0.15711905){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A}}}%
+    \put(0.35235158,0.04761782){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{=36 В}}}%
+    \put(0.49248126,0.17489088){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К}}}%
+    \put(0.11579176,0.47783161){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Соленоид}}}%
+    \put(0.4927423,0.66846968){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Пробная катушка}}}%
+    \put(0.34181891,0.87657353){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{mWb}}}%
   \end{picture}%
 \endgroup%
