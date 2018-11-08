@@ -60,8 +60,8 @@
     \put(0.77536361,0.34395243){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ж}$}}}%
     \put(0.80263967,0.16549174){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{З}$}}}%
     \put(0.0349134,0.34038484){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{800}}}%
-    \put(0.12276462,0.34646679){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathscr{E}$}}}%
-    \put(0.52178806,0.0831436){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{\mathscr{E}}{R}$}}}%
+    \put(0.12276462,0.34646679){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
+    \put(0.52178806,0.0831436){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{\mathcal{E}}{R}$}}}%
     \put(0.03422688,0.26159586){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{600}}}%
     \put(0.03387016,0.18787329){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{400}}}%
     \put(0.03232502,0.11144965){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{200}}}%

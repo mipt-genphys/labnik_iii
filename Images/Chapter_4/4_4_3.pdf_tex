@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{125.83413672bp}%
+    \setlength{\unitlength}{77.19998157bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,10 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.93974312)%
+  \begin{picture}(1,1.3472636)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_4_3.pdf}}%
-    \put(0.04593491,0.44636305){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{C_0}$}}}%
-    \put(0.47864024,0.44636305){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{C_1}$}}}%
-    \put(0.72348874,0.4443344){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Г}$}}}%
+    \put(0.38935824,0.29217718){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{с}$}}}%
+    \put(0.41222808,0.71910207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{с}'$}}}%
+    \put(0.82138289,0.71762727){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Г}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4_4_3.pdf}}%
+    \put(0.05515747,1.11886789){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$l_{с}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{4_4_3.pdf}}%
+    \put(0.28291448,0.02795593){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$d_{с}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{4_4_3.pdf}}%
   \end{picture}%
 \endgroup%

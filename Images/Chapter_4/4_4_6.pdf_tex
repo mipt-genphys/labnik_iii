@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{327.04648716bp}%
+    \setlength{\unitlength}{150.98627526bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,13 +48,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.33931496)%
+  \begin{picture}(1,0.32354743)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_4_6.pdf}}%
-    \put(0.63130202,0.11877066){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N_{T_0}$}}}%
-    \put(0.49203612,0.22305222){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_3$}}}%
-    \put(0.31346689,0.255161){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Тр.}$}}}%
-    \put(0.13540076,0.31913149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{ЛАТР}$}}}%
-    \put(-0.01063994,0.2135699){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\approx220~B$}}}%
-    \put(0.01422682,0.14101005){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$50~\text{Гц}$}}}%
+    \put(0.67087054,0.1192323){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$N$}}}%
+    \put(0.54313433,0.18775595){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_3$}}}%
+    \put(0.40859407,0.0137766){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Тр.}}}%
+    \put(0.26173669,0.2815988){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЛАТР}}}%
+    \put(-0.00549774,0.20095214){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\approx220\;{В}$}}}%
+    \put(0.02005471,0.10157254){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{50~Гц}}}%
   \end{picture}%
 \endgroup%

@@ -50,8 +50,8 @@
   \makeatother%
   \begin{picture}(1,0.57850196)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_3_2.pdf}}%
-    \put(0.9417615,0.00475186){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
+    \put(0.9417615,-0.00229314){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
     \put(-0.00268379,0.53499603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.43738327,0.01446368){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Theta$}}}%
+    \put(0.43738327,0.00037367){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Theta_\text{К}$}}}%
   \end{picture}%
 \endgroup%

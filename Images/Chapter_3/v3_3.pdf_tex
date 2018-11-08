@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{225.31163974bp}%
+    \setlength{\unitlength}{218.30926129bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,18 +48,21 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.64093955)%
+  \begin{picture}(1,0.31748062)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v3_3.pdf}}%
-    \put(0.29070401,0.37753917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega$}}}%
-    \put(0.43494953,0.28397497){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho$}}}%
-    \put(0.5382678,0.31390465){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$v$}}}%
-    \put(0.03609344,0.24959648){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
-    \put(0.12685608,0.34048881){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
-    \put(0.97011194,0.29857941){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.90480916,0.36620136){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.84145485,0.25301264){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Z$}}}%
-    \put(0.30902531,0.48023027){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Huge\text{Анод}$}}}%
-    \put(0.32432779,0.0769426){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Huge\text{Катод}$}}}%
+    \put(0.48522192,0.16202392){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.51060297,0.247718){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-e$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{v3_3.pdf}}%
+    \put(0.56513695,0.19071957){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega$}}}%
+    \put(0.59348693,0.09965887){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{\text{др}}$}}}%
+    \put(0.04156442,0.08978865){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
+    \put(0.12537245,0.17156569){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
+    \put(0.95725445,0.13895456){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.88985705,0.20874551){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
+    \put(0.82447062,0.09192621){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
+    \put(0.34207324,0.24869564){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{v3_3.pdf}}%
+    \put(0.34207324,0.00683692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Катод}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{v3_3.pdf}}%
   \end{picture}%
 \endgroup%

@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{374.51757812bp}%
+    \setlength{\unitlength}{387.13383789bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,24 +48,22 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.39235084)%
+  \begin{picture}(1,0.40570708)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2schemes.pdf}}%
-    \put(0.34262526,0.05783316){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$h$}}}%
-    \put(0.30704686,0.15640563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$w$}}}%
-    \put(0.24589153,0.18940542){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j}$}}}%
-    \put(0.20345151,0.13440581){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
-    \put(0.23144382,0.26192348){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$l$}}}%
-    \put(0.11913055,0.33240445){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(-0.00114136,0.27740482){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
-    \put(0.1651159,0.02033234){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{xx}$}}}%
-    \put(0.2930386,0.01987965){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{yy}$}}}%
-    \put(0.7496246,0.29442513){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{2schemes.pdf}}%
-    \put(0.68588847,0.38190412){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{2schemes.pdf}}%
-    \put(0.9278868,0.32690449){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
-    \put(0.86188735,0.17290556){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j}$}}}%
-    \put(0.91688698,0.16190563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.91688698,0.15640563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
+    \put(0.38364341,0.0647846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$h$}}}%
+    \put(0.34690525,0.1751627){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a$}}}%
+    \put(0.27946175,0.21211475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j}$}}}%
+    \put(0.22780817,0.14742833){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
+    \put(0.2591516,0.29331799){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$l$}}}%
+    \put(0.13339255,0.37224017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.02064017,0.28946582){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
+    \put(0.18488312,0.01865954){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{\parallel}$}}}%
+    \put(0.32812035,0.01815264){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{\perp}$}}}%
+    \put(0.90079017,0.31423786){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
+    \put(0.86518161,0.10653843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
+    \put(0.72885398,0.27765843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.67959357,0.37493604){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.83668332,0.18178937){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j}$}}}%
+    \put(0.93743834,0.19213397){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{u}\times \vec{B}$}}}%
   \end{picture}%
 \endgroup%
