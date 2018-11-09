@@ -39,56 +39,44 @@
 
 \labsection{Системы единиц}
 
-Рассмотрим вопрос о системах единиц в электродинамике. Законы макроскопической электродинамики определяются ее фундаментальными аксиомами~--- уравнениями Максвелла, концентрированным обобщением экспериментальных фактов из области электричества и магнетизма. Запишем уравнения Максвелла для вакуума в произвольной системе единиц:
+В электродинамике почти всегда используется Международная система единиц (СИ), поэтому ток измеряется в амперах, а разность потенциалов~--- в вольтах. Причины выбора СИ довольно очевидны: ток в 1 ампер довольно характерен для радиотехники, в то время как единицы СГС на много порядков меньше. В электростатике, напротив, для расчетов наиболее удобна система СГС. Более подробное описание различных система единиц и историческая справка об их создании приведена в приложении \ref{sec:app_units}.
 
-%\def\urtab#1#2#3{%
-%	kip-1ex
-%	\be#3
-%	\begin{array}{ll}
-%	\hbox to 0.5\textwidth{$\ds #1$\hfil}&\hbox to 0.25\textwidth{$\ds #2$\hfil}
-%	\end{array}
-%	\ee
-%	kip-1ex
-%}
-
-
+\labsubsection{СИ}
+Система уравнений Максвелла в международной системе единиц СИ выглядит следующим образом:
 \begin{gather}
-	\eqmark{maxwell}
+	\eqmark{maxwell-si}
 	\begin{aligned}
-		\oint_S \vec{E}d\vec{S} &= \alpha\int_V\rho\,dV, & \Div \vec{E} &= \alpha\rho,\\
-		\oint_S\vec{B}d\vec{S} &= 0, & \Div\vec{B} &= 0\\
-		\oint_L\vec{E}d\vec{l} &= -\beta\int_S\frac{\partial{\vec{B}}} {\partial t}\,d\vec{S}, & \Rot\vec{E} &= -\beta\frac{\partial\vec B}{\partial t},\\
-		\oint_L\vec{B}d\vec{l} &= \gamma\int_S\vec{j}\,d\vec{S}+\delta\int_S\frac{\partial{\vec{E}}}{\partial t}\,d\vec{S}, & \Rot\vec{B} &= \gamma\vec{j}+\delta\frac{\partial\vec E}{\partial t};
+		\oint_S\vec{D}d\vec{S} &= \int_V\rho\,dV, 																	& \Div\vec{E} 				&= \rho,												\\
+		\oint_S\vec{B}d\vec{S} &= 0, 																				& \Div\vec{B}				&= 0,													\\
+		\oint_L\vec{E}d\vec{l} &= -\int_S\frac{\partial{\vec{B}}} {\partial t}\,d\vec{S}, 							& \Rot\vec{E} 	   			&= -\frac{\partial\vec B}{\partial t},					\\
+		\oint_L\vec{H}d\vec{l} &= \int_S\vec{j}\,d\vec{S} + \int_S\frac{\partial{\vec{E}}}{\partial t}\,d\vec{S}, 	& \Rot\vec{H} 				&= \vec{j} + \frac{\partial\vec E}{\partial t}.
 	\end{aligned}
 \end{gather}
 
-Здесь приняты стандартные обозначения. Множество коэффициентов ($\alpha$, $\beta$, $\gamma$, $\delta$, $\xi$, $\eta$) свидетельствует о том, что для
-каждой физической величины, входящей в систему уравнений \eqref{maxwell}, принята собственная единица измерения,
-независимая от единиц других величин.
+При этом не следует забывать, что в системе СИ Индукция электрического поля связана с напряженностью этого поля соотношением:
+\begin{equation}
+	\vec{D} = \varepsilon_0 \vec{E},~где~\varepsilon_0 = 8,854\cdot10^{-12}~\mathtext{Ф/м}
+\end{equation}
+и
+\begin{equation}
+	\vec{B} = \mu_0 \vec{H},~где~\mu_0 = \frac{1}{\varepsilon_0c^2}=4\pi\cdot10^{-7}~\mathtext{Гн/м} = 1.256\cdot10^{-6}~\mathtext{Гн/м}
+\end{equation}
 
+При этом также соблюдается соотношение
+\begin{equation}
+	\varepsilon_0 \mu_0 = \frac{1}{c^2},
+\end{equation}
+где постоянная $c=299\,792\,458$~м/с - константа, равная скорости света в вакууме.
 
-В таблице \tabref{systems} показано, как коэффициенты, введенные в \eqref{maxwell} выглядят в различных системах единиц. В
-настоящее время принято считать, что $c=299\,792\,458$~м/с (точно). Это означает, что базисные единицы <<привязаны>> к
-этой величине. В рамках данного лабораторного практикума это значение можно округлить: $c \approx 3 \cdot 10^8$~м/с.
-
-\def\pp{\textbf}
-
-\begin{table}[h!]
-	\centering
-	\caption{Некоторые системы единиц, используемые при изучении макроскопической электродинамики}
-	\tabmark{systems}
-	\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}
-		\hline
-		     &  \pp{$\alpha$}   & \pp{$\beta$}  &    \pp{$\gamma$}    &  \pp{$\delta$}  & \pp{$\xi$} &  \pp{$\eta$}  & \pp{$\frac{\alpha\delta}{\gamma}$} & \pp{$\frac{\xi\beta}{\eta}$} & \pp{$\delta\beta$} \\[2ex] \hline
-		СГСЭ &      $4\pi$      &       1       & $\frac{4\pi}{c^2}$  & $\frac{1}{c^2}$ &     1      &       1       &                 1                  &              1               &  $\frac{1}{c^2}$   \\[2ex] \hline
-		СГСМ &    $4\pi c^2$    &       1       &       $4\pi$        & $\frac{1}{c^2}$ &     1      &       1       &                 1                  &              1               &  $\frac{1}{c^2}$   \\[2ex] \hline
-		СГС  &      $4\pi$      & $\frac{1}{c}$ &  $\frac{4\pi}{c}$   &  $\frac{1}{c}$  &     1      & $\frac{1}{c}$ &                 1                  &              1               &  $\frac{1}{c^2}$   \\[2ex] \hline
-		СИ   & $\frac{1}{\varepsilon_0}$ &       1       & $\frac{1}{\varepsilon_0c^2}$ & $\frac{1}{c^2}$ &     1      &       1       &                 1                  &              1               &  $\frac{1}{c^2}$   \\[2ex] \hline
-		МКС  &        1         &       1       &   $\frac{1}{c^2}$   & $\frac{1}{c^2}$ &     1      &       1       &                 1                  &              1               &  $\frac{1}{c^2}$   \\[2ex] \hline
-		\multicolumn{10}{|l|}{\hskip 1cm $c=299\,792\,458$~м/с;}                                                                                                                                 \\[2ex]
-		\multicolumn{10}{|l|}{\hskip 1cm $\varepsilon_0=8,854\cdot10^{-12}$~Ф/м;~~~$\mu_0=\frac{1}{\varepsilon_0c^2}=4\pi\cdot10^{-7}$~Гн/м.}                                                                                     \\[2ex] \hline
-	\end{tabular}
-\end{table}
-
-
-В электродинамике почти всегда используется Международная система единиц (СИ), поэтому ток измеряется в амперах, а разность потенциалов~--- в вольтах. Причины выбора СИ довольно очевидны: ток в 1 ампер довольно характерен для радиотехники, в то время как единицы СГС на много порядков меньше. В электростатике, напротив, для расчетов наиболее удобна система СГС.
+\labsubsection{СГС}
+Система уравнений Максвелла в системе единиц СГС выглядит следующим образом:
+\begin{gather}
+	\eqmark{maxwell-sgs}
+	\begin{aligned}
+		\oint_S\vec{D}d\vec{S} &= 4\pi \int_V\rho\,dV, 																& \Div\vec{E} 				&= 4\pi \rho,											\\
+		\oint_S\vec{B}d\vec{S} &= 0, 																				& \Div\vec{B}				&= 0,													\\
+		\oint_L\vec{E}d\vec{l} &= -\frac{1}{c}\int_S\frac{\partial{\vec{B}}} {\partial t}\,d\vec{S}, 				& \Rot\vec{E} 	   			&= -\frac{1}{c}\frac{\partial\vec B}{\partial t},		\\
+		\oint_L\vec{H}d\vec{l} &= \frac{4\pi}{c}\int_S\vec{j}\,d\vec{S} + \frac{1}{c}\int_S\frac{\partial{\vec{D}}}{\partial t}\,d\vec{S}, 	
+				& \Rot\vec{H} 				&= \frac{4\pi}{c}\vec{j} + \frac{1}{c}\frac{\partial\vec D}{\partial t};
+	\end{aligned}
+\end{gather}
