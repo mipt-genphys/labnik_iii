@@ -50,7 +50,7 @@
   \makeatother%
   \begin{picture}(1,0.67956525)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_1_2.pdf}}%
-    \put(0.68918285,0.38870391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\equal120~B$}}}%
+    \put(0.68918285,0.38870391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim 120~\text{B}$}}}%
     \put(0.85781645,0.35916793){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
     \put(0.73056332,0.17289185){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
     \put(0.79852,0.1725155){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_2$}}}%

@@ -1,6 +1,6 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '12.pdf' (pdf, eps, ps)
+%% Accompanies image file 'spiral.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{228bp}%
+    \setlength{\unitlength}{92.45194082bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,14 +48,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.36842105)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{12.pdf}}%
-    \put(0.47244094,0.32324907){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$f(t)$\end{tabular}}}}%
-    \put(0.40406132,0.26108579){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(0.96353087,0.11811024){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
-    \put(0.65893078,0.03108164){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$T$\end{tabular}}}}%
-    \put(0.08702859,0.03108164){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+  \begin{picture}(1,0.86225828)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{spiral.pdf}}%
+    \put(0.87836239,0.34300979){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B},\,\vec{E}$}}}%
+    \put(0.71800528,0.61442851){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$v_{\parallel}$}}}%
+    \put(0.44483605,0.71134166){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$v_{\perp}$}}}%
+    \put(0.53475356,0.41566103){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F_{\perp}$}}}%
+    \put(0.29792374,0.78462081){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{spiral.pdf}}%
   \end{picture}%
 \endgroup%

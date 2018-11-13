@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{395.21472841bp}%
+    \setlength{\unitlength}{197.77306744bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,18 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.48274936)%
+  \begin{picture}(1,0.4868187)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_3_4.pdf}}%
-    \put(0.70488071,0.0679013){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K$}}}%
+    \put(0.38558549,0.03348154){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{4_3_4.pdf}}%
-    \put(0.74981132,0.41507412){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Тп}$}}}%
+    \put(0.76925283,0.44642535){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T_\text{п}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{4_3_4.pdf}}%
-    \put(0.59634082,0.40993154){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}$}}}%
+    \put(0.60058651,0.43792487){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{П}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{4_3_4.pdf}}%
-    \put(0.47730066,0.41015881){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.06139474,0.43789455){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\LARGE{V}$}}}%
-    \put(0.05307975,0.38666881){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\LARGE{(T)}$}}}%
-    \put(0.03356492,0.10233824){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\LARGE{B7 - 27}$}}}%
-    \put(0.05269379,0.06376861){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\LARGE{(R)}$}}}%
+    \put(0.4673631,0.43612196){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{С}}}%
+    \put(0.05046395,0.43377245){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{V}}}%
+    \put(0.0309316,0.38430382){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$(T)$}}}%
+    \put(0.04504246,0.08904017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Omega$}}}%
   \end{picture}%
 \endgroup%
