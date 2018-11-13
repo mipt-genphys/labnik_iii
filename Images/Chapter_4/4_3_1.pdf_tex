@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{206.88862718bp}%
+    \setlength{\unitlength}{210.08863314bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,14 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.93418787)%
+  \begin{picture}(1,0.93070292)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_3_1.pdf}}%
-    \put(0.56129795,0.08103113){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Theta$}}}%
-    \put(0.52232263,0.00128598){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta T$}}}%
-    \put(0.94097779,0.07571273){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
-    \put(0.14737707,0.91111718){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu$}}}%
-    \put(-0.00252059,0.76523786){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu_{max}$}}}%
-    \put(0.02177191,0.6316293){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu_\text{нач}$}}}%
-    \put(0.00962563,0.24295058){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu_{min}$}}}%
+    \put(0.5679801,0.08292537){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Theta_{К}$}}}%
+    \put(0.52198261,0.00439488){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta T$}}}%
+    \put(0.94187677,0.07768797){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
+    \put(0.16036394,0.86990447){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu$}}}%
+    \put(-0.01009803,0.7643263){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu_{\rm max}$}}}%
+    \put(-0.00902305,0.63275283){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu_\text{нач}$}}}%
+    \put(-0.00575265,0.24999434){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu_{\rm min}$}}}%
+    \put(0.68422951,0.07704383){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
   \end{picture}%
 \endgroup%

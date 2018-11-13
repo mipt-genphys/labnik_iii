@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{148.51949857bp}%
+    \setlength{\unitlength}{54.61786525bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,13 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.75424715)%
+  \begin{picture}(1,0.67562222)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{Hall_forces.pdf}}%
-    \put(0.06779416,0.72752607){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{F}_L=e[\vec{v}_{dr}\vec{B}]$}}}%
-    \put(0.70129766,0.61449296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
-    \put(0.80953688,0.43364007){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$eE_x$}}}%
-    \put(0.83590061,0.07245258){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e\vec{E}$}}}%
-    \put(0.06831262,0.02672094){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$eE_y = |\vec{F}_L|$}}}%
-    \put(0.40741198,0.32060695){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j} = ne\vec{v}_{dr}$}}}%
+    \put(0.27395345,0.61999126){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e\vec{u}\times\vec{B}$}}}%
+    \put(-0.01595701,0.53078204){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
+    \put(0.77351204,0.30426843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$eE_x$}}}%
+    \put(0.77994118,0.06325985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$e\vec{E}$}}}%
+    \put(0.19146998,0.02782017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$eE_y =e|\vec{u}\times \vec{B}|$}}}%
+    \put(0.72991548,0.42308296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{j} = ne\vec{u}$}}}%
+    \put(0.13179205,0.30601273){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+e$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Hall_forces.pdf}}%
   \end{picture}%
 \endgroup%

@@ -50,7 +50,7 @@
   \makeatother%
   \begin{picture}(1,0.39045839)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_6_3.pdf}}%
-    \put(0.05049102,0.27604001){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\equal36~B$}}}%
+    \put(0.05049102,0.27604001){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim 36~\text{B}$}}}%
     \put(0.11853734,0.37562365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{Ом}$}}}%
     \put(0.24877189,0.32226502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
     \put(0.23771903,0.20754239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3~\text{Гн}$}}}%
@@ -67,7 +67,7 @@
     \put(0.90632383,0.10048528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
     \put(0.77169043,0.19275217){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Осциллограф}$}}}%
     \put(-0.00158412,0.19924088){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Генератор}$}}}%
-    \put(-0.000515,0.16870638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{ГЗ}-33$}}}%
+    \put(-0.000515,0.16870638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{ГЗ}--33$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{4_6_3.pdf}}%
   \end{picture}%
 \endgroup%

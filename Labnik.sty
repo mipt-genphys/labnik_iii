@@ -73,6 +73,7 @@
 \RequirePackage{array}      % дополнительные стили для таблиц
 \RequirePackage{booktabs}
 \RequirePackage{longtable}  % таблицы на несколько страниц
+\RequirePackage{enumitem}   % расширенные свойства списков
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -81,44 +82,42 @@
 \RequirePackage{epstopdf}
 \RequirePackage{todonotes}  % for revision
 
+\RequirePackage[perpage,symbol*]{footmisc}
+
+\RequirePackage[%
+        leftmargin=2pt,%
+        topline=false,%
+        bottomline=false,%
+        skipabove=\medskipamount,%
+        skipbelow=\medskipamount%
+    ]{mdframed}
+
+
 %%% Общие настройки
 
+% FIXME: конфликты имен между разными папками!
 \graphicspath{{Images/}{Images/Chapter_1/}{Images/Chapter_2/}{Images/Chapter_3/}{Images/Chapter_4/}{Images/Chapter_5/}{Images/Chapter_6/}}
 
-\def\semester{3}
+\newcounter{semester}
+\setcounter{semester}{3}
 
-\newcounter{lab}[chapter]
-
-\numberwithin{lab}{chapter}
-%\numberwithin{equation}{lab}
-%\numberwithin{figure}{lab}
-%\numberwithin{table}{lab}
-
+\setcounter{secnumdepth}{4}
 
 %%% Команды оформления лаб
 
-\newcommand{\lab}[2][\arabic{chapter}.\arabic{lab}]{
-	\refstepcounter{lab}
-	\section*{Работа #1. #2}
-	\addcontentsline{toc}{section}{Работа #1. #2}%
-}
-
 \newenvironment{lab:aim}{%
-	\noindent\textbf{Цель работы:~}\begin{small}%
-	}{%
-	\end{small}\par
-	\medskip%
-}
+    \hangindent=\parindent
+	\small\textbf{Цель работы:~}%
+}{\par\medskip}
 
 % короткая запись для окружения lab:aim
 \newcommand{\aim}[1]{\begin{lab:aim}#1\end{lab:aim}}
 
 \newenvironment{lab:equipment}{%
-	\noindent\textbf{В работе используются:~}
-	\begin{small}%
-	}{
-	\end{small}\par
-	\medskip%
+    \hangindent=\parindent
+	\small\textbf{В работе используются:}
+}{%
+	\par\bigskip%
 }
 
 % короткая запись для окружения lab:equipment
@@ -144,86 +143,117 @@
 	\end{lab:theory}%
 }
 
-% Добавить новую секцию без нумерации
+% Секции в описании работы без нумерации
 \newcommand{\labsection}[1]{\subsection*{#1}}
-
-\newcommand{\labsubsection}[1]{\subsubsection*{#1}}
+\newcommand{\labsubsection}[1]{\paragraph{#1}}
 
 % Секции в теорвведениях
-\newcommand{\introsection}[1]{\section{#1}}
-\newcommand{\introsubsection}[1]{\subsection*{#1}}
+\newcommand{\introsection}[2][]{%
+    \ifblank{#1}{\section{#2}}{\section[#1]{#2}}}
+\newcommand{\introsubsection}[2][]{%
+    \ifblank{#1}{\subsection{#2}}{\subsection[#1]{#2}}}
+
+% ЗАДАНИЕ
+\newcommand{\labtask}{\taskblock*{\large ЗАДАНИЕ}}
+
+% ПРИЛОЖЕНИЕ к работе
+\newcommand{\labsupplement}[1][]{\medskip\taskblock*{ПРИЛОЖЕНИЕ}}
+
+% формат нумерованного списка для задания к работе
+\newlist{tasklist}{enumerate}{2}
+\setlist[tasklist]{
+    leftmargin=\parindent,
+    itemsep=0pt,
+    topsep=0pt,
+    label=\arabic*.,
+    ref=\arabic*}
 
 % Задание
-\newenvironment{lab:task}{\subsection*{ЗАДАНИЕ}}{}
+\newenvironment{lab:task}{%
+    \labtask
+    \begin{tasklist}%
+}{%
+    \end{tasklist}%
+}
 
-\newcommand{\tasksection}[1]{\subsubsection*{#1}}
+% workaround for enumitem changin parindent
+\newlength{\globalparindent}
+\setlength{\globalparindent}{\parindent}
+
+% Аннотация к заданию после слова ЗАДАНИЕ
+\newcommand{\taskpreamble}[1]{%
+\item[] \hspace*{-\globalparindent}\parbox{\textwidth}{#1}%
+}
+
+% секция задания
+\newcommand{\tasksection}[1]{%
+    \end{tasklist}%
+    \tasksubsection*{#1}%
+    \begin{tasklist}[resume]%
+}
+
 
 % Контрольные вопросы
 \newenvironment{lab:questions}{%
-	\subsection*{Контрольные вопросы}
-	\begin{enumerate}\small%
+	\taskblock*{Контрольные вопросы}
+	\begin{enumerate}[leftmargin=\parindent]\small%
 	}{
 	\end{enumerate}%
 }
 
 % Литература
 \newenvironment{lab:literature}{%
-	\subsection*{Литература}
-	\begin{enumerate}\small
+    \taskblock*{Литература}
+	\begin{enumerate}[leftmargin=\parindent]\small
 	}{
 	\end{enumerate}%
 }
 
 % Experiment setup block
-\def\experiment{\subsection*{Экспериментальная установка}}
-
+\newcommand{\experiment}{\labsection{Экспериментальная установка}}
 
 % Warning block environment
 \newenvironment{lab:warning}{%
-	\begin{tabular}{|p{0.9\textwidth}|}
-	\hline\\
-	\hfil\textbf{Внимание!}\par
-	\begin{center}
+    \begin{mdframed}[topline=true,bottomline=true]
+        \centering
+	\textbf{Внимание!}\par
 }{%
-	\end{center}\\ \hline
-	\end{tabular}%
+	\par
+    \end{mdframed}%
 }
-
-
-
 
 % Warning block
 \newcommand{\warning}[1]{%
 	\begin{lab:warning}
-	#1\par
+	#1
 	\end{lab:warning}%
 }
 
 % Термин
-\newcommand{\term}[1]{\textsf{#1}}
+\newcommand{\term}[1]{\textbf{\textit{#1}}}
 
 % Important text
-\newcommand{\important}[1]{\textit{#1}}
+\newcommand{\important}[1]{\emph{#1}}
 
 
 % Команда для замечаний
 \newenvironment{lab:note}{%
-	\par\medskip\small%
-}{
-	\par\medskip
+    \par\begin{mdframed}\small\textbf{Замечание.~}%
+}{%
+\par\end{mdframed}%
 }
 
 % Команда для нумерованых примеров
 
-\newcounter{example}[section]
+\newcounter{example}[chapter]
 \renewcommand{\theexample}{\arabic{example}}
 
 \newenvironment{lab:example}{%
 	\refstepcounter{example}%
 	\par\medskip\noindent\footnotesize%
 	\textbf{Пример \theexample.~}%
-}{
-	\par\medskip
+}{%
+    \par\medskip%
 }
 
 %%% Нумерация
@@ -254,6 +284,7 @@
 
 \frenchspacing
 \righthyphenmin=2
+\sloppy
 
 % косые больше/меньше
 \renewcommand*{\le}{\leqslant}
@@ -269,23 +300,147 @@
 % нумерация внутри уравнений русскими буквами
 %\newcommand*{\thesubequation}{\theparentequation \asbuk{equation}}
 
-\newcommand{\pic}[2]{
-  \def\svgwidth{#1}
-  \input {\detokenize{Images/#2.pdf_tex}}	
+\newcommand{\pic}[2]{%
+  \ifblank{#1}% then
+      {}% else
+      {\def\svgwidth{#1}}
+  \input{\detokenize{Images/#2.pdf_tex}}%
 }
+
+
+% Литература
+\newcommand{\SivuhinIII}{%
+    \textit{Сивухин~Д.В.} Общий курс физики.~--- T.~III. Электричество.~---
+    М.: Физматлит, 2015.}
+
+\newcommand{\KingLokOlh}{%
+    \textit{Кингсеп~А.С., Локшин~Г.Р., Ольхов~О.А.} Основы физики.~---
+    Т.~1.~--- М.:~Физматлит, 2007.}
+
+\newcommand{\Kalashnikov}{%
+    \textit{Калашников С.Г.} Электричество.~--- М.:~Физматлит, 2003.}
+
+\newcommand{\Kirichenko}{%
+        \textit{Кириченко~Н.А.} Электричество и магнетизм.~--- 
+        М.: МФТИ, 2011.}
+
+\newcounter{lab}[chapter]
+%\numberwithin{lab}{chapter}
+\numberwithin{equation}{lab}
+\numberwithin{figure}{lab}
+\numberwithin{table}{lab}
+
+% форматироание секций
+\RequirePackage[explicit, pagestyles]{titlesec}
+\RequirePackage[dotinlabels]{titletoc}
+
+
+\titleclass{\chapter}{top}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\titlespacing{\chapter}{0pt}{2pc}{1pc}
+\titleformat{\chapter}[display]{\vspace*{-50pt}\thispagestyle{empty}}%
+    {\normalsize\sffamily Раздел \Roman{chapter}\strut\hrule}{1ex}%
+    {\Large\bfseries\raggedright\MakeUppercase{#1}}%
+    [\vfil]
+
+
+\titleclass{\lab}{straight}[\chapter]
+\renewcommand{\thelab}{\arabic{semester}.\arabic{chapter}.\arabic{lab}}
+\titlespacing{\lab}{\parindent}{*2}{*1}
+\titleformat{\lab}[display]%
+    {\clearpage\bfseries}%
+    {Работа~\thelab}{1ex}%
+    {\large\raggedright #1}%
+    [\vspace*{2ex}]
+
+
+\renewcommand{\thesection}{\arabic{section}}
+\titlespacing{\section}{0pt}{*2}{*1}
+\titleformat{\section}[hang]%
+    {\normalsize\bfseries\raggedright}{\thesection.}{1ex}{#1}
+
+
+\titlespacing{\subsection}{0pt}{*2}{*0.5}
+\titleformat{\subsection}[hang]%
+    {\small\bfseries\raggedright}{\thesubsection.}{1ex}{#1}
+
+
+%\titleclass{\paragraph}{straight}
+\titlespacing{\paragraph}{\parindent}{0pt}{1ex}
+\titleformat{\paragraph}[runin]{\bfseries\sffamily}{}{}{#1.}
+
+  
+
+\titlecontents{chapter}[0pt]{\addvspace{2pc}}%
+    {{\sffamilyР а з д е л~~\thecontentslabel.}~~\bfseries}%
+    {\bfseries}%
+    {\hfill\textbf{\contentspage}}%
+    [\addvspace{1pc}]
+
+
+\titlecontents{lab}[7em]{}%
+    {\contentslabel[\sffamily Работа~\thecontentslabel.]{7em}}%
+    {}%
+    {\titlerule*[0.5pc]{.}\contentspage}
+
+\titlecontents{section}[1.5em]{}%
+    {\contentslabel[\thecontentslabel.]{1.5em}}%
+    {\hspace*{-1.5em}}%
+    {\titlerule*[0.5pc]{.}\contentspage}
+
+
+% FIXME: subsection format not working! Bug in titlesec?
+%\titlecontents{subsection}[4.5em]{}%
+%    {\footnotesize\contentslabel[\thecontentslabel.]{1.5em}}%
+%    {\hspace*{-1.5em}}%
+%    {\titlerule*[0.5pc]{.}\contentspage}
+
+
+\titleclass{\taskblock}{straight}[\subsection]
+\titlespacing{\taskblock}{0pt}{*2}{*1}
+\titleformat{\taskblock}[hang]%
+    {\sffamily\bfseries\centering}{}{1ex}{#1}
+
+
+\titleclass{\tasksubsection}{straight}[\taskblock]
+\titlespacing{\tasksubsection}{0pt}{*2}{*1}
+\titleformat{\tasksubsection}[hang]%
+    {\sffamily\centering}{}{1ex}{#1}
+
 
 % Отличная нумерация внутри введения
-
 \RequirePackage{etoolbox}
 
-\renewcommand{\theequation}{
-	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{equation}}{\arabic{equation}}
+\renewcommand{\theequation}{%
+    \ifnumequal{\value{lab}}{0}%
+        {\arabic{chapter}.\arabic{equation}}%
+        {\arabic{equation}}%
 }
 
-\renewcommand{\thefigure}{
-	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{figure}}{\arabic{figure}}
+\renewcommand{\thefigure}{%
+    \ifnumequal{\value{lab}}{0}%
+        {\arabic{chapter}.\arabic{figure}}%
+        {\arabic{figure}}%
 }
 
-\renewcommand{\thetable}{
-	\ifnumequal{\value{lab}}{0}{\arabic{chapter}.\arabic{table}}{\arabic{table}}
+\renewcommand{\thetable}{%
+    \ifnumequal{\value{lab}}{0}%
+        {\arabic{chapter}.\arabic{table}}%
+        {\arabic{table}}%
 }
+
+
+
+% Красивые и умные колонтитулы
+
+\newpagestyle{main}{%
+    \headrule
+    \sethead[\thepage][][\sffamily\chaptertitle] % even
+    {\ifnumequal{\value{lab}}{0}{\normalsize\sffamily Раздел \Roman{chapter}}{\sffamily Работа~\thelab}}{}{\thepage} % odd
+}
+
+\pagestyle{main}
+
+% стиль векторов(?)
+\let\ovec\vec
+\renewcommand*{\vec}[1]{\ovec{\boldsymbol{#1}}}

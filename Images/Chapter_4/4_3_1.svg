@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="72.98571mm"
-   height="68.182365mm"
-   viewBox="0 0 258.61078 241.59106"
+   width="74.114601mm"
+   height="68.978676mm"
+   viewBox="0 0 262.61079 244.41263"
    id="svg5090"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -87,9 +87,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="184.10214"
-     inkscape:cy="-25.040509"
+     inkscape:zoom="1.979899"
+     inkscape:cx="127.91079"
+     inkscape:cy="140.03857"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -107,8 +107,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid5638"
-       originx="-214.07774"
-       originy="-584.95125" />
+       originx="-210.07774"
+       originy="-582.12968" />
   </sodipodi:namedview>
   <metadata
      id="metadata5095">
@@ -126,14 +126,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-214.07774,-225.81988)">
+     transform="translate(-210.07774,-225.81988)">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.62822837;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
        d="m 244.24698,227.49173 0,205.75892 227.29815,0"
        id="path5659"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.62822837px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 244.85176,302.27521 c 25.42545,-44.03814 84.48102,-44.03814 109.90645,0 16.92637,29.31733 15.9772,99.61366 50.8352,99.89897 9.11797,-0.28531 11.63089,0.34293 16.23162,-1.00789"
        id="path5977"
        inkscape:connector-curvature="0"
@@ -177,78 +177,89 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.85285425px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="359.23544"
-       y="446.45541"
+       y="448.45541"
        id="text6106"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6108"
          x="359.23544"
-         y="446.45541">$\Theta$</tspan></text>
+         y="448.45541">$\Theta_{К}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.85285425px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="349.15601"
-       y="467.07837"
+       x="347.15601"
+       y="469.07837"
        id="text6110"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6112"
-         x="349.15601"
-         y="467.07837">$\Delta T$</tspan></text>
+         x="347.15601"
+         y="469.07837">$\Delta T$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.85285425px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="457.42474"
-       y="447.83081"
+       y="449.83081"
        id="text7086"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7088"
          x="457.42474"
-         y="447.83081">$T$</tspan></text>
+         y="449.83081">$T$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.85285425px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="252.19104"
-       y="231.78621"
+       y="241.78621"
        id="text7090"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7092"
          x="252.19104"
-         y="231.78621">$\mu$</tspan></text>
+         y="241.78621">$\mu$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.85285425px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="213.42589"
+       x="207.42589"
        y="269.51218"
        id="text7094"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7096"
-         x="213.42589"
-         y="269.51218">$\mu_{max}$</tspan></text>
+         x="207.42589"
+         y="269.51218">$\mu_{\rm max}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.85285425px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="219.70819"
+       x="207.70819"
        y="304.06479"
        id="text7098"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7100"
-         x="219.70819"
+         x="207.70819"
          y="304.06479">$\mu_\text{нач}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.85285425px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="216.56703"
+       x="208.56703"
        y="404.5813"
        id="text7102"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7104"
-         x="216.56703"
-         y="404.5813">$\mu_{min}$</tspan></text>
+         x="208.56703"
+         y="404.5813">$\mu_{\rm min}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="389.76379"
+       y="449.99997"
+       id="text4263"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4265"
+         x="389.76379"
+         y="449.99997"></tspan></text>
   </g>
 </svg>
