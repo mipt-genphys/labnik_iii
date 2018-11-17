@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '3_5_1.pdf' (pdf, eps, ps)
+%% Accompanies image file 'c5_1_1.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -49,20 +49,18 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.48777093)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{Images/Chapter_5/3_5_1.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{c5_1_1.pdf}}%
     \put(0.30366254,0.27047673){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Катод}$}}}%
-    \put(0.52654376,0.27083448){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Анод}-I$}}}%
-    \put(0.58242007,0.0705511){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Анод}-II$}}}%
-    \put(0.61291239,0.14250893){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Зонды}$}}}%
-    \put(0.7089011,0.35188222){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_1$}}}%
+    \put(0.58564216,0.27083448){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод-I}}}%
+    \put(0.59867724,0.10119988){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод-II}}}%
+    \put(0.61291239,0.18472208){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Зонды}}}%
     \put(0.54865013,0.02503091){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_2$}}}%
-    \put(0.28046934,0.04059308){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Анод}-III$}}}%
+    \put(0.33534643,0.04059308){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод-III}}}%
     \put(0.1737522,0.1695248){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Геттерный}$}}}%
     \put(0.18726014,0.14250893){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{узел}$}}}%
     \put(0.02799087,0.45994582){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{ВИП}$}}}%
     \put(0.81174849,0.39215707){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Источник}$}}}%
-    \put(0.81021071,0.36370725){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{пост. тока}$}}}%
-    \put(0.86424258,0.1830328){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.81021071,0.36792857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{пост. тока}$}}}%
     \put(0.87313004,0.14847878){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
     \put(0.92276694,0.04135746){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_2$}}}%
     \put(0.76293297,0.04041517){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_2$}}}%
@@ -75,5 +73,6 @@
     \put(0.928083,0.2648875){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
     \put(0.00213475,0.41263349){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
     \put(0.08922615,0.41252638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.7089011,0.35188222){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_1$}}}%
   \end{picture}%
 \endgroup%
