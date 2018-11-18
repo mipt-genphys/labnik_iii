@@ -1,0 +1,81 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'v5_6m.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{250.21470438bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.13403954)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_6m.pdf}}%
+    \put(0.14044669,0.35194555){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.11209292,0.15705103){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А}}}%
+    \put(0.76089404,0.00332095){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{800}}}%
+    \put(0.57517544,0.00154279){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{600}}}%
+    \put(0.40076821,0.00062034){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{400}}}%
+    \put(0.23219972,0.00087364){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{200}}}%
+    \put(0.08394327,0.00371261){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(-0.00145447,0.13461619){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-16}$}}}%
+    \put(-0.00145447,0.23971811){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-12}$}}}%
+    \put(0.00067846,0.40909724){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-5}$}}}%
+    \put(-0.00018271,0.51111792){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-4}$}}}%
+    \put(-0.00070999,0.60805195){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-3}$}}}%
+    \put(-0.00090397,0.70789706){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-2}$}}}%
+    \put(-0.00107101,0.80466239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-1}$}}}%
+    \put(0.01945765,0.90236646){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(-0.00001079,1.00036637){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10$}}}%
+    \put(0.12091327,1.10075749){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$,~А}}}%
+    \put(0.83666997,0.08346403){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$,~В}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_6m.pdf}}%
+    \put(0.49022614,0.1777235){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Б}}}%
+    \put(0.63960174,0.27648341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{В}}}%
+    \put(0.64007711,0.41052551){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Г}}}%
+    \put(0.33554337,0.49823124){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Д}}}%
+    \put(0.33554337,0.84992917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Е}}}%
+    \put(0.80873693,0.90108523){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ж}}}%
+    \put(0.16398741,1.024646){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{З}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{v5_6m.pdf}}%
+  \end{picture}%
+\endgroup%
