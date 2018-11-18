@@ -1,0 +1,81 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'v5_7m.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{238.48292794bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.01056081)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_7m.pdf}}%
+    \put(0.03791925,0.74619235){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.04070552,0.56058551){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
+    \put(0.30521597,0.46970751){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_\text{к}$}}}%
+    \put(0.81743284,0.56652167){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_\text{а}$}}}%
+    \put(0.60962512,0.48898177){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
+    \put(0.03559131,0.36997635){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$|j|$}}}%
+    \put(0.13130251,0.29796414){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j_i$}}}%
+    \put(0.36127774,0.28263244){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j_e$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_7m.pdf}}%
+    \put(0.69392856,0.28565202){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j$}}}%
+    \put(0.04015967,0.21464368){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho$}}}%
+    \put(0.1261366,0.12866665){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.29995106,0.06837915){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.86214009,0.04599503){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.89432944,0.81803789){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.68310555,0.98222413){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.39126076,0.82204495){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{v5_7m.pdf}}%
+    \put(0.19485108,0.98194834){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{v5_7m.pdf}}%
+    \put(-0.00018098,0.92806444){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К}}}%
+    \put(0.96591946,0.9260174){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А}}}%
+    \put(0.0576848,0.07456572){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{v5_7m.pdf}}%
+    \put(-0.00221113,0.86618198){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.96389577,0.86618198){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{v5_7m.pdf}}%
+  \end{picture}%
+\endgroup%
