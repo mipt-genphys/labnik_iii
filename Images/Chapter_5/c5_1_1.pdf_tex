@@ -50,10 +50,10 @@
   \makeatother%
   \begin{picture}(1,0.48777093)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{c5_1_1.pdf}}%
-    \put(0.30366254,0.27047673){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Катод}$}}}%
+    \put(0.30419555,0.27474088){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Катод}$}}}%
     \put(0.58564216,0.27083448){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод-I}}}%
     \put(0.59867724,0.10119988){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод-II}}}%
-    \put(0.61291239,0.18472208){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Зонды}}}%
+    \put(0.61611052,0.18525509){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Зонды}}}%
     \put(0.54865013,0.02503091){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_2$}}}%
     \put(0.33534643,0.04059308){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод-III}}}%
     \put(0.1737522,0.1695248){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Геттерный}$}}}%
@@ -74,5 +74,6 @@
     \put(0.00213475,0.41263349){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
     \put(0.08922615,0.41252638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
     \put(0.7089011,0.35188222){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}_1$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{c5_1_1.pdf}}%
   \end{picture}%
 \endgroup%

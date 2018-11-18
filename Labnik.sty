@@ -157,7 +157,13 @@
 \newcommand{\labtask}{\taskblock*{\large ЗАДАНИЕ}}
 
 % ПРИЛОЖЕНИЕ к работе
-\newcommand{\labsupplement}[1][]{\medskip\taskblock*{ПРИЛОЖЕНИЕ}}
+% TODO: разобраться с приложениями. Что если их несколько?
+\newcommand{\labsupplement}[1][]{%
+    \medskip%
+    \refstepcounter{lab}% обновить счетчики уравнений и рисунков
+    \addtocounter{lab}{-1}% вернуть номер работы
+    \taskblock*{ПРИЛОЖЕНИЕ}%
+}
 
 % формат нумерованного списка для задания к работе
 \newlist{tasklist}{enumerate}{2}
@@ -279,12 +285,12 @@
 % Ссылка на рисунок
 \newcommand{\tabref}[1]{\ref{tab:\arabic{chapter}.\arabic{lab}.#1}}
 
-
 %%% Форматирование
 
 \frenchspacing
 \righthyphenmin=2
 \sloppy
+\raggedbottom
 
 % косые больше/меньше
 \renewcommand*{\le}{\leqslant}
