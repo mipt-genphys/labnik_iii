@@ -96,7 +96,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -208,6 +208,6 @@
          sodipodi:role="line"
          id="tspan9926"
          x="261.42859"
-         y="136.82648">$H_\text{П}(\sim I)$</tspan></text>
+         y="136.82648">$H_\text{П}(\propto I)$</tspan></text>
   </g>
 </svg>
