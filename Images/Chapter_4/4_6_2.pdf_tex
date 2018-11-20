@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{391.34087991bp}%
+    \setlength{\unitlength}{368.50393701bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,54 +48,53 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.7069801)%
+  \begin{picture}(1,0.75117704)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_6_2.pdf}}%
-    \put(0.25786006,0.59192393){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
-    \put(0.25813007,0.49187579){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
-    \put(0.25762649,0.39219684){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.25174265,0.20559645){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.67199831,0.2572841){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{7}}}%
-    \put(0.7393953,0.09466501){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{8}}}%
-    \put(0.91370234,0.09494025){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{9}}}%
-    \put(0.54355097,0.62138475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5}}}%
-    \put(0.66658449,0.59869826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(0.75636669,0.68247404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{10}}}%
-    \put(0.76395391,0.01717453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Петля}$}}}%
-    \put(0.88593199,0.0451928){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
-    \put(0.85118978,0.28684892){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.80075709,0.28642869){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.77182873,0.18601197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ф.Лиссажу}$}}}%
-    \put(0.7615472,0.39867316){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Осциллограф}$}}}%
-    \put(0.79870784,0.5613761){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
-    \put(0.88706429,0.64707167){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
-    \put(0.87038211,0.58328033){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{\text{вых}}$}}}%
-    \put(0.88663258,0.6852744){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{\text{Г}}$}}}%
-    \put(0.69680997,0.5834202){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.56315704,0.67307826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_M$}}}%
-    \put(0.539442,0.49387849){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L_1$}}}%
-    \put(0.54056257,0.3540681){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L_2$}}}%
-    \put(0.18151086,0.35981188){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L_0$}}}%
-    \put(0.16989353,0.32711437){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3~\text{Гн}$}}}%
-    \put(0.18369661,0.47152022){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.00429764,0.46090742){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim 36~\text{B}$}}}%
-    \put(0.11431376,0.54993869){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}$}}}%
-    \put(0.11389341,0.52192047){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{Ом}$}}}%
-    \put(0.01889976,0.18007573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Зв. генератор}$}}}%
-    \put(0.30959986,0.20853831){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_1$}}}%
-    \put(0.38805071,0.12448411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_0$}}}%
-    \put(0.60659181,0.26891067){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_2$}}}%
-    \put(0.28146368,0.15191608){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3,1~\text{Ом}$}}}%
-    \put(0.58814674,0.21387615){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3,1~\text{Ом}$}}}%
-    \put(0.33033374,0.09468061){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$130~\text{кОм}$}}}%
-    \put(0.51733826,0.13589757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_0$}}}%
-    \put(0.51733826,0.0991035){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4~\text{мкФ}$}}}%
-    \put(0.48040844,0.29623484){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1$}}}%
-    \put(0.46097643,0.26542905){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_4$}}}%
-    \put(0.43149222,0.29518202){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_3$}}}%
-    \put(0.46524049,0.32579417){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_2$}}}%
-    \put(0.47937359,0.55512194){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1$}}}%
-    \put(0.45963676,0.52346146){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_2$}}}%
-    \put(0.4302178,0.55386125){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_3$}}}%
-    \put(0.4712642,0.26373378){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.26352297,0.60912474){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 1}}}}%
+    \put(0.26380971,0.50287641){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 3}}}}%
+    \put(0.26327493,0.39702015){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 4}}}}%
+    \put(0.25693343,0.19876272){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 2}}}}%
+    \put(0.70284923,0.25326957){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 7}}}}%
+    \put(0.77519041,0.08134009){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 8}}}}%
+    \put(0.9599159,0.08124866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 9}}}}%
+    \put(0.5672092,0.63993449){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 5}}}}%
+    \put(0.72166131,0.63387934){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 6}}}}%
+    \put(0.79452402,0.70720528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\tiny 10}}}}%
+    \put(0.92888963,0.02688333){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
+    \put(0.89199438,0.28351538){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.83843627,0.28306911){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
+    \put(0.7881127,0.40226961){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Осциллограф}$}}}%
+    \put(0.83300362,0.57397013){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.84868185,0.73987387){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
+    \put(0.93082909,0.62436856){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{\text{вых}}$}}}%
+    \put(0.92963364,0.70229026){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{\text{Г}}$}}}%
+    \put(0.71154519,0.55893732){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.58611164,0.69368017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_M$}}}%
+    \put(0.56092694,0.50337502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L_1$}}}%
+    \put(0.56211695,0.35490028){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L_2$}}}%
+    \put(0.18081405,0.36100002){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L_0$}}}%
+    \put(0.16847676,0.32627617){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3~\text{Гн}$}}}%
+    \put(0.18313525,0.47963115){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.00564419,0.46836066){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\simeq36$~В}}}%
+    \put(0.10945261,0.56290938){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{П}$}}}%
+    \put(0.1090062,0.53315482){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{Ом}$}}}%
+    \put(0.07950717,0.20779497){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
+    \put(0.31684099,0.20035171){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_1$}}}%
+    \put(0.40015361,0.11108849){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_0$}}}%
+    \put(0.63223816,0.26446546){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_2$}}}%
+    \put(0.28696115,0.1358786){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3,1~\text{Ом}$}}}%
+    \put(0.61265001,0.20167847){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3,1~\text{Ом}$}}}%
+    \put(0.33017603,0.07509612){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$130~\text{кОм}$}}}%
+    \put(0.53745338,0.12320926){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_0$}}}%
+    \put(0.53745338,0.08413499){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4~\text{мкФ}$}}}%
+    \put(0.49823494,0.29348297){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1$}}}%
+    \put(0.47759869,0.26076808){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_4$}}}%
+    \put(0.44628728,0.29236491){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_3$}}}%
+    \put(0.482127,0.32487415){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_2$}}}%
+    \put(0.49279408,0.56841385){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_1$}}}%
+    \put(0.476176,0.53479131){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_2$}}}%
+    \put(0.44493388,0.56707503){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n_3$}}}%
+    \put(0.48852401,0.25896775){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4_6_2.pdf}}%
   \end{picture}%
 \endgroup%

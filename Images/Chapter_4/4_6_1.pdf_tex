@@ -53,6 +53,6 @@
     \put(0.90453722,0.34381795){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H$}}}%
     \put(0.46795979,0.77284924){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
     \put(0.55237459,0.63877571){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.53654233,0.35605619){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H_\text{П}(\sim I)$}}}%
+    \put(0.53654233,0.35605619){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H_\text{П}(\propto I)$}}}%
   \end{picture}%
 \endgroup%
