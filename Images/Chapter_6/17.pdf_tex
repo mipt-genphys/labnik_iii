@@ -50,10 +50,10 @@
   \makeatother%
   \begin{picture}(1,0.28609627)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{17.pdf}}%
-    \put(0.17432313,0.26527433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_0(\omega)$}}}%
+    \put(0.17432313,0.26527433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F_0(\omega)$}}}%
     \put(0.12126826,0.25011581){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau$}}}%
     \put(0.31074992,0.1364268){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega$}}}%
-    \put(0.70487178,0.26527433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C(\omega)$}}}%
+    \put(0.70487178,0.26527433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F(\omega)$}}}%
     \put(0.65181695,0.17432313){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{\tau}{2}$}}}%
     \put(0.51539013,0.08337193){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\omega_0$}}}%
     \put(0.83371934,0.08337193){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega_0$}}}%

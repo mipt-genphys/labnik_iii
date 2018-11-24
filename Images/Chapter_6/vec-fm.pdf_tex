@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '15b.pdf' (pdf, eps, ps)
+%% Accompanies image file 'vec-fm.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{339.2bp}%
+    \setlength{\unitlength}{154.94666272bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,14 +48,19 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.27987423)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{15b.pdf}}%
-    \put(0.74877434,0.23176349){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.74877434,0.24067745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F(\omega)$}}}%
-    \put(0.84682813,0.03565592){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega_0$}}}%
-    \put(0.57940869,0.03565592){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\omega_0$}}}%
-    \put(0.97162381,0.08022582){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega$}}}%
-    \put(0.21393551,0.24067745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F_0(\omega)$}}}%
-    \put(0.40112911,0.08022582){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega$}}}%
+  \begin{picture}(1,0.54480515)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{vec-fm.pdf}}%
+    \put(0.17226586,0.25670306){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_0$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{vec-fm.pdf}}%
+    \put(0.71399878,0.14621687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_0$}}}%
+    \put(0.81709217,0.47983149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$ma_0/2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{vec-fm.pdf}}%
+    \put(0.68912126,0.49848129){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+\Omega$}}}%
+    \put(0.71319457,0.27302019){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\Omega$}}}%
+    \put(0.81839586,0.32858241){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$ma_0/2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{vec-fm.pdf}}%
+    \put(-0.00340338,0.43915902){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta \varphi=m\cos\Omega t$}}}%
+    \put(0.4351728,0.18992703){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\approx$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{vec-fm.pdf}}%
   \end{picture}%
 \endgroup%

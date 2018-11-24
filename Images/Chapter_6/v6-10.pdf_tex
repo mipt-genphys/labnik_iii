@@ -50,23 +50,23 @@
   \makeatother%
   \begin{picture}(1,1.04559037)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v6-10.pdf}}%
-    \put(0.76041057,0.96715744){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_0$}}}%
-    \put(0.82242588,0.85863063){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{ma_0}{2}$}}}%
-    \put(0.76041057,0.30049255){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{a_0}{2}$}}}%
-    \put(0.82242588,0.23847719){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{ma_0}{4}$}}}%
-    \put(0.7535421,0.0700022){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0$}}}}%
-    \put(0.7535421,0.59506541){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0$}}}}%
-    \put(0.09112239,0.0700022){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$-\omega_0$}}}}%
-    \put(0.93095278,0.12995035){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega$}}}}%
-    \put(0.45033386,0.05243117){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.45033386,0.57956157){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.49684536,0.99816514){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_n$}}}%
-    \put(0.49684536,0.47103471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$c_n$}}}%
-    \put(0.85072041,0.00708245){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0+\Omega$}}}}%
-    \put(0.5506566,0.00708245){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0-\Omega$}}}}%
+    \put(0.82242588,0.85863065){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{ma_0}{2}$}}}%
+    \put(0.76041057,0.30049256){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{a_0}{2}$}}}%
+    \put(0.82242588,0.23847721){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{ma_0}{4}$}}}%
+    \put(0.7535421,0.07000221){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0$}}}}%
+    \put(0.7535421,0.59506543){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0$}}}}%
+    \put(0.09112239,0.07000222){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$-\omega_0$}}}}%
+    \put(0.76041057,0.96715746){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_0$}}}%
+    \put(0.93095278,0.12995036){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega$}}}}%
+    \put(0.45033386,0.05243119){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.45033386,0.57956158){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.49684536,0.99816516){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_n$}}}%
+    \put(0.49684536,0.47103473){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$c_n$}}}%
+    \put(0.85072041,0.00708247){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0+\Omega$}}}}%
+    \put(0.5506566,0.00708247){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0-\Omega$}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{v6-10.pdf}}%
-    \put(0.85072041,0.53214569){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0+\Omega$}}}}%
-    \put(0.5506566,0.53214569){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0-\Omega$}}}}%
+    \put(0.85072041,0.5321457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0+\Omega$}}}}%
+    \put(0.5506566,0.5321457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textit{$\omega_0-\Omega$}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{v6-10.pdf}}%
   \end{picture}%
 \endgroup%
