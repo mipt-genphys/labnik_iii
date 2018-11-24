@@ -266,6 +266,18 @@
     \par\medskip%
 }
 
+
+\newcounter{exercise}[chapter]
+\renewcommand{\theexercise}{\arabic{exercise}}
+
+\newenvironment{lab:exercise}{%
+    \refstepcounter{exercise}%
+    \par\medskip\noindent\footnotesize%
+    \textbf{Упражнение \theexercise.~}%
+}{%
+\par\medskip%
+}
+
 %%% Нумерация
 % Вставить номер уравнения внутри главы или работы
 \newcommand{\eqmark}[1]{\label{eq:\arabic{chapter}.\arabic{lab}.#1}}
@@ -445,7 +457,7 @@
 
 \newpagestyle{main}{%
     \headrule
-    \sethead[\thepage][][\sffamily\chaptertitle] % even
+    \sethead[\thepage][][\sffamily\chaptertitle]% even
     {\ifnumequal{\value{lab}}{0}{\normalsize\sffamily Раздел \Roman{chapter}}{\sffamily Работа~\thelab}}{}{\thepage} % odd
 }
 

@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '6_1_1.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{338.08351976bp}%
+    \setlength{\unitlength}{334.33642951bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,17 +48,19 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.46336525)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.45784015)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{6_1_1.pdf}}%
-    \put(0.19396743,0.38679422){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Смеситель\end{tabular}}}}%
-    \put(0.51035828,0.39517867){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Фильтр и \\усилитель\end{tabular}}}}%
-    \put(0.82896753,0.39517867){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Детектор и \\усилитель\end{tabular}}}}%
-    \put(0.19396743,0.16879829){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Гетеродин\end{tabular}}}}%
-    \put(0.51257667,0.17718275){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Генератор\\развертки\end{tabular}}}}%
-    \put(0.79764814,0.22748947){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a(\nu)$\end{tabular}}}}%
-    \put(0.89826158,0.12687602){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\nu$\end{tabular}}}}%
-    \put(0.02627835,0.41194758){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$f(t)$\end{tabular}}}}%
+%    \put(0.1849339,0.44163501){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Смеситель}}}%
+%    \put(0.46163202,0.39282431){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Узкополосный\\ фильтр}}}%
+%    \put(0.8270508,0.38956896){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Детектор и \\ усилитель}}}%
+%    \put(0.17182485,0.16772666){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Гетеродин}}}%
+%    \put(0.49784443,0.18862646){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Генератор\\ развертки}}}%
+    \put(0.56411909,0.32550004){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_0$}}}%
+    \put(0.80426646,0.2128692){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$a(\nu)$}}}%
+    \put(0.90261616,0.12691054){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$\nu$}}}%
+    \put(0.05717609,0.39642973){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$f(t)$}}}%
+    \put(0.03300969,0.34476822){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu$}}}%
+    \put(0.2101521,0.27828331){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_\text{гет}$}}}%
+    \put(0.24460567,0.39642986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_\text{гет}-\nu$}}}%
   \end{picture}%
 \endgroup%
