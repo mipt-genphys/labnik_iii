@@ -68,12 +68,13 @@
 \RequirePackage{subcaption} % подкартинки
 \RequirePackage{color}      % цветной текст
 \RequirePackage{import}     % импорт рисунков для pdf+tex
-
+\RequirePackage{chngcntr}   % продвинутые счетчики
 
 \RequirePackage{array}      % дополнительные стили для таблиц
 \RequirePackage{booktabs}
 \RequirePackage{longtable}  % таблицы на несколько страниц
 \RequirePackage{enumitem}   % расширенные свойства списков
+\RequirePackage{hyphenat}
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -82,8 +83,10 @@
 \RequirePackage{epstopdf}
 \RequirePackage{todonotes}  % for revision
 
+% cноски в виде звездочек
 \RequirePackage[perpage,symbol*]{footmisc}
 
+% рамки для замечаний
 \RequirePackage[%
         leftmargin=2pt,%
         topline=false,%
@@ -101,7 +104,11 @@
 \newcounter{semester}
 \setcounter{semester}{3}
 
-\setcounter{secnumdepth}{4}
+\setcounter{secnumdepth}{4} % FIXME: почему 4?
+
+
+\newcounter{labflag} % 0, если Введение; 1, если лаба
+\setcounter{labflag}{0}
 
 %%% Команды оформления лаб
 
@@ -156,18 +163,34 @@
 % ЗАДАНИЕ
 \newcommand{\labtask}{\taskblock*{\large ЗАДАНИЕ}}
 
-% ПРИЛОЖЕНИЕ к работе
-% TODO: разобраться с приложениями. Что если их несколько?
-\newcommand{\labsupplement}[1][]{%
-    \medskip%
-    \refstepcounter{lab}% обновить счетчики уравнений и рисунков
-    \addtocounter{lab}{-1}% вернуть номер работы
+
+% ПРИЛОЖЕНИЕ к разделу
+\newcounter{supplement}[chapter]
+\counterwithin{equation}{supplement}
+\counterwithin{figure}{supplement}
+\renewcommand{\thesupplement}{\arabic{supplement}}
+%\counterwithin{table}{lab}
+
+\newcounter{labsave}
+\newenvironment{labsupplement}[1][]{%
+    \refstepcounter{supplement}%
+    \setcounter{labsave}{\value{lab}}% save lab number
+    \setcounter{lab}{0}%
+%    \vspace{\medskipamount}%
+    \clearpage
     \ifblank{#1}{%
-        \taskblock*{ПРИЛОЖЕНИЕ}
+         \taskblock*{ПРИЛОЖЕНИЕ \thesupplement}%
     }{%
-        \taskblock*{ПРИЛОЖЕНИЕ\\[1ex] \large #1}
+        \taskblock*{ПРИЛОЖЕНИЕ \thesupplement\\[1ex] \large #1}%
+        \addcontentsline{toc}{section}{\textsf{Приложение~\thesupplement.} #1}% 
     }
+    \begingroup%
+    \small%
+}{%
+    \setcounter{lab}{\value{labsave}} % restore lab number
+    \endgroup%
 }
+
 
 % формат нумерованного списка для задания к работе
 \newlist{tasklist}{enumerate}{2}
@@ -240,7 +263,7 @@
 }
 
 % Термин
-\newcommand{\term}[1]{\textbf{\textit{#1}}}
+\newcommand{\term}[1]{\nohyphens{\so{\sffamily #1}}}
 
 % Important text
 \newcommand{\important}[1]{\emph{#1}}
@@ -317,7 +340,7 @@
 \relpenalty=10000
 
 % перенос вручную
-%\newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}
 
 % нумерация внутри уравнений русскими буквами
 %\newcommand*{\thesubequation}{\theparentequation \asbuk{equation}}
@@ -330,27 +353,11 @@
 }
 
 
-% Литература
-\newcommand{\SivuhinIII}{%
-    \textit{Сивухин~Д.В.} Общий курс физики.~--- T.~III. Электричество.~---
-    М.: Физматлит, 2015.}
-
-\newcommand{\KingLokOlh}{%
-    \textit{Кингсеп~А.С., Локшин~Г.Р., Ольхов~О.А.} Основы физики.~---
-    Т.~1.~--- М.:~Физматлит, 2007.}
-
-\newcommand{\Kalashnikov}{%
-    \textit{Калашников С.Г.} Электричество.~--- М.:~Физматлит, 2003.}
-
-\newcommand{\Kirichenko}{%
-        \textit{Кириченко~Н.А.} Электричество и магнетизм.~--- 
-        М.: МФТИ, 2011.}
-
 \newcounter{lab}[chapter]
 %\numberwithin{lab}{chapter}
-\numberwithin{equation}{lab}
-\numberwithin{figure}{lab}
-\numberwithin{table}{lab}
+\counterwithin{equation}{lab}
+\counterwithin{figure}{lab}
+\counterwithin{table}{lab}
 
 % форматироание секций
 \RequirePackage[explicit, pagestyles]{titlesec}
@@ -466,3 +473,20 @@
 % стиль векторов(?)
 \let\ovec\vec
 \renewcommand*{\vec}[1]{{\boldsymbol{#1}}}
+
+
+% Литература
+\newcommand{\SivuhinIII}{%
+    \textit{Сивухин~Д.В.} Общий курс физики.~--- T.~III. Электричество.~---
+    М.: Физматлит, 2015.}
+
+\newcommand{\KingLokOlh}{%
+    \textit{Кингсеп~А.С., Локшин~Г.Р., Ольхов~О.А.} Основы физики.~---
+    Т.~1.~--- М.:~Физматлит, 2007.}
+
+\newcommand{\Kalashnikov}{%
+    \textit{Калашников С.Г.} Электричество.~--- М.:~Физматлит, 2003.}
+
+\newcommand{\Kirichenko}{%
+    \textit{Кириченко~Н.А.} Электричество и магнетизм.~--- 
+    М.: МФТИ, 2011.}

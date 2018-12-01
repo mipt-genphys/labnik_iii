@@ -54,7 +54,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=2]{drift.pdf}}%
     \put(0.10159959,0.43418405){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{drift.pdf}}%
-    \put(0.53449379,0.171485){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{V}_C$}}}%
+    \put(0.53449379,0.171485){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{V}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{drift.pdf}}%
     \put(0.94590487,0.18776922){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
     \put(0.09600231,0.51954184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
