@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '6_2_1.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{141.73228346bp}%
+    \setlength{\unitlength}{140.84421293bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,18 +48,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.5)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.45135521)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{6_2_1.pdf}}%
-    \put(0.97,0.19999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
-    \put(0.55,0.45999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V(t)$\end{tabular}}}}%
-    \put(0.37,0.43999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_0$\end{tabular}}}}%
-    \put(0.5,0.07999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.78,0.07999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$T$\end{tabular}}}}%
-    \put(0.07,0.33999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
-    \put(0.61,0.01999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\frac{\tau}{2}$\end{tabular}}}}%
-    \put(0.33,0.01999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-\frac{\tau}{2}$\end{tabular}}}}%
+    \put(0.94772729,0.12255659){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t$}}}%
+    \put(0.54520521,0.4043221){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$f(t)$}}}%
+    \put(0.39425936,0.34394377){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A_0$}}}%
+    \put(0.4948899,0.03945777){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.77665545,0.02192605){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
+    \put(0.03198945,0.26343934){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau$}}}%
+    \put(0.60558349,0.02192605){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{\tau}{2}$}}}%
+    \put(0.31375495,0.02192605){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\frac{\tau}{2}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{6_2_1.pdf}}%
   \end{picture}%
 \endgroup%
