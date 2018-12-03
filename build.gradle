@@ -49,6 +49,17 @@ task buildPdf(type: BuildPdfTask) {
     }
 }
 
+task appendixPdf(type: BuildPdfTask){
+        group = "latex"
+        description "Build Appendix as pdf"
+        target = "Appendices"
+        parameters = [
+                title: "Appendices",
+                fragment: "Appendices"
+        ]
+        source = "Template"
+}
+
 task chaptersPdf{
     group = "latex"
     description = "Build all chapters as pdfs"
