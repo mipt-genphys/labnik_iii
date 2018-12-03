@@ -1,15 +1,3 @@
-% !TEX root
-\documentclass[a4paper,oneside]{book}
-
-
-% Интерфейсы
-\usepackage{Labnik}
-% Сокращения для часто используемых команд
-\usepackage{Labnik-III-shortcuts}
-
-
-
-\begin{document}
 
 \todo[inline,author=Tiffani]{Качество картинок в главе не очень.}
 
@@ -88,7 +76,8 @@ t$. Практически длина~$l$ совпадает с длиной п�
 
 \begin{figure}[h!]
 	\centering
-	\resizebox{0.4\textwidth}{!}{\import{Images/Chapter_2/}{1.pdf_tex}}
+	\pic{0.4\textwidth}{Chapter_2/1}
+	%\resizebox{0.4\textwidth}{!}{\import{Images/Chapter_2/}{1.pdf_tex}}
 	\caption{Последовательный колебательный контур.}
 	\figmark{fig1}
 \end{figure}
@@ -277,11 +266,15 @@ $x=(\omega_1/2\pi)t$, соответствует напряжению на ко�
 
 \begin{figure}[h]
 	\begin{minipage}[h]{0.5\linewidth}
-		\center{\resizebox{0.95\textwidth}{!}{\import{Images/Chapter_2/}{2.pdf_tex}} \\ а)}
+		\centering
+		\pic{0.95\textwidth}{Chapter_2/2}
+		%\center{\resizebox{0.95\textwidth}{!}{\import{Images/Chapter_2/}{2.pdf_tex}} \\ а)}
 	\end{minipage}
 	\hfill
 	\begin{minipage}[h]{0.5\linewidth}
-		\center{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{3.pdf_tex}} \\ б)}
+		\centering
+		\pic{0.9\textwidth}{Chapter_2/3}
+		%\center{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{3.pdf_tex}} \\ б)}
 	\end{minipage}
 	\caption{Затухающие колебания $(0<\gamma<\omega_0)$ при
 $\gamma/\omega_0=0,1$:
@@ -522,12 +515,16 @@ $U_C(t)$, а штриховая линия $j(x)=\rho I(x)/U_{C0}$~--- току 
 
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
-		\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{4.pdf_tex}} \\ а)}
+		\centering
+		\pic{0.9\textwidth}{Chapter_2/4}
+		%\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{4.pdf_tex}} \\ а)}
 		%\caption{а}
 	\end{minipage}
 	\hfill
 	\begin{minipage}[h]{0.49\linewidth}
-		\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{5.pdf_tex}} \\ б)}
+		\centering
+		\pic{0.9\textwidth}{Chapter_2/5}
+		%\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{5.pdf_tex}} \\ б)}
 		%\caption{б}
 	\end{minipage}
 	\caption{Апериодический режим $(\gamma>\omega_0)$ при
@@ -553,7 +550,8 @@ $\mathcal{E}=\mathcal{E}_0\cos(\omega t+\varphi_0)$. Соответствующ�
 
 \begin{figure}[h!]
 	\centering
-	\resizebox{0.3\textwidth}{!}{\import{Images/Chapter_2/}{6.pdf_tex}}
+	\pic{0.3\textwidth}{Chapter_2/6}
+	%\resizebox{0.3\textwidth}{!}{\import{Images/Chapter_2/}{6.pdf_tex}}
 	\caption{Последовательный контур с внешней гармонической ЭДС}
 	\figmark{fig4}
 \end{figure}
@@ -768,12 +766,16 @@ $\vec U_{R0}$ совпадает по направлению с вектором
 
 \begin{figure}[h]
 	\begin{minipage}[h]{0.49\linewidth}
-		\centering{\resizebox{0.8\textwidth}{!}{\import{Images/Chapter_2/}{7.pdf_tex}} \\ а)}
+		\centering
+		\pic{0.8\textwidth}{Chapter_2/7}
+		%\centering{\resizebox{0.8\textwidth}{!}{\import{Images/Chapter_2/}{7.pdf_tex}} \\ а)}
 		%\caption{а}
 	\end{minipage}
 	\hfill
 	\begin{minipage}[h]{0.49\linewidth}
-		\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{8.pdf_tex}} \\ б)}
+		\centering
+		\pic{0.9\textwidth}{Chapter_2/8}
+		%\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{8.pdf_tex}} \\ б)}
 		%\caption{б}
 	\end{minipage}
 	\caption{Схема измерения (а) и векторная  диаграмма (б) для
@@ -929,14 +931,18 @@ RI_\omega/\mathcal{E}_0$ (рис.~\figref{fig6} a) и амплитуды нап�
 \begin{figure}[h]
 	%\begin{center}
 		\begin{minipage}[h]{0.5\linewidth}
-			\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{9.pdf_tex}} \\ а)}
+			\centering
+			\pic{0.9\textwidth}{Chapter_2/9}
+			%\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{9.pdf_tex}} \\ а)}
 			%\caption{а}
 			%\figmark{fig6}
 		\end{minipage}
 		\hfill
 		%\setcounter{figure}{5}
 		\begin{minipage}[h]{0.5\linewidth}
-			\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{10.pdf_tex}} \\ б)}
+			\centering
+			\pic{0.9\textwidth}{Chapter_2/10}
+			%\centering{\resizebox{0.9\textwidth}{!}{\import{Images/Chapter_2/}{10.pdf_tex}} \\ б)}
 			%\caption{б}
 			%\figmark{fig9}
 		\end{minipage}
@@ -1073,7 +1079,8 @@ $C$ (рис.~\figref{fig7}).
 \begin{center}
 	\begin{figure}[h!]
 		\centering
-		\import{Images/Chapter_2/}{11.pdf_tex}
+		\pic{0.95\textwidth}{Chapter_2/11}
+		%\import{Images/Chapter_2/}{11.pdf_tex}
 		\caption{Параллельный контур с внешней гармонической ЭДС}
 		\figmark{fig7}
 	\end{figure}
@@ -1199,7 +1206,8 @@ $Z(\omega_0)=\vec U(\omega_0)/I_0$ является почти чисто акт
 
 \begin{figure}[h!]
 	\centering
-	\import{Images/Chapter_2/}{12.pdf_tex}
+	\pic{0.95\textwidth}{Chapter_2/12}
+	%\import{Images/Chapter_2/}{12.pdf_tex}
 	\caption{Векторная диаграмма при резонансе токов}
 	\figmark{fig8}
 \end{figure}
@@ -1324,7 +1332,8 @@ $T_0=2\pi/\omega_0$, и рассчитать коэффициент затуха
 зависимость $U_C(t)$ по формуле \eqref{2.73} в безразмерных координатах $x = \omega_0t$, $u(x) = U_C(x)/Q\mathcal{E}_0$ при $\gamma = 0,05\omega_0$, $\Delta \omega = 0,01\omega_0$.
 \begin{figure}[h!]
 	\centering
-	\import{Images/Chapter_2/}{13.pdf_tex}
+	\pic{0.95\textwidth}{Chapter_2/13}
+	%\import{Images/Chapter_2/}{13.pdf_tex}
 	\caption{Установление вынужденных колебаний вблизи резонанса
 $(|\Delta\omega|\ll\gamma=\delta\omega/2)$}
 	\figmark{fig9}
@@ -1348,7 +1357,8 @@ U_{Ck}=Q\mathcal{E}_0(1-e^{-\gamma t_1}), \qquad U_{C(k+n)}=Q\mathcal{E}_0(1-e^{
 
 \begin{figure}[h!]
 	\centering
-	\import{Images/Chapter_2/}{14.pdf_tex}
+	\pic{0.95\textwidth}{Chapter_2/14}
+	%\import{Images/Chapter_2/}{14.pdf_tex}
 	\caption{Биения при установлении колебаний
 $(\Delta\omega\approx\gamma=\delta\omega/2)$}
 	\figmark{fig10}
@@ -1376,5 +1386,3 @@ $(\Delta\omega\approx\gamma=\delta\omega/2)$}
 \end{lab:literature}
 \todo[inline,author=Popov]{Ссылки на учебники 50-х годов в издании 2018 выглядят
     странно. С тех пор лучших книг не выходило?}
-
-\end{document}
