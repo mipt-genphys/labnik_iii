@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{167.45259142bp}%
+    \setlength{\unitlength}{159.26508716bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,20 +48,20 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.47358092)%
+  \begin{picture}(1,0.49792678)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{6_2_2.pdf}}%
-    \put(0.89529707,0.12622943){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu$}}}%
-    \put(0.31785383,0.33203582){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim \frac{\sin x}{x}$}}}%
-    \put(-0.00188953,0.38015016){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\delta\nu$}}}%
-    \put(0.1504629,0.44786235){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a(\nu)$}}}%
-    \put(0.06582267,0.07544528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.06582267,0.00773308){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_1$}}}%
-    \put(0.18431901,0.00773308){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_2$}}}%
-    \put(0.31974341,0.02466113){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{1}{\tau}$}}}%
-    \put(0.53980804,0.02466113){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{2}{\tau}$}}}%
-    \put(0.75987268,0.02466113){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{3}{\tau}$}}}%
+    \put(0.88991436,0.13271857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu$}}}%
+    \put(0.2827859,0.34910506){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\propto \frac{\sin x}{x}$}}}%
+    \put(-0.01203281,0.34910506){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\delta\nu$}}}%
+    \put(0.10678973,0.47088601){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a(\nu)$}}}%
+    \put(0.01779832,0.07932371){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.04793675,0.01817686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_1$}}}%
+    \put(0.15243247,0.01817686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_2$}}}%
+    \put(0.28477261,0.02592885){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{1}{\tau}$}}}%
+    \put(0.51615034,0.02592885){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{2}{\tau}$}}}%
+    \put(0.74752806,0.02592885){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{3}{\tau}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{6_2_2.pdf}}%
-    \put(0.31785387,0.17968338){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta \nu$}}}%
+    \put(0.28278594,0.18892048){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta \nu$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{6_2_2.pdf}}%
   \end{picture}%
 \endgroup%
