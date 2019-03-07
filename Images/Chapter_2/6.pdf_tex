@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{261.97246419bp}%
+    \setlength{\unitlength}{141.73228346bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,15 +50,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.56138537)%
+  \begin{picture}(1,1)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{6.pdf}}%
-    \put(0.54101978,0.24183572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
-    \put(0.2596895,0.09035018){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
-    \put(0.12984475,0.24183572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
+    \put(1.00000003,0.45999977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
+    \put(0.48000001,0.17999977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
+    \put(0.24000001,0.45999977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{6.pdf}}%
-    \put(0.14066515,0.53398656){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\varepsilon = \varepsilon_0cos(\omega_0t+\varphi_0)$\end{tabular}}}}%
+    \put(0.26000001,0.99999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{E} = \mathcal{E}_0cos(\omega_0t+\varphi_0)$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{6.pdf}}%
   \end{picture}%
 \endgroup%
