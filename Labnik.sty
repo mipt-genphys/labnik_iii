@@ -124,24 +124,24 @@
 
 % короткая запись для окружения lab:equipment
 \newcommand{\equip}[1]{%
-	\begin{lab:equipment}
-	#1\par
+	\begin{lab:equipment}%
+	#1\par%
 	\end{lab:equipment}%
 }
 
 % Ссылка на теоретическую часть
 \newenvironment{lab:theory}{%
-	\noindent\textbf{Теоретическая часть:~}
+	\noindent\textbf{Теоретическая часть:~}%
 	\begin{small}%
-	}{
-	\end{small}\par
+	}{%
+	\end{small}\par%
 	\medskip%
 }
 
 % короткая запись для окружения lab:theory
 \newcommand{\theory}[1]{%
-	\begin{lab:theory}
-	#1\par
+	\begin{lab:theory}%
+	#1\par%
 	\end{lab:theory}%
 }
 
