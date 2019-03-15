@@ -102,7 +102,7 @@
 \newcounter{semester}
 \setcounter{semester}{3}
 
-\setcounter{secnumdepth}{4} % FIXME: почему 4?
+\setcounter{secnumdepth}{3} % FIXME: почему 4?
 
 
 %%% Команды оформления лаб
@@ -158,32 +158,6 @@
 % ЗАДАНИЕ
 \newcommand{\labtask}{\taskblock*{\large ЗАДАНИЕ}}
 
-
-% ПРИЛОЖЕНИЕ к разделу
-\newcounter{supplement}[chapter]
-\counterwithin{equation}{supplement}
-\counterwithin{figure}{supplement}
-\renewcommand{\thesupplement}{\arabic{supplement}}
-
-\newcounter{labsave}
-\newenvironment{labsupplement}[1][]{%
-    \refstepcounter{supplement}%
-    \setcounter{labsave}{\value{lab}}% save lab number
-    \setcounter{lab}{0}%
-%    \vspace{\medskipamount}%
-    \clearpage
-    \ifblank{#1}{%
-         \taskblock*{ПРИЛОЖЕНИЕ \thesupplement}%
-    }{%
-        \taskblock*{ПРИЛОЖЕНИЕ \thesupplement\\[1ex] \large #1}%
-        \addcontentsline{toc}{section}{\textsf{Приложение~\thesupplement.} #1}% 
-    }
-    \begingroup%
-    \small%
-}{%
-    \setcounter{lab}{\value{labsave}} % restore lab number
-    \endgroup%
-}
 
 
 % формат нумерованного списка для задания к работе
@@ -258,7 +232,8 @@
 
 % Термин
 %\newcommand{\term}[1]{\textbf{\textit{#1}}}
-\newcommand{\term}[1]{\so{\sffamily #1}}
+\sodef\textso{}{0.175em}{0.65em plus 0.08em minus 0.06em}{0.55em plus 0.275em minus 0.183em}
+\newcommand{\term}[1]{\textso{\sffamily #1}}
 
 % Important text
 \newcommand{\important}[1]{\emph{#1}}
@@ -350,9 +325,8 @@
 
 \newcounter{lab}[chapter]
 %\numberwithin{lab}{chapter}
-\counterwithin{equation}{lab}
-\counterwithin{figure}{lab}
-\counterwithin{table}{lab}
+
+
 
 % форматироание секций
 \RequirePackage[explicit, pagestyles]{titlesec}
@@ -372,7 +346,10 @@
 \renewcommand{\thelab}{\arabic{semester}.\arabic{chapter}.\arabic{lab}}
 \titlespacing{\lab}{\parindent}{*2}{*1}
 \titleformat{\lab}[display]%
-    {\clearpage\bfseries}%
+    {%
+%        \renewcommand{\theequation}{\arabic{equation}}%
+        \clearpage\bfseries%
+    }%
     {Работа~\thelab}{1ex}%
     {\large\raggedright #1}%
     [\vspace*{2ex}]
@@ -432,27 +409,60 @@
     {\sffamily\centering}{}{1ex}{#1}
 
 
+% ПРИЛОЖЕНИЕ к работе
+\newcounter{supplement}[lab]
+\renewcommand{\thesupplement}{\arabic{supplement}}
+%\newcounter{labsave}
+\newenvironment{labsupplement}[1][]{%
+    \refstepcounter{supplement}%
+    %    \setcounter{labsave}{\value{lab}}% save lab number
+    %    \setcounter{lab}{0}%
+    %    \vspace{\medskipamount}%
+    \clearpage
+    \ifblank{#1}{%
+        \taskblock*{ПРИЛОЖЕНИЕ}%
+    }{%
+    \taskblock*{ПРИЛОЖЕНИЕ\\[1ex] \normalsize #1}%
+    \addcontentsline{toc}{section}{\small\textsf{Приложение.} #1}% 
+}
+\begingroup%
+\small%
+}{%
+%    \setcounter{lab}{\value{labsave}} % restore lab number
+\endgroup%
+}
+
+
+\counterwithin{equation}{supplement}
+\counterwithin{equation}{lab}
+\counterwithin{equation}{chapter}
+\counterwithin{figure}{supplement}
+\counterwithin{figure}{lab}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{lab}
+
 % Отличная нумерация внутри введения
 \RequirePackage{etoolbox}
 
+
 \renewcommand{\theequation}{%
     \ifnumequal{\value{lab}}{0}%
-        {\arabic{chapter}.\arabic{equation}}%
-        {\arabic{equation}}%
+    {\arabic{chapter}.\arabic{equation}}%
+    {\arabic{equation}}%
 }
+
 
 \renewcommand{\thefigure}{%
     \ifnumequal{\value{lab}}{0}%
-        {\arabic{chapter}.\arabic{figure}}%
-        {\arabic{figure}}%
+    {\arabic{chapter}.\arabic{figure}}%
+    {\arabic{figure}}%
 }
 
 \renewcommand{\thetable}{%
     \ifnumequal{\value{lab}}{0}%
-        {\arabic{chapter}.\arabic{table}}%
-        {\arabic{table}}%
+    {\arabic{chapter}.\arabic{table}}%
+    {\arabic{table}}%
 }
-
 
 
 % Красивые и умные колонтитулы
