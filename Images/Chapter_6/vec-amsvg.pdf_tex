@@ -1,0 +1,75 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'vec-amsvg.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{355.31653697bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.33156527)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{vec-amsvg.pdf}}%
+    \put(0.06297543,0.114532){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_0$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{vec-amsvg.pdf}}%
+    \put(-0.01281928,0.30593647){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta a=ma_0\cos \Omega t$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{vec-amsvg.pdf}}%
+    \put(0.26574518,0.11866859){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_0$}}}%
+    \put(0.15751431,0.28211175){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$ma_0/2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{vec-amsvg.pdf}}%
+    \put(0.18899771,0.22249057){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+\Omega$}}}%
+    \put(0.2812816,0.22310654){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\Omega$}}}%
+    \put(0.29531667,0.28145173){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$ma_0/2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{vec-amsvg.pdf}}%
+    \put(0.67056249,0.13945947){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_0$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{vec-amsvg.pdf}}%
+    \put(0.87528053,0.11379372){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a_0$}}}%
+    \put(0.92023756,0.2592766){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$ma_0/2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{vec-amsvg.pdf}}%
+    \put(0.86443193,0.26740941){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+\Omega$}}}%
+    \put(0.87492983,0.16909019){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\Omega$}}}%
+    \put(0.92080608,0.1933198){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$ma_0/2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{vec-amsvg.pdf}}%
+    \put(0.59395653,0.23253406){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta \varphi=m\cos\Omega t$}}}%
+  \end{picture}%
+\endgroup%
