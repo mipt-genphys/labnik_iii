@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '6_2_2.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{170.07874016bp}%
+    \setlength{\unitlength}{159.26508716bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,20 +48,20 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.5)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.49792678)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{6_2_2.pdf}}%
-    \put(0.93333333,0.13336266){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\omega$\end{tabular}}}}%
-    \put(0.36666667,0.30002933){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sim \frac{\sin x}{x}$\end{tabular}}}}%
-    \put(0.05,0.38336266){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta\omega$\end{tabular}}}}%
-    \put(0.19999998,0.45002933){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$a(\omega)$\end{tabular}}}}%
-    \put(0.11666667,0.08336266){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.11666667,0.01669599){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Omega_1$\end{tabular}}}}%
-    \put(0.23333333,0.01669599){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\Omega_2$\end{tabular}}}}%
-    \put(0.36666667,0.03336266){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\frac{2\pi}{\tau}$\end{tabular}}}}%
-    \put(0.58333333,0.03336266){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\frac{4\pi}{\tau}$\end{tabular}}}}%
-    \put(0.8,0.03336266){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\frac{6\pi}{\tau}$\end{tabular}}}}%
+    \put(0.88991436,0.13271857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu$}}}%
+    \put(0.2827859,0.34910506){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\propto \frac{\sin x}{x}$}}}%
+    \put(-0.01203281,0.34910506){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\delta\nu$}}}%
+    \put(0.10678973,0.47088601){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a(\nu)$}}}%
+    \put(0.01779832,0.07932371){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.04793675,0.01817686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_1$}}}%
+    \put(0.15243247,0.01817686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu_2$}}}%
+    \put(0.28477261,0.02592885){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{1}{\tau}$}}}%
+    \put(0.51615034,0.02592885){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{2}{\tau}$}}}%
+    \put(0.74752806,0.02592885){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{3}{\tau}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{6_2_2.pdf}}%
+    \put(0.28278594,0.18892048){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta \nu$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{6_2_2.pdf}}%
   \end{picture}%
 \endgroup%

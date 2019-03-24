@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{153.75148863bp}%
+    \setlength{\unitlength}{139.88716426bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,11 +48,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.94665005)%
+  \begin{picture}(1,0.90859468)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_2_1.pdf}}%
-    \put(0.91031759,0.00993254){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
-    \put(0.06441241,0.9088225){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{1}{\chi}$}}}%
-    \put(0.13090091,0.01073633){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Theta$}}}%
-    \put(0.49370704,0.0117421){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Theta_p$}}}%
+    \put(0.06318796,0.83876749){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{1}{\chi}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4_2_1.pdf}}%
+    \put(0.90142912,0.01091695){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
+    \put(0.13626618,0.01180041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Theta$}}}%
+    \put(0.40615114,0.01290586){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Theta_p$}}}%
   \end{picture}%
 \endgroup%

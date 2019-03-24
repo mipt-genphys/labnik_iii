@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{565.05354273bp}%
+    \setlength{\unitlength}{502.87806233bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,49 +48,46 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.37241394)%
+  \begin{picture}(1,0.5459713)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_0.pdf}}%
-    \put(0.12969221,0.05120671){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ионосфера}$}}}%
-    \put(0.06648661,0.00725031){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.24956254,0.0020999){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{10}$}}}%
-    \put(0.46240578,0.0020999){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{20}$}}}%
-    \put(0.66797344,0.0020999){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{30}$}}}%
-    \put(0.02313722,0.01941496){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-2}$}}}%
-    \put(0.02329596,0.06001892){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-1}$}}}%
-    \put(0.02249119,0.14081507){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10$}}}%
-    \put(0.02364282,0.18347082){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{2}$}}}%
-    \put(0.0238166,0.09919995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
-    \put(0.02345475,0.22458038){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{3}$}}}%
-    \put(0.02380157,0.26613077){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{4}$}}}%
-    \put(0.02423406,0.30703977){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{5}$}}}%
+    \put(0.1152368,0.08346778){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ионосфера}$}}}%
+    \put(0.048234,0.00814674){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.25394531,0.00235955){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{10}$}}}%
+    \put(0.49310433,0.00235955){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{20}$}}}%
+    \put(0.72408823,0.00235955){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{30}$}}}%
+    \put(-0.00683842,0.03735266){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-2}$}}}%
+    \put(-0.00666006,0.09953415){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-1}$}}}%
+    \put(-0.00756434,0.22326649){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10$}}}%
+    \put(-0.00627032,0.28859006){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{2}$}}}%
+    \put(0.00346998,0.15953651){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(-0.00648166,0.35154583){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{3}$}}}%
+    \put(-0.00609196,0.41517668){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{4}$}}}%
+    \put(-0.00560598,0.47782525){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{5}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_0.pdf}}%
-    \put(0.20609282,0.08471488){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Пламёна}$}}}%
+    \put(0.19545907,0.13397481){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Пламёна}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{v5_0.pdf}}%
-    \put(0.36461283,0.16691412){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Плазма}$}}}%
-    \put(0.30280746,0.14830252){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{в лабораторных }$}}}%
-    \put(0.33886064,0.13086104){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{условиях}$}}}%
+    \put(0.31413674,0.22022021){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Газовые}}}%
+    \put(0.37440496,0.19433222){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{разряды}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{v5_0.pdf}}%
-    \put(0.33510641,0.25447172){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Плазма в}$}}}%
-    \put(0.31683588,0.23902038){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{экспериментах по}$}}}%
-    \put(0.32855974,0.22356904){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{управляемому}$}}}%
-    \put(0.31425809,0.20897764){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{термоядерному }$}}}%
-    \put(0.33371015,0.1935263){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{синтезу}$}}}%
+    \put(0.3806221,0.44398804){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Термоядерный}$}}}%
+    \put(0.41247848,0.42455944){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{реактор}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{v5_0.pdf}}%
-    \put(0.36422138,0.29714687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Термоядерный}$}}}%
-    \put(0.39257245,0.27985609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{реактор}$}}}%
+    \put(0.48986788,0.07889799){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Плазма}$}}}%
+    \put(0.49292489,0.05659065){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{в тв. телах}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{v5_0.pdf}}%
-    \put(0.4978525,0.05360429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Плазма}$}}}%
-    \put(0.49774155,0.03375149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{в тв. телах}$}}}%
+    \put(0.18320198,0.28520358){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Солнечная}$}}}%
+    \put(0.18271373,0.26647389){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{корона}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{v5_0.pdf}}%
-    \put(0.1873185,0.19427529){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Солнечная}$}}}%
-    \put(0.18688397,0.17760651){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{корона}$}}}%
+    \put(0.65815409,0.4551754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ядра}$}}}%
+    \put(0.65846373,0.42460313){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{звезд}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{v5_0.pdf}}%
-    \put(0.62502622,0.27380946){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ядра}$}}}%
-    \put(0.62530179,0.25226438){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{звезд}$}}}%
+    \put(0.79509747,0.39736053){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Белые}$}}}%
+    \put(0.79548721,0.36842431){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{карлики}$}}}%
+    \put(0.93462587,0.05658492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n,~\text{см}^{-3}$}}}%
+    \put(0.07030744,0.5125409){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T,~\text{эВ}$}}}%
+    \put(0.32148021,0.34470755){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Эксперименты}}}%
+    \put(0.37676579,0.31364213){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{по УТС}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{v5_0.pdf}}%
-    \put(0.73832007,0.26477261){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Белые}$}}}%
-    \put(0.73866693,0.23902038){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{карлики}$}}}%
-    \put(0.87965744,0.03300254){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n,~\text{см}^3$}}}%
-    \put(0.07325968,0.35440763){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T,~\text{эВ}$}}}%
+    \put(0.25024484,0.06094469){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Электролиты}}}%
   \end{picture}%
 \endgroup%

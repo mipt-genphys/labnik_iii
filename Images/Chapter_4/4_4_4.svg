@@ -56,9 +56,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="293.50583"
-     inkscape:cy="30.222715"
+     inkscape:zoom="2"
+     inkscape:cx="187.24351"
+     inkscape:cy="95.494226"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -72,7 +72,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:snap-text-baseline="true">
     <inkscape:grid
        type="xygrid"
        id="grid6422"
@@ -719,12 +720,6 @@
        d="m -41.889894,364.42551 5.316377,-5.31638"
        id="path8655-0-6-72"
        inkscape:connector-curvature="0" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path9304-2"
-       cx="-67.038689"
-       cy="284.71323"
-       r="11.701807" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m -42.124717,284.69401 -13.135228,0"
@@ -736,6 +731,12 @@
        id="path9447"
        inkscape:connector-curvature="0" />
     <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path9304-2"
+       cx="-67.038689"
+       cy="284.71323"
+       r="13.201807" />
+    <circle
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path8653-5-7-1-6"
        cx="-95.102104"
@@ -746,12 +747,6 @@
        d="m -97.617865,287.23882 5.316377,-5.31637"
        id="path8655-0-6-7-1"
        inkscape:connector-curvature="0" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path9304-2-1"
-       cx="-67.018456"
-       cy="361.90387"
-       r="11.701807" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m -42.10448,361.88465 -13.13523,0"
@@ -894,42 +889,51 @@
        d="m -158.54748,293.25329 0,82.06639 -26.48488,0 0,-82.06639 z"
        id="path9598-4"
        inkscape:connector-curvature="0" />
+    <circle
+       r="13.201807"
+       cy="361.96323"
+       cx="-67.038689"
+       id="circle4375"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-184.79156"
-       y="271.40308"
+       y="277.40308"
        id="text9645"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9647"
          x="-184.79156"
-         y="271.40308">$\text{Блок}$</tspan></text>
+         y="277.40308"
+         style="font-size:12.5px">Блок</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-191.91719"
-       y="284.6673"
+       y="288.6673"
        id="text9645-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9647-1"
          x="-191.91719"
-         y="284.6673">$\text{питания}$</tspan></text>
+         y="288.6673"
+         style="font-size:12.5px">питания</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-131.94382"
-       y="304.10663"
+       y="302.10663"
        id="text9645-2"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9647-9"
          x="-131.94382"
-         y="304.10663">$\text{Ген.}$</tspan></text>
+         y="302.10663"
+         style="font-size:12.5px">Ген.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-134.77612"
        y="313.27621"
        id="text9645-3"
@@ -937,10 +941,11 @@
          sodipodi:role="line"
          id="tspan9647-90"
          x="-134.77612"
-         y="313.27621">$\text{тока}$</tspan></text>
+         y="313.27621"
+         style="font-size:12.5px">тока</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-94.039101"
        y="380.12714"
        id="text9683"
@@ -948,76 +953,55 @@
          sodipodi:role="line"
          id="tspan9685"
          x="-94.039101"
-         y="380.12714">$K_1$</tspan></text>
+         y="380.12714">К$_1$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-71.846664"
-       y="363.89606"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-73.846664"
+       y="367.89606"
        id="text9683-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9685-8"
-         x="-71.846664"
-         y="363.89606">$A_1$</tspan></text>
+         x="-73.846664"
+         y="367.89606">A$_1$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-71.736557"
-       y="287.14087"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-73.736557"
+       y="291.14087"
        id="text9683-8-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9685-8-0"
-         x="-71.736557"
-         y="287.14087">$A_2$</tspan></text>
+         x="-73.736557"
+         y="291.14087">A$_2$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-83.85598"
-       y="347.77924"
-       id="text9723"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan9725"
-         x="-83.85598"
-         y="347.77924">$0,75~A$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-77.100403"
-       y="269.90765"
-       id="text9723-9"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan9725-6"
-         x="-77.100403"
-         y="269.90765">$3~A$</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-5.0768647"
-       y="281.04257"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-54.076866"
+       y="319.54257"
        id="text9745"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9747"
-         x="-5.0768647"
-         y="281.04257">$\text{П}_1$</tspan></text>
+         x="-54.076866"
+         y="319.54257"
+         style="font-size:12.5px">П$_1$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="231.3683"
-       y="289.23181"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="182.23479"
+       y="319.63739"
        id="text9745-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9747-8"
-         x="231.3683"
-         y="289.23181">$\text{П}_2$</tspan></text>
+         x="182.23479"
+         y="319.63739">$\text{П}_2$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="287.43924"
        y="288.95126"
        id="text9683-5"
@@ -1025,43 +1009,43 @@
          sodipodi:role="line"
          id="tspan9685-6"
          x="287.43924"
-         y="288.95126">$K_2$</tspan></text>
+         y="288.95126">К$_2$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="274.80896"
-       y="342.34467"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="270.80896"
+       y="326.34467"
        id="text9683-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9685-1"
-         x="274.80896"
-         y="342.34467">$K_0$</tspan></text>
+         x="270.80896"
+         y="326.34467">К$_0$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="294.40747"
-       y="361.54007"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="292.40747"
+       y="363.54007"
        id="text9745-3-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9747-8-9"
-         x="294.40747"
-         y="361.54007">$\text{Г}$</tspan></text>
+         x="292.40747"
+         y="363.54007">Г</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="129.20172"
-       y="343.10687"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="125.31264"
+       y="341.69266"
        id="text9811"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9813"
-         x="129.20172"
-         y="343.10687">$R_T$</tspan></text>
+         x="125.31264"
+         y="341.69266">$R_{т}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="131.5918"
        y="274.98724"
        id="text9811-8"
@@ -1069,28 +1053,28 @@
          sodipodi:role="line"
          id="tspan9813-4"
          x="131.5918"
-         y="274.98724">$R_M$</tspan></text>
+         y="274.98724">$R_{М}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="131.26701"
-       y="303.70007"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="127.73148"
+       y="324.20618"
        id="text9833"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9835"
-         x="131.26701"
-         y="303.70007">$N_{T_1}$</tspan></text>
+         x="127.73148"
+         y="324.20618">$N'$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="27.89345"
-       y="306.92212"
+       style="font-style:normal;font-weight:normal;font-size:6.64547062px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="31.671623"
+       y="324.47845"
        id="text9833-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan9835-1"
-         x="27.89345"
-         y="306.92212">$N_{T_0}$</tspan></text>
+         x="31.671623"
+         y="324.47845">$N$</tspan></text>
   </g>
 </svg>
