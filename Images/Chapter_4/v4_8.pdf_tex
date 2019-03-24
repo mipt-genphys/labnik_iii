@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{176.01876447bp}%
+    \setlength{\unitlength}{165.8134064bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,16 +48,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.92126663)%
+  \begin{picture}(1,0.97796805)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v4_8.pdf}}%
-    \put(0.42125172,0.39268284){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
-    \put(0.90498945,0.84531122){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.48954444,0.88048841){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
-    \put(0.8539641,0.38005726){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H$}}}%
-    \put(0.16053283,0.46290628){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-H_c$}}}%
-    \put(-0.00299592,0.14759817){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.32505053,0.63467265){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_r$}}}%
+    \put(0.43979719,0.41685138){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{O}}}%
+    \put(0.83024718,0.88393515){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A}}}%
+    \put(0.51229314,0.93468004){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
+    \put(0.89914183,0.40344873){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H$}}}%
+    \put(0.18140607,0.48956922){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-H_c$}}}%
+    \put(0.13245616,0.03003406){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{C}}}%
+    \put(0.49597709,0.69497602){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_r$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{v4_8.pdf}}%
-    \put(0.38576821,0.80118779){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_s$}}}%
+    \put(0.4082219,0.84318816){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_s$}}}%
   \end{picture}%
 \endgroup%

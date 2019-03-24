@@ -1,0 +1,72 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'c5_2_2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{343.04409478bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.46357018)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{c5_2_2.pdf}}%
+    \put(0.53768415,0.24284878){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{ПФ1}$}}}%
+    \put(0.44377496,0.00398005){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Блок усилетелей}$}}}%
+    \put(0.40841699,0.44903266){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L_1$}}}%
+    \put(0.54590372,0.39200287){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Зонды}}}%
+    \put(0.46442746,0.15066907){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Д}$}}}%
+    \put(0.00868661,0.3730585){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
+    \put(0.82031283,0.21426686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Канал $Y$ ЭО}}}%
+    \put(0.81614846,0.12181728){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Канал $X$ ЭО}}}%
+    \put(0.23442816,0.36565572){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.35333683,0.12471207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.62679498,0.15066907){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{ПФ2}$}}}%
+    \put(0.80518916,0.03055166){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.84291066,0.02973166){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.88172588,0.03055166){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6}}}%
+    \put(0.40772693,0.3506967){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L_2$}}}%
+    \put(0.78316524,0.27299129){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5}}}%
+    \put(0.78176321,0.17366373){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{c5_2_2.pdf}}%
+  \end{picture}%
+\endgroup%

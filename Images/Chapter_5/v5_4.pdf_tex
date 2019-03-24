@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{300.61067836bp}%
+    \setlength{\unitlength}{359.6908257bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,38 +48,18 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.55979072)%
+  \begin{picture}(1,0.49876911)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_4.pdf}}%
-    \put(0.02835324,0.54515634){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_\text{З},~B$}}}%
-    \put(0.95979049,0.03951897){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P \cdot d,~\text{см} \cdot \text{торр}$}}}%
-    \put(0.00706325,-0.00572227){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.00223973,-0.02419362){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-1}$}}}%
-    \put(0.07642206,-0.02435995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.13363892,-0.0246926){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.17838117,-0.02435995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(0.2101995,-0.02419365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{0}$}}}%
-    \put(0.29569213,-0.02435998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.35290898,-0.02469263){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.39765124,-0.02435998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(0.42914182,-0.02419365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{1}$}}}%
-    \put(0.51663039,-0.02435998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.57384724,-0.02469263){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.6185895,-0.02435998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(0.64894697,-0.02419365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{2}$}}}%
-    \put(0.7374335,-0.02435998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.79465036,-0.02469263){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.83939245,-0.02435998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(0.86883268,-0.02419365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{3}$}}}%
-    \put(0.95731922,-0.02435998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(-0.04415284,0.00757989){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{2}$}}}%
-    \put(-0.02699652,0.07285635){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(-0.02787056,0.13107126){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(-0.028531,0.17483714){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(-0.04714675,0.22181045){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{3}$}}}%
-    \put(-0.02999043,0.29340738){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
-    \put(-0.03086446,0.35162228){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(-0.0315249,0.39538817){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6}}}%
-    \put(-0.04581612,0.44269417){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{4}$}}}%
-    \put(-0.0286598,0.5142911){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.0621759,0.47764639){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_\text{З}$,~B}}}%
+    \put(0.78279478,0.05506122){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P \cdot d$,~см$\cdot$торр}}}%
+    \put(0.04438284,0.01725097){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.0403516,0.00181358){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{-1}$}}}%
+    \put(0.21415348,0.00181358){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{0}$}}}%
+    \put(0.39713398,0.00181358){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{1}$}}}%
+    \put(0.58083558,0.00181358){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{2}$}}}%
+    \put(0.76460452,0.00181358){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{3}$}}}%
+    \put(0.00157915,0.02836823){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{2}$}}}%
+    \put(-0.000923,0.20741089){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{3}$}}}%
+    \put(0.00018907,0.39201391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10^{4}$}}}%
   \end{picture}%
 \endgroup%

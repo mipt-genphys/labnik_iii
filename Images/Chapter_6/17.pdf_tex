@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '17.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{373.99999363bp}%
+    \setlength{\unitlength}{398.9333252bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -51,16 +49,15 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.28609627)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{17.pdf}}%
-    \put(0.17432313,0.26527433){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_0(\omega)$\end{tabular}}}}%
-    \put(0.12126826,0.2501158){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
-    \put(0.31074992,0.13642679){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\omega$\end{tabular}}}}%
-    \put(0.71245104,0.26527433){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C(\omega)$\end{tabular}}}}%
-    \put(0.69729251,0.19706095){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau/2$\end{tabular}}}}%
-    \put(0.51539012,0.08337193){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-\omega_0$\end{tabular}}}}%
-    \put(0.83371934,0.08337193){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\omega_0$\end{tabular}}}}%
-    \put(0.97772542,0.13642679){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\omega$\end{tabular}}}}%
+    \put(0.17432313,0.26527433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F_0(\omega)$}}}%
+    \put(0.12126826,0.25011581){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau$}}}%
+    \put(0.31074992,0.1364268){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega$}}}%
+    \put(0.70487178,0.26527433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F(\omega)$}}}%
+    \put(0.65181695,0.17432313){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{\tau}{2}$}}}%
+    \put(0.51539013,0.08337193){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\omega_0$}}}%
+    \put(0.83371934,0.08337193){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega_0$}}}%
+    \put(0.97772543,0.1364268){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{17.pdf}}%
   \end{picture}%
 \endgroup%

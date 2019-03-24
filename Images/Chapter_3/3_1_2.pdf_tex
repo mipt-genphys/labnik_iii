@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{199.60960088bp}%
+    \setlength{\unitlength}{107.71653543bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,17 +48,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.98955504)%
+  \begin{picture}(1,1.12797065)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_1_2.pdf}}%
-    \put(0.38549388,0.82479507){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.5453254,0.88815887){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_a$}}}%
-    \put(0.55680802,0.88963966){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.41449764,0.97294913){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Z$}}}%
-    \put(0.39595571,0.50643611){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{3_1_2.pdf}}%
-    \put(0.79070573,0.46403303){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.54280485,0.58781236){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{3_1_2.pdf}}%
-    \put(0.56669352,0.53564351){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
+    \put(0.55205181,0.75567913){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2r_{К}$}}}%
+    \put(0.43143828,1.05729389){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
+    \put(0.77728785,0.95360304){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_{А}$}}}%
+    \put(0.07854383,0.74598844){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{B}$}}}%
+    \put(0.61026508,0.39492822){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}$}}}%
   \end{picture}%
 \endgroup%

@@ -9,15 +9,45 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="86.322029mm"
-   height="44.072639mm"
-   viewBox="0 0 305.86546 156.1629"
+   width="77.662994mm"
+   height="44.218723mm"
+   viewBox="0 0 275.18384 156.68052"
    id="svg38747"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="3_1_4.svg">
   <defs
      id="defs38749">
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4207"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4210"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
     <marker
        inkscape:stockid="Arrow1Lend"
        orient="auto"
@@ -56,9 +86,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="34.392438"
-     inkscape:cy="139.28261"
+     inkscape:zoom="1.979899"
+     inkscape:cx="185.69344"
+     inkscape:cy="-3.267733"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -74,8 +104,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid39314"
-       originx="-336.18788"
-       originy="-677.76628" />
+       originx="-337.34387"
+       originy="-677.76633" />
   </sodipodi:namedview>
   <metadata
      id="metadata38752">
@@ -93,33 +123,34 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-336.18787,-218.43302)">
+     transform="translate(-337.34387,-217.9154)">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69945031;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
-       d="m 339.69271,219.70604 0,139.6477 301.08759,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
+       d="m 339.69271,219.70604 0,139.6477 263.71195,0"
        id="path39316"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69945031px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 339.78032,260.73452 174.86258,0 c 31.47527,0 48.96152,17.48626 48.96152,48.96152 0,31.47527 17.48626,48.96153 48.96153,48.96153"
+       d="m 339.78032,260.73452 143.4572,0 c 25.8223,0 40.16801,17.48626 40.16801,48.96152 0,31.47527 14.34572,48.96153 40.16802,48.96153"
        id="path39370"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69945031;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.19670201, 4.19670201;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 511.21881,260.67989 62.95053,0 0,97.92305"
+       d="m 463.21881,260.67989 62.95053,0 0,97.92305"
        id="path39816"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:8.74312878px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="624.13007"
+       x="596.13007"
        y="373.03354"
        id="text39818"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan39820"
-         x="624.13007"
+         x="596.13007"
          y="373.03354">$B$</tspan></text>
     <text
        xml:space="preserve"
@@ -135,13 +166,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:8.74312878px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="565.67603"
+       x="513.67603"
        y="372.53394"
        id="text39826"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan39828"
-         x="565.67603"
+         x="513.67603"
          y="372.53394">$B_\text{кр}$</tspan></text>
     <text
        xml:space="preserve"
@@ -153,6 +184,7 @@
          sodipodi:role="line"
          id="tspan39832"
          x="347.83679"
-         y="231.55374">$I_a$</tspan></text>
+         y="231.55374"
+         style="font-size:12.5px">$I_{А}$</tspan></text>
   </g>
 </svg>

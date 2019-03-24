@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{374.13767417bp}%
+    \setlength{\unitlength}{354.65441606bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,26 +48,25 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.39045839)%
+  \begin{picture}(1,0.41222756)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_6_3.pdf}}%
-    \put(0.05049102,0.27604001){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\equal36~B$}}}%
-    \put(0.11853734,0.37562365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{Ом}$}}}%
-    \put(0.24877189,0.32226502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.23771903,0.20754239){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3~\text{Гн}$}}}%
-    \put(0.32017326,0.33604064){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
-    \put(0.51895691,0.33718569){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
-    \put(0.34308933,0.37595899){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{<<Параметрон>>}$}}}%
+    \put(-0.00167115,0.29152349){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\simeq 36$~В}}}%
+    \put(0.07011336,0.39657784){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{Ом}$}}}%
+    \put(0.20750246,0.34028791){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.1958424,0.21926291){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3~\text{Гн}$}}}%
+    \put(0.28282633,0.3548203){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_1$}}}%
+    \put(0.49253033,0.35602826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K_2$}}}%
+    \put(0.30700132,0.3969316){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{<<Параметрон>>}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{4_6_3.pdf}}%
-    \put(0.67760618,0.35992841){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Магазин МСР}-63$}}}%
-    \put(0.66481988,0.28053886){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_M$}}}%
+    \put(0.65989515,0.38002037){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Магазин сопротивлений}}}%
+    \put(0.64640642,0.29626949){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_M$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{4_6_3.pdf}}%
-    \put(0.60936424,0.10771408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
-    \put(0.66431442,0.21489808){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{мкФ}$}}}%
-    \put(0.82838688,0.10062029){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.90632383,0.10048528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.77169043,0.19275217){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Осциллограф}$}}}%
-    \put(-0.00158412,0.19924088){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Генератор}$}}}%
-    \put(-0.000515,0.16870638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{ГЗ}-33$}}}%
+    \put(0.58790427,0.11395045){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.64587319,0.22702268){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100~\text{мкФ}$}}}%
+    \put(0.81895911,0.10646696){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.90117761,0.10632453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
+    \put(0.75914799,0.20366017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Осциллограф}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{4_6_3.pdf}}%
+    \put(0.07586299,0.14524063){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
   \end{picture}%
 \endgroup%

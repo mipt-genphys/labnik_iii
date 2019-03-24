@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{419.0849917bp}%
+    \setlength{\unitlength}{239.15542963bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,16 +48,18 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.53081557)%
+  \begin{picture}(1,0.58511181)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_3_1.pdf}}%
-    \put(0.07863449,0.474194){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$M$}}}%
-    \put(0.2228416,0.4117289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.26708856,0.46926959){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.54449869,0.38606814){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.54313656,0.26472555){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
-    \put(0.02212524,0.28090265){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Large\text{Выпрямитель}$}}}%
+    \put(0.25695102,0.0871501){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.43971167,0.45609717){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.59410019,0.35466361){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.5925581,0.28479396){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.84727138,0.00841876){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Масло}}}%
+    \put(0.8727823,0.48700284){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Воздух}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{3_3_1.pdf}}%
-    \put(0.76803384,0.00432697){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\large\text{Масло}$}}}%
-    \put(0.80235701,0.44182391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\large\text{Воздух}$}}}%
+    \put(0.25581635,0.26364369){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.04474317,0.40039042){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Микроскоп}}}%
+    \put(0.55514883,0.17110603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{3_3_1.pdf}}%
   \end{picture}%
 \endgroup%

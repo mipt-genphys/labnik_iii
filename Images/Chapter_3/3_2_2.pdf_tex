@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{364.27930456bp}%
+    \setlength{\unitlength}{263.95909828bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,34 +48,24 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.50887164)%
+  \begin{picture}(1,0.36893952)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_2_2.pdf}}%
-    \put(0.83524042,0.25302333){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.90012921,0.25355815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.05815729,0.12822024){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.22211872,0.36430335){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.26789189,0.36390351){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.09040766,0.12862699){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
-    \put(0.16940018,0.10396725){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.73647038,0.12882839){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
-    \put(0.62077788,0.08258333){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$M - 253$}}}%
+    \put(0.95200841,0.14588764){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.95388304,0.20561749){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(-0.00188777,0.04768933){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(-0.00040642,0.13386999){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.32027629,0.09160492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.71516123,0.18474744){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{3_2_2.pdf}}%
-    \put(0.50419361,0.00720742){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K$}}}%
-    \put(0.377116,0.0075196){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-H$}}}%
-    \put(0.40941255,0.2266903){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.29026603,0.10662903){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.23298242,0.1395299){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+H$}}}%
-    \put(0.45411534,0.39012998){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.52111085,0.39022746){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
+    \put(0.61514573,0.00759875){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К}}}%
+    \put(0.41327471,0.31355537){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{3_2_2.pdf}}%
-    \put(0.03527593,0.29918247){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$M - 95$}}}%
-    \put(0.20282978,0.31281856){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{мкА}$}}}%
-    \put(0.0277623,0.17910316){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Б}5 - 7$}}}%
-    \put(0.83315515,0.31207192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Б}5 - 10$}}}%
-    \put(0.47368442,0.30148521){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Э}$}}}%
-    \put(0.17804438,0.36254521){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Э}$}}}%
-    \put(0.80272665,0.35350483){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Выпрямитель}$}}}%
-    \put(-0.00136795,0.22280943){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Выпрямитель}$}}}%
-    \put(0.48972021,0.25566707){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Наружный шунт}$}}}%
+    \put(0.82675874,0.31301411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{3_2_2.pdf}}%
+    \put(0.12762439,0.12694624){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{н}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{3_2_2.pdf}}%
+    \put(0.45007703,0.02076098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.45069312,0.00658152){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$Н}}}%
+    \put(0.22987569,0.15656398){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$Н}}}%
   \end{picture}%
 \endgroup%

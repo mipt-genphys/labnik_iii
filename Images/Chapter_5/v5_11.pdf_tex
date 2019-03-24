@@ -51,9 +51,10 @@
   \begin{picture}(1,0.56884113)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_11.pdf}}%
     \put(0.38168736,0.53692184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0.93216545,0.32519952){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
+    \put(0.850614,0.30759185){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
     \put(0.40991708,0.29696995){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
-    \put(0.46744969,0.14812317){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-I_{i_\text{н}}$}}}%
-    \put(0.37185717,0.38451036){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{i_\text{н}}$}}}%
+    \put(0.46744969,0.14812317){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-I_{i\text{н}}$}}}%
+    \put(0.37185717,0.38451036){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{i\text{н}}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_11.pdf}}%
   \end{picture}%
 \endgroup%
