@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{167.5031681bp}%
+    \setlength{\unitlength}{167.50318422bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,24 +48,24 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.85158457)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.85158458)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2.pdf}}%
-    \put(0.20307525,0.47884449){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.1353835,0.30961512){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-0.5$\end{tabular}}}}%
-    \put(0.16922938,0.14038574){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-1$\end{tabular}}}}%
-    \put(0.20307525,0.8173035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(0.01692294,0.54653624){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$j(x)$\end{tabular}}}}%
-    \put(0.01692294,0.44499862){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u(x)$\end{tabular}}}}%
+    \put(0.20307523,0.47884453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.13538349,0.30961516){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0.5$}}}%
+    \put(0.16922936,0.14038579){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-1$}}}%
+    \put(0.20307523,0.81730353){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.01692294,0.55608849){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j(x)$}}}%
+    \put(0.01692294,0.45455086){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$u(x)$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2.pdf}}%
-    \put(0.16922938,0.64807387){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0.5$\end{tabular}}}}%
-    \put(0.59230282,0.08961693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$2$\end{tabular}}}}%
-    \put(0.76153219,0.08961693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$3$\end{tabular}}}}%
-    \put(0.93076157,0.08961693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$4$\end{tabular}}}}%
-    \put(0.42307344,0.08961693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(0.25384406,0.08961693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.60922576,0.00500224){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.16922936,0.6480739){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0.5$}}}%
+    \put(0.59230276,0.08961698){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
+    \put(0.76153212,0.08961698){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.93076148,0.08961698){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.4230734,0.08961698){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.25384404,0.08961698){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.25384404,0.47884453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.60922569,0.0050023){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$x$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2.pdf}}%
+    \put(0.01692294,0.8003806){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{а)}}}%
   \end{picture}%
 \endgroup%
