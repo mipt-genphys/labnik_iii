@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '7.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{206.22032949bp}%
+    \setlength{\unitlength}{174.82342529bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,18 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.76117897)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.8569503)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{7.pdf}}%
-    \put(0.36087395,0.73333405){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\varepsilon=\varepsilon_0\cos\omega t$\end{tabular}}}}%
-    \put(0.12719681,0.65085977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I$\end{tabular}}}}%
-    \put(0.12719681,0.51340242){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
-    \put(0.37461966,0.51340242){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L, r_L$\end{tabular}}}}%
-    \put(0.67702537,0.51340242){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
-    \put(0.1134511,0.30721671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$U_R$\end{tabular}}}}%
-    \put(0.38836538,0.30721671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$U_L$\end{tabular}}}}%
-    \put(0.66327966,0.30721671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$U_C$\end{tabular}}}}%
-    \put(0.22341681,0.101031){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$U_{L+R}$\end{tabular}}}}%
+    \put(0.2796973,0.82410468){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}=\mathcal{E}_0\cos\omega t$}}}%
+    \put(0.14292036,0.72681866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.14998261,0.54846073){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.44184066,0.54846073){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L, r_L$}}}%
+    \put(0.78234173,0.56467506){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.11755393,0.32146003){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_R$}}}%
+    \put(0.44184066,0.32146003){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_L$}}}%
+    \put(0.76612739,0.32146003){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_C$}}}%
+    \put(0.24517878,0.078245){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{L+R}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{7.pdf}}%
   \end{picture}%
 \endgroup%
