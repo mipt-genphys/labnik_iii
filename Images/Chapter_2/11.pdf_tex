@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '11.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{177.32968601bp}%
+    \setlength{\unitlength}{91.17572021bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,17 +48,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.83731463)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,1.0450593)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11.pdf}}%
-    \put(-0.00237904,0.32537778){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{E}$\end{tabular}}}}%
-    \put(0.55710201,0.32537778){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
-    \put(0.90877581,0.45325916){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
-    \put(0.90877581,0.16552605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
-    \put(0.54111683,0.56515537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_C$\end{tabular}}}}%
-    \put(0.68498339,0.56515537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_L$\end{tabular}}}}%
-    \put(0.15747269,0.80493321){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I=I_0\cos(\omega t+\varphi_0)$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{11.pdf}}%
+    \put(0.52390178,0.36028156){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.91256047,0.48464117){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.90783811,0.17374216){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.47526285,0.64009067){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_C$}}}%
+    \put(0.64826093,0.64009067){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_L$}}}%
+    \put(-0.00462708,0.98208006){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I=I_0\cos(\omega t+\varphi_0)$}}}%
   \end{picture}%
 \endgroup%
