@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2_5_4.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{335.33858291bp}%
+    \setlength{\unitlength}{340.15748031bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,25 +48,26 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.52714577)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.54166667)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_5_4.pdf}}%
-    \put(0.00972105,0.44928191){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Генератор\end{tabular}}}}%
-    \put(0.17878277,0.44928216){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Вольтметр\end{tabular}}}}%
-    \put(0.06043956,0.11961145){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Частотомер\end{tabular}}}}%
-    \put(0.01817413,0.05198677){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Генератор цугов\end{tabular}}}}%
-    \put(0.7874049,0.44928229){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Осциллограф\end{tabular}}}}%
-    \put(0.89729501,0.41546995){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}X\end{tabular}}}}%
-    \put(0.94801352,0.41546995){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Y\end{tabular}}}}%
-    \put(0.7874049,0.27176698){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
-    \put(0.71978028,0.35629823){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
-    \put(0.7113272,0.18723587){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
-    \put(0.52535926,0.51690659){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}<<цуги>>\end{tabular}}}}%
-    \put(0.43237535,0.41546982){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_1$\end{tabular}}}}%
-    \put(0.52535926,0.38165722){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}<<непр.>>\end{tabular}}}}%
-    \put(0.48309383,0.24640747){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_1$\end{tabular}}}}%
-    \put(0.51690617,0.22950156){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}<<синхр.>>\end{tabular}}}}%
-    \put(0.46618766,0.02662725){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}<<$\perp$>>\end{tabular}}}}%
+    \put(0.05833333,0.13333326){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Частотомер}}}%
+    \put(0.01666667,0.0666666){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Генератор }}}%
+    \put(0.78333333,0.45455529){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
+    \put(0.88333333,0.42500041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{X}}}%
+    \put(0.93333333,0.42500041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Y}}}%
+    \put(0.775,0.28333325){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.675,0.37500003){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.675,0.19166659){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.51666666,0.52500002){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<цуги>>}}}%
+    \put(0.41666666,0.42500003){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_1$}}}%
+    \put(0.51666666,0.3916667){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<непр.>>}}}%
+    \put(0.475,0.25833299){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_1$}}}%
+    \put(0.50833333,0.24166658){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<синхр.>>}}}%
+    \put(0.45833333,0.04166634){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<$\perp$>>}}}%
+    \put(0.06666666,0.20833325){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
+    \put(0.01666667,0.03333326){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{цугов}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2_5_4.pdf}}%
+    \put(0.28077777,0.25000017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2_5_4.pdf}}%
   \end{picture}%
 \endgroup%

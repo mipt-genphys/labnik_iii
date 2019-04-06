@@ -10,7 +10,6 @@
 возникающие при определённых \emph{условиях возбуждения}, если используется 
 постоянный (не синусоидальный) источник ЭДС, периодически компенсирующий 
 потери колебательной энергии контура.
-
 Кроме того, будут рассмотрены автоколебания в системах, не содержащих 
 одного из накопителей колебательной энергии (ёмкости или индуктивности), 
 называемых \term{вырожденными} колебательными системами и описываемых 
@@ -446,8 +445,8 @@ I(t)&\approx - \frac{U_0}{\rho}e^{-\gamma t}\sin\omega_0 t,
 а добротность $Q$ связать с характеристиками контура соотношениями
 \begin{equation}
 	\eqmark{2.35}
-Q\approx \dfrac{\pi}{\gamma
-	T_0}=\dfrac{\omega_0}{2\gamma}=\dfrac{\tau\omega_0}{2}
+Q\approx \dfrac{\omega_0}{2\gamma}= \dfrac{\pi}{\gamma
+	T_0}=\dfrac{\tau\omega_0}{2} 
 %=\dfrac{\omega_0L}{R}
 %=\dfrac{1}{\omega_0CR}
 =\dfrac{1}{R}\sqrt{\dfrac{L}{C}}=\dfrac{\rho}{R} \gg 1.
@@ -1056,7 +1055,7 @@ $P_{\rm max}=\mathcal{E}_0^2/2R$.
 $\mathcal{E}_0$ по амплитуде и сдвинуты по фазе от него на $\mp\pi/2$
 соответственно и, значит, находятся в противофазе друг с другом. Последние
 утверждения, правда, относятся к идеальному случаю отсутствия потерь в этих
-элементах. При добротности $Q=\rho/R\gg1$ амплитуды напряжений $U_C(t)$ и
+элементах. При высокой добротности $Q\gg1$ амплитуды напряжений $U_C(t)$ и
 $U_L(t)$ значительно превышают амплитуду~$\mathcal{E}_0$ напряжения на контуре.
 По этой причине резонанс в последовательном контуре называется
 \important{резонансом напряжений}.
@@ -1290,14 +1289,14 @@ $C$ (рис.~\figref{fig7}).
 			\vec I_C & =\vec
 I\dfrac{Z_{LR}}{Z_C+Z_{LR}}=I_0
 \dfrac{1+i\frac{\rho\omega}{R\omega_0}}%
-{1+i\frac{\rho}{R}\left[\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\right]}, \\
+{1+i\frac{\rho}{R}\left(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\right)}, \\
 %		\end{equation}
 %		\begin{equation}
 %			\eqmark{2.64b}
 			\vec I_L & =\vec
 I\dfrac{Z_C}{Z_C+Z_{LR}}=I_0
 \dfrac{-i\frac{\rho\omega_0}{R\omega}}%
-{1+i\frac{\rho}{R}\left[\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\right]}, \\
+{1+i\frac{\rho}{R}\left(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\right)}, \\
 %		\end{equation}
 %		\begin{equation}
 %			\eqmark{2.64c}
@@ -1305,15 +1304,16 @@ I\dfrac{Z_C}{Z_C+Z_{LR}}=I_0
 I\dfrac{Z_CZ_{LR}}{Z_C+Z_{LR}}=
 I_0\frac{\rho^2}{R}
 \dfrac{1-i\frac{R\omega_0}{\rho\omega}}%
-{1+i\frac{\rho}{R}\left[\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\right]},
+{1+i\frac{\rho}{R}\left(\frac{\omega}{\omega_0}-\frac{\omega_0}{\omega}\right)},
 %		\end{equation}
 \end{aligned}
 \end{equation}
-где~$Z_C$ и~$Z_{LR}$~--- импедансы емкостной и индуктивной ветвей параллельного
+где~$Z_C=\frac{1}{i\omega C}$ и~$Z_{LR}=R+i\omega L$~--- импедансы емкостной и индуктивной ветвей параллельного
 контура соответственно.
 
 Ограничимся рассмотрением наиболее интересного случая контура с высокой
-добротностью вблизи резонансной частоты, когда $Q=\rho/R\gg1$, выполняется
+добротностью вблизи резонансной частоты, когда 
+$Q\approx \rho/R\gg1$, выполняется
 условие \eqref{2.58} и применимо разложение \eqref{2.59}. При этом
 \important{вещественные части} комплексных амплитуд \eqref{2.64}
 можно представить в виде
@@ -1530,7 +1530,7 @@ t}\right)\sin(\omega_0t-\tau\Delta\omega).
 Как видно из формул \eqref{2.71}, \eqref{2.73} в резонансе и при малом
 отклонении от него (по сравнению с шириной резонансной кривой) амплитуда
 вынужденных колебаний со временем возрастает, экспоненциально приближаясь 
-к величине $Q\mathcal{E}_0\omega_0/\omega$, зависящей от частоты.
+к величине $Q\mathcal{E}_0\omega_0/\omega$.
 
 По осциллограмме сигнала нетрудно определить
 логарифмический декремент затухания~$\Theta$, период колебаний~$T_1$ 
@@ -1538,37 +1538,35 @@ t}\right)\sin(\omega_0t-\tau\Delta\omega).
 эту процедуру, построив на рис.~\figref{fig9}
 зависимость $U_C(t)$ по формуле \eqref{2.73} в безразмерных координатах 
 $x = \omega_0t$, $u(x) = U_C(x)/Q\mathcal{E}_0$.
-
-\begin{figure}[h!]
-	\centering
-	\pic{0.8\textwidth}{Chapter_2/13}
-	%\import{Images/Chapter_2/}{13.pdf_tex}
-	\caption{Установление вынужденных колебаний вблизи резонанса
-$(|\Delta\omega|\ll\gamma=\delta\omega/2)$. График приведен для
-$\gamma = 0,05\omega_0$, $\Delta \omega = 0,01\omega_0$.}
-	\figmark{fig9}
-\end{figure}
-
 Рассмотрим два момента времени~$t_1$ и~$t_2$, разделённые целым числом~$n$
 периодов~$T_1$. Амплитуды колебаний $U_{k}=U_C(t_1)$ и 
 $U_{k+n}=U_C(t_2)$ при этом соответственно равны:
-\begin{equation}\eqmark{2.74}
+\begin{equation*}\eqmark{2.74}
 U_{k}=Q\mathcal{E}_0(1-e^{-\gamma t_1}), \qquad U_{k+n}=
 Q\mathcal{E}_0(1-e^{-\gamma(t_1+nT_1)}).
-\end{equation}
-Из этих выражений по формулам \eqref{2.27}, \eqref{2.30} находим логарифмический 
+\end{equation*}
+Из этих выражений по формулам \eqref{2.25}, \eqref{2.27} находим логарифмический 
 декремент:
 \begin{equation}\eqmark{2.75}
-\Theta=\dfrac{1}{n}\ln\dfrac{U_0 -U_{k}}{U_0 -U_{k+n}}, \qquad U_0  = 
+\Theta=\dfrac{1}{n}\ln\dfrac{U_{\infty} -U_{k}}{U_{\infty} -U_{k+n}}, \qquad U_{\infty}  = 
 Q\mathcal{E}_0.
 \end{equation}
-Измерив затем по осциллограмме реальный период $T_1\approx T_0$, определяем 
-по формуле \eqref{2.35} коэффициент затуханияя~$\gamma = \Theta/T_1$.
-
+Измерив затем по осциллограмме реальный период~$T_1$, определяем 
+по формуле \eqref{2.30} коэффициент затуханияя~$\gamma = \Theta/T_1$.
 
 \begin{figure}[h!]
     \centering
-    \pic{0.9\textwidth}{Chapter_2/14}
+    \pic{0.8\textwidth}{Chapter_2/13}
+    %\import{Images/Chapter_2/}{13.pdf_tex}
+    \caption{Установление вынужденных колебаний вблизи резонанса
+        $(|\Delta\omega|\ll\gamma=\delta\omega/2)$. График приведен для
+        $\gamma = 0,05\omega_0$, $\Delta \omega = 0,01\omega_0$.}
+    \figmark{fig9}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \pic{0.8\textwidth}{Chapter_2/14}
     %\import{Images/Chapter_2/}{14.pdf_tex}
     \caption{Биения при установлении колебаний
         $(\Delta\omega\approx\gamma=\delta\omega/2)$. Расчет для
