@@ -48,21 +48,21 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.47725563)%
+  \begin{picture}(1,0.45894349)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_1_3.pdf}}%
-    \put(0.30093912,0.36154405){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
-    \put(0.30093912,0.24772938){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.30093912,0.13391471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.1508162,0.03274611){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
-    \put(0.7072434,0.40707564){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
-    \put(0.8210581,0.40671473){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x_0$}}}%
-    \put(0.71988945,0.00745396){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
+    \put(0.30093914,0.36866697){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.30093914,0.25485231){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.30093914,0.14103765){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.15081624,0.08005492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
+    \put(0.70724336,0.378508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.82105805,0.37814708){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x_0$}}}%
+    \put(0.9095806,0.04047188){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2_1_3.pdf}}%
-    \put(0.02435543,0.19714508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim$}}}%
-    \put(-0.00093669,0.24772938){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
+    \put(0.02435549,0.25423482){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim$}}}%
+    \put(-0.00093663,0.30481912){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2_1_3.pdf}}%
-    \put(0.54284445,0.06354622){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Канал 2}}}%
-    \put(0.54284445,0.12126863){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Канал 1}}}%
+    \put(0.54284444,0.0421167){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Канал 2}}}%
+    \put(0.54284444,0.09270099){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Канал 1}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{2_1_3.pdf}}%
   \end{picture}%
 \endgroup%
