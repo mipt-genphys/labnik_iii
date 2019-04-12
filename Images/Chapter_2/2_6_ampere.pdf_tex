@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '14.pdf' (pdf, eps, ps)
+%% Accompanies image file '2_6_ampere.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{255.76521301bp}%
+    \setlength{\unitlength}{84.37934113bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,19 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.54573472)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{14.pdf}}%
-    \put(0.14688917,0.04671431){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.42396417,0.04671431){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5$}}}%
-    \put(0.70103916,0.04671431){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10$}}}%
-    \put(0.97811416,0.04671431){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$15$}}}%
-    \put(0.05822517,0.0910463){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0,4$}}}%
-    \put(0.11364017,0.30162329){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
-    \put(0.09147417,0.52328344){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0.4$}}}%
-    \put(0.00281021,0.31270629){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$u(x)$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{14.pdf}}%
-    \put(0.56804317,0.00238231){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
-    \put(0.05822517,0.19079329){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0,2$}}}%
-    \put(0.09147417,0.41245328){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,2$}}}%
+  \begin{picture}(1,0.91991288)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{2_6_ampere.pdf}}%
+    \put(0.51912662,0.85854975){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2_6_ampere.pdf}}%
+    \put(0.85604054,0.7281861){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
+    \put(0.89498038,0.45391464){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(-0.00740702,0.46407282){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{S}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2_6_ampere.pdf}}%
+    \put(0.7595377,0.02557689){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$F_A$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2_6_ampere.pdf}}%
+    \put(0.53499892,0.16930357){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
+    \put(0.24548996,0.38093286){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$l$}}}%
   \end{picture}%
 \endgroup%
