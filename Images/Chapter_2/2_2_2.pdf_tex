@@ -56,7 +56,7 @@
     \put(0.35583817,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
     \put(0.48891067,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_L$}}}%
     \put(0.62198318,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.71069819,0.60418322){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Осциллограф}}}%
+    \put(0.68851944,0.59309384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Осциллограф}}}%
     \put(0.76614507,0.20496552){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_n$}}}%
     \put(0.86594945,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_S$}}}%
     \put(0.01206748,0.20496552){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{напряжения}}}%
