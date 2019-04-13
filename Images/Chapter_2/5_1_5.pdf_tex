@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '5_1_5.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{187.67478962bp}%
+    \setlength{\unitlength}{145.5357454bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,14 +48,11 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.51847571)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
-    \put(0.16814561,0.47116188){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Источник\\питания\end{tabular}}}}%
-    \put(0.15304158,0.32012158){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ВУП-2\end{tabular}}}}%
-    \put(0.51553831,0.2294974){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V$\end{tabular}}}}%
-    \put(0.69678667,0.45605831){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
-    \put(0.81761891,0.33522561){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
+  \begin{picture}(1,0.66859734)%
+    \put(0.37083106,0.29225164){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
+    \put(0.60529789,0.58219541){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.76063093,0.4260173){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
+    \put(-0.00124138,0.27029509){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ИП}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{5_1_5.pdf}}%
   \end{picture}%
 \endgroup%

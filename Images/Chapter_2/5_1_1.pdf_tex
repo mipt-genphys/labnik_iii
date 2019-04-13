@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '5_1_1.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{131.60753637bp}%
+    \setlength{\unitlength}{97.59179739bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,15 +48,20 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.0334031)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,1.2284554)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{5_1_1.pdf}}%
-    \put(0.92375681,0.05291652){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V$\end{tabular}}}}%
-    \put(-0.00240417,0.97907782){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I$\end{tabular}}}}%
-    \put(0.42836838,0.00983927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_1$\end{tabular}}}}%
-    \put(0.29913666,0.00983927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_2$\end{tabular}}}}%
-    \put(-0.00240417,0.67753671){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_1$\end{tabular}}}}%
-    \put(-0.00240417,0.31138005){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_2$\end{tabular}}}}%
+    \put(0.89718196,0.13829846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
+    \put(0.05859346,1.1549068){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.54863065,0.02211471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
+    \put(0.40340099,0.02211471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
+    \put(0.078732,0.80635508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_1$}}}%
+    \put(0.078732,0.3125741){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{5_1_1.pdf}}%
+    \put(0.08389569,0.02211471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
+    \put(0.44714521,0.13829846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.59667915,0.13829846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
+    \put(0.51958472,0.86444696){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.69386034,1.1549068){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
+    \put(0.37061138,0.37066598){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
   \end{picture}%
 \endgroup%
