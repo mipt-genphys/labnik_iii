@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '2_9_1.pdf' (pdf, eps, ps)
+%% Accompanies image file 'skin1.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{331.62620725bp}%
+    \setlength{\unitlength}{47.34595337bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,17 +48,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.39207662)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{2_9_1.pdf}}%
-    \put(0.61384516,0.17383502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_y$}}}%
-    \put(0.85318113,0.17383502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_y$}}}%
-    \put(0.55401117,0.05416704){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n = 1$}}}%
-    \put(0.78479942,0.05416704){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n = 2$}}}%
-    \put(0.34031835,0.05416704){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
-    \put(0.19500721,0.16528731){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
-    \put(0.03260068,0.37043255){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
-    \put(0.13517323,0.06271475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a$}}}%
-    \put(-0.00159017,0.14819188){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$b$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{2_9_1.pdf}}%
+  \begin{picture}(1,1.78076361)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{skin1.pdf}}%
+    \put(-0.01113809,0.92427045){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}_0$}}}%
+    \put(0.88626811,0.6273896){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.04024484,1.62916171){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
+    \put(0.86303861,1.46945927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{skin1.pdf}}%
+    \put(0.08085038,0.04558364){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{H}_0$}}}%
   \end{picture}%
 \endgroup%
