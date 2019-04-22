@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{233.74217597bp}%
+    \setlength{\unitlength}{225.77663392bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,17 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.88300004)%
+  \begin{picture}(1,0.86691991)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{1_1_2.pdf}}%
-    \put(0.15375004,0.50006488){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
-    \put(0.38292987,0.1944918){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.50697209,0.53054468){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
-    \put(0.69023827,0.11231094){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
-    \put(0.85440632,0.17751659){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_0$}}}%
-    \put(0.86038789,0.04170531){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_\Sigma$}}}%
-    \put(0.45932322,0.00350863){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2R$}}}%
-    \put(0.57391314,0.71959867){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
-    \put(0.21104505,0.2517867){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathfrak{M}$}}}%
+    \put(0.15917449,0.52058472){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.39643994,0.19259802){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.51501535,0.4402868){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
+    \put(0.76978115,0.10703853){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
+    \put(0.86307458,0.17681374){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_0$}}}%
+    \put(0.89163767,0.02815737){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_\Sigma$}}}%
+    \put(0.47552849,0.00650965){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2R$}}}%
+    \put(0.59416121,0.7478638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.22355275,0.25215784){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathfrak{m}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{1_1_2.pdf}}%
   \end{picture}%
 \endgroup%
