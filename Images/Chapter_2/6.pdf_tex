@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '6.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{141.73228346bp}%
+    \setlength{\unitlength}{28.34646034bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,15 +48,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,1.06049001)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{6.pdf}}%
-    \put(1.00000003,0.45999977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
-    \put(0.48000001,0.17999977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
-    \put(0.24000001,0.45999977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
+    \put(0.76145401,0.43185792){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.47923185,0.14963573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.2252319,0.43185792){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{6.pdf}}%
-    \put(0.26000001,0.99999979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{E} = \mathcal{E}_0cos(\omega_0t+\varphi_0)$\end{tabular}}}}%
+    \put(0.25345408,1.25030139){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.02403884,0.98902754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E} = \mathcal{E}_0\cos(\omega_0t+\varphi_0)$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{6.pdf}}%
   \end{picture}%
 \endgroup%

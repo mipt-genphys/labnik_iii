@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '5_1_4.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{216.80967759bp}%
+    \setlength{\unitlength}{216.80968427bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -51,16 +49,14 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.61418227)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{5_1_4.pdf}}%
-    \put(0.02468933,0.59431858){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V$\end{tabular}}}}%
-    \put(-0.00145937,0.42435183){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_1$\end{tabular}}}}%
-    \put(-0.00145937,0.25438528){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$V_2$\end{tabular}}}}%
-    \put(0.96604255,0.01904697){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
+    \put(0.02468933,0.59431857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
+    \put(-0.00145937,0.42435184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
+    \put(-0.00145937,0.2543853){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
+    \put(0.96604251,0.01904702){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{5_1_4.pdf}}%
-    \put(0.57381204,0.00597262){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau_3$\end{tabular}}}}%
-    \put(0.76992729,0.00597262){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau_p$\end{tabular}}}}%
+    \put(0.56073762,0.00597267){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau_\text{з}$}}}%
+    \put(0.76992722,0.00597267){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau_\text{р}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{5_1_4.pdf}}%
   \end{picture}%
 \endgroup%

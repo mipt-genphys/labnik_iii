@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{339.06687098bp}%
+    \setlength{\unitlength}{241.00435512bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,19 +48,20 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.55922605)%
+  \begin{picture}(1,0.54801348)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{1_1_1.pdf}}%
-    \put(0.37796567,0.19812043){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ш}$}}}%
+    \put(0.36355135,0.17840656){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ш}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{1_1_1.pdf}}%
-    \put(-0.00126864,0.19731723){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
+    \put(0.46786691,0.27506555){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Л}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{1_1_1.pdf}}%
-    \put(0.47530118,0.29024072){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Л}$}}}%
+    \put(0.83087213,0.51648851){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{З$_2$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{1_1_1.pdf}}%
-    \put(0.63966722,0.48315888){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$K$}}}%
+    \put(0.91028265,0.26345976){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P$}}}%
+    \put(-0.00145872,0.17398232){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{О}}}%
+    \put(0.62540963,0.47513153){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К}}}%
+    \put(0.87687834,0.42533018){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{З$_1$}}}%
+    \put(0.67025401,0.2821221){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{C}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{1_1_1.pdf}}%
-    \put(0.83320829,0.5476142){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{З}_2$}}}%
-    \put(0.89984409,0.47669893){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{З}_1$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=6]{1_1_1.pdf}}%
-    \put(0.90931992,0.27037224){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P$}}}%
+    \put(0.84134345,0.07424751){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
   \end{picture}%
 \endgroup%

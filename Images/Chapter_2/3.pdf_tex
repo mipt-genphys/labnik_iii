@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '3.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{158.65875224bp}%
+    \setlength{\unitlength}{156.68931495bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,22 +48,22 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.91895325)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.93050367)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3.pdf}}%
-    \put(0.15865079,0.52543508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.09558948,0.34677203){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-0.5$\end{tabular}}}}%
-    \put(0.13236429,0.16810898){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-1$\end{tabular}}}}%
-    \put(0.56957581,0.11451007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.74719668,0.11451007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0.5$\end{tabular}}}}%
-    \put(0.92690188,0.11451007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(0.34571776,0.11451007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-0.5$\end{tabular}}}}%
-    \put(0.20382948,0.11451007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-1$\end{tabular}}}}%
-    \put(0.13974233,0.70409814){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0.5$\end{tabular}}}}%
-    \put(0.15865076,0.88276119){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(0.54012975,0.01078376){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u(x)$\end{tabular}}}}%
-    \put(0.00975406,0.52895568){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$j(x)$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{3.pdf}}%
+    \put(0.60252044,0.15041913){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.60252044,0.15041913){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.16849837,0.53203935){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.08422186,0.35113069){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0,5$}}}%
+    \put(0.14188148,0.17022202){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-1$}}}%
+    \put(0.56416575,0.11594943){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.74401914,0.11594943){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,5$}}}%
+    \put(0.92598307,0.11594943){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.33749402,0.11594943){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0,5$}}}%
+    \put(0.19382234,0.11594943){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-1$}}}%
+    \put(0.12892967,0.71294802){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,5$}}}%
+    \put(0.16849835,0.89385668){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.53434957,0.01091938){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$u(x)$}}}%
+    \put(-0.00269243,0.53560419){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j(x)$}}}%
+    \put(0.01490387,0.87681285){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{б)}}}%
   \end{picture}%
 \endgroup%

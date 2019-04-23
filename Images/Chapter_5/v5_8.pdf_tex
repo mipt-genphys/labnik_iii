@@ -51,14 +51,15 @@
   \begin{picture}(1,0.77598739)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_8.pdf}}%
     \put(0.0146466,0.38753573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Зонд}$}}}%
-    \put(0.03941864,0.74574996){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi(x)$}}}%
+    \put(0.03141446,0.74574996){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi(x)$}}}%
     \put(0.81010734,0.36762767){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_f$}}}%
-    \put(0.94278472,0.20636461){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.93773132,0.58840249){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
     \put(0.3973964,0.14605316){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_D$}}}%
     \put(0.14973647,0.50174227){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Дебаевский}$}}}%
     \put(0.20640113,0.45037211){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{слой}$}}}%
     \put(0.48179427,0.39900214){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Нейтральная}$}}}%
-    \put(0.54036647,0.33478955){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{плазма}$}}}%
+    \put(0.54036647,0.34279377){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{плазма}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_8.pdf}}%
+    \put(0.15040985,0.58031702){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
   \end{picture}%
 \endgroup%

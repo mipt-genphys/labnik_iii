@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2_9_3.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{329.57007433bp}%
+    \setlength{\unitlength}{312.56219759bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,24 +48,21 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.21616565)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.2110069)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_9_3.pdf}}%
-    \put(0.08715004,0.17202081){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Генератор\end{tabular}}}}%
+    \put(0.06468508,0.12818367){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Генератор}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2_9_3.pdf}}%
-    \put(0.19036253,0.14621769){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.30954974,0.01935491){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
+    \put(0.93531498,0.13725274){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Усилитель}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2_9_3.pdf}}%
-    \put(0.33658022,0.02580312){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}B\end{tabular}}}}%
-    \put(0.29357502,0){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}H\end{tabular}}}}%
-    \put(0.93865307,0.15481873){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Усилитель\end{tabular}}}}%
+    \put(0.35489505,0.17352898){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{I}}}%
+    \put(0.4365166,0.11004557){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.50000003,0.11004557){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0.56348346,0.11004557){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
+    \put(0.63603593,0.17352898){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{II}}}%
+    \put(0.82648625,0.173529){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$G$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{2_9_3.pdf}}%
-    \put(0.38818647,0.18922289){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}I\end{tabular}}}}%
-    \put(0.46559583,0.12041457){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
-    \put(0.52580312,0.12041457){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
-    \put(0.5860104,0.12041457){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3\end{tabular}}}}%
-    \put(0.65481873,0.18062185){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}II\end{tabular}}}}%
-    \put(0.83544058,0.18062185){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}G\end{tabular}}}}%
+    \put(0.200721,0.01935491){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{2_9_3.pdf}}%
   \end{picture}%
 \endgroup%

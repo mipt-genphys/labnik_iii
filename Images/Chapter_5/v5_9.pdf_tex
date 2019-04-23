@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{170.74335894bp}%
+    \setlength{\unitlength}{171.17181493bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,18 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.89012713)%
+  \begin{picture}(1,1.00402161)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_9.pdf}}%
-    \put(0.78229665,0.22602939){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
-    \put(0.04164889,0.4031401){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0.53922524,0.85729733){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{плазма}}}%
-    \put(0.35962341,0.46480147){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{опорный}}}%
-    \put(0.24767984,0.69916584){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{зонд}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{v5_9.pdf}}%
-    \put(0.2975142,0.05461185){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{v5_9.pdf}}%
-    \put(0.36629318,0.12840395){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{v5_9.pdf}}%
-    \put(0.35835798,0.41119541){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{электрод}}}%
+    \put(0.53408671,0.97127398){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{плазма}}}%
+    \put(0.35493445,0.57976057){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{опорный}}}%
+    \put(0.24327108,0.81353831){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{зонд}}}%
+    \put(0.470056,0.01260842){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
+    \put(0.51313765,0.17111086){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.35367218,0.52628868){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{электрод}}}%
+    \put(0.47307688,0.37458536){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
+    \put(0.03823992,0.26235062){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
   \end{picture}%
 \endgroup%
