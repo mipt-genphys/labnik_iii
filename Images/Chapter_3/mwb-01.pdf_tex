@@ -52,5 +52,8 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mwb-01.pdf}}%
     \put(0.58090606,1.23032026){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mwb-01.pdf}}%
+    \put(0.40142756,0.07749162){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{mwb-01.pdf}}%
+    \put(0.39092877,1.16898619){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{S}}}%
   \end{picture}%
 \endgroup%

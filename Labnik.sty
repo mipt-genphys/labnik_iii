@@ -1,5 +1,11 @@
 \RequirePackage{ifpdf, ifluatex}
 
+% ams - загружаем первыми
+\RequirePackage{amsmath}  % дополнительные возможности математики AMS
+\RequirePackage{amssymb}  % дополнительные символы AMS
+
+%%% rules for differen toolsets
+
 \ifpdf
 \ifluatex
 	%%% Language setting for (xe|lua)latex %%%
@@ -43,7 +49,6 @@
 	\RequirePackage[T2A]{fontenc}
 	\RequirePackage[utf8]{inputenc}
 	\RequirePackage[russian]{babel}
-	\RequirePackage{soulutf8}
 
     % косые интегралы ранят мои патриотические чувства
     \DeclareSymbolFont{lsymb}{U}{euex}{m}{n}
@@ -53,12 +58,10 @@
 \fi
 \fi
 
-%%% rules for differen toolsets
-\RequirePackage{amsmath}  % дополнительные возможности математики AMS
-\RequirePackage{amssymb}  % дополнительные символы AMS
+\RequirePackage{soulutf8}
 
 %%% Пакеты
-\RequirePackage{icomma} % десятичная запятая без пробела
+\RequirePackage{icomma}     % десятичная запятая без пробела
 \RequirePackage[font=small, labelsep=period]{caption} % подписи к рисункам
 
 \RequirePackage{graphicx}   % вставка графики
@@ -73,6 +76,8 @@
 \RequirePackage{booktabs}
 \RequirePackage{longtable}  % таблицы на несколько страниц
 \RequirePackage{enumitem}   % расширенные свойства списков
+
+\RequirePackage{csquotes}   % кавычки
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -97,7 +102,7 @@
 %%% Общие настройки
 
 % FIXME: конфликты имен между разными папками!
-\graphicspath{{Images/}{Images/Chapter_1/}{Images/Chapter_2/}{Images/Chapter_3/}{Images/Chapter_4/}{Images/Chapter_5/}{Images/Chapter_6/}}
+\graphicspath{{Images/}{Images/Chapter_1/}{Images/Chapter_2/}{Images/Chapter_3/}{Images/Chapter_4/}{Images/Chapter_5/}{Images/Chapter_6/}{Images/Chapter_7/}}
 
 \newcounter{semester}
 \setcounter{semester}{3}
@@ -318,7 +323,7 @@
 \newcommand{\pic}[2]{%
   \ifblank{#1}% then
       {}% else
-      {\def\svgwidth{#1}}
+      {\def\svgwidth{#1}}%
   \input{\detokenize{Images/#2.pdf_tex}}%
 }
 
@@ -348,7 +353,9 @@
 \titleformat{\lab}[display]%
     {%
 %        \renewcommand{\theequation}{\arabic{equation}}%
-        \clearpage\bfseries%
+%        \clearpage
+        \bigskip\bigskip%
+        \bfseries%
     }%
     {Работа~\thelab}{1ex}%
     {\large\raggedright #1}%
@@ -418,7 +425,8 @@
     %    \setcounter{labsave}{\value{lab}}% save lab number
     %    \setcounter{lab}{0}%
     %    \vspace{\medskipamount}%
-    \clearpage
+%    \clearpage
+    \bigskip
     \ifblank{#1}{%
         \taskblock*{ПРИЛОЖЕНИЕ}%
     }{%
@@ -478,20 +486,3 @@
 % стиль векторов(?)
 \let\ovec\vec
 \renewcommand*{\vec}[1]{{\boldsymbol{#1}}}
-
-
-% Литература
-\newcommand{\SivuhinIII}{%
-    \textit{Сивухин~Д.В.} Общий курс физики.~--- T.~III. Электричество.~---
-    М.: Физматлит, 2015.}
-
-\newcommand{\KingLokOlh}{%
-    \textit{Кингсеп~А.С., Локшин~Г.Р., Ольхов~О.А.} Основы физики.~---
-    Т.~1.~--- М.:~Физматлит, 2007.}
-
-\newcommand{\Kalashnikov}{%
-    \textit{Калашников С.Г.} Электричество.~--- М.:~Физматлит, 2003.}
-
-\newcommand{\Kirichenko}{%
-    \textit{Кириченко~Н.А.} Электричество и магнетизм.~---
-    М.: МФТИ, 2011.}

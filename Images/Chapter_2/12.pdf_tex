@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '12.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{294.8563915bp}%
+    \setlength{\unitlength}{87.92730917bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,17 +48,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.4884032)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.60075857)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{12.pdf}}%
-    \put(0.4311834,0.46892868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{U}_L$\end{tabular}}}}%
-    \put(0.62345636,0.46892868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{U}$\end{tabular}}}}%
-    \put(0.38311515,0.30549651){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{I}$\end{tabular}}}}%
-    \put(0.86379757,0.045928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{I}_L$\end{tabular}}}}%
-    \put(-0.00143078,0.37279205){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{I}_C$\end{tabular}}}}%
-    \put(0.56577447,0.045928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{U}_R$\end{tabular}}}}%
-    \put(0.26775137,0.16129178){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-\frac{\pi}{2}+Q^{-1}$\end{tabular}}}}%
-    \put(0.45041069,0.17090543){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q^{-1}$\end{tabular}}}}%
+    \put(0.41430267,0.53545236){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}_L$}}}%
+    \put(0.63997226,0.43873682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}$}}}%
+    \put(0.38206416,0.34202128){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}$}}}%
+    \put(0.86564172,0.08411318){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}_L$}}}%
+    \put(-0.00479799,0.43873682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}_C$}}}%
+    \put(0.57549523,0.01963616){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}_R$}}}%
+    \put(0.16005741,0.09625182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\frac{\pi}{2}+\frac{1}{Q}$}}}%
+    \put(0.50532767,0.17644571){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{1}{Q}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{12.pdf}}%
   \end{picture}%
 \endgroup%

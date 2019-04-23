@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2_9_1.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{334.88062791bp}%
+    \setlength{\unitlength}{331.62620725bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,18 +48,17 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.38645943)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.39207662)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_9_1.pdf}}%
-    \put(0.35555884,0.04345999){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}X\end{tabular}}}}%
-    \put(0.00004374,0.36511663){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Y\end{tabular}}}}%
-    \put(0.20319522,0.14503573){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Z\end{tabular}}}}%
-    \put(0.14394271,0.04345999){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a\end{tabular}}}}%
-    \put(0.00004374,0.14503573){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}b\end{tabular}}}}%
-    \put(0.5925689,0.17889431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_y$\end{tabular}}}}%
-    \put(0.86343754,0.17889431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_y$\end{tabular}}}}%
-    \put(0.54178103,0.04345999){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$n = 1$\end{tabular}}}}%
-    \put(0.78725574,0.04345999){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$n = 2$\end{tabular}}}}%
+    \put(0.61384516,0.17383502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_y$}}}%
+    \put(0.85318113,0.17383502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E_y$}}}%
+    \put(0.55401117,0.05416704){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n = 1$}}}%
+    \put(0.78479942,0.05416704){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n = 2$}}}%
+    \put(0.34031835,0.05416704){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.19500721,0.16528731){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$z$}}}%
+    \put(0.03260068,0.37043255){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
+    \put(0.13517323,0.06271475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a$}}}%
+    \put(-0.00159017,0.14819188){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$b$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2_9_1.pdf}}%
   \end{picture}%
 \endgroup%

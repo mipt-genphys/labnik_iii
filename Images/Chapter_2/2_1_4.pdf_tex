@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2_1_4.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{278.47374881bp}%
+    \setlength{\unitlength}{169.63638095bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,23 +48,24 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.49169953)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.49826779)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_1_4.pdf}}%
-    \put(0.11288102,0.3374629){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Генератор\\ГЗ--109\end{tabular}}}}%
-    \put(0.84578487,0.38835901){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Осциллограф\\С1--83\end{tabular}}}}%
-    \put(0.47933293,0.37817979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(0.42843683,0.3374629){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_1$\end{tabular}}}}%
-    \put(0.47933293,0.1338785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$2$\end{tabular}}}}%
-    \put(0.41825761,0.25602914){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$3$\end{tabular}}}}%
-    \put(0.42843683,0.17459538){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_1$\end{tabular}}}}%
-    \put(0.55058748,0.25602914){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$4$\end{tabular}}}}%
-    \put(0.63202124,0.3374629){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
-    \put(0.6116628,0.44943433){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}P4830/1\end{tabular}}}}%
+    \put(0.6632911,0.58330595){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.39592886,0.42293146){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.26587232,0.35718479){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
+    \put(0.4023904,0.10302032){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
+    \put(0.29941204,0.26581301){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
+    \put(0.2650469,0.15949706){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
+    \put(0.48273727,0.26456566){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
+    \put(0.56303014,0.34936365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.54543754,0.20597262){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.90430109,0.10986184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
+    \put(0.01248014,0.20676202){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{вх}$}}}%
+    \put(0.74506353,0.24710642){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{вых}$}}}%
+    \put(0.74715842,0.12109253){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{вх}/2$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2_1_4.pdf}}%
-    \put(0.6116628,0.21531226){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
-    \put(0.54040826,0.06262395){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}P5025\end{tabular}}}}%
+    \put(-0.00123771,0.30286974){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
+    \put(0.02594244,0.2600842){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2_1_4.pdf}}%
   \end{picture}%
 \endgroup%

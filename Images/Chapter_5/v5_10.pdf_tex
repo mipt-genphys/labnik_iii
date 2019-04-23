@@ -51,7 +51,7 @@
   \begin{picture}(1,0.81765115)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{v5_10.pdf}}%
     \put(0.88547504,0.36240823){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
-    \put(0.507132,0.24480648){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_f$}}}%
+    \put(0.507132,0.24480648){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$|U_f|$}}}%
     \put(0.42110318,0.04721471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{i\text{н}}$}}}%
     \put(0.31058281,0.60340347){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{e\text{н}}$}}}%
     \put(0.12620364,0.49966609){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{e\text{н}}-I_{i\text{н}}$}}}%

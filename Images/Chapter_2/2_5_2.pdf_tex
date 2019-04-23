@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2_5_2.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{179.71654335bp}%
+    \setlength{\unitlength}{184.2519685bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,16 +48,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.610162)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.61538462)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_5_2.pdf}}%
-    \put(0.3354027,0.36517452){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
-    \put(0.36671926,0.11280956){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
-    \put(0.57176656,0.33362974){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{2_5_2.pdf}}%
-    \put(0.69794953,0.5702228){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Осциллограф\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{2_5_2.pdf}}%
-    \put(0.24053628,0.5702228){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_1$\end{tabular}}}}%
+    \put(0.33868509,0.38461429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.36923078,0.13846138){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.56923077,0.35384599){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.73846153,0.56923061){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
+    \put(0.24615384,0.58461522){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_1$}}}%
   \end{picture}%
 \endgroup%

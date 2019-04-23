@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '5.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{198.68426933bp}%
+    \setlength{\unitlength}{195.42773239bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,24 +48,23 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.70806613)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.71986505)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{5.pdf}}%
-    \put(0.12840377,0.39382268){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-0.2$\end{tabular}}}}%
-    \put(0.12840377,0.25115181){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-0.3$\end{tabular}}}}%
-    \put(0.12840377,0.10848094){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-0.4$\end{tabular}}}}%
-    \put(0.19973921,0.67916506){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.01426708,0.39382268){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$j(x)$\end{tabular}}}}%
+    \put(0.09750556,0.40038515){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0,2$}}}%
+    \put(0.09750556,0.25533686){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0,3$}}}%
+    \put(0.09750556,0.11028857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0,4$}}}%
+    \put(0.18640405,0.6904824){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(-0.00215873,0.33488678){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$j(x)$}}}%
+    \put(0.09750556,0.54543344){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-0,1$}}}%
+    \put(0.49100546,0.06677408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,4$}}}%
+    \put(0.63605375,0.06677408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,6$}}}%
+    \put(0.78110204,0.06677408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,8$}}}%
+    \put(0.34595717,0.06677408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0,2$}}}%
+    \put(0.21541371,0.06677408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.07036542,0.40038559){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.54902478,0.00875477){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$u(x)$}}}%
+    \put(0.94065516,0.06677408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1$}}}%
+    \put(0.0123461,0.67597757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{б)}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{5.pdf}}%
-    \put(0.12840377,0.53649354){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-0.1$\end{tabular}}}}%
-    \put(0.49934802,0.06567968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0.4$\end{tabular}}}}%
-    \put(0.64201889,0.06567968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0.6$\end{tabular}}}}%
-    \put(0.78468976,0.06567968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0.8$\end{tabular}}}}%
-    \put(0.35667716,0.06567968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0.2$\end{tabular}}}}%
-    \put(0.22827338,0.06567968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
-    \put(0.55641637,0.00861134){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$u(x)$\end{tabular}}}}%
-    \put(0.94162771,0.06567968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{5.pdf}}%
   \end{picture}%
 \endgroup%

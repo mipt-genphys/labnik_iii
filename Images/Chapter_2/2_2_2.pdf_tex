@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2_2_2.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{275.8110022bp}%
+    \setlength{\unitlength}{255.61814496bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,24 +48,23 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.62387159)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.65226428)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_2_2.pdf}}%
-    \put(0.0323741,0.45686248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Генератор\end{tabular}}}}%
-    \put(0.01181912,0.39519752){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Вход\end{tabular}}}}%
-    \put(0.01181912,0.25131262){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Источник\\напряжения\end{tabular}}}}%
-    \put(0.13514904,0.00465247){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Вольтметр 1\end{tabular}}}}%
-    \put(0.43319634,0.00465247){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Вольтметр 2\end{tabular}}}}%
-    \put(0.40236386,0.22048014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$L$\end{tabular}}}}%
-    \put(0.50513879,0.22048014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_L$\end{tabular}}}}%
-    \put(0.64902369,0.22048014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R$\end{tabular}}}}%
-    \put(0.3406989,0.32325507){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\LARGE{\varepsilon}$\end{tabular}}}}%
-    \put(0.69013366,0.32325507){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$U_C$\end{tabular}}}}%
-    \put(0.35097639,0.39519752){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$U_1$\end{tabular}}}}%
-    \put(0.74152113,0.51852744){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Осциллограф\end{tabular}}}}%
-    \put(0.76207612,0.39519752){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$U_2$\end{tabular}}}}%
-    \put(0.77235361,0.21020265){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_n$\end{tabular}}}}%
-    \put(0.87512854,0.21020265){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_S$\end{tabular}}}}%
+    \put(0.10078249,0.62636197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Генератор}}}%
+    \put(0.07860374,0.40457429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Вход}}}%
+    \put(0.01206748,0.23823365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Источник\\ }}}%
+    \put(0.35583817,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.48891067,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_L$}}}%
+    \put(0.62198318,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.68851944,0.59309384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Осциллограф}}}%
+    \put(0.76614507,0.20496552){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_n$}}}%
+    \put(0.86594945,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_S$}}}%
+    \put(0.01206748,0.20496552){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{напряжения}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2_2_2.pdf}}%
+    \put(0.27569872,0.11462745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2_2_2.pdf}}%
+    \put(0.71927377,0.11462745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2_2_2.pdf}}%
+    \put(0.21167628,0.30476991){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
   \end{picture}%
 \endgroup%
