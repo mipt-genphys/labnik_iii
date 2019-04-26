@@ -192,7 +192,7 @@
         Удельная\newline
         проводимость & $\lambda=\frac{1}{\rho}$ & $1~\frac{См}{м}$
                      & $\approx 9\cdot 10^9~с^{-1}$                             \\ \hline
-        Магн. индукция     & ${B}$ & 1~Тл (тесла)
+        Магн. индукция     & ${B}$ & 1~Тл (\emph{тесла})
                      & $10^4$~Гс (\emph{гаусс})                        \bigstrut\\ \hline
         Напряжённость\newline
         магнитного поля & ${H}$ & $1~\frac{А}{м}$
@@ -229,7 +229,7 @@
 \toprule[1pt]
 \textbf{Наименование} & \textbf{СИ} & \textbf{СГС} \\
 \midrule[1pt]
-\bigstrut[t]
+%\bigstrut[t]
 \multirow[t]{4}{40mm}{Уравнения Максвелла в дифференциальной форме}
       & $\divv\vec{D}=\rho$ & $\divv\vec{D}=4\pi\rho$ \\
       & $\divv\vec{B}=0$    & $\divv\vec{B}=0$ \\
@@ -237,6 +237,19 @@
       & $\rot\vec{H}=\vec{j}+\frac{\partial\vec{D}}{\partial t}$
           & $\rot\vec{H}=\frac{4\pi}{c}\vec{j}+
               \frac{1}{c}\frac{\partial\vec{D}}{\partial t}$  \bigstrut[b] \\  \hline
+\bigstrut[t]
+\multirow[t]{5}{40mm}{Уравнения Максвелла в интегральной форме}
+      & $\oint\limits_{S}\vec{D}\,d\vec{S}=\int\limits_{V}\rho\,dV$
+      & $\oint\limits_{S}\vec{D}\,d\vec{S}=4\pi\int\limits_{V}\rho\,dV$ \\
+      & $\oint\limits_{S}\vec{B}\,d\vec{S}=0$
+      & $\oint\limits_{S}\vec{B}\,d\vec{S}=0$\\
+      & $\oint\limits_{L}\vec{E}\,d\vec{l}=-\int\limits_{S}\frac{\partial\vec{B}}{\partial t}\,d\vec{S}$
+      & $\oint\limits_{L}\vec{E}\,d\vec{l}=-\frac{1}{c}\int\limits_{S}\frac{\partial\vec{B}}{\partial t}\,d\vec{S}$\\
+      & $\oint\limits_{L}\vec{H}\,d\vec{l}=$
+      & $\oint\limits_{L}\vec{H}\,d\vec{l}=$\\
+      & $=\int\limits_{S}\vec{j}\,d\vec{S}+\int\limits_{S}\frac{\partial\vec{D}}{\partial t}\,d\vec{S}$
+      & $=\frac{4\pi}{c}\int\limits_{S}\vec{j}\,d\vec{S}+\frac{1}{c}\int\limits_{S}\frac{\partial\vec{D}}{\partial t}\,d\vec{S}$
+      \bigstrut[b] \\ \hline
 \parbox{40mm}{Электрическая\\[-2pt] индукция}
     & $\vec{D}=\varepsilon_0\vec{E}+\vec{P}$
             & $\vec{D}=\vec{E}+4\pi\vec{P}$ \bigstrut \\ \hline
@@ -250,19 +263,6 @@
     & $\vec{M}=\chi\vec{H}$                     &  $\vec{M}=\chi\vec{H}$        \\
     & $\vec{B}=\mu\mu_0\vec{H}$                 &  $\vec{B}=\mu\vec{H}$         \\
     & $\vec{j}=\lambda\vec{E}$&$\vec{j}=\lambda\vec{E}$       \bigstrut[b]   \\ \hline
-\bigstrut[t]
-\multirow[t]{5}{40mm}{Уравнения Максвелла в интегральной форме}
-    & $\oint\limits_{S}\vec{D}\,d\vec{S}=\int\limits_{V}\rho\,dV$
-    & $\oint\limits_{S}\vec{D}\,d\vec{S}=4\pi\int\limits_{V}\rho\,dV$ \\
-    & $\oint\limits_{S}\vec{B}\,d\vec{S}=0$
-    & $\oint\limits_{S}\vec{B}\,d\vec{S}=0$\\
-    & $\oint\limits_{L}\vec{E}\,d\vec{l}=-\int\limits_{S}\frac{\partial\vec{B}}{\partial t}\,d\vec{S}$
-    & $\oint\limits_{L}\vec{E}\,d\vec{l}=-\frac{1}{c}\int\limits_{S}\frac{\partial\vec{B}}{\partial t}\,d\vec{S}$\\
-    & $\oint\limits_{L}\vec{H}\,d\vec{l}=$
-    & $\oint\limits_{L}\vec{H}\,d\vec{l}=$\\
-    & $=\int\limits_{S}\vec{j}\,d\vec{S}+\int\limits_{S}\frac{\partial\vec{D}}{\partial t}\,d\vec{S}$
-    & $=\frac{4\pi}{c}\int\limits_{S}\vec{j}\,d\vec{S}+\frac{1}{c}\int\limits_{S}\frac{\partial\vec{D}}{\partial t}\,d\vec{S}$
-    \bigstrut[b] \\ \hline
 \bigstrut
 Сила Лоренца
                 & $\vec{F}=q\vec{E}+\vp{\vec{v}}{\vec{B}}$
@@ -279,9 +279,10 @@
                 & $d\vec{F}=\frac{I}{c}\vp{d\vec{l}}{\vec{B}}$ \bigstrut\\ \hline
 \parbox{40mm}{Плотность энергии э/м\\[-2.5pt] поля
     ($\varepsilon=\const$, $\mu=\const$)}
-& $w=\frac{\varepsilon\varepsilon_0E^2}{2}
-    +\frac{B^2}{2\mu\mu_0}$
-& $w=\frac{\varepsilon E^2}{8\pi} + \frac{B^2}{8\pi \mu}$
+& $w=\frac{\vec{E}\cdot \vec{D}}{2}
+    +\frac{\vec{B}\cdot \vec{H}}{2}$
+& $w=\frac{\vec{E}\cdot \vec{D}}{8\pi}
++\frac{\vec{B}\cdot \vec{H}}{\pi}$
                 \bigstrut \\ \hline
 Вектор Пойнтинга
                 & $\vec{\Pi}=\vp{\vec{E}}{\vec{H}}$
@@ -575,6 +576,33 @@ $^{1)}$ Электропроводящие свойства реальных о�
 * Для монокристаллических образцов работа выхода зависит от ориентации грани.}
 \end{table}
 
+
+\begin{table}
+    \caption{Точки Кюри некоторых веществ [\ref{bib:handbook}, \ref{bib:bozort}]}
+    \small\centering
+    \begin{tabular}{lc}
+        \toprule[1pt]
+        Вещество & $\Theta$, \oC  \\
+        \midrule[1pt]
+        \multicolumn{2}{c}{Сегнетоэлектрики} \\
+        Титанат бария BaTiO$_3$ & 100 \\
+        Сегнетова соль & верхняя $+22,5$, нижняя $-15$ \\[1ex]
+        \multicolumn{2}{c}{Ферромагнетики} \\
+        Железо Fe & 770 \\
+        Железо кремнистое (4\% Si) & 690 \\
+        Кобальт Co & 1115 \\
+        Никель Ni & 354 \\
+        Пермаллой (22\% Fe + 78\% Ni) & 378 \\
+        Гадолиний Gd & 20,2 \\
+        Тербий Tb & $-54$ \\
+        % Магнетит (Fe$_3$O$_4$) & 572 \\
+        Ферриты & 100--600\\
+        \bottomrule[1pt]
+    \end{tabular}
+\end{table}
+
+
+
 \begin{table}
 \caption{ЭДС термопар при различных температурах [\ref{bib:grig}]}
 \small\centering
@@ -796,29 +824,6 @@ $B_r$~--- остаточная индукция.
 
 
 
-\begin{table}
-\caption{Точки Кюри некоторых веществ [\ref{bib:handbook}, \ref{bib:bozort}]}
-\small
-\begin{tabular}{lc}
-\toprule[1pt]
-Вещество & $\Theta$, \oC  \\
-\midrule[1pt]
-\multicolumn{2}{c}{Сегнетоэлектрики} \\
-Титанат бария BaTiO$_3$ & 100 \\
-Сегнетова соль & верхняя $+22,5$, нижняя $-15$ \\[1ex]
-\multicolumn{2}{c}{Ферромагнетики} \\
-Железо Fe & 770 \\
-Железо кремнистое (4\% Si) & 690 \\
-Кобальт Co & 1115 \\
-Никель Ni & 354 \\
-Пермаллой (22\% Fe + 78\% Ni) & 378 \\
-Гадолиний Gd & 20,2 \\
-Тербий Tb & $-54$ \\
-% Магнетит (Fe$_3$O$_4$) & 572 \\
-Ферриты & 100--600\\
-\bottomrule[1pt]
-\end{tabular}
-\end{table}
 
 \clearpage
 
