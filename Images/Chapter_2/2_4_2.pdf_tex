@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{288.6934806bp}%
+    \setlength{\unitlength}{286.90006526bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,24 +48,24 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.49756002)%
+  \begin{picture}(1,0.47566623)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_4_2.pdf}}%
-    \put(0.40993029,0.32281876){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
-    \put(0.5180091,0.19229613){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.43327679,0.08057973){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.75366216,0.42794933){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Осциллограф}}}%
-    \put(0.77869635,0.35790938){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{X}}}%
-    \put(0.847215,0.35821861){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Y}}}%
-    \put(0.53938265,0.37874902){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.65950403,0.37824981){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.5389543,0.33463449){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Общий}}}%
-    \put(0.20205672,0.4641963){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Реле}}}%
-    \put(0.00640944,0.26365079){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Генератор}}}%
+    \put(0.57345188,0.32483671){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L, R_L$}}}%
+    \put(0.6989369,0.19349818){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.59694432,0.08108344){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.02286134,0.29275573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
+    \put(0.14746783,0.22755594){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.19968425,0.22786711){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
+    \put(0.3958834,0.24734359){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.3958834,0.17306377){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
+    \put(0.26273498,0.15633295){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Общий}}}%
+    \put(0.70638418,0.43960408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Реле}}}%
+    \put(0.83033325,0.22092789){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Генератор}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2_4_2.pdf}}%
-    \put(0.00550728,0.23602441){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{импульсов}}}%
+    \put(0.83033325,0.19014074){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{импульсов}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2_4_2.pdf}}%
-    \put(0.25161968,0.29945997){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
-    \put(0.24983754,0.38548961){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
+    \put(0.77209023,0.27031832){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
+    \put(0.77029708,0.35688573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{2_4_2.pdf}}%
   \end{picture}%
 \endgroup%
