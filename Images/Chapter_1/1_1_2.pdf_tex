@@ -58,7 +58,6 @@
     \put(0.89163767,0.02815737){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_\Sigma$}}}%
     \put(0.47552849,0.00650965){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2R$}}}%
     \put(0.59416121,0.7478638){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
-    \put(0.22355275,0.25215784){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathfrak{m}$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{1_1_2.pdf}}%
+    \put(0.22623728,0.24320956){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mm$}}}%
   \end{picture}%
 \endgroup%

@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file '2_4_2.pdf' (pdf, eps, ps)
+%% Accompanies image file '1_3_3.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{286.90006526bp}%
+    \setlength{\unitlength}{86.30543626bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,24 +48,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.47566623)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{2_4_2.pdf}}%
-    \put(0.57345188,0.32483671){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L, R_L$}}}%
-    \put(0.6989369,0.19349818){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.59694432,0.08108344){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.02286134,0.29275573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
-    \put(0.14746783,0.22755594){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.19968425,0.22786711){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.3958834,0.24734359){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.3958834,0.17306377){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.26273498,0.15633295){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Общий}}}%
-    \put(0.70638418,0.43960408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Реле}}}%
-    \put(0.83033325,0.22092789){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Генератор}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{2_4_2.pdf}}%
-    \put(0.83033325,0.19014074){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{импульсов}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{2_4_2.pdf}}%
-    \put(0.77209023,0.27031832){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
-    \put(0.77029708,0.35688573){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{2_4_2.pdf}}%
+  \begin{picture}(1,1.31716149)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{1_3_3.pdf}}%
+    \put(0.77556807,0.91536252){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$g$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{1_3_3.pdf}}%
+    \put(0.72382455,0.38160954){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B_{\parallel}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{1_3_3.pdf}}%
+    \put(-0.0072416,0.14981616){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{S}}}%
+    \put(0.9127236,0.15449796){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0.58053774,0.00702269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\theta$}}}%
   \end{picture}%
 \endgroup%
