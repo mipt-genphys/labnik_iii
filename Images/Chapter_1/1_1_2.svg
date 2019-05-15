@@ -227,7 +227,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="158.73682"
+     inkscape:cx="-59.834608"
      inkscape:cy="74.759254"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -398,6 +398,18 @@
        id="path7851"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 387.05619,536.79586 8,-8"
+       id="path8139"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient4276);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:4.98897648, 2.49448824;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4268"
+       width="3.5433071"
+       height="28.346457"
+       x="384.13379"
+       y="536.97559" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.97512913px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -499,18 +511,6 @@
          sodipodi:role="line"
          id="tspan8118"
          x="394.77292"
-         y="526.37256">$\mathfrak{m}$</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 387.05619,536.79586 8,-8"
-       id="path8139"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="opacity:1;fill:url(#linearGradient4276);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:4.98897648, 2.49448824;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4268"
-       width="3.5433071"
-       height="28.346457"
-       x="384.13379"
-       y="536.97559" />
+         y="526.37256">$\mm$</tspan></text>
   </g>
 </svg>
