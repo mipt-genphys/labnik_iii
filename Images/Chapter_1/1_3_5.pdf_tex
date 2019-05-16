@@ -50,9 +50,9 @@
   \makeatother%
   \begin{picture}(1,2.30510369)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{1_3_5.pdf}}%
-    \put(0.67191324,1.62994142){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$g$}}}%
+    \put(0.67191333,1.62994149){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$g$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{1_3_5.pdf}}%
-    \put(0.00118221,1.31392757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mm=0$}}}%
+    \put(-0.17732031,1.32645425){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mm_n=0$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{1_3_5.pdf}}%
   \end{picture}%
 \endgroup%
