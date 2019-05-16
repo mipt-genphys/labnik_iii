@@ -56,5 +56,6 @@
     \put(0.52176394,0.0087548){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mm$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{1_3_1.pdf}}%
     \put(0.78763751,0.25721302){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_{\rm max}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{1_3_1.pdf}}%
   \end{picture}%
 \endgroup%
