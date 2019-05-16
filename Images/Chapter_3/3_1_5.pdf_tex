@@ -20,7 +20,7 @@
 %%   \import{<path to file>}{<filename>.pdf_tex}
 %% Alternatively, one can specify
 %%   \graphicspath{{<path to file>/}}
-%% 
+%%
 %% For more information, please see info/svg-inkscape on CTAN:
 %%   http://tug.ctan.org/tex-archive/info/svg-inkscape
 %%
@@ -52,11 +52,11 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{3_1_5.pdf}}%
     \put(0.24190762,0.14347078){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{А}$}}}%
     \put(-0.00307246,0.36835292){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim$}}}%
-    \put(0.18594741,0.81201508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Соленоид}}}%
-    \put(0.78183332,0.63248375){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Катод}}}%
+    \put(0.18594741,0.81201508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Соленоид}}}%
+    \put(0.78183332,0.63248375){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Катод}}}%
     \put(0.31680458,0.36805428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{А}$}}}%
     \put(0.90876033,0.37808039){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_{С}$}}}%
-    \put(0.79506728,0.187264){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Анод}}}%
+    \put(0.79506728,0.187264){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Анод}}}%
     \put(0.11653247,0.24896071){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
     \put(0.11786927,0.1864158){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
     \put(0.86963965,0.48778709){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
