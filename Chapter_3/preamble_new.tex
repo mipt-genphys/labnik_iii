@@ -557,13 +557,13 @@ $\Delta E \lesssim 2$~эВ.
 (или просто \term{проводимостью}) среды. Соответствующую связь
 \begin{equation}
     \eqmark{3.25}
-\vec{j}=\lambda \vec{E}
+\vec{j}=\sigma \vec{E}
 \end{equation}
 называют \term{законом Ома в дифференциальной форме}.
 Видно, что проводимость связана с подвижностью как
 \begin{equation}
     \eqmark{3.26}
-    \lambda = q n \mu.
+    \sigma = q n \mu.
 \end{equation}
 
 В~простейшей модели электрической проводимости движение носителей между столкновениями считается свободным, 
@@ -574,7 +574,7 @@ $\Delta E \lesssim 2$~эВ.
 и соответственно проводимость
 \begin{equation}
     \eqmark{drude}
-    \lambda = \frac{q^2 n}{m\nu}.
+    \sigma = \frac{q^2 n}{m\nu}.
 \end{equation}
 
 Если имеется несколько типов носителей заряда, например электроны
@@ -582,7 +582,7 @@ $\Delta E \lesssim 2$~эВ.
 поскольку полный ток есть сумма токов всех носителей:
 \begin{equation}
     \eqmark{3.27}
-    \lambda= e (n_e |\mu_e| +n_h \mu_h),
+    \sigma= e (n_e |\mu_e| +n_h \mu_h),
 \end{equation}
 где соответственно $n_e$ и~$n_h$~--- концентрации электронов и дырок,
 а~$\mu_e$ и~$\mu_h$~--- их подвижности.
@@ -608,26 +608,26 @@ $\Delta E \lesssim 2$~эВ.
 
 Связь между электрическим полем $\vec{E}$ и плотностью тока $\vec{j}$ в
 условиях эффекта Холла уже не может быть описана скалярным коэффициентом проводимости
-$\lambda$. Тем не менее закон Ома можно по-прежнему записать
+$\sigma$. Тем не менее закон Ома можно по-прежнему записать
 в форме
 \begin{equation}
-\vec{j} = \hat{\lambda} \vec{E},
+\vec{j} = \hat{\sigma} \vec{E},
 \end{equation}
-если под $\hat{\lambda}$
+если под $\hat{\sigma}$
 понимать \term{тензор проводимости}. В~заданном базисе он представляется
 матрицей~$3\times 3$:
 \begin{equation}
-    \vec{j} =\hat{\lambda}\vec{E}\equiv \left(
+    \vec{j} =\hat{\sigma}\vec{E}\equiv \left(
     \begin{matrix}
-     \lambda_{xx} & \lambda_{xy} & \lambda_{xz}\\
-     \lambda_{yx} & \lambda_{yy} & \lambda_{yz}\\
-     \lambda_{zx} & \lambda_{zy} & \lambda_{zz}
+     \sigma_{xx} & \sigma_{xy} & \sigma_{xz}\\
+     \sigma_{yx} & \sigma_{yy} & \sigma_{yz}\\
+     \sigma_{zx} & \sigma_{zy} & \sigma_{zz}
     \end{matrix}
 \right) \vec{E}.
 \end{equation}
 или
 \begin{equation*}
-    j_{i} = \sum_{k} \lambda_{ik} E_k,\quad \text{где~}i,\,k=\{x,y,z\}.
+    j_{i} = \sum_{k} \sigma_{ik} E_k,\quad \text{где~}i,\,k=\{x,y,z\}.
 \end{equation*}
 Тензорная связь между полем и током имеет место в общем случае, когда
 проводящая среда не является \emph{изотропной}.
@@ -656,7 +656,7 @@ E_y=u_x B_z=\frac{j_x}{nq} B_z,
 \end{equation*}
 называемое \term{холловским} (здесь $n$ --- концентрация носителей).
 По оси $x$ носители будут двигаться так, как если бы магнитного поля не было:
-$j_x=\lambda_0 E_x$ ($j_y=j_z=0$), где $\lambda_0 = qn\mu$~---
+$j_x=\sigma_0 E_x$ ($j_y=j_z=0$), где $\sigma_0 = qn\mu$~---
 удельная проводимость среды в отсутствие~$\vec{B}$.
 
 Выразим общую связь между~$\vec{E}$ и~$\vec{j}$ для случая носителей одного типа.
@@ -670,7 +670,7 @@ $j_x=\lambda_0 E_x$ ($j_y=j_z=0$), где $\lambda_0 = qn\mu$~---
 С~учётом введённых выше обозначений этот баланс сил можно переписать как
 \begin{equation}
     \eqmark{ohm-hall}
-    \vec{E} = \frac{\vec{j}}{\lambda_0} -
+    \vec{E} = \frac{\vec{j}}{\sigma_0} -
     \frac{1}{nq} \vec{j}\times\vec{B}.
 \end{equation}
 Полученное соотношение можно назвать \emph{обобщённым законом Ома} при
@@ -680,9 +680,9 @@ $j_x=\lambda_0 E_x$ ($j_y=j_z=0$), где $\lambda_0 = qn\mu$~---
 
 Записывая равенство \eqref{ohm-hall} по компонентам
 \[
-E_x = \frac{j_x}{\lambda_0}  -  \frac{j_y B}{nq} ,\qquad
-    E_y = \frac{j_y}{\lambda_0} +  \frac{j_xB}{nq} ,\qquad
-    E_z = \frac{j_z}{\lambda_0},
+E_x = \frac{j_x}{\sigma_0}  -  \frac{j_y B}{nq} ,\qquad
+    E_y = \frac{j_y}{\sigma_0} +  \frac{j_xB}{nq} ,\qquad
+    E_z = \frac{j_z}{\sigma_0},
 \]
 получим, вводя
 \term{тензор удельного сопротивления}~$\hat{\rho}$ (обратный к тензору
@@ -695,14 +695,14 @@ E_x = \frac{j_x}{\lambda_0}  -  \frac{j_y B}{nq} ,\qquad
         {0} &{0}& 1
     \end{matrix}
     \right)
-    \frac{\vec{j}}{\lambda_0}.
+    \frac{\vec{j}}{\sigma_0}.
     \eqmark{3.17}
 \end{equation}
 Обращением матрицы в \eqref{3.17} получим тензор проводимости
 в условиях эффекта Холла:
 \begin{equation}
-    \hat{\lambda} = \hat{\rho}^{-1}=
-    \frac{\lambda_0}{1+(\mu B)^2}\left(
+    \hat{\sigma} = \hat{\rho}^{-1}=
+    \frac{\sigma_0}{1+(\mu B)^2}\left(
     \begin{matrix}
         {1} & \mu B & {0} \\
         -\mu B & 1 & {0} \\
@@ -778,10 +778,10 @@ E_y=\rho_{yx}\cdot j_x=\frac{j_x B}{nq}.
 Знак постоянной Холла определяется знаком заряда носителей.
 
 Продольная напряжённость электрического поля равна
-\[E_x = \rho_{xx}\cdot j_x = j_x/\lambda_0,\]
+\[E_x = \rho_{xx}\cdot j_x = j_x/\sigma_0,\]
 и падение напряжения $U_{\parallel}=E_x l$ \emph{вдоль} пластинки 
 определяется омическим сопротивлением образца 
- $R_0 = l/(\lambda_0ah)$:
+ $R_0 = l/(\sigma_0ah)$:
 \begin{equation}
     U_{\parallel}= I R_0.
     \eqmark{3.20}
@@ -799,23 +799,23 @@ E_y=\rho_{yx}\cdot j_x=\frac{j_x B}{nq}.
 поле при этом не возникает.
 
 Ввиду симметрии системы вклад в полный ток даёт только \emph{радиальная}
-компонента плотности тока $j_r=\lambda_{r} E_r$. Полный ток равен
+компонента плотности тока $j_r=\sigma_{r} E_r$. Полный ток равен
 $I=j_r \cdot 2\pi r h$, где $r$~--- радиус диска, $h$~--- его толщина.
 Если в системе присутствует один тип носителей, то проводимость в радиальном
-направлении~$\lambda_r$ соответствует компоненте~$\lambda_{xx}$ тензора
+направлении~$\sigma_r$ соответствует компоненте~$\sigma_{xx}$ тензора
 \eqref{3.18}:
 \begin{equation}
-\lambda_r = \frac{\lambda_0}{1+(\mu B)^2},
+\sigma_r = \frac{\sigma_0}{1+(\mu B)^2},
 \end{equation}
 где $\mu$ --- подвижность носителей.
 
 Напряжение между центром и краем диска равно
 \begin{equation*}
 U=\int\limits_{r_1}^{r_2}E_r dr=
-\frac{1}{\lambda_r}\int\limits_{r_1}^{r_2} \frac{I}{2\pi r h}dr =
-\frac{\lambda_r}{\lambda_0}R_0 I,
+\frac{1}{\sigma_r}\int\limits_{r_1}^{r_2} \frac{I}{2\pi r h}dr =
+\frac{\sigma_r}{\sigma_0}R_0 I,
 \end{equation*}
-где $R_0 = \frac{1}{\lambda_0 2\pi r h} \ln \frac{r_2}{r_1}$~---
+где $R_0 = \frac{1}{\sigma_0 2\pi r h} \ln \frac{r_2}{r_1}$~---
 сопротивление диска в отсутствие магнитного поля. Поэтому закон Ома
 в схеме Корбино можно записать как
 \begin{equation}
@@ -897,27 +897,27 @@ U=\int\limits_{r_1}^{r_2}E_r dr=
     \eqmark{two-component}
 %    \begin{aligned}
 \vec{E}+\vec{u}_e\times \vec{B} - \frac{\vec{u}_e}{\mu_e} =0,\qquad
-\vec{E}+\vec{u}_h\times \vec{B} - \frac{\vec{u}_h}{\mu_h} =0..3
+\vec{E}+\vec{u}_h\times \vec{B} - \frac{\vec{u}_h}{\mu_h} =0.
 %\end{aligned}
 \end{equation}
 Повторяя вывод \eqref{3.18} для каждого сорта носителей отдельно, можно
 получить связь между напряжённостью поля и плотностями токов этих носителей:
 \begin{equation}
-    \vec{j}_e = -en_e \vec{u}_e = \hat{\lambda}_e \vec{E},\qquad
-    \vec{j}_h = en_h \vec{u}_h = \hat{\lambda}_h \vec{E}.
+    \vec{j}_e = -en_e \vec{u}_e = \hat{\sigma}_e \vec{E},\qquad
+    \vec{j}_h = en_h \vec{u}_h = \hat{\sigma}_h \vec{E}.
 \end{equation}
 Тензоры проводимости будут определяться выражением \eqref{3.18} с индексами,
 соответствующими типу носителя.
 Полная плотность тока
 \[
-\vec{j} = \vec{j}_e + \vec{j}_h = \hat{\lambda}_e \vec{E} +
-\hat{\lambda}_h \vec{E},
+\vec{j} = \vec{j}_e + \vec{j}_h = \hat{\sigma}_e \vec{E} +
+\hat{\sigma}_h \vec{E},
 \]
 поэтому тензор проводимости среды
 \[
-\hat{\lambda} = \hat{\lambda}_e + \hat{\lambda}_h.
+\hat{\sigma} = \hat{\sigma}_e + \hat{\sigma}_h.
 \]
-Обращая $\hat{\lambda}$, можно получить тензор удельного сопротивления:
+Обращая $\hat{\sigma}$, можно получить тензор удельного сопротивления:
 $\hat{\rho}=
 \left(\hat{\rho}_e^{-1}+\hat{\rho}_i^{-1}\right)^{-1}$.
 
@@ -925,36 +925,36 @@ $\hat{\rho}=
 % Диагональная компонента тензора сопротивления,
 % отвечающая за эффект \emph{магнетосопротивления}, равна
 % \[
-% \rho_{xx} = \frac{\lambda_h (1+\beta_e^2) + \lambda_e (1+\beta_h^2)}%
-% {(\beta_h\lambda_e-\beta_e\lambda_h)^2 + (\lambda_e+\lambda_h)^2}.
+% \rho_{xx} = \frac{\sigma_h (1+\beta_e^2) + \sigma_e (1+\beta_h^2)}%
+% {(\beta_h\sigma_e-\beta_e\sigma_h)^2 + (\sigma_e+\sigma_h)^2}.
 % \]
 % <<Косая>> компонента тензора, отвечающая \emph{эффекту Холла}:
 % \[
-% \rho_{yx} = \frac{\beta_h\lambda_h (1+\beta_e^2) -
-% \beta_e\lambda_e (1+\beta_h^2)}%
-% {(\beta_h\lambda_e-\beta_e\lambda_h)^2 + (\lambda_e+\lambda_h)^2}.
+% \rho_{yx} = \frac{\beta_h\sigma_h (1+\beta_e^2) -
+% \beta_e\sigma_e (1+\beta_h^2)}%
+% {(\beta_h\sigma_e-\beta_e\sigma_h)^2 + (\sigma_e+\sigma_h)^2}.
 % \]
 В~опыте с мостиком Холла продольная компонента электрического поля равна
 \begin{equation}
 \eqmark{lambda_twocomponent}
-E_{\parallel} = \frac{B^2 (\mu_h^2 \lambda_e + \mu_e^2 \lambda_h) + \lambda_e+
-    \lambda_h}%
-{ B^2 (\mu_h \lambda_e + \mu_e \lambda_h)^2 + (\lambda_e+\lambda_h)^2}
+E_{\parallel} = \frac{B^2 (\mu_h^2 \sigma_e + \mu_e^2 \sigma_h) + \sigma_e+
+    \sigma_h}%
+{ B^2 (\mu_h \sigma_e + \mu_e \sigma_h)^2 + (\sigma_e+\sigma_h)^2}
 j.
 \end{equation}
 Видно, что удельное сопротивление в этом случае сложным образом
 зависит от~$B$, то есть имеет место эффект \emph{магнетосопротивления}.
 Однако в слабых полях ($\mu_{e,h}B \ll 1$) эффект довольно мал: поправка
 квадратична по~$\mu B$. При $B=0$ имеем просто:
-$E_{\parallel} = j/(\lambda_e+\lambda_h)$.
+$E_{\parallel} = j/(\sigma_e+\sigma_h)$.
 
 Поперечная компонента (\emph{холловское поле}) также имеет сложную
 зависимость от~$B$. Приведём ответ для константы Холла
 в пределе малой замагниченности ($\mu_{e,h} B \ll 1$):
 % \[
-% E_y = \frac{\beta_e\beta_h(\beta_e\lambda_h-\beta_h\lambda_e)+
-%     \beta_h \lambda_h -\beta_e \lambda_e}%
-% {(\beta_e \lambda_h - \beta_h \lambda_e)^2 + (\lambda_e+\lambda_h)^2} j.
+% E_y = \frac{\beta_e\beta_h(\beta_e\sigma_h-\beta_h\sigma_e)+
+%     \beta_h \sigma_h -\beta_e \sigma_e}%
+% {(\beta_e \sigma_h - \beta_h \sigma_e)^2 + (\sigma_e+\sigma_h)^2} j.
 % \]
 \begin{equation}
     \eqmark{3.21}
