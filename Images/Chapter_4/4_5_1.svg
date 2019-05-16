@@ -57,7 +57,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="172.27267"
+     inkscape:cx="133.63434"
      inkscape:cy="47.317818"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -190,13 +190,13 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.83601141px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="200.31396"
-       y="168.83481"
+       y="172.83481"
        id="text7519"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7521"
          x="200.31396"
-         y="168.83481">$I$</tspan></text>
+         y="172.83481">$I$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.83601141px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -207,7 +207,7 @@
          sodipodi:role="line"
          id="tspan7525"
          x="205.03017"
-         y="120.28393">$R_{\text{И}}$</tspan></text>
+         y="120.28393">$R_{\text{и}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.83601141px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -218,7 +218,7 @@
          sodipodi:role="line"
          id="tspan7525-5"
          x="270.77151"
-         y="168.599">$C_{\text{И}}$</tspan></text>
+         y="168.599">$C_{\text{и}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.83601141px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
