@@ -52,17 +52,17 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{1_3_4.pdf}}%
     \put(0.18491084,0.3521778){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$g$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{1_3_4.pdf}}%
-    \put(0.3142146,0.13812626){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec B_{\parallel}$}}}%
+    \put(0.32111235,0.12119535){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec B_{\parallel}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{1_3_4.pdf}}%
-    \put(0.07557683,0.2256529){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec B_{\perp}$}}}%
-    \put(0.31427761,0.231627){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec B$}}}%
+    \put(0.08999946,0.02436311){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec B_{\perp}$}}}%
+    \put(0.31992126,0.02093113){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec B$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{1_3_4.pdf}}%
     \put(0.76081288,0.3521778){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$g$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{1_3_4.pdf}}%
-    \put(0.20588071,0.09572952){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\beta$}}}%
+    \put(0.21089729,0.14464107){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\beta$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{1_3_4.pdf}}%
-    \put(0.75725777,0.197159){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_{гр}$}}}%
-    \put(0.86988289,0.01624924){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$m_{гр}$}}}%
+    \put(0.63084025,0.197159){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_{гр}$}}}%
+    \put(0.618302,0.01624924){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$m_{гр}$}}}%
     \put(-0.00156459,0.52598719){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{а)}}}%
     \put(0.52642921,0.52222475){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{б)}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{1_3_4.pdf}}%
