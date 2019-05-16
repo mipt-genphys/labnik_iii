@@ -50,9 +50,9 @@
   \makeatother%
   \begin{picture}(1,0.41344152)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_5_1.pdf}}%
-    \put(0.3431743,0.15549723){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0.366134,0.39185566){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_{\text{И}}$}}}%
-    \put(0.68618014,0.15664521){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_{\text{И}}$}}}%
+    \put(0.3431743,0.13602418){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.366134,0.39185566){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_{\text{и}}$}}}%
+    \put(0.68618014,0.15664521){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_{\text{и}}$}}}%
     \put(-0.0223239,0.17822621){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(-0.00235831,0.15607405){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{\text{вх}}$}}}%
     \put(0.87512482,0.15550013){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{\text{вых}}$}}}%
