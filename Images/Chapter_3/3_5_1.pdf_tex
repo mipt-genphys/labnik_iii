@@ -20,7 +20,7 @@
 %%   \import{<path to file>}{<filename>.pdf_tex}
 %% Alternatively, one can specify
 %%   \graphicspath{{<path to file>/}}
-%% 
+%%
 %% For more information, please see info/svg-inkscape on CTAN:
 %%   http://tug.ctan.org/tex-archive/info/svg-inkscape
 %%
@@ -61,8 +61,8 @@
     \put(0.90945451,0.05833834){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5}}}%
     \put(0.84650394,0.23425672){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
     \put(0.84573954,0.17326897){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.7768044,0.02720749){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Образец}}}%
-    \put(0.76353896,0.00589652){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{с разъемом}}}%
+    \put(0.7768044,0.02720749){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Образец}}}%
+    \put(0.76353896,0.00589652){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small с разъемом}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{3_5_1.pdf}}%
     \put(0.37856424,0.38513962){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А$_2$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{3_5_1.pdf}}%
@@ -73,10 +73,10 @@
     \put(0.30055848,0.22176874){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{24}$}}}%
     \put(0.20030186,0.11186793){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{II}}}%
     \put(0.19679995,0.24590466){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{I}}}%
-    \put(0.13279198,0.04136172){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Блок управления}}}%
-    \put(0.19356642,0.41672806){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ИП образца}}}%
+    \put(0.13279198,0.04136172){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Блок управления}}}%
+    \put(0.19356642,0.41672806){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small ИП образца}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{3_5_1.pdf}}%
-    \put(0.58579629,0.82914224){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Электромагнит}}}%
+    \put(0.58579629,0.82914224){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Электромагнит}}}%
     \put(-0.0009053,0.86037762){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{а})$}}}%
     \put(0.03298285,0.67160595){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К$_1$}}}%
     \put(0.12497713,0.7247318){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
@@ -90,7 +90,7 @@
     \put(0.06551399,0.16713941){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mu$V}}}%
     \put(0.93983658,0.42460518){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$(+)$}}}%
     \put(0.93983658,0.0761079){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$(-)$}}}%
-    \put(0.0006142,0.76096523){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ИП электромагнита}}}%
+    \put(0.0006142,0.76096523){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small ИП электромагнита}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{3_5_1.pdf}}%
   \end{picture}%
 \endgroup%

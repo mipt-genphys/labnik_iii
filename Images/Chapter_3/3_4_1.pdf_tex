@@ -20,7 +20,7 @@
 %%   \import{<path to file>}{<filename>.pdf_tex}
 %% Alternatively, one can specify
 %%   \graphicspath{{<path to file>/}}
-%% 
+%%
 %% For more information, please see info/svg-inkscape on CTAN:
 %%   http://tug.ctan.org/tex-archive/info/svg-inkscape
 %%
@@ -54,7 +54,7 @@
     \put(0.6501549,0.32937836){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2$}}}%
     \put(0.65022109,0.26416773){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
     \put(0.6503245,0.19256321){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
-    \put(0.61582722,0.92523855){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Электромагнит}}}%
+    \put(0.61582722,0.92523855){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Электромагнит}}}%
     \put(0.01027738,0.51621198){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{б})$}}}%
     \put(0.00895878,0.945156){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{а})$}}}%
     \put(0.64976554,0.11999209){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5$}}}%
@@ -66,18 +66,18 @@
     \put(0.34102825,0.30965025){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К$_2$}}}%
     \put(0.23686845,0.32853158){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_2$}}}%
     \put(0.34818559,0.42976517){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1,5~В}}}%
-    \put(0.28443273,0.49905861){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Блок}}}%
-    \put(0.25567039,0.47156957){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{управления}}}%
+    \put(0.28443273,0.49905861){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Блок}}}%
+    \put(0.25567039,0.47156957){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small управления}}}%
     \put(0.14566558,0.23172428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$4$}}}%
     \put(0.07003708,0.23060103){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$3$}}}%
     \put(0.02482604,0.23141471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$5$}}}%
     \put(0.05244065,0.75805264){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{К$_1$}}}%
     \put(0.13810106,0.81070898){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$+$}}}%
     \put(0.06207606,0.81000992){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
-    \put(0.07437436,0.87045194){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Источник}}}%
-    \put(0.03577318,0.84296296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{питания магнита}}}%
-    \put(0.77831378,0.03002062){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Образец}}}%
-    \put(0.76028735,0.00584448){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{c разъемом}}}%
+    \put(0.07437436,0.87045194){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Источник}}}%
+    \put(0.03577318,0.84296296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small питания магнита}}}%
+    \put(0.77831378,0.03002062){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Образец}}}%
+    \put(0.76028735,0.00584448){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small c разъемом}}}%
     \put(0.85399218,0.18090039){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5}}}%
     \put(0.2328831,0.73696084){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{А$_1$}}}%
     \put(0.94096939,0.44602359){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$(-)$}}}%
