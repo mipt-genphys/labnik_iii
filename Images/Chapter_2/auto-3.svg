@@ -57,9 +57,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.26"
-     inkscape:cx="248.11465"
-     inkscape:cy="113.40537"
+     inkscape:zoom="2.52"
+     inkscape:cx="140.93434"
+     inkscape:cy="104.686"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -89,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -151,12 +151,12 @@
        cy="268"
        r="0.69999999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.3527778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.11666682,0.70555561;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.35300005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.82400042,1.41200021;stroke-dashoffset:0;stroke-opacity:1"
        d="m 43.999997,278.00001 v -41"
        id="path6897"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.3527778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.11666682,0.70555561;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.3527778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.82222243,1.41111121;stroke-dashoffset:0;stroke-opacity:1"
        d="m 27,257.00001 v 31"
        id="path6899"
        inkscape:connector-curvature="0" />
@@ -290,6 +290,49 @@
        style="fill:none;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 0,222.00001 H 4.9999997"
        id="path868"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="54"
+       y="232.00002"
+       id="text4186"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4188"
+         x="54"
+         y="232.00002">$I_S(U)$</tspan></text>
+    <text
+       id="text4190"
+       y="296.12891"
+       x="44.28891"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="296.12891"
+         x="44.28891"
+         id="tspan4192"
+         sodipodi:role="line">$U_1$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="23.968901"
+       y="296.12891"
+       id="text4194"><tspan
+         sodipodi:role="line"
+         id="tspan4196"
+         x="23.968901"
+         y="296.12891"
+         style="stroke-width:0.26458332">$U_2$</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4198"
+       d="m 27.097784,289.00001 0,2"
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44.031104,289.00001 0,2"
+       id="path4200"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

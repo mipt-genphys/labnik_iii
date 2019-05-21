@@ -50,21 +50,22 @@
   \makeatother%
   \begin{picture}(1,0.65226428)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_2_2.pdf}}%
-    \put(0.10078249,0.62636197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Генератор}}}%
-    \put(0.07860374,0.40457429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Вход}}}%
-    \put(0.01206748,0.23823365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Источник\\ }}}%
+    \put(0.10078249,0.62636197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Генератор}}}%
+    \put(0.07860374,0.40457429){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Вход}}}%
+    \put(0.00580814,0.23823365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Источник}}}%
     \put(0.35583817,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
     \put(0.48891067,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_L$}}}%
     \put(0.62198318,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.68851944,0.59309384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Осциллограф}}}%
+    \put(0.68851944,0.59309384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Осциллограф}}}%
     \put(0.76614507,0.20496552){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_n$}}}%
     \put(0.86594945,0.22714428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_S$}}}%
-    \put(0.01206748,0.20496552){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{напряжения}}}%
+    \put(0.00580814,0.20496552){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small напряжения}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2_2_2.pdf}}%
-    \put(0.27569872,0.11462745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
+    \put(0.2694394,0.11462745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2_2_2.pdf}}%
-    \put(0.71927377,0.11462745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
+    \put(0.71301443,0.11462745){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{2_2_2.pdf}}%
     \put(0.21167628,0.30476991){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{2_2_2.pdf}}%
   \end{picture}%
 \endgroup%

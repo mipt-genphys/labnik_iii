@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{91.17572021bp}%
+    \setlength{\unitlength}{181.92190552bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,13 +48,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,1.0450593)%
+  \begin{picture}(1,0.41423907)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{11.pdf}}%
-    \put(0.52390178,0.36028156){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.91256047,0.48464117){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
-    \put(0.90783811,0.17374216){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.47526285,0.64009067){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_C$}}}%
-    \put(0.64826093,0.64009067){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_L$}}}%
-    \put(-0.00462708,0.98208006){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I=I_0\cos(\omega t+\varphi_0)$}}}%
+    \put(0.71865729,0.18056614){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.91344545,0.24289276){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.91107869,0.08707621){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.6942804,0.32080103){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_C$}}}%
+    \put(0.78098367,0.32080103){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_L$}}}%
+    \put(-0.00231899,0.30133252){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I=I_0\cos(\omega t+\varphi_0)$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{11.pdf}}%
   \end{picture}%
 \endgroup%
