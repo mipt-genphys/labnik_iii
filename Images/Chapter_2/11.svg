@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="91.17572pt"
-   height="95.284035pt"
-   viewBox="0 0 32.164785 33.614089"
+   width="181.92191pt"
+   height="75.359161pt"
+   viewBox="0 0 64.17804 26.585037"
    version="1.1"
    id="svg878"
    inkscape:version="0.91 r13725"
@@ -117,8 +117,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6568542"
-     inkscape:cx="20.601274"
-     inkscape:cy="64.9087"
+     inkscape:cx="137.64531"
+     inkscape:cy="38.646437"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -141,8 +141,8 @@
        units="mm"
        spacingx="0.99999999"
        spacingy="0.99999999"
-       originx="-18.148827"
-       originy="-15.411618" />
+       originx="11.122"
+       originy="-15.411625" />
   </sodipodi:namedview>
   <metadata
      id="metadata875">
@@ -160,7 +160,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-18.148828,-247.97431)">
+     transform="translate(11.121998,-255.00337)">
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.17638887;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path50691-9-3"
@@ -239,26 +239,14 @@
        id="path1617-7-7"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.52916694;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 27.595948,270.69644 6.001397,0"
        id="path1661"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:0.52916694;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 27.595948,267.09561 6.001397,0"
        id="path1663"
-       inkscape:connector-curvature="0" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.35277799;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       id="path892"
-       cx="23.833527"
-       cy="254.92146"
-       r="2.4005587" />
-    <path
-       id="path1476"
-       title="-sin(x)"
-       d="m 22.333177,254.92148 c 0.111138,-0.21776 0.222275,-0.4346 0.333412,-0.60146 0.111137,-0.16684 0.222273,-0.28213 0.333411,-0.32001 0.111137,-0.0379 0.222274,0.002 0.33341,0.11114 0.111137,0.1088 0.222275,0.28572 0.333412,0.4903 0.111137,0.20458 0.222274,0.43541 0.33341,0.64005 0.111137,0.20464 0.222275,0.38136 0.333412,0.49029 0.111136,0.10895 0.222273,0.14889 0.33341,0.11115 0.111137,-0.0377 0.222274,-0.15327 0.333412,-0.32002 0.111137,-0.16675 0.222273,-0.38371 0.33341,-0.60144"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -282,7 +270,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4605)"
-       d="m 20.093474,251.6959 8.401956,0"
+       d="m 15.332974,272.42936 0,-8.40196"
        id="path1558-3"
        inkscape:connector-curvature="0" />
     <path
@@ -353,14 +341,26 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="18"
-         y="250.00002"
+         x="-11.270826"
+         y="262.24948"
          id="text2272"><tspan
            sodipodi:role="line"
            id="tspan2270"
-           x="18"
-           y="250.00002"
+           x="-11.270826"
+           y="262.24948"
            style="stroke-width:0.26458332">$I=I_0\cos(\omega t+\varphi_0)$</tspan></text>
     </g>
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.35277799;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path892"
+       cx="18.534185"
+       cy="268.12314"
+       r="2.4005587" />
+    <path
+       id="path1476"
+       title="-sin(x)"
+       d="m 17.033839,268.12325 c 0.111138,-0.21776 0.222275,-0.4346 0.333412,-0.60146 0.111137,-0.16684 0.222273,-0.28213 0.333411,-0.32001 0.111137,-0.0379 0.222274,0.002 0.33341,0.11114 0.111137,0.1088 0.222275,0.28572 0.333412,0.4903 0.111137,0.20458 0.222274,0.43541 0.33341,0.64005 0.111137,0.20464 0.222275,0.38136 0.333412,0.49029 0.111136,0.10895 0.222273,0.14889 0.33341,0.11115 0.111137,-0.0377 0.222274,-0.15327 0.333412,-0.32002 0.111137,-0.16675 0.222273,-0.38371 0.33341,-0.60144"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

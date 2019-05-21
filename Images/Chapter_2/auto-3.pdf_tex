@@ -62,5 +62,9 @@
     \put(0.29294449,0.51249977){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$c$}}}%
     \put(0.28044449,0.14294452){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$d$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{auto-3.pdf}}%
+    \put(0.675,0.81249994){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_S(U)$}}}%
+    \put(0.55361139,0.01088886){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
+    \put(0.29961129,0.01088886){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{auto-3.pdf}}%
   \end{picture}%
 \endgroup%

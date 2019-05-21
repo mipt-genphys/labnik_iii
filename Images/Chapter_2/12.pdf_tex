@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{87.92730917bp}%
+    \setlength{\unitlength}{135.9887085bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,16 +48,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.60075857)%
+  \begin{picture}(1,0.49219067)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{12.pdf}}%
-    \put(0.41430267,0.53545236){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}_L$}}}%
-    \put(0.63997226,0.43873682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}$}}}%
-    \put(0.38206416,0.34202128){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}$}}}%
-    \put(0.86564172,0.08411318){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}_L$}}}%
-    \put(-0.00479799,0.43873682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}_C$}}}%
-    \put(0.57549523,0.01963616){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}_R$}}}%
-    \put(0.16005741,0.09625182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\frac{\pi}{2}+\frac{1}{Q}$}}}%
-    \put(0.50532767,0.17644571){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{1}{Q}$}}}%
+    \put(0.45195742,0.44996528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}_L$}}}%
+    \put(0.64137988,0.39496165){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}$}}}%
+    \put(0.41772519,0.30732581){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}$}}}%
+    \put(0.93999399,0.04592275){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}_L$}}}%
+    \put(-0.00310228,0.36902281){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}_C$}}}%
+    \put(0.59634354,0.0126964){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}_R$}}}%
+    \put(0.22747911,0.03796985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\frac{\pi}{2}+\frac{1}{Q}$}}}%
+    \put(0.47246658,0.19419388){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\frac{1}{Q}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{12.pdf}}%
   \end{picture}%
 \endgroup%
