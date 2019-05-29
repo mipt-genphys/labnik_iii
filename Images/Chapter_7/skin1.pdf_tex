@@ -53,7 +53,7 @@
     \put(-0.01113809,0.92427045){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{E}_0$}}}%
     \put(0.88626811,0.6273896){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
     \put(0.04024484,1.62916171){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
-    \put(0.86303861,1.46945927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\lambda$}}}%
+    \put(0.86303861,1.46945927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sigma$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{skin1.pdf}}%
     \put(0.08085038,0.04558364){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{H}_0$}}}%
   \end{picture}%
