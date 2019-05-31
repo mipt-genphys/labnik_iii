@@ -15,12 +15,13 @@
 \oint\limits_{\Gamma}\vec{H}\,d\vec{l}=I,
 \]
 где $I$~--- полный ток через произвольный замкнутый контур $\Gamma$. В~1831~году Фарадей 
-экспериментально открыл явление электромагнитной индукции. Математическая формулировка
-этого закона:
+экспериментально открыл явление электромагнитной индукции. Математическая 
+формулировка этого закона:
 \[
-\oint\limits_{\Gamma}\vec{E}\,d\vec{l}=- \frac{\partial}{\partial t} \int\limits_S \vec{B}\, d\vec{S},
+\oint\limits_{\Gamma}\vec{E}\,d\vec{l}=- 
+\int\limits_S \ppd{\vec{B}}{t}\, d\vec{S},
 \]
-где $S$ --- натянутая на замкнутый контур~$\Gamma$ ориентированная площадь.
+где $S$ --- ориентированная площадь, натянутая на замкнутый неподвижный контур~$\Gamma$.
 В середине XIX века Максвелл в цикле теоретических работ постулировал, 
 что эти законы реализуются независимо 
 от присутствия в пространстве проводящих пробных контуров, т.\,е. магнитное поле 
@@ -38,10 +39,10 @@
     \oint\limits_S \vec{B}\,d\vec{S} &= 0, \eqmark{2} \\
 \Rot \vec{E} &= -\ddt{\vec{B}}, & 
     \oint\limits_{\Gamma} \vec{E}\,d\vec{l} & = 
-           - \frac{\partial}{\partial t} \int\limits_S \vec{B}\, d\vec{S}, \eqmark{3}\\
+           - \int\limits_S \ppd{\vec{B}}{t}\, d\vec{S}, \eqmark{3}\\
 \Rot \vec{H} &= \vec{j} + \ddt{\vec{D}}, & 
     \oint\limits_{\Gamma} \vec{H}\,d\vec{l} &= \int\limits_S \vec{j}\,d\vec{S} + 
-                  \frac{\partial}{\partial t} \int\limits_S \vec{D}\, d\vec{S}. \eqmark{4}
+                  \int\limits_S \ppd{\vec{D}}{t}\, d\vec{S}. \eqmark{4}
 \end{align}
 Здесь $\vec{D}$ --- электрическая индукция, 
 $\vec{E}$ --- напряжённость электрического поля, 

@@ -50,7 +50,7 @@
   \makeatother%
   \begin{picture}(1,0.54523188)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{chisquare.pdf}}%
-    \put(0.35821422,0.00307206){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Число степеней свободы}}}%
-    \put(-0.00130625,0.26894268){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\dfrac{\chi^2}{n-p}$}}}%
+    \put(0.28291252,0.00307209){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Число степеней свободы $n-p$}}}%
+    \put(-0.00130625,0.26894271){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\dfrac{\chi^2}{n-p}$}}}%
   \end{picture}%
 \endgroup%
