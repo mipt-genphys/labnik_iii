@@ -336,7 +336,6 @@
 \RequirePackage[explicit, pagestyles]{titlesec}
 \RequirePackage[dotinlabels]{titletoc}
 
-
 \titleclass{\chapter}{top}
 \renewcommand{\thechapter}{\Roman{chapter}}
 \titlespacing{\chapter}{0pt}{2pc}{1pc}
@@ -390,6 +389,7 @@
     {}%
     {\titlerule*[0.5pc]{.}\contentspage}
 
+
 \titlecontents{section}[1.5em]{}%
     {\contentslabel[\thecontentslabel.]{1.5em}}%
     {\hspace*{-1.5em}}%
@@ -418,26 +418,29 @@
 % ПРИЛОЖЕНИЕ к работе
 \newcounter{supplement}[lab]
 \renewcommand{\thesupplement}{\arabic{supplement}}
-%\newcounter{labsave}
 \newenvironment{labsupplement}[1][]{%
     \refstepcounter{supplement}%
-    %    \setcounter{labsave}{\value{lab}}% save lab number
-    %    \setcounter{lab}{0}%
-    %    \vspace{\medskipamount}%
-%    \clearpage
-    \bigskip
+    \bigskip%
     \ifblank{#1}{%
         \taskblock*{ПРИЛОЖЕНИЕ}%
     }{%
     \taskblock*{ПРИЛОЖЕНИЕ\\[1ex] \normalsize #1}%
-    \addcontentsline{toc}{section}{\protect\small\textsf{Приложение.} #1}%
-}
+    \addcontentsline{toc}{section}{\protect\small\textsf{Приложение.} #1}}%
 \begingroup%
-\small%
-}{%
-%    \setcounter{lab}{\value{labsave}} % restore lab number
-\endgroup%
-}
+\small}%
+{\endgroup}
+
+% ПРИЛОЖЕНИЕ к книге
+\newcounter{booksupplement}
+\renewcommand{\thebooksupplement}{\Asbuk{booksupplement}}
+\newenvironment{booksupplement}[1][]{%
+    \refstepcounter{booksupplement}%
+    \clearpage%
+    \taskblock*{ПРИЛОЖЕНИЕ \thebooksupplement \\[1ex] \normalsize #1}%
+    \addcontentsline{toc}{section}%
+        {\protect\textsf{Приложение \thebooksupplement.} #1}%
+\begingroup\small}%
+{\endgroup}
 
 
 \counterwithin{equation}{supplement}
@@ -478,6 +481,12 @@
     \headrule
     \sethead[\thepage][][\sffamily\chaptertitle]% even
     {\ifnumequal{\value{lab}}{0}{\normalsize\sffamily Раздел \Roman{chapter}}{\sffamily Работа~\thelab}}{}{\thepage} % odd
+}
+
+\newpagestyle{back}{%
+    \headrule
+    \sethead[\thepage][][\sffamily\supplementtitle] %even
+    {\sffamily Приложение}{}{\thepage} % odd
 }
 
 \pagestyle{main}
