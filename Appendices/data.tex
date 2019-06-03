@@ -1,7 +1,7 @@
 \begin{booksupplement}[Обработка экспериментальных данных]
 
 \begin{center}
-\normalsize\bfseries\sffamilyсводка результатов
+\normalsize\bfseries\sffamily (сводка результатов)
 \end{center}
 
 \labsection{Основные понятия}
@@ -73,7 +73,7 @@ P({|x-\overline{x}|<\delta})  =
 Вероятности попасть в интервал $x\in(\overline{x}-\delta,\,\overline{x}+\delta)$ 
 представлены в табл.~1.
 Графики зависимостей нормального распределения и интеграла ошибок
-приведены на рис.~??.
+приведены на рис.~\figref{gauss} и рис.~\figref{erf} соответственно.
 \begin{table}[h!]\centering
     \small
     \begin{tabular}{cc}
@@ -89,13 +89,15 @@ P({|x-\overline{x}|<\delta})  =
 \begin{figure}\centering
     \pic{8.5cm}{gauss}
     \caption{Плотность нормального распределения}
+    \figmark{gauss}
 \end{figure}
 
 \begin{figure}\centering\small
     \pic{\textwidth}{erf1}
     \caption{Вероятность отклонения  от среднего при нормальном распределении: 
-    слева вероятность попасть в интервал $x\in(\overline{x}-\delta,\overline{x}+\delta)$, справа ---
+    слева --- вероятность попасть в интервал $x\in(\overline{x}-\delta,\overline{x}+\delta)$, справа ---
      вероятность выйти за его пределы (в логарифмическом масштабе)}
+    \figmark{erf}
 \end{figure}
 
 \labsubsection{Распределение Пуассона}
