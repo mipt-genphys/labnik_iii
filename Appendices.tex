@@ -1,11 +1,18 @@
-\setcounter{lab}{-1}
-\chapter*{Приложение}
-	\input{Appendices/units.tex}
-	\input{Appendices/complex.tex}
+\pagestyle{back}
 
-\ifpdf	
-\chapter*{Таблицы}
-	\input{Appendices/formula.tex}
-	\newpage
-	\input{Appendices/table.tex}	
-\fi
+\addtocontents{toc}{\bigskip\par}
+
+\def\supplementtitle{Обработка экспериментальных данных}
+\input{Appendices/data.tex}
+
+\newpage
+
+\addtocontents{toc}{\bigskip\par}
+
+\def\supplementtitle{Основные сведения о комплексных числах}
+\input{Appendices/complex.tex}
+
+\newpage
+
+\addtocontents{toc}{\bigskip\par}
+\input{Appendices/table.tex}
