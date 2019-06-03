@@ -63,6 +63,13 @@
 %%% Пакеты
 \RequirePackage{icomma}     % десятичная запятая без пробела
 \RequirePackage[font=small, labelsep=period]{caption} % подписи к рисункам
+\DeclareCaptionLabelFormat{flushtable}{\hfill #1 #2}
+\captionsetup[table]{labelformat=flushtable,
+                     labelsep=newline, 
+                     justification=default,
+                     singlelinecheck=true,
+                     labelfont=sf,
+                     skip=5pt}
 
 \RequirePackage{graphicx}   % вставка графики
 %\RequirePackage{grffile}    % Проблемы с именами картинок

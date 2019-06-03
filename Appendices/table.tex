@@ -1,9 +1,8 @@
 \newcommand*{\z}{\phantom{0}}
 \newcommand*{\zz}{\phantom{00}}
-
 \pagestyle{empty}
 \newgeometry{top=1cm,left=1.5cm,right=1.7cm,bottom=1.5cm}
-% \vspace*{-5\baselineskip}
+
 \begin{booksupplement}[Таблицы физических величин]
 \begin{longtable}{p{46mm}>{\centering}p{14mm}p{45mm}}
 \caption{Основные физические постоянные [\ref{bib:codata}]}\\
@@ -117,34 +116,13 @@
                  & $5,670\,367(13)\cdot 10^{-8}\;\frac{Вт}{м^2\cdot К^4}$ \\
 \bottomrule[1pt]
 \end{longtable}
-% \end{tabular}\par
-% \vspace*{-\baselineskip}\smallskip
-% \flushleft
-% \noindent\footnotesize{}* Данные согласно \textit{CODATA Recommended Values of the Fundamental
-% Physical Constants}, 2014.
-% Запись $x = 1,234\,56(78)$ эквивалентна $x=1,234\,56\pm 0,000\,78$.
-% \end{table}
+{\noindent\footnotesize
+* Запись $x = 1,234\,(56)$ эквивалентна $x=1,234\pm 0,056$.\par}
 
-\begin{table}\ref{table:SICGS}
-    \begingroup
-    % \def\tabstrut{\vrule width 0pt height 1.3em depth 0.5em\relax}
-    % % \def\vs{\vphantom{$\ds\frac{A}{B}$}}%
-    % \let\vs=\tabstrut
-    % \def\bbx{\raggedright\baselineskip=9pt}%
-    % \def\pbl#1#2{\parbox{#1}{\bbx #2}}%
-    % \def\vr{\vbox to 3pt{}}%
-    % \def\pb#1{$\vcenter{\vr\hbox{\pbl{30mm}{#1\hfill}}\vr}$}%
-    % \def\pb#1{\parbox{30mm}{#1}}%
-    % \def\tabline#1#2#3{%
-    % \parbox{0.4\textwidth}{\raggedright\utabstrut #1\dtabstrut}&%
-    % \parbox{0.1\textwidth}{\utabstrut\centering #2\dtabstrut}&%
-    % \parbox{0.36\textwidth}{\raggedright\utabstrut #3\dtabstrut}\\ \hline
-    % }
-    \caption{Связь основных единиц измерения в системах СИ и СГС}
-    \centering
-    \small
-    \renewcommand{\arraystretch}{1.15}
-%    \def\tabstrut{\vrule width 0pt height 1em depth 0.5em\relax}
+
+\begin{table}\caption{Связь основных единиц измерения в системах СИ и СГС}
+\begingroup\centering\small
+\renewcommand{\arraystretch}{1.15}
     \begin{tabular}{m{29mm}m{11mm}m{26mm}m{35mm}}
 \toprule[1pt]
         \bf Наименование & \small\bf Обозн. & \small\bf СИ & \small\bf СГС $^{1)}$ \\
@@ -205,7 +183,7 @@
                       & $10^9$~см                                      \bigstrut\\
 \bottomrule[1pt]
     \end{tabular}
-    \endgroup
+\endgroup    
     \vspace*{-0.7\baselineskip}
     \flushleft
     \noindent\footnotesize{}$^{1)}$ Здесь $c = 2,99792458\cdot 10^{10}$~см/с --- скорость света в ед. СГС\\
@@ -214,10 +192,10 @@
     $^{3)}$ Для единиц тока и напряжения возможно использование
     названий \emph{статампер} (статА) и \emph{статвольт} (статВ) соответственно,
     либо <<ед. СГС>> тока/напряжения.
+    \label{table:SICGS}
 \end{table}
 
 \newpage
-
 
 \begingroup
 \setlength{\bigstrutjot}{5pt}
@@ -298,7 +276,7 @@
 \parbox{40mm}{Индуктивность длинного\\[-2.5pt] соленоида}
         & $L=\mu\mu_0\frac{N^2S}{l}$    &   $L=4\pi\mu \frac{N^2S}{l}$	\bigstrut\\ \hline
 \newpage
-\caption[]{Основные формулы электродинамики в системах СИ и СГС (продолжение)}  \\
+\caption[]{\hfill(продолжение)} \\
 \toprule[1pt]
 \textbf{Наименование} & \textbf{СИ} & \textbf{СГС} \\
 \midrule[1pt]
@@ -394,10 +372,11 @@ $\alpha=\frac{1}{l}\left(\frac{\partial l}{\partial T}\right)_P$~---
 \footnotesize
 \begin{tabular}{l|c|c|c|c|c|c|c}\toprule[1pt]
 Элемент & \kern-2mm\parbox{5mm}{\centering Сим-\\[-1pt]вол}
-        & $Z$ & $A, а.е.м.^{1)}$
+        & $Z$
+        & \parbox{6mm}{\centering $A$,\\ а.е.м.$^{1)}$}
         & $\rho,\;\frac{г}{см^3}$
-        & $t_{пл},\oC$
-        & $t_{кип},\oC$
+        & \parbox{6mm}{\centering $t_{пл}$,\\ \oC}
+        & \parbox{6mm}{\centering $t_{кип}$,\\ \oC}
         & \kern-2mm\parbox{8mm}{\centering $\alpha$, $10^{-6}\;\text{К}^{-1}$}
         \rule[-10pt]{0pt}{22pt} \\ \midrule[1pt]
 \tabline{Алюминий}{Al}{13}{26,9815}{2,6889}{660,3}{2519}{23,3}
