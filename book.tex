@@ -21,9 +21,9 @@
 
 \begin{document}
 
-\input{titul_front.tex}
-\input{titul_first.tex}
-\input{titul_second.tex}
+\input{Titul/titul_front.tex}
+\input{Titul/titul_first.tex}
+\input{Titul/titul_second.tex}
 
 \tableofcontents
 
@@ -50,23 +50,6 @@
 
 \newpage
 
-\pagestyle{back}
-
-\addtocontents{toc}{\bigskip\par}
-
-\def\supplementtitle{Обработка экспериментальных данных}
-\input{Appendices/data.tex}
-
-\newpage
-
-\addtocontents{toc}{\bigskip\par}
-
-\def\supplementtitle{Основные сведения о комплексных числах}
-\input{Appendices/complex.tex}
-
-\newpage
-
-\addtocontents{toc}{\bigskip\par}
-\input{Appendices/table.tex}
+\input{Appendices.tex}
 
 \end{document}
