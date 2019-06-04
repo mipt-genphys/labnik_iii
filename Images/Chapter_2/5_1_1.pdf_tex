@@ -54,14 +54,18 @@
     \put(0.05859346,1.1549068){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
     \put(0.54863065,0.02211471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
     \put(0.40340099,0.02211471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
-    \put(0.078732,0.80635508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_1$}}}%
-    \put(0.078732,0.3125741){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_2$}}}%
+    \put(0.06233718,0.80635508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_1$}}}%
+    \put(0.06233718,0.47652482){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_2$}}}%
+    \put(0.06233718,0.60961422){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_0$}}}%
+    \put(0.49103295,0.37066598){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A}}}%
+    \put(0.71257859,0.02211471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{5_1_1.pdf}}%
     \put(0.08389569,0.02211471){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
-    \put(0.44714521,0.13829846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.59667915,0.13829846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
-    \put(0.51958472,0.86444696){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.69386034,1.1549068){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
-    \put(0.37061138,0.37066598){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$E$}}}%
+    \put(0.34877637,0.13829846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$d$}}}%
+    \put(0.59667915,0.13829846){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a$}}}%
+    \put(0.60480533,0.81574927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$b$}}}%
+    \put(0.36655325,0.50864217){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$c$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{5_1_1.pdf}}%
+    \put(0.76463173,1.05308246){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_S$}}}%
   \end{picture}%
 \endgroup%
