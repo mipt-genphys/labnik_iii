@@ -185,11 +185,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6297682"
-     inkscape:cx="116.42608"
-     inkscape:cy="94.797846"
+     inkscape:zoom="3.7190539"
+     inkscape:cx="92.101886"
+     inkscape:cy="33.559443"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      showgrid="false"
      units="cm"
      inkscape:window-width="1920"
@@ -222,7 +222,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -261,13 +261,13 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="55.785362"
-         y="272.32199"
+         x="56.01302"
+         y="285.0997"
          id="text5986"><tspan
            sodipodi:role="line"
            id="tspan5984"
-           x="55.785362"
-           y="272.32199"
+           x="56.01302"
+           y="285.0997"
            style="font-size:3.52777791px;stroke-width:0.26458332">$r$</tspan></text>
       <text
          xml:space="preserve"
@@ -283,7 +283,7 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 60.999999,274.99998 0,6.00001"
+       d="m 60.999994,275.78822 0,4.40692"
        id="path5608"
        inkscape:connector-curvature="0" />
     <path
@@ -295,11 +295,11 @@
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        id="path5618"
        cx="61"
-       cy="284.00003"
+       cy="271.57303"
        r="5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 59.499996,280.99998 3.000001,0"
+       d="m 59.499995,268.57319 3.000001,0"
        id="path5620"
        inkscape:connector-curvature="0" />
     <path
@@ -311,13 +311,13 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.30000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        id="path5637"
        cx="61"
-       cy="287.00003"
-       r="0.49999997" />
+       cy="275.13748"
+       r="0.60541159" />
     <circle
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.15000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
        id="path5639"
        cx="63"
-       cy="286.00003"
+       cy="273.57303"
        r="0.40000001" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -366,16 +366,9 @@
        d="m 22,284.00002 -2,0"
        id="path1075"
        inkscape:connector-curvature="0" />
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.01574802;stroke-opacity:1;paint-order:stroke markers fill"
-       id="rect899"
-       width="3.9999998"
-       height="7.9999995"
-       x="59"
-       y="267.00003" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458329px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 60.999999,263.78547 0,3.2145"
+       d="m 60.999999,263.67905 0,4.71607"
        id="path5608-7-8"
        inkscape:connector-curvature="0" />
     <circle
@@ -475,5 +468,12 @@
        id="path4337"
        d="m 61.632667,262.35669 -1.286582,1.28658"
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.26458335;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4253"
+       width="4.2495875"
+       height="8.3853483"
+       x="58.84967"
+       y="279.78806" />
   </g>
 </svg>

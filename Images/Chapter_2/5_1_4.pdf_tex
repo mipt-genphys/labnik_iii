@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{216.80968427bp}%
+    \setlength{\unitlength}{205.60967153bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,15 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.61418227)%
+  \begin{picture}(1,0.64763806)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{5_1_4.pdf}}%
-    \put(0.02468933,0.59431857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
-    \put(-0.00145937,0.42435184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
-    \put(-0.00145937,0.2543853){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
-    \put(0.96604251,0.01904702){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t$}}}%
+    \put(0.01825248,0.62669238){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
+    \put(-0.00153887,0.44746717){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
+    \put(-0.00153887,0.26824217){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
+    \put(0.96419283,0.02008448){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{5_1_4.pdf}}%
-    \put(0.56073762,0.00597267){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau_\text{з}$}}}%
-    \put(0.76992722,0.00597267){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau_\text{р}$}}}%
+    \put(0.53681009,0.00629794){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau_\text{з}$}}}%
+    \put(0.7573947,0.00629794){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau_\text{р}$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{5_1_4.pdf}}%
   \end{picture}%
 \endgroup%
