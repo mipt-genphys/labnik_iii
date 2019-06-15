@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="6.1365967cm"
-   height="5.1245751cm"
-   viewBox="0 0 61.365967 51.24575"
+   width="6.7216702cm"
+   height="5.1245551cm"
+   viewBox="0 0 67.216701 51.24555"
    version="1.1"
    id="svg2235"
    inkscape:version="0.91 r13725"
@@ -269,8 +269,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.3092597"
-     inkscape:cx="102.0592"
-     inkscape:cy="106.44103"
+     inkscape:cx="92.32716"
+     inkscape:cy="53.226996"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -294,8 +294,8 @@
        units="mm"
        spacingx="0.99999998"
        spacingy="0.99999998"
-       originx="-19.481855"
-       originy="-14.911816" />
+       originx="-16.659637"
+       originy="-14.912016" />
   </sodipodi:namedview>
   <metadata
      id="metadata2232">
@@ -313,7 +313,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-19.481853,-230.84245)">
+     transform="translate(-16.659635,-230.84245)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
        d="m 60.850294,242.56813 16.63532,0"
@@ -462,24 +462,24 @@
        id="rect5311"
        width="9.8579683"
        height="5.5451112"
-       x="19.570047"
+       x="16.747829"
        y="257.97122" />
     <rect
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000005;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.54901961;paint-order:markers stroke fill"
        id="rect5313"
        width="4.9289846"
        height="2.4645026"
-       x="20.186171"
+       x="17.363953"
        y="258.58734" />
     <circle
        style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000005;stroke-width:0.17638887;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path6840-6-3-9-9-8-3"
-       cx="27.579649"
+       cx="24.757431"
        cy="261.66797"
        r="0.61612314" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 27.579645,262.28407 0,2.4645"
+       d="m 24.757425,262.28407 0,2.4645"
        id="path3715-6-1"
        inkscape:connector-curvature="0" />
     <path
@@ -501,36 +501,36 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499971px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="19.527405"
+         x="16.705187"
          y="257.28888"
          id="text5541"><tspan
            sodipodi:role="line"
            id="tspan5539"
-           x="19.527405"
+           x="16.705187"
            y="257.28888"
            style="font-size:3.17499971px;stroke-width:0.26458332">\small Генератор</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="30.121511"
+         x="26.617035"
          y="260.80551"
          id="text5545"><tspan
            sodipodi:role="line"
            id="tspan5543"
-           x="30.121511"
+           x="26.617035"
            y="260.80551"
-           style="stroke-width:0.26458332">\small Вход</tspan></text>
+           style="stroke-width:0.26458332">\small &lt;&lt;Вход&gt;&gt;</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="37.08857"
-         y="266.04236"
+         x="38.217461"
+         y="265.47791"
          id="text5549"><tspan
            sodipodi:role="line"
-           x="37.08857"
-           y="266.04236"
+           x="38.217461"
+           y="265.47791"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           id="tspan5603">\small Источник</tspan></text>
+           id="tspan5603">\scriptsize Источник</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -620,45 +620,45 @@
            y="267.78201"
            style="font-size:3.52777767px;stroke-width:0.26458332">$I$</tspan></text>
       <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.59999993, 1.59999993;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.17600001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.5964726, 1.5964726;stroke-dashoffset:1.76000011;stroke-opacity:1;paint-order:markers stroke fill"
          id="rect4486"
-         width="34.502903"
+         width="35.441013"
          height="32.654514"
          x="36.821491"
          y="249.34549" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="34.283905"
-         y="243.76085"
+         x="34.269279"
+         y="243.64024"
          id="text5591"><tspan
            sodipodi:role="line"
            id="tspan5589"
-           x="34.283905"
-           y="243.76085"
-           style="font-size:3.52777767px;stroke-width:0.26458332">$U_1$</tspan></text>
+           x="34.269279"
+           y="243.64024"
+           style="font-size:3.52777767px;stroke-width:0.26458332">$V_1$</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="71.079185"
-         y="243.59154"
+         x="71.320396"
+         y="243.47093"
          id="text5595"><tspan
            sodipodi:role="line"
            id="tspan5593"
-           x="71.079185"
-           y="243.59154"
-           style="font-size:3.52777767px;stroke-width:0.26458332">$U_2$</tspan></text>
+           x="71.320396"
+           y="243.47093"
+           style="font-size:3.52777767px;stroke-width:0.26458332">$V_2$</tspan></text>
       <text
          xml:space="preserve"
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777743px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         x="37.23391"
-         y="269.03201"
+         x="38.362801"
+         y="267.90311"
          id="text5360"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan5362"
-           x="37.23391"
-           y="269.03201">\small тока</tspan></text>
+           x="38.362801"
+           y="267.90311">\scriptsize тока</tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="path4281"
@@ -721,17 +721,17 @@
          inkscape:connector-curvature="0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 26.763149,265.26528 1.643,0"
+         d="m 23.940929,265.26528 1.643,0"
          id="path4399"
          inkscape:connector-curvature="0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 27.173899,265.67602 0.821499,0"
+         d="m 24.351679,265.67602 0.821499,0"
          id="path4401"
          inkscape:connector-curvature="0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 26.352399,264.85453 2.464499,0"
+         d="m 23.530179,264.85453 2.464499,0"
          id="path4403"
          inkscape:connector-curvature="0" />
       <path
@@ -749,6 +749,39 @@
          d="m 54.709726,280.27391 2.464499,0"
          id="path4415"
          inkscape:connector-curvature="0" />
+      <text
+         id="text4361"
+         y="253.25093"
+         x="53.746635"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:3.52777767px;stroke-width:0.26458332"
+           y="253.25093"
+           x="53.746635"
+           id="tspan4363"
+           sodipodi:role="line">$U$</tspan></text>
+      <text
+         id="text4369"
+         y="248.7572"
+         x="40.921318"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:3.52777767px;stroke-width:0.26458332"
+           y="248.7572"
+           x="40.921318"
+           id="tspan4371"
+           sodipodi:role="line">\small &lt;&lt;$U_1$&gt;&gt;</tspan></text>
+      <text
+         id="text4373"
+         y="248.75845"
+         x="66.885704"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-size:3.52777767px;stroke-width:0.26458332"
+           y="248.75845"
+           x="66.885704"
+           id="tspan4375"
+           sodipodi:role="line">\small &lt;&lt;$U_2$&gt;&gt;</tspan></text>
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -842,8 +875,8 @@
        id="path1661-6-3-0"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 27.579652,261.66796 15.403073,0"
+       style="fill:none;stroke:#000000;stroke-width:0.17638886;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24.745599,261.66796 18.237125,0"
        id="path2860-6"
        inkscape:connector-curvature="0" />
     <path

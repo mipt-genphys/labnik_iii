@@ -152,8 +152,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.9715504"
-     inkscape:cx="120.7551"
-     inkscape:cy="5.1996765"
+     inkscape:cx="102.32866"
+     inkscape:cy="13.529756"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -186,7 +186,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -221,13 +221,13 @@
        id="path3083"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.10583332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.8466666, 0.42333331;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 50.732304,265.96052 7.945297,0"
+       style="fill:none;stroke:#000000;stroke-width:0.10583333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.84666661, 0.42333332;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 50.732305,265.96053 11.294578,0"
        id="path3085"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.10583332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.84666667, 0.42333334;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 58.677601,283.88686 0,-17.92634"
+       d="m 62.064265,283.88686 0,-17.92634"
        id="path3087"
        inkscape:connector-curvature="0" />
     <path
@@ -239,12 +239,13 @@
        inkscape:transform-center-y="-6.7866901" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3221)"
-       d="m 50.732304,283.88686 7.548033,-17.52798"
+       d="m 50.65885,283.90662 11.230433,-17.7494"
        id="path3091"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.17638887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3279)"
-       d="m 50.732304,283.88686 7.548033,0"
+       d="m 50.732304,283.88686 11.025916,0"
        id="path3093"
        inkscape:connector-curvature="0" />
     <path
@@ -269,8 +270,8 @@
        sodipodi:rx="3.2915466"
        sodipodi:ry="3.3006334"
        sodipodi:start="4.6989647"
-       sodipodi:end="5.099061"
-       d="m 57.493721,279.15551 a 3.2915466,3.3006334 0 0 1 1.285455,0.24339"
+       sodipodi:end="5.2713461"
+       d="m 57.493721,279.15551 a 3.2915466,3.3006334 0 0 1 1.7897,0.50203"
        transform="matrix(0.99970319,0.02436269,-0.02422865,0.99970644,0,0)"
        sodipodi:open="true" />
     <g
@@ -280,24 +281,24 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="49.963375"
+         x="47.705593"
          y="265.47116"
          id="text3937"><tspan
            sodipodi:role="line"
            id="tspan3935"
-           x="49.963375"
+           x="47.705593"
            y="265.47116"
            style="stroke-width:0.26458332">$\vec{U}_L$</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="59.05069"
-         y="268.10989"
+         x="62.258049"
+         y="268.05313"
          id="text3941"><tspan
            sodipodi:role="line"
            id="tspan3939"
-           x="59.05069"
-           y="268.10989"
+           x="62.258049"
+           y="268.05313"
            style="stroke-width:0.26458332">$\vec{U}$</tspan></text>
       <text
          xml:space="preserve"
@@ -389,10 +390,10 @@
        id="rect4226"
        width="1.5072697"
        height="1.5093515"
-       x="184.03146"
-       y="218.77605"
+       x="192.41887"
+       y="211.44182"
        ry="0.75467575"
        rx="0"
-       transform="matrix(0.86542677,0.50103543,-0.49896528,0.86662197,0,0)" />
+       transform="matrix(0.84547678,0.53401219,-0.53198964,0.84675086,0,0)" />
   </g>
 </svg>

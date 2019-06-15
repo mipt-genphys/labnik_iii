@@ -50,8 +50,8 @@
   \makeatother%
   \begin{picture}(1,0.49219067)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{12.pdf}}%
-    \put(0.45195742,0.44996528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}_L$}}}%
-    \put(0.64137988,0.39496165){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}$}}}%
+    \put(0.40489461,0.44996528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}_L$}}}%
+    \put(0.70823636,0.39614485){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{U}$}}}%
     \put(0.41772519,0.30732581){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}$}}}%
     \put(0.93999399,0.04592275){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}_L$}}}%
     \put(-0.00310228,0.36902281){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vec{I}_C$}}}%
