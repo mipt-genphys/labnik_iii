@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{173.95077202bp}%
+    \setlength{\unitlength}{190.53553183bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,23 +48,27 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.83508423)%
+  \begin{picture}(1,0.76239312)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_3_1.pdf}}%
-    \put(0.0007423,0.40412175){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Генератор}}}%
-    \put(0.17338044,0.34681585){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Вход}}}%
-    \put(0.28691337,0.26147789){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\small Источник}}}%
-    \put(0.60415231,0.35382486){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
-    \put(0.622118,0.22281295){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_L$}}}%
-    \put(0.622763,0.09425574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.37740379,0.79916011){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Осциллограф}}}%
-    \put(0.77708004,0.29140269){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_n$}}}%
-    \put(0.78927631,0.17566798){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_S$}}}%
-    \put(0.44791139,0.15419785){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
-    \put(0.44791139,0.23312904){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.00067769,0.36894283){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Генератор}}}%
+    \put(0.14813879,0.316625){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small <<Вход>>}}}%
+    \put(0.32072129,0.2471126){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\scriptsize Источник}}}%
+    \put(0.59355206,0.32302392){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.60995396,0.20341565){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_L$}}}%
+    \put(0.61054282,0.08604842){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.38654036,0.72959597){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small Осциллограф}}}%
+    \put(0.75142767,0.26603515){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_n$}}}%
+    \put(0.76256234,0.16037431){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_S$}}}%
+    \put(0.45091078,0.140773){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
+    \put(0.45091078,0.2128338){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2_3_1.pdf}}%
-    \put(0.24120946,0.62457015){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_1$}}}%
-    \put(0.84081348,0.6273292){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_2$}}}%
-    \put(0.28928179,0.21275945){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small тока}}}%
+    \put(0.26198319,0.57199708){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_1$}}}%
+    \put(0.81320213,0.57451597){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_2$}}}%
+    \put(0.32288355,0.21103226){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\scriptsize тока}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2_3_1.pdf}}%
+    \put(0.55175279,0.42901642){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
+    \put(0.36094726,0.49587077){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small <<$U_1$>>}}}%
+    \put(0.74722608,0.49585216){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small <<$U_2$>>}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2_3_1.pdf}}%
   \end{picture}%
 \endgroup%

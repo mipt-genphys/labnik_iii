@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{335.23936835bp}%
+    \setlength{\unitlength}{241.26422612bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,16 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.30393713)%
-    \put(0.27169919,0.12847812){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
-    \put(0.50845566,0.18766722){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
-    \put(0.7198453,0.10311136){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Y}}}%
-    \put(0.80139483,0.10311187){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{X}}}%
-    \put(0.31397712,0.28913426){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.38162182,0.17075605){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.1279542,0.17075605){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ИП}}}%
-    \put(0.88050145,0.12847812){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
-    \put(0.77903441,0.17921164){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
+  \begin{picture}(1,0.42232408)%
+    \put(0.21073561,0.17852181){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
+    \put(0.53971129,0.09627789){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
+    \put(0.95093099,0.14327442){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Y}}}%
+    \put(0.84518879,0.14327442){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{X}}}%
+    \put(0.26948128,0.40175532){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.36347434,0.23726747){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(-0.00074883,0.17758096){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ИП}}}%
+    \put(0.91568359,0.24901661){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{5_1_6.pdf}}%
   \end{picture}%
 \endgroup%

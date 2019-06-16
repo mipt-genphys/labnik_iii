@@ -51,7 +51,7 @@
   \begin{picture}(1,0.66859734)%
     \put(0.37083106,0.29225164){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
     \put(0.60529789,0.58219541){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.76063093,0.4260173){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
+    \put(0.76506508,0.17714184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
     \put(-0.00124138,0.27029509){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ИП}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{5_1_5.pdf}}%
   \end{picture}%

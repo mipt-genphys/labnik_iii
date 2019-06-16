@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'auto-1.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{422.4578446bp}%
+    \setlength{\unitlength}{425.19685039bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,15 +48,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.51650912)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.53333333)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{auto-1.pdf}}%
-    \put(0.27242394,0.00404996){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}а)\end{tabular}}}}%
-    \put(0.77566569,0.00404996){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}б)\end{tabular}}}}%
-    \put(0.01744812,0.47374236){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$I$\end{tabular}}}}%
-    \put(0.46701075,0.02417963){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$V$\end{tabular}}}}%
-    \put(0.97696239,0.02417963){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$V$\end{tabular}}}}%
-    \put(0.52068987,0.47374236){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$I$\end{tabular}}}}%
+    \put(0.25333331,-0.00000006){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{а)}}}%
+    \put(0.75333328,-0.00000006){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{б)}}}%
+    \put(0,0.46666667){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$I$}}}%
+    \put(0.44666663,0.01999994){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$U$}}}%
+    \put(0.95333326,0.01999994){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$U$}}}%
+    \put(0.49999996,0.46666667){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{$I$}}}%
   \end{picture}%
 \endgroup%

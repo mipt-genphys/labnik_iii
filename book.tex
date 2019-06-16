@@ -19,13 +19,17 @@
 \def\nazvan{Электричество и магнетизм}
 \def\god{2019}
 
+\AtEndDocument{\label{book:last-page}}
+
 \begin{document}
 
 \input{Titul/titul_front.tex}
 \input{Titul/titul_first.tex}
 \input{Titul/titul_second.tex}
 
+\pagestyle{empty}
 \tableofcontents
+\pagestyle{main}
 
 \cleardoublepage
 \input{Chapter_1.tex}
