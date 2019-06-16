@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '4_2_2.pdf' (pdf, eps, ps)
 %%
@@ -35,10 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
-  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
-  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{340.15748031bp}%
+    \setlength{\unitlength}{329.57008242bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,20 +48,18 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.5)%
-    \lineheight{1}%
-    \setlength\tabcolsep{0pt}%
+  \begin{picture}(1,0.4450508)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_2_2.pdf}}%
-    \put(0.125,0.45833337){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Частотомер\end{tabular}}}}%
-    \put(0.525,0.45833337){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Автогенератор\end{tabular}}}}%
-    \put(0.85,0.45833337){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Вольтметр\end{tabular}}}}%
-    \put(0.24166667,0.13333325){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
-    \put(0.24166667,0.03333325){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
-    \put(0.24166667,0.18333325){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3\end{tabular}}}}%
-    \put(0.24166667,0.26666658){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
-    \put(0.75833333,0.10833325){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4\end{tabular}}}}%
-    \put(0.575,0.03333325){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6\end{tabular}}}}%
+    \put(0.1129532,0.43272117){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Частотомер}}}%
+    \put(0.52580315,0.43272117){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Автогенератор}}}%
+    \put(0.86124373,0.43272117){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Вольтметр}}}%
+    \put(0.23336777,0.12155422){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1}}}%
+    \put(0.23336777,0.01834173){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2}}}%
+    \put(0.23336777,0.17316046){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{3}}}%
+    \put(0.23336777,0.25917087){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{5}}}%
+    \put(0.76663229,0.0957511){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{4}}}%
+    \put(0.57740939,0.01834173){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{6}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{4_2_2.pdf}}%
-    \put(0.15833333,0.36666671){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}A\end{tabular}}}}%
+    \put(0.14735737,0.36238349){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{A}}}%
   \end{picture}%
 \endgroup%
