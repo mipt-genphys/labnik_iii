@@ -52,11 +52,12 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{auto-2.pdf}}%
     \put(-0.00185862,0.29005743){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathcal{E}$}}}%
     \put(0.28004956,0.4720584){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.34781762,0.15268455){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.346435,0.2920897){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
     \put(0.67251703,0.27756907){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U$}}}%
-    \put(0.18730461,0.43991866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
-    \put(0.52448316,0.35521147){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_C$}}}%
-    \put(0.76883441,0.41833324){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_S(U)$}}}%
-    \put(0.92886808,0.14811917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$S$}}}%
+    \put(0.17731337,0.44989413){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.52448316,0.44989413){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_C$}}}%
+    \put(0.75915584,0.36895771){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_S(U)$}}}%
+    \put(0.92414281,0.26927625){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$S$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{auto-2.pdf}}%
   \end{picture}%
 \endgroup%
