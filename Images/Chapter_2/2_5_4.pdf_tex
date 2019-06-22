@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{340.15748031bp}%
+    \setlength{\unitlength}{374.73316343bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,26 +48,29 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.54166667)%
+  \begin{picture}(1,0.48627311)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_5_4.pdf}}%
-    \put(0.05833333,0.13333326){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Частотомер}}}%
-    \put(0.01666667,0.0666666){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Генератор }}}%
-    \put(0.78333333,0.45455529){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
-    \put(0.88333333,0.42500041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{X}}}%
-    \put(0.93333333,0.42500041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Y}}}%
-    \put(0.775,0.28333325){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
-    \put(0.675,0.37500003){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
-    \put(0.675,0.19166659){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.51666666,0.52500002){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<цуги>>}}}%
-    \put(0.41666666,0.42500003){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_1$}}}%
-    \put(0.51666666,0.3916667){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<непр.>>}}}%
-    \put(0.475,0.25833299){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_1$}}}%
-    \put(0.50833333,0.24166658){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<синхр.>>}}}%
-    \put(0.45833333,0.04166634){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<$\perp$>>}}}%
-    \put(0.06666666,0.20833325){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
-    \put(0.01666667,0.03333326){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{цугов}}}%
+    \put(0.07631152,0.16715497){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Частотомер}}}%
+    \put(0.07631152,0.13689722){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ген. цугов }}}%
+    \put(0.82273675,0.39065874){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
+    \put(0.9007007,0.36810047){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{X}}}%
+    \put(0.94181761,0.36810047){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Y}}}%
+    \put(0.81944203,0.23523491){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+    \put(0.68597176,0.31844384){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L$}}}%
+    \put(0.68597176,0.1520261){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
+    \put(0.44317056,0.44854118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<цуги>>}}}%
+    \put(0.37888905,0.36383047){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_1$}}}%
+    \put(0.44317056,0.3281165){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<непр.>>}}}%
+    \put(0.43184012,0.21254137){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C_1$}}}%
+    \put(0.44317056,0.14343023){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<синхр.>>}}}%
+    \put(0.41671124,0.01586599){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{<<$\perp$>>}}}%
+    \put(0.02336046,0.2730571){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЗГ}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2_5_4.pdf}}%
-    \put(0.28077777,0.25000017){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
+    \put(0.246629,0.3033152){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2_5_4.pdf}}%
+    \put(0.31106844,0.44844422){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{П}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2_5_4.pdf}}%
+    \put(0.58393633,0.3033152){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{2_5_4.pdf}}%
   \end{picture}%
 \endgroup%
