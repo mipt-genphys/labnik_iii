@@ -53,17 +53,17 @@
     \put(0.5734519,0.32483672){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$L, R_L$}}}%
     \put(0.69893692,0.19349819){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
     \put(0.59694434,0.08108345){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R$}}}%
-    \put(0.02286134,0.29275574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
-    \put(0.14746783,0.23313289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.19968426,0.23344406){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.28900835,0.24792402){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.39588341,0.24556401){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.26273499,0.15633296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Общий}}}%
+    \put(0.02286134,0.22025551){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ЭО}}}%
+    \put(0.14746783,0.16063266){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.19968426,0.16094383){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
+    \put(0.28900835,0.17664586){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.38251057,0.17664586){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
+    \put(0.26273499,0.08383273){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Общий}}}%
     \put(0.7063842,0.43960408){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Реле}}}%
     \put(0.83033327,0.2209279){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Генератор}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2_4_2.pdf}}%
     \put(0.83033327,0.19014075){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{импульсов}}}%
-    \put(0.42668686,0.31970422){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{П}}}%
+    \put(0.42668686,0.24720399){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{П}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2_4_2.pdf}}%
     \put(0.77209025,0.27031832){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
     \put(0.7702971,0.35688574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
