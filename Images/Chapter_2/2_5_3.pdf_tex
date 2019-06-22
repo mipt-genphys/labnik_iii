@@ -52,7 +52,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2_5_3.pdf}}%
     \put(0.0954714,0.58211074){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_C$}}}%
     \put(0.94091787,0.2356161){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t$}}}%
-    \put(-0.00154704,0.53379079){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_0$}}}%
+    \put(-0.00154704,0.53379079){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{\infty}$}}}%
     \put(-0.00154704,0.36035409){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_k$}}}%
     \put(-0.04848549,0.47123231){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_{k+n}$}}}%
     \put(0.84389937,0.42965298){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_m$}}}%
