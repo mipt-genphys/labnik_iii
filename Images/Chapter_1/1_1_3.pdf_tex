@@ -57,6 +57,7 @@
     \put(0.70267753,1.10055871){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Ключ}$}}}%
     \put(0.66350708,0.59528281){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Реле}$}}}%
     \put(0.57299559,0.20238411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
-    \put(0.32685395,0.00572112){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$n = 50~\text{Гц}$}}}%
+    \put(0.32685395,0.00572112){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\nu = 50~\text{Гц}$}}}%
+    \put(0.19084127,0.99170485){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V$}}}%
   \end{picture}%
 \endgroup%
