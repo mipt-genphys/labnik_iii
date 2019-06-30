@@ -105,7 +105,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="4"
      inkscape:cx="96.212413"
-     inkscape:cy="342.42324"
+     inkscape:cy="92.42324"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -132,7 +132,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -141,6 +141,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-136.33644,-208.45787)">
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74202305;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4249"
+       cx="192.55656"
+       cy="305.53079"
+       r="14.575453" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.74202305px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 140.48245,242.52509 0,37.10116 74.20231,0 0,-37.10116 z"
@@ -200,12 +206,6 @@
        d="m 240.65556,309.30717 7.42023,-7.42023"
        id="path4142-9"
        inkscape:connector-curvature="0" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74202305;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path4249"
-       cx="192.55656"
-       cy="305.53079"
-       r="14.575453" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.74202305px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 144.19257,305.59705 33.39103,0"
@@ -584,6 +584,17 @@
          sodipodi:role="line"
          id="tspan5290"
          x="222.75731"
-         y="572.2572">$n = 50~\text{Гц}$</tspan></text>
+         y="572.2572">$\nu = 50~\text{Гц}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="186.79527"
+       y="311.56104"
+       id="text3428"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3430"
+         x="186.79527"
+         y="311.56104">$V$</tspan></text>
   </g>
 </svg>
