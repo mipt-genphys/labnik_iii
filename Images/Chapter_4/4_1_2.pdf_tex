@@ -1,4 +1,4 @@
-%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '4_1_2.pdf' (pdf, eps, ps)
 %%
@@ -35,6 +35,8 @@
     \renewcommand\transparent[1]{}%
   }%
   \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
     \setlength{\unitlength}{311.25100203bp}%
     \ifx\svgscale\undefined%
@@ -49,11 +51,14 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.67956525)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4_1_2.pdf}}%
-    \put(0.68918285,0.38870391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sim 120~\text{B}$}}}%
-    \put(0.85781645,0.35916793){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
-    \put(0.73056332,0.17289185){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_1$}}}%
-    \put(0.79852,0.1725155){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_2$}}}%
-    \put(0.87581047,0.17307994){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_3$}}}%
+    \put(0.70989801,0.40423023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$120~В$\end{tabular}}}}%
+    \put(0.85299721,0.35434868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
+    \put(0.73056334,0.17289184){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$R_1$\end{tabular}}}}%
+    \put(0.79852002,0.17251549){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$R_2$\end{tabular}}}}%
+    \put(0.8758105,0.17307994){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}$R_3$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4_1_2.pdf}}%
   \end{picture}%
 \endgroup%
